@@ -7,3 +7,5 @@
   lab pages, structured resources, ASE sample mapping, and validation scripts.
 - Loop 2: expanded source-backed resources, ASE skill mappings, workflow pages,
   framework guidance, and ASE slug validation.
+- Loop 3: added annotated examples, skill quality checklist, maintenance docs,
+  shared link-check helpers, and freshness audit support.

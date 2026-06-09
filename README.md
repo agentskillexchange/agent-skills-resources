@@ -67,6 +67,8 @@ flowchart LR
 | Building a skill | [Best Practices](best-practices.md) | [ASE skills repo](https://github.com/agentskillexchange/skills) |
 | Comparing frameworks | [Framework pages](frameworks/) | [resources.json](data/resources.json) |
 | Exploring workflows | [Workflow pages](workflows/) | [ASE skill mapping](data/ase-skill-mapping.json) |
+| Reviewing quality | [Annotated Examples](examples/annotated-skill-examples.md) | [Quality Checklist](examples/quality-checklist.md) |
+| Maintaining resources | [Freshness Audit](maintenance/freshness-audit.md) | [Source Labeling](maintenance/source-labeling.md) |
 | Evaluating trust | [Best Practices](best-practices.md#trust-and-safety-checklist) | [ASE verification](https://github.com/agentskillexchange/skills/tree/main/verification) |
 | Contributing | [CONTRIBUTING](CONTRIBUTING.md) | [ASE Create Skill](https://agentskillexchange.com/create-skill/) |
 
@@ -103,11 +105,22 @@ When a claim is not source-backed, leave it out.
 - [workflows/](workflows/): visual workflow guides that show how skills fit into
   practical SRE, security, data, content, and research work.
 
+## Quality Loop
+
+Use the repo as a small maintenance loop:
+
+1. Add or revise source-backed resources.
+2. Map only existing ASE skill slugs.
+3. Review examples against the [quality checklist](examples/quality-checklist.md).
+4. Run validation and freshness checks.
+5. Keep source labels honest when ownership changes.
+
 ## Validation
 
 ```bash
 python3 scripts/validate-resources.py
 python3 scripts/validate-links.py
+python3 scripts/audit-freshness.py
 ```
 
 ## Loop Roadmap

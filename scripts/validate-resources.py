@@ -25,6 +25,10 @@ REQUIRED = {
     "tags",
 }
 URL_RE = re.compile(r"^https://[^\s]+$")
+REQUIRED_GENERATED = [
+    ROOT / "generated" / "resource-index.md",
+    ROOT / "generated" / "ase-skill-mapping-index.md",
+]
 
 
 def fail(message: str) -> None:
@@ -110,6 +114,12 @@ def main() -> int:
                 fail(f"mapping {index} has incomplete skill entry")
             if skill_slugs and skill["slug"] not in skill_slugs:
                 fail(f"mapping {index} references unknown ASE slug: {skill['slug']}")
+
+    for path in REQUIRED_GENERATED:
+        if not path.exists():
+            fail(f"generated file missing: {path.relative_to(ROOT)}")
+        if not path.read_text().strip():
+            fail(f"generated file is empty: {path.relative_to(ROOT)}")
 
     print("PASS: resources valid")
     print(f"resources: {len(resources)}")

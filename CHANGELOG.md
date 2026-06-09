@@ -9,3 +9,5 @@
   framework guidance, and ASE slug validation.
 - Loop 3: added annotated examples, skill quality checklist, maintenance docs,
   shared link-check helpers, and freshness audit support.
+- Loop 4: added workflow case studies, generated resource and ASE mapping
+  indexes, and validation guards for generated outputs.

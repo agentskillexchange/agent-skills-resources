@@ -1,0 +1,46 @@
+[
+  {
+    "framework": "Codex",
+    "workflow_area": "coding-agent workflow",
+    "example_skills": [
+      {
+        "slug": "staff-engineer-mode",
+        "why_it_matters": "Shows how a skill can encode review discipline and senior engineering judgment."
+      }
+    ]
+  },
+  {
+    "framework": "OpenClaw",
+    "workflow_area": "agent runtime operations",
+    "example_skills": [
+      {
+        "slug": "run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook",
+        "why_it_matters": "Example of an operations-oriented skill for a runtime environment."
+      }
+    ]
+  },
+  {
+    "framework": "MCP",
+    "workflow_area": "tool and context connections",
+    "example_skills": [
+      {
+        "slug": "postgresql-mcp-server",
+        "why_it_matters": "Illustrates how a skill can wrap a protocol server and its usage pattern."
+      },
+      {
+        "slug": "playwright-mcp-browser-automation",
+        "why_it_matters": "Connects browser automation to MCP-compatible agent workflows."
+      }
+    ]
+  },
+  {
+    "framework": "LangChain/LangGraph",
+    "workflow_area": "agent orchestration",
+    "example_skills": [
+      {
+        "slug": "assemble-production-agent-harnesses-with-deepagents",
+        "why_it_matters": "Representative LangChain ecosystem skill for production agent harnesses."
+      }
+    ]
+  }
+]

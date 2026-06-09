@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ase-site",
+    "name": "Agent Skill Exchange",
+    "type": "ASE",
+    "framework": "Multi-Framework",
+    "url": "https://agentskillexchange.com/",
+    "repo": "https://github.com/agentskillexchange/skills",
+    "description": "Live marketplace for source-backed agent skills.",
+    "why_it_matters": "Provides the human-facing discovery layer for the canonical ASE skills catalog.",
+    "tags": ["catalog", "marketplace", "skills"]
+  },
+  {
+    "id": "ase-skills-repo",
+    "name": "AgentSkillExchange Skills",
+    "type": "ASE",
+    "framework": "Multi-Framework",
+    "url": "https://github.com/agentskillexchange/skills",
+    "repo": "https://github.com/agentskillexchange/skills",
+    "description": "Canonical public catalog of ASE skill files and generated indexes.",
+    "why_it_matters": "This companion repo should point readers to the canonical skill source of truth.",
+    "tags": ["catalog", "repo", "skills"]
+  },
+  {
+    "id": "ase-verification",
+    "name": "ASE Verification",
+    "type": "ASE",
+    "framework": "Multi-Framework",
+    "url": "https://github.com/agentskillexchange/skills/tree/main/verification",
+    "repo": "https://github.com/agentskillexchange/skills",
+    "description": "Verification criteria, patterns, and security resources for ASE skills.",
+    "why_it_matters": "Shows how ASE separates listed skills from security-reviewed skills.",
+    "tags": ["verification", "security", "quality"]
+  },
+  {
+    "id": "openai-codex-repo",
+    "name": "OpenAI Codex",
+    "type": "Official",
+    "framework": "Codex",
+    "url": "https://github.com/openai/codex",
+    "repo": "https://github.com/openai/codex",
+    "description": "OpenAI's public Codex CLI repository.",
+    "why_it_matters": "Codex is a core coding-agent workflow surface for skill-driven repo work.",
+    "tags": ["codex", "coding-agent", "cli"]
+  },
+  {
+    "id": "openai-codex-intro",
+    "name": "Introducing Codex",
+    "type": "Lab",
+    "framework": "Codex",
+    "url": "https://openai.com/index/introducing-codex/",
+    "repo": "",
+    "description": "OpenAI product and safety context for Codex.",
+    "why_it_matters": "Provides lab-owned framing for Codex's role in software work.",
+    "tags": ["codex", "openai", "lab"]
+  },
+  {
+    "id": "claude-code-docs",
+    "name": "Claude Code Docs",
+    "type": "Official",
+    "framework": "Claude Code",
+    "url": "https://code.claude.com/docs",
+    "repo": "",
+    "description": "Anthropic's Claude Code documentation hub.",
+    "why_it_matters": "Primary source for Claude Code workflow and usage guidance.",
+    "tags": ["claude-code", "anthropic", "docs"]
+  },
+  {
+    "id": "claude-code-headless",
+    "name": "Claude Code Headless",
+    "type": "Official",
+    "framework": "Claude Code",
+    "url": "https://code.claude.com/docs/en/headless",
+    "repo": "",
+    "description": "Documentation for programmatic Claude Code usage.",
+    "why_it_matters": "Important for automation-oriented skills and CI workflows.",
+    "tags": ["claude-code", "automation", "headless"]
+  },
+  {
+    "id": "openclaw-docs",
+    "name": "OpenClaw Docs",
+    "type": "Official",
+    "framework": "OpenClaw",
+    "url": "https://docs.openclaw.ai/",
+    "repo": "https://github.com/openclaw/openclaw",
+    "description": "OpenClaw documentation hub.",
+    "why_it_matters": "Explains OpenClaw providers, skills, tools, crons, and runtime setup.",
+    "tags": ["openclaw", "runtime", "docs"]
+  },
+  {
+    "id": "openclaw-repo",
+    "name": "OpenClaw Repository",
+    "type": "Official",
+    "framework": "OpenClaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "repo": "https://github.com/openclaw/openclaw",
+    "description": "Public OpenClaw repository.",
+    "why_it_matters": "Source-backed reference for OpenClaw runtime and contribution details.",
+    "tags": ["openclaw", "repo", "runtime"]
+  },
+  {
+    "id": "hermes-agent-repo",
+    "name": "Hermes Agent",
+    "type": "Official",
+    "framework": "Hermes",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "repo": "https://github.com/NousResearch/hermes-agent",
+    "description": "Official Hermes Agent repository from Nous Research.",
+    "why_it_matters": "Shows a skills-oriented self-improving agent architecture.",
+    "tags": ["hermes", "skills", "agent"]
+  },
+  {
+    "id": "hermes-skills-docs",
+    "name": "Hermes Skills Feature Docs",
+    "type": "Official",
+    "framework": "Hermes",
+    "url": "https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md",
+    "repo": "https://github.com/NousResearch/hermes-agent",
+    "description": "Hermes Agent documentation for skills.",
+    "why_it_matters": "Defines how Hermes exposes and manages skills.",
+    "tags": ["hermes", "skills", "docs"]
+  },
+  {
+    "id": "cursor-skills-docs",
+    "name": "Cursor Agent Skills",
+    "type": "Official",
+    "framework": "Cursor",
+    "url": "https://cursor.com/docs/context/skills",
+    "repo": "",
+    "description": "Cursor documentation for agent skills.",
+    "why_it_matters": "Primary source for Cursor's skill model.",
+    "tags": ["cursor", "skills", "ide"]
+  },
+  {
+    "id": "cursor-tools-docs",
+    "name": "Cursor Agent Tools",
+    "type": "Official",
+    "framework": "Cursor",
+    "url": "https://docs.cursor.com/en/agent/tools",
+    "repo": "",
+    "description": "Cursor documentation for tools available to Agent modes.",
+    "why_it_matters": "Helps distinguish skills from callable editor tools.",
+    "tags": ["cursor", "tools", "agent"]
+  },
+  {
+    "id": "gemini-cli-repo",
+    "name": "Gemini CLI",
+    "type": "Official",
+    "framework": "Gemini",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "repo": "https://github.com/google-gemini/gemini-cli",
+    "description": "Google's open-source Gemini CLI repository.",
+    "why_it_matters": "Represents Gemini-powered terminal-agent workflows.",
+    "tags": ["gemini", "cli", "terminal-agent"]
+  },
+  {
+    "id": "gemini-api-docs",
+    "name": "Gemini API Docs",
+    "type": "Official",
+    "framework": "Gemini",
+    "url": "https://ai.google.dev/gemini-api/docs",
+    "repo": "",
+    "description": "Google Gemini API documentation.",
+    "why_it_matters": "Provider-level setup reference for Gemini-backed agent workflows.",
+    "tags": ["gemini", "api", "google"]
+  },
+  {
+    "id": "langgraph-repo",
+    "name": "LangGraph",
+    "type": "Official",
+    "framework": "LangChain/LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "repo": "https://github.com/langchain-ai/langgraph",
+    "description": "LangGraph repository for building resilient agents.",
+    "why_it_matters": "Source-backed reference for graph-based agent orchestration.",
+    "tags": ["langgraph", "langchain", "agents"]
+  },
+  {
+    "id": "langchain-agents",
+    "name": "LangChain Agents",
+    "type": "Official",
+    "framework": "LangChain/LangGraph",
+    "url": "https://www.langchain.com/agents",
+    "repo": "",
+    "description": "LangChain overview of agents and LangGraph.",
+    "why_it_matters": "Explains LangGraph's role in agent orchestration.",
+    "tags": ["langchain", "langgraph", "agents"]
+  },
+  {
+    "id": "mcp-docs",
+    "name": "Model Context Protocol Docs",
+    "type": "Official",
+    "framework": "MCP",
+    "url": "https://modelcontextprotocol.io/",
+    "repo": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "description": "Official MCP documentation site.",
+    "why_it_matters": "Primary source for tool/context protocol concepts.",
+    "tags": ["mcp", "protocol", "tools"]
+  },
+  {
+    "id": "mcp-spec-repo",
+    "name": "Model Context Protocol Repository",
+    "type": "Official",
+    "framework": "MCP",
+    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "repo": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "description": "Specification and documentation repository for MCP.",
+    "why_it_matters": "Source-backed reference for MCP specification and docs.",
+    "tags": ["mcp", "spec", "docs"]
+  }
+]
+

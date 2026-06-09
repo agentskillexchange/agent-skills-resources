@@ -44,14 +44,14 @@
     "tags": ["codex", "coding-agent", "cli"]
   },
   {
-    "id": "openai-codex-intro",
-    "name": "Introducing Codex",
+    "id": "openai-codex-docs",
+    "name": "OpenAI Codex Docs",
     "type": "Lab",
     "framework": "Codex",
-    "url": "https://openai.com/index/introducing-codex/",
+    "url": "https://developers.openai.com/codex",
     "repo": "",
-    "description": "OpenAI product and safety context for Codex.",
-    "why_it_matters": "Provides lab-owned framing for Codex's role in software work.",
+    "description": "OpenAI Codex documentation.",
+    "why_it_matters": "Provides lab-owned guidance for Codex workflows and setup.",
     "tags": ["codex", "openai", "lab"]
   },
   {
@@ -209,4 +209,3 @@
     "tags": ["mcp", "spec", "docs"]
   }
 ]
-

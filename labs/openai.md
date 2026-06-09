@@ -7,7 +7,7 @@ ecosystem, tool use, model behavior, evaluation, and safety guidance.
 
 | Label | Resource | Why it matters |
 |---|---|---|
-| Lab | [OpenAI Codex introduction](https://openai.com/index/introducing-codex/) | Product and safety context for Codex. |
+| Lab | [OpenAI Codex docs](https://developers.openai.com/codex) | Product and workflow context for Codex. |
 | Official | [openai/codex](https://github.com/openai/codex) | Public Codex CLI repository. |
 | ASE | [Agent Skill Exchange](https://agentskillexchange.com/) | Live skill marketplace and catalog. |
 
@@ -15,4 +15,3 @@ ecosystem, tool use, model behavior, evaluation, and safety guidance.
 
 OpenAI/Codex skills should be precise about repo context, tests, evidence, and
 safe tool use.
-

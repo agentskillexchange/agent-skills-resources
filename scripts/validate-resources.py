@@ -6,9 +6,12 @@ from __future__ import annotations
 import json
 import re
 import sys
+import argparse
+import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+PUBLIC_SKILLS_JSON = "https://raw.githubusercontent.com/agentskillexchange/skills/main/skills.json"
 ALLOWED_TYPES = {"Official", "Lab", "Community", "ASE"}
 REQUIRED = {
     "id",
@@ -29,11 +32,43 @@ def fail(message: str) -> None:
     raise SystemExit(1)
 
 
+def load_skill_slugs(path: str | None) -> tuple[set[str], str]:
+    if path:
+        data = json.loads(Path(path).read_text())
+        skills = data.get("skills", data if isinstance(data, list) else [])
+        return {str(row.get("slug")) for row in skills if row.get("slug")}, path
+
+    local = ROOT / "skills.json"
+    if local.exists():
+        data = json.loads(local.read_text())
+        skills = data.get("skills", data if isinstance(data, list) else [])
+        return {str(row.get("slug")) for row in skills if row.get("slug")}, str(local)
+
+    try:
+        req = urllib.request.Request(PUBLIC_SKILLS_JSON, headers={"User-Agent": "agent-skills-resources-validator/1.0"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        skills = data.get("skills", data if isinstance(data, list) else [])
+        return {str(row.get("slug")) for row in skills if row.get("slug")}, PUBLIC_SKILLS_JSON
+    except Exception as exc:  # noqa: BLE001 - validation can still run without network
+        print(f"WARN: could not load ASE skills catalog for slug validation: {type(exc).__name__}")
+        return set(), "skipped"
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--skills-json", help="Optional local ASE skills.json for slug validation.")
+    parser.add_argument("--skip-skill-slugs", action="store_true", help="Skip ASE skill slug validation.")
+    args = parser.parse_args()
+
     resources_path = ROOT / "data" / "resources.json"
     mapping_path = ROOT / "data" / "ase-skill-mapping.json"
     resources = json.loads(resources_path.read_text())
     mapping = json.loads(mapping_path.read_text())
+    skill_slugs: set[str] = set()
+    skill_source = "skipped"
+    if not args.skip_skill_slugs:
+        skill_slugs, skill_source = load_skill_slugs(args.skills_json)
 
     if not isinstance(resources, list):
         fail("resources.json must be a list")
@@ -73,14 +108,16 @@ def main() -> int:
         for skill in row["example_skills"]:
             if "slug" not in skill or "why_it_matters" not in skill:
                 fail(f"mapping {index} has incomplete skill entry")
+            if skill_slugs and skill["slug"] not in skill_slugs:
+                fail(f"mapping {index} references unknown ASE slug: {skill['slug']}")
 
     print("PASS: resources valid")
     print(f"resources: {len(resources)}")
     print("type_counts:", json.dumps(type_counts, sort_keys=True))
     print(f"mappings: {len(mapping)}")
+    print(f"skill_slug_validation: {skill_source if skill_slugs else 'skipped'}")
     return 0
 
 
 if __name__ == "__main__":
     sys.exit(main())
-

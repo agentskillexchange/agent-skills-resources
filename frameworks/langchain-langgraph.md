@@ -30,3 +30,22 @@ LangGraph-oriented skills should include:
 - testable graph outputs
 - traces or evaluation checks
 
+## Skill Patterns That Fit LangChain And LangGraph
+
+- graph-based orchestration
+- tool and MCP adapters
+- durable state machines
+- human-in-the-loop approvals
+- retrieval, memory, and evaluation loops
+
+## Representative ASE Examples
+
+- `assemble-production-agent-harnesses-with-deepagents`
+- `langgraph-js-agent-orchestration-framework`
+- `langchain-mcp-server`
+
+## Common Mistakes
+
+- Describing an agent graph without naming state or interrupts.
+- Skipping evaluation and trace expectations.
+- Hiding tool permissions behind generic "agent can call tools" language.

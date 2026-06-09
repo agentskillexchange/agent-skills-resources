@@ -30,3 +30,23 @@ MCP skills should include:
 - tool call examples
 - verification and cleanup steps
 
+## Skill Patterns That Fit MCP
+
+- database and SaaS tool access
+- browser automation servers
+- code-intelligence context
+- gateways and registries
+- multi-client setup
+
+## Representative ASE Examples
+
+- `postgresql-mcp-server`
+- `playwright-mcp-browser-automation`
+- `give-mcp-clients-language-server-code-intelligence`
+- `use-mcp-context-forge-as-an-mcp-gateway-and-registry`
+
+## Common Mistakes
+
+- Listing an MCP server without explaining permissions.
+- Skipping client-specific config.
+- Treating MCP as the workflow instead of the tool/context bridge.

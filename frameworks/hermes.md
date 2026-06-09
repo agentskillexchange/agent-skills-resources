@@ -30,3 +30,20 @@ Hermes-oriented skills should include:
 - safe delegation patterns
 - verification and rollback guidance
 
+## Skill Patterns That Fit Hermes
+
+- self-improvement workflows
+- persistent memory management
+- personal agent routines
+- reusable skill libraries
+- reflection and learning loops
+
+## Representative ASE Examples
+
+- `run-a-self-improving-personal-agent-with-hermes-agent`
+
+## Common Mistakes
+
+- Persisting too much task-local context into memory.
+- Blurring skill installation, skill execution, and agent reflection.
+- Omitting rollback or cleanup guidance for long-running workflows.

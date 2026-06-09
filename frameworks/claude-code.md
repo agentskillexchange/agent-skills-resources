@@ -31,3 +31,23 @@ Claude Code skills should be clear about:
 - expected artifacts
 - review and verification steps
 
+## Skill Patterns That Fit Claude Code
+
+- project workflow installation
+- subagent and MCP routing
+- security review passes
+- browser and CLI verification
+- documentation or content workflows inside a repo
+
+## Representative ASE Examples
+
+- `run-claude-code-security-operations-with-secopsagentkit`
+- `install-claude-code-project-workflows-with-claude-workflow-v2`
+- `install-focused-claude-code-workflow-plugins-from-claude-night-market`
+- `drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli`
+
+## Common Mistakes
+
+- Treating a skill as a vague persona instead of an executable workflow.
+- Forgetting to name tools, files, and verification commands.
+- Letting generated content drift away from source-backed evidence.

@@ -1,35 +1,101 @@
 [
   {
     "framework": "Codex",
-    "workflow_area": "coding-agent workflow",
+    "workflow_area": "repo review and implementation",
     "example_skills": [
       {
         "slug": "staff-engineer-mode",
-        "why_it_matters": "Shows how a skill can encode review discipline and senior engineering judgment."
+        "why_it_matters": "Encodes senior engineering review behavior as a reusable coding-agent skill."
+      },
+      {
+        "slug": "address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments",
+        "why_it_matters": "Shows a concrete Codex-friendly PR review workflow."
+      },
+      {
+        "slug": "turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation",
+        "why_it_matters": "Connects product specs to implementation planning inside coding-agent workflows."
+      }
+    ]
+  },
+  {
+    "framework": "Claude Code",
+    "workflow_area": "coding-agent project workflows",
+    "example_skills": [
+      {
+        "slug": "run-claude-code-security-operations-with-secopsagentkit",
+        "why_it_matters": "Demonstrates a security-operations workflow designed for Claude Code."
+      },
+      {
+        "slug": "install-claude-code-project-workflows-with-claude-workflow-v2",
+        "why_it_matters": "Shows project workflow installation and reuse in Claude Code."
+      },
+      {
+        "slug": "install-focused-claude-code-workflow-plugins-from-claude-night-market",
+        "why_it_matters": "Represents curated Claude Code workflow/plugin selection."
+      },
+      {
+        "slug": "drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli",
+        "why_it_matters": "Links Claude Code-style coding agents to browser test execution."
       }
     ]
   },
   {
     "framework": "OpenClaw",
-    "workflow_area": "agent runtime operations",
+    "workflow_area": "runtime operations and scheduled automation",
     "example_skills": [
       {
         "slug": "run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook",
-        "why_it_matters": "Example of an operations-oriented skill for a runtime environment."
+        "why_it_matters": "Shows operational runbooks as reusable runtime skills."
+      },
+      {
+        "slug": "back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup",
+        "why_it_matters": "Demonstrates backup, restore, and rollback verification for an agent runtime."
+      },
+      {
+        "slug": "deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide",
+        "why_it_matters": "Connects runtime hardening and audit guidance to skill workflows."
+      },
+      {
+        "slug": "mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync",
+        "why_it_matters": "Shows workspace continuity as a skill-shaped operational concern."
       }
     ]
   },
   {
-    "framework": "MCP",
-    "workflow_area": "tool and context connections",
+    "framework": "Hermes",
+    "workflow_area": "self-improving agent workflows",
     "example_skills": [
       {
-        "slug": "postgresql-mcp-server",
-        "why_it_matters": "Illustrates how a skill can wrap a protocol server and its usage pattern."
+        "slug": "run-a-self-improving-personal-agent-with-hermes-agent",
+        "why_it_matters": "Represents Hermes as a skill-aware, memory-oriented agent runtime."
+      }
+    ]
+  },
+  {
+    "framework": "Gemini",
+    "workflow_area": "terminal-agent workflows",
+    "example_skills": [
+      {
+        "slug": "run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli",
+        "why_it_matters": "Shows Gemini CLI as a bounded terminal-agent workflow."
       },
       {
-        "slug": "playwright-mcp-browser-automation",
-        "why_it_matters": "Connects browser automation to MCP-compatible agent workflows."
+        "slug": "capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory",
+        "why_it_matters": "Connects Gemini to cross-agent session history and context reuse."
+      }
+    ]
+  },
+  {
+    "framework": "Cursor",
+    "workflow_area": "IDE agent context and project rules",
+    "example_skills": [
+      {
+        "slug": "sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync",
+        "why_it_matters": "Shows how rule and skill files can travel across IDE and coding-agent tools."
+      },
+      {
+        "slug": "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits",
+        "why_it_matters": "Demonstrates multi-client MCP installation with Cursor in the compatibility set."
       }
     ]
   },
@@ -40,6 +106,140 @@
       {
         "slug": "assemble-production-agent-harnesses-with-deepagents",
         "why_it_matters": "Representative LangChain ecosystem skill for production agent harnesses."
+      },
+      {
+        "slug": "langgraph-js-agent-orchestration-framework",
+        "why_it_matters": "Shows LangGraph as a stateful agent orchestration layer."
+      },
+      {
+        "slug": "langchain-mcp-server",
+        "why_it_matters": "Connects LangChain ecosystem work to MCP-style tool exposure."
+      }
+    ]
+  },
+  {
+    "framework": "MCP",
+    "workflow_area": "tool and context connections",
+    "example_skills": [
+      {
+        "slug": "postgresql-mcp-server",
+        "why_it_matters": "Illustrates how a skill can wrap a protocol server and database usage pattern."
+      },
+      {
+        "slug": "playwright-mcp-browser-automation",
+        "why_it_matters": "Connects browser automation to MCP-compatible agent workflows."
+      },
+      {
+        "slug": "give-mcp-clients-language-server-code-intelligence",
+        "why_it_matters": "Shows MCP as a path for code-intelligence context."
+      },
+      {
+        "slug": "use-mcp-context-forge-as-an-mcp-gateway-and-registry",
+        "why_it_matters": "Represents MCP gateway and registry workflows."
+      }
+    ]
+  },
+  {
+    "framework": "Multi-Framework",
+    "workflow_area": "SRE and incident operations",
+    "example_skills": [
+      {
+        "slug": "deploy-kubernetes-native-agents-with-kagent",
+        "why_it_matters": "Shows Kubernetes-native agent operations as a skill workflow."
+      },
+      {
+        "slug": "investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt",
+        "why_it_matters": "Demonstrates incident investigation across Kubernetes and cloud signals."
+      },
+      {
+        "slug": "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre",
+        "why_it_matters": "Shows how skills can turn observability signals into remediation drafts."
+      },
+      {
+        "slug": "tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern",
+        "why_it_matters": "Captures a focused incident-response CLI workflow."
+      },
+      {
+        "slug": "lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint",
+        "why_it_matters": "Connects alert quality to pre-production verification."
+      }
+    ]
+  },
+  {
+    "framework": "Multi-Framework",
+    "workflow_area": "security and guardrails",
+    "example_skills": [
+      {
+        "slug": "scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec",
+        "why_it_matters": "Represents source-backed dependency risk workflows."
+      },
+      {
+        "slug": "route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer",
+        "why_it_matters": "Shows how skills can encode approval gates."
+      },
+      {
+        "slug": "red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam",
+        "why_it_matters": "Connects agent safety testing to reusable red-team procedures."
+      },
+      {
+        "slug": "apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant",
+        "why_it_matters": "Demonstrates trace and tool-flow guardrail checks."
+      },
+      {
+        "slug": "run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox",
+        "why_it_matters": "Shows sandboxing as a practical safety boundary for generated code."
+      }
+    ]
+  },
+  {
+    "framework": "Multi-Framework",
+    "workflow_area": "data platform and analytics engineering",
+    "example_skills": [
+      {
+        "slug": "query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp",
+        "why_it_matters": "Represents agent-safe database inspection through MCP."
+      },
+      {
+        "slug": "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code",
+        "why_it_matters": "Connects coding agents to deterministic SQL and dbt analysis."
+      },
+      {
+        "slug": "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper",
+        "why_it_matters": "Shows data quality verification before migrations."
+      },
+      {
+        "slug": "translate-and-validate-sql-across-dialects-with-sqlglot",
+        "why_it_matters": "Demonstrates cross-dialect SQL validation as a reusable skill."
+      },
+      {
+        "slug": "inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens",
+        "why_it_matters": "Shows practical data inspection before transformation."
+      }
+    ]
+  },
+  {
+    "framework": "Multi-Framework",
+    "workflow_area": "content and research",
+    "example_skills": [
+      {
+        "slug": "draft-cited-research-reports-with-storm",
+        "why_it_matters": "Shows source-backed research drafting as a reusable workflow."
+      },
+      {
+        "slug": "run-autonomous-deep-research-workflows-with-gpt-researcher",
+        "why_it_matters": "Represents autonomous research with explicit source collection."
+      },
+      {
+        "slug": "run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine",
+        "why_it_matters": "Connects content production to coding-agent workflow structure."
+      },
+      {
+        "slug": "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs",
+        "why_it_matters": "Shows docs publishing as a repeatable skill workflow."
+      },
+      {
+        "slug": "export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing",
+        "why_it_matters": "Demonstrates knowledge-base export for publishing and downstream processing."
       }
     ]
   }

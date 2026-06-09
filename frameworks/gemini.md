@@ -28,3 +28,21 @@ Gemini skills should include:
 - rate-limit or quota notes where source-backed
 - expected output checks
 
+## Skill Patterns That Fit Gemini
+
+- terminal-native repo analysis
+- model-provider setup
+- bounded command loops
+- multi-agent context history
+- CLI-based research and coding flows
+
+## Representative ASE Examples
+
+- `run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli`
+- `capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory`
+
+## Common Mistakes
+
+- Leaving auth or quota assumptions implicit.
+- Treating Gemini CLI as a generic web search tool.
+- Omitting terminal output checks.

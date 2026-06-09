@@ -30,3 +30,22 @@ Cursor skills should state:
 - validation commands
 - expected review output
 
+## Skill Patterns That Fit Cursor
+
+- project rules and context files
+- IDE-centered implementation workflows
+- background-agent task routing
+- MCP setup across editor clients
+- reusable review checklists
+
+## Representative ASE Examples
+
+- `sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync`
+- `install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits`
+- `capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory`
+
+## Common Mistakes
+
+- Writing skills that assume a terminal-only workflow.
+- Forgetting editor context and project rules.
+- Claiming cross-client compatibility without setup checks.

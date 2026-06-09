@@ -30,3 +30,23 @@ Codex-oriented skills should include:
 - file paths to inspect
 - safe stopping points
 - PR or patch expectations
+
+## Skill Patterns That Fit Codex
+
+- code review and PR response workflows
+- test-and-fix loops
+- repo migration plans
+- spec-to-implementation planning
+- verification-first debugging
+
+## Representative ASE Examples
+
+- `staff-engineer-mode`
+- `address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments`
+- `turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation`
+
+## Common Mistakes
+
+- Skipping tests because the change looks small.
+- Asking Codex to "improve the repo" without a concrete acceptance check.
+- Mixing unrelated refactors into a task-specific skill.

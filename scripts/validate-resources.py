@@ -28,6 +28,7 @@ URL_RE = re.compile(r"^https://[^\s]+$")
 REQUIRED_GENERATED = [
     ROOT / "generated" / "resource-index.md",
     ROOT / "generated" / "ase-skill-mapping-index.md",
+    ROOT / "generated" / "nav-index.md",
 ]
 
 

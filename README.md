@@ -68,6 +68,7 @@ flowchart LR
 | Comparing frameworks | [Framework pages](frameworks/) | [resources.json](data/resources.json) |
 | Exploring workflows | [Workflow pages](workflows/) | [ASE skill mapping](data/ase-skill-mapping.json) |
 | Applying skills to scenarios | [Case Studies](case-studies/) | [Generated skill mapping index](generated/ase-skill-mapping-index.md) |
+| Planning adoption | [Playbooks](playbooks/) | [Adoption Matrix](adoption-matrix.md) |
 | Reviewing quality | [Annotated Examples](examples/annotated-skill-examples.md) | [Quality Checklist](examples/quality-checklist.md) |
 | Maintaining resources | [Freshness Audit](maintenance/freshness-audit.md) | [Source Labeling](maintenance/source-labeling.md) |
 | Evaluating trust | [Best Practices](best-practices.md#trust-and-safety-checklist) | [ASE verification](https://github.com/agentskillexchange/skills/tree/main/verification) |
@@ -107,10 +108,16 @@ When a claim is not source-backed, leave it out.
   index grouped by source type, framework, and tag.
 - [generated/ase-skill-mapping-index.md](generated/ase-skill-mapping-index.md):
   generated representative ASE skill index grouped by workflow and framework.
+- [generated/nav-index.md](generated/nav-index.md): generated navigation index
+  for framework, workflow, example, case-study, playbook, and maintenance pages.
 - [workflows/](workflows/): visual workflow guides that show how skills fit into
   practical SRE, security, data, content, and research work.
 - [case-studies/](case-studies/): practical scenarios that connect 2-4 existing
   ASE skills into reviewable workflows.
+- [playbooks/](playbooks/): adoption guides for teams evaluating skill-based
+  workflows.
+- [adoption-matrix.md](adoption-matrix.md): lightweight comparison of starting
+  workflows, risk levels, rollout paths, and expected evidence.
 
 ## Quality Loop
 
@@ -130,6 +137,7 @@ python3 scripts/validate-links.py
 python3 scripts/audit-freshness.py
 python3 scripts/generate-resource-index.py
 python3 scripts/generate-skill-mapping-index.py
+python3 scripts/generate-nav-index.py
 ```
 
 ## Loop Roadmap
@@ -141,3 +149,4 @@ Future loops should expand one area at a time:
 3. Add visual workflow stacks for security, data, SRE, legal, GTM, and support.
 4. Add a freshness audit that flags moved docs, stale links, or unsupported claims.
 5. Add deeper case studies for teams evaluating adoption paths.
+6. Add adoption playbooks for team-specific rollout decisions.

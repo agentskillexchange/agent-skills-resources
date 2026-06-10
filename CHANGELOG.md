@@ -11,3 +11,5 @@
   shared link-check helpers, and freshness audit support.
 - Loop 4: added workflow case studies, generated resource and ASE mapping
   indexes, and validation guards for generated outputs.
+- Loop 5: added team adoption playbooks, an adoption matrix, generated navigation
+  index, and validation coverage for the nav index.

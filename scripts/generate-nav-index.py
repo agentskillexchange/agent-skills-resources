@@ -15,6 +15,7 @@ DIRECTORIES = [
     "examples/completed-evaluations",
     "case-studies",
     "playbooks",
+    "starter-kits",
     "templates",
     "maintenance",
 ]
@@ -42,7 +43,14 @@ def main() -> int:
         "",
     ]
 
-    for page_name in ["overview.md", "getting-started.md", "best-practices.md", "adoption-matrix.md"]:
+    for page_name in [
+        "overview.md",
+        "awesome-agent-skills.md",
+        "framework-comparison.md",
+        "getting-started.md",
+        "best-practices.md",
+        "adoption-matrix.md",
+    ]:
         page = ROOT / page_name
         if page.exists():
             lines.append(f"- [{title_for(page)}]({link_to(page)})")

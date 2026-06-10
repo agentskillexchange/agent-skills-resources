@@ -52,6 +52,15 @@ flowchart LR
 - [Template Index](generated/template-index.md)
 - [Repo Stats](generated/repo-stats.md)
 
+## Public Front Door
+
+- [Awesome Agent Skills](awesome-agent-skills.md): curated source-backed entry
+  point for readers who want a fast overview.
+- [Framework Comparison](framework-comparison.md): practical matrix for
+  choosing the right framework or runtime surface.
+- [Starter Kits](starter-kits/): short paths for coding-agent users, MCP users,
+  team evaluators, and skill authors.
+
 ## Use This Repo For
 
 - Learning how agent skills relate to AI agents, coding agents, tools, MCP, and

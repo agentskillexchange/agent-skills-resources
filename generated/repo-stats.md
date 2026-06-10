@@ -2,13 +2,14 @@
 
 Generated from current repository files.
 
-- Last generated: 2026-06-10T17:26:27Z
+- Last generated: 2026-06-10T17:40:21Z
 - Resources: 45
 - Representative mapped ASE skills: 46
 - Framework pages: 10
 - Workflow pages: 5
 - Case study pages: 6
 - Playbook pages: 6
+- Starter kit pages: 5
 - Template pages: 8
 - Generated indexes: 5
 

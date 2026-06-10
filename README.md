@@ -13,6 +13,13 @@ to browse the live marketplace.
 
 Start with the [Overview](overview.md) or the generated [Repo Stats](generated/repo-stats.md).
 
+## Start Here In 60 Seconds
+
+1. Read the [Awesome Agent Skills](awesome-agent-skills.md) front door.
+2. Compare surfaces in [Framework Comparison](framework-comparison.md).
+3. Pick a practical path from [Starter Kits](starter-kits/).
+4. Browse real skills in the canonical [ASE skills repo](https://github.com/agentskillexchange/skills).
+
 ## About This Repo
 
 This is a source-backed companion guide for agent skills and AI agent workflows.
@@ -29,6 +36,18 @@ of truth remains [agentskillexchange/skills](https://github.com/agentskillexchan
 | Review source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate skill quality and agent safety | [Quality Checklist](examples/quality-checklist.md) |
 | Run a bounded rollout | [Playbooks](playbooks/) and [Templates](templates/) |
+
+## I Want To
+
+| Goal | Go here |
+|---|---|
+| Understand agent skills | [Awesome Agent Skills](awesome-agent-skills.md) |
+| Compare frameworks | [Framework Comparison](framework-comparison.md) |
+| Find official resources | [Resource Index](generated/resource-index.md) |
+| Evaluate a skill | [Quality Checklist](examples/quality-checklist.md) |
+| Build a skill | [Skill Author Starter Kit](starter-kits/skill-author.md) |
+| Run a team pilot | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) |
+| Browse the canonical catalog | [Agent Skill Exchange](https://agentskillexchange.com/browse-skills/) |
 
 ## Use This Repo When
 
@@ -78,7 +97,7 @@ agentic development and operations.
 | Layer | Examples | What skills add |
 |---|---|---|
 | Model/provider | OpenAI, Anthropic, Google | Model-specific setup and constraints |
-| Runtime | Codex, Claude Code, OpenClaw, Hermes, Cursor, Gemini CLI | Repeatable agent workflows |
+| Runtime | Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI | Repeatable agent workflows |
 | Framework | LangGraph, OpenAI Agents SDK, ADK | Orchestration patterns and state |
 | Protocol/tooling | MCP, CLIs, APIs, browser tools | Tool setup, permissions, and usage recipes |
 | Verification | tests, scans, traces, approvals | Evidence that the workflow worked |
@@ -104,8 +123,10 @@ flowchart LR
 | Path | Start here | What to read next |
 |---|---|---|
 | New to skills | [Getting Started](getting-started.md) | [Ecosystem Map](ecosystem-map.md) |
+| Skimming the ecosystem | [Awesome Agent Skills](awesome-agent-skills.md) | [Framework Comparison](framework-comparison.md) |
 | Building a skill | [Best Practices](best-practices.md) | [ASE skills repo](https://github.com/agentskillexchange/skills) |
 | Comparing frameworks | [Framework pages](frameworks/) | [resources.json](data/resources.json) |
+| Choosing a starter path | [Starter Kits](starter-kits/) | [Adoption Matrix](adoption-matrix.md) |
 | Exploring workflows | [Workflow pages](workflows/) | [ASE skill mapping](data/ase-skill-mapping.json) |
 | Applying skills to scenarios | [Case Studies](case-studies/) | [Generated skill mapping index](generated/ase-skill-mapping-index.md) |
 | Planning adoption | [Playbooks](playbooks/) | [Adoption Matrix](adoption-matrix.md) |
@@ -146,6 +167,10 @@ When a claim is not source-backed, leave it out.
 - [data/resources.json](data/resources.json): structured source list.
 - [data/ase-skill-mapping.json](data/ase-skill-mapping.json): representative
   ASE skill examples by framework and workflow area.
+- [awesome-agent-skills.md](awesome-agent-skills.md): Awesome-style curated
+  front door for agent skill resources.
+- [framework-comparison.md](framework-comparison.md): practical comparison of
+  major skill and agent workflow surfaces.
 - [generated/resource-index.md](generated/resource-index.md): generated resource
   index grouped by source type, framework, and tag.
 - [generated/ase-skill-mapping-index.md](generated/ase-skill-mapping-index.md):
@@ -162,6 +187,8 @@ When a claim is not source-backed, leave it out.
   ASE skills into reviewable workflows.
 - [playbooks/](playbooks/): adoption guides for teams evaluating skill-based
   workflows.
+- [starter-kits/](starter-kits/): short paths for coding-agent users, MCP users,
+  team evaluators, and skill authors.
 - [templates/](templates/): fillable worksheets for evaluation, risk review,
   security review, rollout readiness, and post-pilot review.
 - [adoption-matrix.md](adoption-matrix.md): lightweight comparison of starting

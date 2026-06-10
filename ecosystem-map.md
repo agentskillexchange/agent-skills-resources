@@ -48,6 +48,19 @@ flowchart LR
   Escalation --> Output
 ```
 
+## Agent Skill Adoption Loop
+
+```mermaid
+flowchart LR
+  Discover["Discover source-backed resources"] --> Select["Select one workflow"]
+  Select --> Evaluate["Evaluate skill quality and risk"]
+  Evaluate --> Pilot["Run bounded pilot"]
+  Pilot --> Evidence["Capture evidence"]
+  Evidence --> Decide["Reject, revisit, or roll out"]
+  Decide --> Maintain["Audit freshness and update sources"]
+  Maintain --> Discover
+```
+
 ## What Makes A Skill Useful
 
 A useful skill is specific enough to execute and broad enough to reuse. It should
@@ -60,4 +73,3 @@ Weak skills usually fail in predictable ways:
 - They claim popularity or official status without a source.
 - They skip prerequisites, credentials, or security checks.
 - They describe a category instead of a concrete workflow.
-

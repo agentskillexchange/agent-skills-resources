@@ -6,6 +6,8 @@ rerun `python3 scripts/generate-nav-index.py`.
 ## top-level
 
 - [Overview](../overview.md)
+- [Awesome Agent Skills](../awesome-agent-skills.md)
+- [Framework Comparison](../framework-comparison.md)
 - [Getting Started](../getting-started.md)
 - [Agent Skill Best Practices](../best-practices.md)
 - [Adoption Matrix](../adoption-matrix.md)
@@ -61,6 +63,14 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Engineering Teams](../playbooks/engineering-teams.md)
 - [Security Teams](../playbooks/security-teams.md)
 - [SRE And Platform Teams](../playbooks/sre-platform-teams.md)
+
+## starter-kits
+
+- [Starter Kits](../starter-kits/README.md)
+- [Coding Agent User Starter Kit](../starter-kits/coding-agent-user.md)
+- [MCP Tooling User Starter Kit](../starter-kits/mcp-tooling-user.md)
+- [Skill Author Starter Kit](../starter-kits/skill-author.md)
+- [Team Evaluation Starter Kit](../starter-kits/team-evaluation.md)
 
 ## templates
 

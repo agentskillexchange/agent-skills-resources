@@ -2,10 +2,10 @@
 
 Generated from current repository files.
 
-- Last generated: 2026-06-10T16:23:08Z
-- Resources: 38
-- Representative mapped ASE skills: 43
-- Framework pages: 9
+- Last generated: 2026-06-10T17:26:27Z
+- Resources: 45
+- Representative mapped ASE skills: 46
+- Framework pages: 10
 - Workflow pages: 5
 - Case study pages: 6
 - Playbook pages: 6
@@ -19,7 +19,7 @@ Generated from current repository files.
 | ASE | 3 |
 | Community | 2 |
 | Lab | 1 |
-| Official | 32 |
+| Official | 39 |
 
 ## Generated Indexes
 

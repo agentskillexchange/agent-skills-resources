@@ -396,6 +396,83 @@
     "tags": ["hermes", "memory", "skills"]
   },
   {
+    "id": "github-copilot-docs",
+    "name": "GitHub Copilot Docs",
+    "type": "Official",
+    "framework": "GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot",
+    "repo": "",
+    "description": "GitHub's documentation hub for Copilot features, agents, CLI, SDK, MCP, and governance.",
+    "why_it_matters": "Provides the official source for Copilot's coding-agent and customization surfaces.",
+    "tags": ["github-copilot", "coding-agent", "docs"]
+  },
+  {
+    "id": "github-copilot-agent-skills",
+    "name": "GitHub Copilot Agent Skills",
+    "type": "Official",
+    "framework": "GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot/concepts/agents/about-agent-skills",
+    "repo": "",
+    "description": "GitHub documentation explaining how agent skills work with Copilot.",
+    "why_it_matters": "Defines Copilot's skill model and helps compare it with other agent-skill runtimes.",
+    "tags": ["github-copilot", "skills", "agents"]
+  },
+  {
+    "id": "github-copilot-cloud-agent-skills",
+    "name": "Adding Agent Skills For GitHub Copilot",
+    "type": "Official",
+    "framework": "GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills",
+    "repo": "",
+    "description": "GitHub guide for creating, adding, managing, and using agent skills with Copilot.",
+    "why_it_matters": "Shows how skills are installed and selected for Copilot cloud agent and related GitHub surfaces.",
+    "tags": ["github-copilot", "skills", "cloud-agent"]
+  },
+  {
+    "id": "github-copilot-cli-skills",
+    "name": "Adding Agent Skills For GitHub Copilot CLI",
+    "type": "Official",
+    "framework": "GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills",
+    "repo": "",
+    "description": "GitHub guide for adding and using skills with Copilot CLI.",
+    "why_it_matters": "Connects terminal-native Copilot workflows to the broader skill ecosystem.",
+    "tags": ["github-copilot", "cli", "skills"]
+  },
+  {
+    "id": "github-copilot-sdk-skills",
+    "name": "GitHub Copilot SDK Custom Skills",
+    "type": "Official",
+    "framework": "GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills",
+    "repo": "",
+    "description": "GitHub documentation for loading skill directories in Copilot SDK sessions.",
+    "why_it_matters": "Shows how programmatic Copilot sessions can compose skills with MCP servers and hooks.",
+    "tags": ["github-copilot", "sdk", "skills"]
+  },
+  {
+    "id": "github-copilot-mcp-docs",
+    "name": "GitHub Copilot MCP Docs",
+    "type": "Official",
+    "framework": "GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot/concepts/context/mcp",
+    "repo": "",
+    "description": "GitHub documentation for Model Context Protocol support in Copilot.",
+    "why_it_matters": "Explains how MCP extends Copilot across IDE, CLI, app, cloud agent, and code review surfaces.",
+    "tags": ["github-copilot", "mcp", "context"]
+  },
+  {
+    "id": "github-copilot-repository-instructions",
+    "name": "GitHub Copilot Repository Instructions",
+    "type": "Official",
+    "framework": "GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions",
+    "repo": "",
+    "description": "GitHub documentation for repository-level custom instructions.",
+    "why_it_matters": "Helps readers distinguish persistent repository guidance from portable agent skills.",
+    "tags": ["github-copilot", "instructions", "repository"]
+  },
+  {
     "id": "awesome-mcp-servers-punkpeye",
     "name": "Awesome MCP Servers",
     "type": "Community",

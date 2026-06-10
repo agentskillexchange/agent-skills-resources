@@ -30,6 +30,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 
 | Resource | Framework | Why it matters |
 |---|---|---|
+| [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) | GitHub Copilot | Shows how skills are installed and selected for Copilot cloud agent and related GitHub surfaces. |
+| [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills) | GitHub Copilot | Connects terminal-native Copilot workflows to the broader skill ecosystem. |
 | [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) | MCP | Gives provider-owned context for MCP as an agent-tool bridge. |
 | [Claude Code Docs](https://code.claude.com/docs) | Claude Code | Primary source for Claude Code workflow and usage guidance. |
 | [Claude Code Headless](https://code.claude.com/docs/en/headless) | Claude Code | Important for automation-oriented skills and CI workflows. |
@@ -42,6 +44,11 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | Gemini | Provider-level setup reference for Gemini-backed agent workflows. |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Gemini | Represents Gemini-powered terminal-agent workflows. |
 | [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs) | Gemini | Useful for terminal-agent setup, configuration, and workflow guidance. |
+| [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) | GitHub Copilot | Defines Copilot's skill model and helps compare it with other agent-skill runtimes. |
+| [GitHub Copilot Docs](https://docs.github.com/en/copilot) | GitHub Copilot | Provides the official source for Copilot's coding-agent and customization surfaces. |
+| [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp) | GitHub Copilot | Explains how MCP extends Copilot across IDE, CLI, app, cloud agent, and code review surfaces. |
+| [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions) | GitHub Copilot | Helps readers distinguish persistent repository guidance from portable agent skills. |
+| [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills) | GitHub Copilot | Shows how programmatic Copilot sessions can compose skills with MCP servers and hooks. |
 | [Google ADK Python](https://github.com/google/adk-python) | Google ADK | Source-backed reference for Google's agent development patterns. |
 | [Google Agent Development Kit Docs](https://google.github.io/adk-docs/) | Google ADK | Provides official Google guidance for building agents, tools, and workflows. |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Hermes | Shows a skills-oriented self-improving agent architecture. |
@@ -98,6 +105,18 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | Gemini | Provider-level setup reference for Gemini-backed agent workflows. |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Gemini | Represents Gemini-powered terminal-agent workflows. |
 | [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs) | Gemini | Useful for terminal-agent setup, configuration, and workflow guidance. |
+
+### GitHub Copilot
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) | GitHub Copilot | Shows how skills are installed and selected for Copilot cloud agent and related GitHub surfaces. |
+| [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills) | GitHub Copilot | Connects terminal-native Copilot workflows to the broader skill ecosystem. |
+| [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) | GitHub Copilot | Defines Copilot's skill model and helps compare it with other agent-skill runtimes. |
+| [GitHub Copilot Docs](https://docs.github.com/en/copilot) | GitHub Copilot | Provides the official source for Copilot's coding-agent and customization surfaces. |
+| [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp) | GitHub Copilot | Explains how MCP extends Copilot across IDE, CLI, app, cloud agent, and code review surfaces. |
+| [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions) | GitHub Copilot | Helps readers distinguish persistent repository guidance from portable agent skills. |
+| [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills) | GitHub Copilot | Shows how programmatic Copilot sessions can compose skills with MCP servers and hooks. |
 
 ### Google ADK
 
@@ -163,7 +182,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **adapters**: [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)
 - **adk**: [Google ADK Python](https://github.com/google/adk-python), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/)
 - **agent**: [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-- **agents**: [Google Agent Development Kit Docs](https://google.github.io/adk-docs/), [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
+- **agents**: [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/), [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
 - **agents-sdk**: [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python)
 - **anthropic**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Claude Code Docs](https://code.claude.com/docs), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 - **api**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs)
@@ -171,24 +190,27 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **background-agent**: [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent)
 - **catalog**: [Agent Skill Exchange](https://agentskillexchange.com/), [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md)
 - **claude-code**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code), [Claude Code Docs](https://code.claude.com/docs), [Claude Code Headless](https://code.claude.com/docs/en/headless), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
-- **cli**: [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [OpenAI Codex](https://github.com/openai/codex)
+- **cli**: [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [OpenAI Codex](https://github.com/openai/codex)
+- **cloud-agent**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills)
 - **codex**: [OpenAI Codex](https://github.com/openai/codex), [OpenAI Codex Docs](https://developers.openai.com/codex)
-- **coding-agent**: [OpenAI Codex](https://github.com/openai/codex)
+- **coding-agent**: [GitHub Copilot Docs](https://docs.github.com/en/copilot), [OpenAI Codex](https://github.com/openai/codex)
 - **community**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
-- **context**: [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
+- **context**: [Cursor Rules Docs](https://docs.cursor.com/en/context/rules), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp)
 - **cursor**: [Cursor Agent Skills](https://cursor.com/docs/context/skills), [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent), [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
-- **docs**: [Claude Code Docs](https://code.claude.com/docs), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Docs](https://docs.openclaw.ai/)
+- **docs**: [Claude Code Docs](https://code.claude.com/docs), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [GitHub Copilot Docs](https://docs.github.com/en/copilot), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Docs](https://docs.openclaw.ai/)
 - **gemini**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs)
+- **github-copilot**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills), [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [GitHub Copilot Docs](https://docs.github.com/en/copilot), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions), [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills)
 - **google**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs), [Google ADK Python](https://github.com/google/adk-python), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/)
 - **headless**: [Claude Code Headless](https://code.claude.com/docs/en/headless)
 - **hermes**: [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
 - **ide**: [Cursor Agent Skills](https://cursor.com/docs/context/skills), [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent)
 - **image-generation**: [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation)
+- **instructions**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
 - **lab**: [OpenAI Codex Docs](https://developers.openai.com/codex)
 - **langchain**: [LangChain Agents](https://www.langchain.com/agents), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [LangGraph](https://github.com/langchain-ai/langgraph)
 - **langgraph**: [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
 - **marketplace**: [Agent Skill Exchange](https://agentskillexchange.com/)
-- **mcp**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol)
+- **mcp**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol)
 - **memory**: [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md)
 - **openai**: [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenAI Codex Docs](https://developers.openai.com/codex), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai)
 - **openclaw**: [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation), [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai), [OpenClaw Repository](https://github.com/openclaw/openclaw)
@@ -197,12 +219,14 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **python**: [Google ADK Python](https://github.com/google/adk-python)
 - **quality**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
 - **repo**: [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenClaw Repository](https://github.com/openclaw/openclaw)
+- **repository**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
 - **resources**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 - **rules**: [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
 - **runtime**: [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Repository](https://github.com/openclaw/openclaw)
+- **sdk**: [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills)
 - **security**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
 - **servers**: [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
-- **skills**: [Agent Skill Exchange](https://agentskillexchange.com/), [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Cursor Agent Skills](https://cursor.com/docs/context/skills), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
+- **skills**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills), [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [Agent Skill Exchange](https://agentskillexchange.com/), [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Cursor Agent Skills](https://cursor.com/docs/context/skills), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
 - **spec**: [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol)
 - **state**: [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
 - **subagents**: [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)

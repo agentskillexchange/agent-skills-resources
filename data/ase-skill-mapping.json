@@ -40,6 +40,24 @@
     ]
   },
   {
+    "framework": "GitHub Copilot",
+    "workflow_area": "GitHub-native coding workflows",
+    "example_skills": [
+      {
+        "slug": "run-terminal-native-coding-agent-workflows-with-github-copilot-cli",
+        "why_it_matters": "Represents Copilot CLI as a terminal-native coding-agent workflow surface."
+      },
+      {
+        "slug": "github-copilot-ai-code-assistant",
+        "why_it_matters": "Shows GitHub Copilot as a coding assistant and chat surface in the ASE catalog."
+      },
+      {
+        "slug": "generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes",
+        "why_it_matters": "Connects Copilot-adjacent GitHub repository history to a repeatable release-notes workflow."
+      }
+    ]
+  },
+  {
     "framework": "OpenClaw",
     "workflow_area": "runtime operations and scheduled automation",
     "example_skills": [

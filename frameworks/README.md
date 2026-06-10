@@ -5,10 +5,10 @@ the skills ecosystem.
 
 - [Codex](codex.md)
 - [Claude Code](claude-code.md)
+- [GitHub Copilot](github-copilot.md)
 - [OpenClaw](openclaw.md)
 - [Hermes](hermes.md)
 - [Cursor](cursor.md)
 - [Gemini](gemini.md)
 - [LangChain and LangGraph](langchain-langgraph.md)
 - [Model Context Protocol](mcp.md)
-

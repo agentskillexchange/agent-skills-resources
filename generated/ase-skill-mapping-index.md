@@ -5,10 +5,18 @@ companion index, not the canonical catalog. Use
 [agentskillexchange/skills](https://github.com/agentskillexchange/skills)
 for the full skill source of truth.
 
-- Mapping groups: 12
-- Representative skills: 43
+- Mapping groups: 13
+- Representative skills: 46
 
 ## By Workflow Area
+
+### GitHub-native coding workflows
+
+| Skill | Framework | Workflow area | Why it matters |
+|---|---|---|---|
+| [run-terminal-native-coding-agent-workflows-with-github-copilot-cli](https://agentskillexchange.com/skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | GitHub Copilot | GitHub-native coding workflows | Represents Copilot CLI as a terminal-native coding-agent workflow surface. |
+| [github-copilot-ai-code-assistant](https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/) | GitHub Copilot | GitHub-native coding workflows | Shows GitHub Copilot as a coding assistant and chat surface in the ASE catalog. |
+| [generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes](https://agentskillexchange.com/skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/) | GitHub Copilot | GitHub-native coding workflows | Connects Copilot-adjacent GitHub repository history to a repeatable release-notes workflow. |
 
 ### IDE agent context and project rules
 
@@ -145,6 +153,14 @@ for the full skill source of truth.
 |---|---|---|---|
 | [run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli](https://agentskillexchange.com/skills/run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli/) | Gemini | terminal-agent workflows | Shows Gemini CLI as a bounded terminal-agent workflow. |
 | [capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory](https://agentskillexchange.com/skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Gemini | terminal-agent workflows | Connects Gemini to cross-agent session history and context reuse. |
+
+### GitHub Copilot
+
+| Skill | Framework | Workflow area | Why it matters |
+|---|---|---|---|
+| [run-terminal-native-coding-agent-workflows-with-github-copilot-cli](https://agentskillexchange.com/skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | GitHub Copilot | GitHub-native coding workflows | Represents Copilot CLI as a terminal-native coding-agent workflow surface. |
+| [github-copilot-ai-code-assistant](https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/) | GitHub Copilot | GitHub-native coding workflows | Shows GitHub Copilot as a coding assistant and chat surface in the ASE catalog. |
+| [generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes](https://agentskillexchange.com/skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/) | GitHub Copilot | GitHub-native coding workflows | Connects Copilot-adjacent GitHub repository history to a repeatable release-notes workflow. |
 
 ### Hermes
 

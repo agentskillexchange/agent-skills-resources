@@ -25,7 +25,7 @@ of truth remains [agentskillexchange/skills](https://github.com/agentskillexchan
 | Need | Start here |
 |---|---|
 | Learn the agent skills ecosystem | [Overview](overview.md) |
-| Compare Codex, Claude Code, OpenClaw, Hermes, Cursor, Gemini CLI, LangChain, LangGraph, MCP, and OpenAI Agents SDK | [Framework pages](frameworks/) |
+| Compare Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI, LangChain, LangGraph, MCP, and OpenAI Agents SDK | [Framework pages](frameworks/) |
 | Review source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate skill quality and agent safety | [Quality Checklist](examples/quality-checklist.md) |
 | Run a bounded rollout | [Playbooks](playbooks/) and [Templates](templates/) |
@@ -33,8 +33,8 @@ of truth remains [agentskillexchange/skills](https://github.com/agentskillexchan
 ## Use This Repo When
 
 - You want to understand where agent skills fit across AI agents, coding agents,
-  MCP, Model Context Protocol, Codex, Claude Code, OpenClaw, Hermes Agent,
-  Cursor, Gemini CLI, LangChain, LangGraph, and OpenAI Agents SDK.
+  MCP, Model Context Protocol, Codex, Claude Code, GitHub Copilot, OpenClaw,
+  Hermes Agent, Cursor, Gemini CLI, LangChain, LangGraph, and OpenAI Agents SDK.
 - You need source-backed framework resources, visual maps, examples, skill
   evaluation templates, agent safety checks, verification guidance, or rollout
   playbooks.
@@ -121,6 +121,7 @@ flowchart LR
 |---|---|---|
 | Codex | Coding agent and terminal workflow runtime | [Codex](frameworks/codex.md) |
 | Claude Code | Coding agent with project workflows, tools, and automation | [Claude Code](frameworks/claude-code.md) |
+| GitHub Copilot | GitHub-native coding assistant, cloud agent, CLI, SDK, MCP, and skills surface | [GitHub Copilot](frameworks/github-copilot.md) |
 | OpenClaw | Agent runtime for providers, crons, skills, tools, and channels | [OpenClaw](frameworks/openclaw.md) |
 | Hermes | Self-improving agent with skills, memory, and agent-managed workflows | [Hermes](frameworks/hermes.md) |
 | Cursor | IDE agent environment with context, skills, and background agents | [Cursor](frameworks/cursor.md) |
@@ -193,7 +194,7 @@ python3 scripts/generate-repo-stats.py
 
 Future loops should expand one area at a time:
 
-1. Deepen Codex, Claude Code, OpenClaw, Hermes, Cursor, Gemini, LangGraph, and MCP pages.
+1. Deepen Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini, LangGraph, and MCP pages.
 2. Add more ASE skill mappings from the public catalog.
 3. Add visual workflow stacks for security, data, SRE, legal, GTM, and support.
 4. Add a freshness audit that flags moved docs, stale links, or unsupported claims.

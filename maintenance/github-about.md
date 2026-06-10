@@ -26,6 +26,7 @@ mcp
 model-context-protocol
 codex
 claude-code
+github-copilot
 openclaw
 hermes-agent
 cursor

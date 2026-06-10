@@ -17,6 +17,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Codex](../frameworks/codex.md)
 - [Cursor](../frameworks/cursor.md)
 - [Gemini](../frameworks/gemini.md)
+- [GitHub Copilot](../frameworks/github-copilot.md)
 - [Hermes](../frameworks/hermes.md)
 - [LangChain And LangGraph](../frameworks/langchain-langgraph.md)
 - [Model Context Protocol](../frameworks/mcp.md)

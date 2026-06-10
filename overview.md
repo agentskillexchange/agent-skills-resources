@@ -9,7 +9,7 @@ catalog remains [agentskillexchange/skills](https://github.com/agentskillexchang
 ```mermaid
 flowchart LR
   Catalog["ASE skills catalog"] --> Skills["Agent skills"]
-  Skills --> Runtimes["Codex, Claude Code, OpenClaw, Hermes, Cursor, Gemini CLI"]
+  Skills --> Runtimes["Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI"]
   Skills --> Protocols["MCP and tool protocols"]
   Skills --> Frameworks["LangChain, LangGraph, OpenAI Agents SDK"]
   Skills --> Evidence["Verification, safety, approvals"]
@@ -34,12 +34,12 @@ flowchart LR
 
 | Metric | Count |
 |---|---:|
-| Source-backed resources | 38 |
-| Official resources | 32 |
+| Source-backed resources | 45 |
+| Official resources | 39 |
 | Lab resources | 1 |
 | Community resources | 2 |
 | ASE resources | 3 |
-| Representative mapped ASE skills | 43 |
+| Representative mapped ASE skills | 46 |
 | Playbooks | 6 |
 | Templates | 8 |
 | Generated indexes | 5 |
@@ -56,7 +56,7 @@ flowchart LR
 
 - Learning how agent skills relate to AI agents, coding agents, tools, MCP, and
   framework runtimes.
-- Comparing Codex, Claude Code, OpenClaw, Hermes, Cursor, Gemini CLI,
+- Comparing Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI,
   LangChain, LangGraph, and OpenAI Agents SDK resources.
 - Evaluating skill quality, agent safety, verification evidence, and rollout
   readiness.

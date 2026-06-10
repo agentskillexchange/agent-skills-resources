@@ -4,8 +4,16 @@ Suggested GitHub repo metadata for `agentskillexchange/agent-skills-resources`.
 
 ## Description
 
+```text
 Source-backed companion guide for agent skills, AI agent workflows, framework
 resources, evaluation templates, and rollout playbooks.
+```
+
+## Website
+
+```text
+https://agentskillexchange.com/
+```
 
 ## Topics
 
@@ -27,6 +35,8 @@ langgraph
 openai-agents
 skill-evaluation
 agent-safety
+verification
+rollout-playbooks
 ```
 
 ## Notes

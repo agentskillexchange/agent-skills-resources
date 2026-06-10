@@ -1,0 +1,39 @@
+name: Completed evaluation example
+description: Propose an illustrative completed evaluation example.
+title: "Completed evaluation: "
+labels: ["evaluation"]
+body:
+  - type: input
+    id: ase_skill_slug
+    attributes:
+      label: Existing ASE skill slug
+      description: Use only a public ASE skill slug.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: ASE skill or source URL
+    validations:
+      required: true
+  - type: textarea
+    id: workflow_fit
+    attributes:
+      label: Workflow fit
+      description: What workflow does this example evaluate?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence to include
+      description: Include permissions reviewed, verification example, risk summary, and decision.
+    validations:
+      required: true
+  - type: textarea
+    id: trust
+    attributes:
+      label: Safety or trust concerns
+      description: Note why this must be illustrative and not a certification claim.
+    validations:
+      required: true

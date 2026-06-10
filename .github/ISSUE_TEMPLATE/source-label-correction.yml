@@ -1,0 +1,53 @@
+name: Source label correction
+description: Report an incorrect Official, Lab, Community, or ASE label.
+title: "Source label correction: "
+labels: ["source-label"]
+body:
+  - type: input
+    id: resource_id
+    attributes:
+      label: Resource id or page
+      description: Link or id from data/resources.json or a repo page.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: current_label
+    attributes:
+      label: Current label
+      options:
+        - Official
+        - Lab
+        - Community
+        - ASE
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: corrected_label
+    attributes:
+      label: Corrected label
+      options:
+        - Official
+        - Lab
+        - Community
+        - ASE
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Show ownership, maintainer, vendor, lab, community, or ASE evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety or trust concerns
+      description: Note whether this label changes trust or adoption guidance.

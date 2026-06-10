@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Submit an actual skill
+    url: https://github.com/agentskillexchange/skills
+    about: Use the canonical skills catalog for actual skill files and catalog contributions.
+  - name: Browse Agent Skill Exchange
+    url: https://agentskillexchange.com/
+    about: Search the live ASE marketplace.

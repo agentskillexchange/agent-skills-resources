@@ -75,6 +75,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 ## maintenance
 
 - [Maintenance](../maintenance/README.md)
+- [Contribution Review](../maintenance/contribution-review.md)
 - [Freshness Audit](../maintenance/freshness-audit.md)
 - [GitHub About](../maintenance/github-about.md)
 - [Source Labeling](../maintenance/source-labeling.md)

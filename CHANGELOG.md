@@ -17,3 +17,5 @@
   template navigation, and validation coverage for the template index.
 - Loop 7: improved README discoverability, added overview visuals, completed
   evaluation examples, repo stats generation, and GitHub About guidance.
+- Loop 8: added GitHub issue and PR templates, expanded contribution guidance,
+  improved GitHub About copy, and added contribution review guidance.

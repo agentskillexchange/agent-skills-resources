@@ -1,0 +1,41 @@
+name: Framework page request
+description: Request or improve a framework/resource page.
+title: "Framework page: "
+labels: ["framework"]
+body:
+  - type: input
+    id: framework
+    attributes:
+      label: Framework or ecosystem
+      placeholder: Codex, Claude Code, OpenClaw, Hermes Agent, Cursor, Gemini CLI, LangChain, MCP
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Primary source URL
+    validations:
+      required: true
+  - type: textarea
+    id: ownership_evidence
+    attributes:
+      label: Ownership/source label evidence
+      description: Explain whether the source is Official, Lab, Community, or ASE.
+    validations:
+      required: true
+  - type: textarea
+    id: why_belongs
+    attributes:
+      label: Why it belongs here
+      description: Explain the framework/workflow relevance.
+    validations:
+      required: true
+  - type: input
+    id: ase_skill_slug
+    attributes:
+      label: Related ASE skill slug, if any
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety or trust concerns
+      description: Note unsupported claims, vendor ambiguity, or adoption risk.

@@ -13,6 +13,13 @@ to browse the live marketplace.
 
 Start with the [Overview](overview.md) or the generated [Repo Stats](generated/repo-stats.md).
 
+## About This Repo
+
+This is a source-backed companion guide for agent skills and AI agent workflows.
+It provides framework resources, visual maps, examples, rollout playbooks,
+evaluation templates, and source-labeling guidance. The installable skill source
+of truth remains [agentskillexchange/skills](https://github.com/agentskillexchange/skills).
+
 ## What You'll Find Here
 
 | Need | Start here |
@@ -22,6 +29,23 @@ Start with the [Overview](overview.md) or the generated [Repo Stats](generated/r
 | Review source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate skill quality and agent safety | [Quality Checklist](examples/quality-checklist.md) |
 | Run a bounded rollout | [Playbooks](playbooks/) and [Templates](templates/) |
+
+## Use This Repo When
+
+- You want to understand where agent skills fit across AI agents, coding agents,
+  MCP, Model Context Protocol, Codex, Claude Code, OpenClaw, Hermes Agent,
+  Cursor, Gemini CLI, LangChain, LangGraph, and OpenAI Agents SDK.
+- You need source-backed framework resources, visual maps, examples, skill
+  evaluation templates, agent safety checks, verification guidance, or rollout
+  playbooks.
+- You want representative examples without copying the full catalog.
+
+## Do Not Use This Repo For
+
+- The full skill catalog.
+- The installable skill source of truth.
+- Official vendor claims unless the claim is source-backed.
+- Catalog-wide generated skill dumps.
 
 ## What This Is
 

@@ -1,15 +1,27 @@
 # Agent Skills Resources
 
-A companion resource hub for understanding agent skills, skill-based workflows,
-and the frameworks, labs, and tools shaping the agent ecosystem.
+A source-backed companion resource hub for agent skills, AI agents, coding
+agents, and skill-based agent workflows.
 
-Use this repo to learn the ecosystem. Use
-[agentskillexchange/skills](https://github.com/agentskillexchange/skills) as the
-canonical catalog, and use [Agent Skill Exchange](https://agentskillexchange.com/)
+Use this repo to learn the ecosystem, compare frameworks, evaluate skills, and
+run pilots. Use [agentskillexchange/skills](https://github.com/agentskillexchange/skills)
+as the canonical catalog, and use [Agent Skill Exchange](https://agentskillexchange.com/)
 to browse the live marketplace.
 
 [![Source labels](https://img.shields.io/badge/sources-Official%20%7C%20Lab%20%7C%20Community%20%7C%20ASE-0f766e?style=for-the-badge)](data/resources.json)
 [![Companion repo](https://img.shields.io/badge/companion-resource%20hub-2563eb?style=for-the-badge)](https://github.com/agentskillexchange/skills)
+
+Start with the [Overview](overview.md) or the generated [Repo Stats](generated/repo-stats.md).
+
+## What You'll Find Here
+
+| Need | Start here |
+|---|---|
+| Learn the agent skills ecosystem | [Overview](overview.md) |
+| Compare Codex, Claude Code, OpenClaw, Hermes, Cursor, Gemini CLI, LangChain, LangGraph, MCP, and OpenAI Agents SDK | [Framework pages](frameworks/) |
+| Review source-backed resources | [Resource Index](generated/resource-index.md) |
+| Evaluate skill quality and agent safety | [Quality Checklist](examples/quality-checklist.md) |
+| Run a bounded rollout | [Playbooks](playbooks/) and [Templates](templates/) |
 
 ## What This Is
 
@@ -24,6 +36,10 @@ This repo helps developers answer four questions:
 - How should teams evaluate, write, and verify skills?
 - Where can I find source-backed examples without confusing them for the main
   ASE catalog?
+
+It covers MCP and the Model Context Protocol, verification, skill evaluation,
+rollout playbooks, and practical adoption evidence for teams working with
+agentic development and operations.
 
 ## How This Differs From `agentskillexchange/skills`
 
@@ -113,6 +129,8 @@ When a claim is not source-backed, leave it out.
   for framework, workflow, example, case-study, playbook, and maintenance pages.
 - [generated/template-index.md](generated/template-index.md): generated index of
   fillable pilot and review templates.
+- [generated/repo-stats.md](generated/repo-stats.md): generated repository data
+  snapshot.
 - [workflows/](workflows/): visual workflow guides that show how skills fit into
   practical SRE, security, data, content, and research work.
 - [case-studies/](case-studies/): practical scenarios that connect 2-4 existing
@@ -144,6 +162,7 @@ python3 scripts/generate-resource-index.py
 python3 scripts/generate-skill-mapping-index.py
 python3 scripts/generate-nav-index.py
 python3 scripts/generate-template-index.py
+python3 scripts/generate-repo-stats.py
 ```
 
 ## Loop Roadmap
@@ -157,3 +176,4 @@ Future loops should expand one area at a time:
 5. Add deeper case studies for teams evaluating adoption paths.
 6. Add adoption playbooks for team-specific rollout decisions.
 7. Add fillable pilot templates for recording evidence and go/no-go decisions.
+8. Add completed evaluation examples and repo stats for stronger first-read clarity.

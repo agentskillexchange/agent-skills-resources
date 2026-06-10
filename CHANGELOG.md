@@ -15,3 +15,5 @@
   index, and validation coverage for the nav index.
 - Loop 6: added fillable evaluation templates, a generated template index,
   template navigation, and validation coverage for the template index.
+- Loop 7: improved README discoverability, added overview visuals, completed
+  evaluation examples, repo stats generation, and GitHub About guidance.

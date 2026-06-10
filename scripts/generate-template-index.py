@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +40,10 @@ def first_paragraph_after_h1(path: Path) -> str:
     return " ".join(paragraph) or "Template page."
 
 
+def link_to(path: Path) -> str:
+    return os.path.relpath(path, OUT.parent).replace(os.sep, "/")
+
+
 def main() -> int:
     pages = sorted(
         path
@@ -55,8 +60,7 @@ def main() -> int:
         "|---|---|",
     ]
     for path in pages:
-        rel = path.relative_to(ROOT).as_posix()
-        lines.append(f"| [{page_title(path)}]({rel}) | {first_paragraph_after_h1(path)} |")
+        lines.append(f"| [{page_title(path)}]({link_to(path)}) | {first_paragraph_after_h1(path)} |")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(lines).rstrip() + "\n")

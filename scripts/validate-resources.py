@@ -30,6 +30,7 @@ REQUIRED_GENERATED = [
     ROOT / "generated" / "ase-skill-mapping-index.md",
     ROOT / "generated" / "nav-index.md",
     ROOT / "generated" / "template-index.md",
+    ROOT / "generated" / "repo-stats.md",
 ]
 
 

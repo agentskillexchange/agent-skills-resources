@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,6 +12,7 @@ DIRECTORIES = [
     "frameworks",
     "workflows",
     "examples",
+    "examples/completed-evaluations",
     "case-studies",
     "playbooks",
     "templates",
@@ -25,6 +27,10 @@ def title_for(path: Path) -> str:
     return path.stem.replace("-", " ").title()
 
 
+def link_to(path: Path) -> str:
+    return os.path.relpath(path, OUT.parent).replace(os.sep, "/")
+
+
 def main() -> int:
     lines: list[str] = [
         "# Navigation Index",
@@ -32,7 +38,15 @@ def main() -> int:
         "Generated from key Markdown directories. Edit the source pages, then",
         "rerun `python3 scripts/generate-nav-index.py`.",
         "",
+        "## top-level",
+        "",
     ]
+
+    for page_name in ["overview.md", "getting-started.md", "best-practices.md", "adoption-matrix.md"]:
+        page = ROOT / page_name
+        if page.exists():
+            lines.append(f"- [{title_for(page)}]({link_to(page)})")
+    lines.append("")
 
     for directory in DIRECTORIES:
         root = ROOT / directory
@@ -52,8 +66,7 @@ def main() -> int:
             lines.append("")
             continue
         for page in pages:
-            rel = page.relative_to(ROOT)
-            lines.append(f"- [{title_for(page)}]({rel.as_posix()})")
+            lines.append(f"- [{title_for(page)}]({link_to(page)})")
         lines.append("")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -13,3 +13,5 @@
   indexes, and validation guards for generated outputs.
 - Loop 5: added team adoption playbooks, an adoption matrix, generated navigation
   index, and validation coverage for the nav index.
+- Loop 6: added fillable evaluation templates, a generated template index,
+  template navigation, and validation coverage for the template index.

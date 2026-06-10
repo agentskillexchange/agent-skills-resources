@@ -47,6 +47,17 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Security Teams](playbooks/security-teams.md)
 - [SRE And Platform Teams](playbooks/sre-platform-teams.md)
 
+## templates
+
+- [Evaluation Templates](templates/README.md)
+- [How To Use Templates](templates/how-to-use-templates.md)
+- [Pilot Plan](templates/pilot-plan.md)
+- [Post-Pilot Review](templates/post-pilot-review.md)
+- [Risk Review](templates/risk-review.md)
+- [Rollout Readiness](templates/rollout-readiness.md)
+- [Security Review](templates/security-review.md)
+- [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md)
+
 ## maintenance
 
 - [Maintenance](maintenance/README.md)

@@ -29,6 +29,7 @@ REQUIRED_GENERATED = [
     ROOT / "generated" / "resource-index.md",
     ROOT / "generated" / "ase-skill-mapping-index.md",
     ROOT / "generated" / "nav-index.md",
+    ROOT / "generated" / "template-index.md",
 ]
 
 

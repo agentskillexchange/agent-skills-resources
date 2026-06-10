@@ -13,6 +13,7 @@ DIRECTORIES = [
     "examples",
     "case-studies",
     "playbooks",
+    "templates",
     "maintenance",
 ]
 

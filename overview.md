@@ -58,6 +58,9 @@ flowchart LR
   point for readers who want a fast overview.
 - [Framework Comparison](framework-comparison.md): practical matrix for
   choosing the right framework or runtime surface.
+- [Showcase Workflow Stacks](showcase/): polished stack examples that combine
+  framework resources, representative skills, pilot plans, and verification
+  evidence.
 - [Starter Kits](starter-kits/): short paths for coding-agent users, MCP users,
   team evaluators, and skill authors.
 

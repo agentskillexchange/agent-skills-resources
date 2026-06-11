@@ -14,6 +14,7 @@ DIRECTORIES = [
     "examples",
     "examples/completed-evaluations",
     "case-studies",
+    "showcase",
     "playbooks",
     "starter-kits",
     "templates",

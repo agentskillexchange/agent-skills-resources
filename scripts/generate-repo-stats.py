@@ -46,6 +46,7 @@ def main() -> int:
         f"- Framework pages: {md_count('frameworks')}",
         f"- Workflow pages: {md_count('workflows')}",
         f"- Case study pages: {md_count('case-studies')}",
+        f"- Showcase pages: {md_count('showcase')}",
         f"- Playbook pages: {md_count('playbooks')}",
         f"- Starter kit pages: {md_count('starter-kits')}",
         f"- Template pages: {md_count('templates')}",

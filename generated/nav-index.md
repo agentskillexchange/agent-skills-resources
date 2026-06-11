@@ -55,6 +55,16 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Security Approval Workflow](../case-studies/security-approval-workflow.md)
 - [SRE Incident Response](../case-studies/sre-incident-response.md)
 
+## showcase
+
+- [Showcase Workflow Stacks](../showcase/README.md)
+- [Coding Agent PR Review Stack](../showcase/coding-agent-pr-review-stack.md)
+- [Content Research Stack](../showcase/content-research-stack.md)
+- [MCP Database Inspection Stack](../showcase/mcp-database-inspection-stack.md)
+- [Runtime Ops: OpenClaw Stack](../showcase/runtime-ops-openclaw-stack.md)
+- [Security Approval Stack](../showcase/security-approval-stack.md)
+- [SRE Incident Triage Stack](../showcase/sre-incident-triage-stack.md)
+
 ## playbooks
 
 - [Adoption Playbooks](../playbooks/README.md)

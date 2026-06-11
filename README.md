@@ -17,8 +17,9 @@ Start with the [Overview](overview.md) or the generated [Repo Stats](generated/r
 
 1. Read the [Awesome Agent Skills](awesome-agent-skills.md) front door.
 2. Compare surfaces in [Framework Comparison](framework-comparison.md).
-3. Pick a practical path from [Starter Kits](starter-kits/).
-4. Browse real skills in the canonical [ASE skills repo](https://github.com/agentskillexchange/skills).
+3. Skim [Showcase Workflow Stacks](showcase/) for real-world stack examples.
+4. Pick a practical path from [Starter Kits](starter-kits/).
+5. Browse real skills in the canonical [ASE skills repo](https://github.com/agentskillexchange/skills).
 
 ## About This Repo
 
@@ -43,6 +44,7 @@ of truth remains [agentskillexchange/skills](https://github.com/agentskillexchan
 |---|---|
 | Understand agent skills | [Awesome Agent Skills](awesome-agent-skills.md) |
 | Compare frameworks | [Framework Comparison](framework-comparison.md) |
+| See workflow stacks | [Showcase Workflow Stacks](showcase/) |
 | Find official resources | [Resource Index](generated/resource-index.md) |
 | Evaluate a skill | [Quality Checklist](examples/quality-checklist.md) |
 | Build a skill | [Skill Author Starter Kit](starter-kits/skill-author.md) |
@@ -124,6 +126,7 @@ flowchart LR
 |---|---|---|
 | New to skills | [Getting Started](getting-started.md) | [Ecosystem Map](ecosystem-map.md) |
 | Skimming the ecosystem | [Awesome Agent Skills](awesome-agent-skills.md) | [Framework Comparison](framework-comparison.md) |
+| Seeing workflow stacks | [Showcase Workflow Stacks](showcase/) | [Case Studies](case-studies/) |
 | Building a skill | [Best Practices](best-practices.md) | [ASE skills repo](https://github.com/agentskillexchange/skills) |
 | Comparing frameworks | [Framework pages](frameworks/) | [resources.json](data/resources.json) |
 | Choosing a starter path | [Starter Kits](starter-kits/) | [Adoption Matrix](adoption-matrix.md) |
@@ -171,6 +174,8 @@ When a claim is not source-backed, leave it out.
   front door for agent skill resources.
 - [framework-comparison.md](framework-comparison.md): practical comparison of
   major skill and agent workflow surfaces.
+- [showcase/](showcase/): real-world workflow stacks that combine frameworks,
+  skills, pilot notes, and verification evidence.
 - [generated/resource-index.md](generated/resource-index.md): generated resource
   index grouped by source type, framework, and tag.
 - [generated/ase-skill-mapping-index.md](generated/ase-skill-mapping-index.md):

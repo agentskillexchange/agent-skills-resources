@@ -52,6 +52,7 @@ def main() -> int:
         f"- Showcase pages: {md_count('showcase')}",
         f"- Playbook pages: {md_count('playbooks')}",
         f"- Starter kit pages: {md_count('starter-kits')}",
+        f"- Checklist pages: {md_count('checklists')}",
         f"- Template pages: {md_count('templates')}",
         f"- Contributing guides: {md_count('contributing')}",
         f"- Generated indexes: {len(generated_indexes)}",

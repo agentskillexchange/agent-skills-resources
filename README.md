@@ -13,16 +13,16 @@ is the public site.
 [![Source labels](https://img.shields.io/badge/sources-Official%20%7C%20Lab%20%7C%20Community%20%7C%20ASE-0f766e?style=for-the-badge)](data/resources.json)
 [![Companion repo](https://img.shields.io/badge/companion-resource%20hub-2563eb?style=for-the-badge)](https://github.com/agentskillexchange/skills)
 
-Start with [Learning Paths](learning/), the [Glossary](glossary.md), or the
-[Best-Practices Cookbook](cookbook/).
+Start with the [Docs Index](docs-index.md), [Learning Tracks](learning/curriculum.md),
+the [Glossary](glossary.md), or the [Best-Practices Cookbook](cookbook/).
 
 ## Start Here In 60 Seconds
 
 1. Read [Agent Skills 101](learning/agent-skills-101.md).
 2. Compare [skills vs tools vs MCP](learning/skills-vs-tools-vs-mcp.md).
-3. Use the [Glossary](glossary.md) to normalize vocabulary.
-4. Review the [Best-Practices Cookbook](cookbook/).
-5. Pick a team path from [Starter Kits](starter-kits/) or [Playbooks](playbooks/).
+3. Pick a [Learning Track](learning/curriculum.md): beginner, builder, evaluator, or team lead.
+4. Use the [Glossary](glossary.md) to normalize vocabulary.
+5. Review the [Best-Practices Cookbook](cookbook/) or [Checklists](checklists/).
 
 ## What You Can Learn Here
 
@@ -44,9 +44,12 @@ It is not a catalog mirror and does not try to track every published skill.
 
 | Need | Start here |
 |---|---|
+| Find the right page quickly | [Docs Index](docs-index.md) |
 | Learn the agent skills ecosystem | [Learning Paths](learning/) |
+| Follow a structured track | [Curriculum](learning/curriculum.md) |
 | Understand terminology | [Glossary](glossary.md) |
 | Design better skills | [Best-Practices Cookbook](cookbook/) |
+| Use short review artifacts | [Checklists](checklists/) |
 | Compare Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI, LangChain, LangGraph, MCP, and OpenAI Agents SDK | [Framework pages](frameworks/) |
 | Review source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate skill quality and agent safety | [Quality Checklist](examples/quality-checklist.md) |
@@ -56,7 +59,9 @@ It is not a catalog mirror and does not try to track every published skill.
 
 | Goal | Go here |
 |---|---|
+| Find the best starting point | [Docs Index](docs-index.md) |
 | Understand agent skills | [Agent Skills 101](learning/agent-skills-101.md) |
+| Follow a role-based path | [Curriculum](learning/curriculum.md) |
 | Learn the vocabulary | [Glossary](glossary.md) |
 | Build a first skill | [Skill Design Patterns](learning/skill-design-patterns.md) |
 | Compare frameworks | [Framework Comparison](framework-comparison.md) |
@@ -140,11 +145,15 @@ flowchart LR
 
 | Path | Start here | What to read next |
 |---|---|---|
+| Finding docs quickly | [Docs Index](docs-index.md) | [Navigation Index](generated/nav-index.md) |
 | New to skills | [Agent Skills 101](learning/agent-skills-101.md) | [Skills vs Tools vs MCP](learning/skills-vs-tools-vs-mcp.md) |
+| Role-based curriculum | [Curriculum](learning/curriculum.md) | [Beginner](learning/beginner-track.md), [Builder](learning/builder-track.md), [Evaluator](learning/evaluator-track.md), [Team Lead](learning/team-lead-track.md) |
 | Learning terms | [Glossary](glossary.md) | [Ecosystem Map](ecosystem-map.md) |
 | Skimming the ecosystem | [Awesome Agent Skills](awesome-agent-skills.md) | [Framework Comparison](framework-comparison.md) |
 | Seeing workflow stacks | [Showcase Workflow Stacks](showcase/) | [Case Studies](case-studies/) |
 | Building a skill | [Skill Design Patterns](learning/skill-design-patterns.md) | [Best-Practices Cookbook](cookbook/) |
+| Reviewing a skill quickly | [First Skill Review Checklist](checklists/first-skill-review.md) | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) |
+| Reviewing MCP readiness | [MCP Tooling Readiness](checklists/mcp-tooling-readiness.md) | [MCP Framework Guide](frameworks/mcp.md) |
 | Comparing frameworks | [Framework pages](frameworks/) | [resources.json](data/resources.json) |
 | Choosing a starter path | [Starter Kits](starter-kits/) | [Adoption Matrix](adoption-matrix.md) |
 | Exploring workflows | [Workflow pages](workflows/) | [ASE skill mapping](data/ase-skill-mapping.json) |
@@ -154,6 +163,7 @@ flowchart LR
 | Reviewing quality | [Annotated Examples](examples/annotated-skill-examples.md) | [Quality Checklist](examples/quality-checklist.md) |
 | Maintaining resources | [Freshness Audit](maintenance/freshness-audit.md) | [Source Labeling](maintenance/source-labeling.md) |
 | Evaluating trust | [Security And Permissions](cookbook/security-and-permissions.md) | [Skill Evaluation Basics](learning/skill-evaluation-basics.md) |
+| Running a short readiness review | [Checklists](checklists/) | [Templates](templates/) |
 | Contributing | [CONTRIBUTING](CONTRIBUTING.md) | [ASE Create Skill](https://agentskillexchange.com/create-skill/) |
 
 ## Framework And Resource Guide
@@ -187,9 +197,12 @@ When a claim is not source-backed, leave it out.
 - [data/resources.json](data/resources.json): structured source list.
 - [data/ase-skill-mapping.json](data/ase-skill-mapping.json): representative
   ASE skill examples by framework and workflow area.
+- [docs-index.md](docs-index.md): compact front door for all major docs.
 - [learning/](learning/): framework-neutral learning paths for agent skills.
 - [glossary.md](glossary.md): concise vocabulary for skill design and adoption.
 - [cookbook/](cookbook/): practical best-practice recipes and anti-patterns.
+- [checklists/](checklists/): short fillable review artifacts for skills,
+  resources, MCP tooling, team pilots, and permissions.
 - [diagrams/](diagrams/): framework-neutral Mermaid diagrams.
 - [awesome-agent-skills.md](awesome-agent-skills.md): Awesome-style curated
   front door for agent skill resources.
@@ -203,7 +216,7 @@ When a claim is not source-backed, leave it out.
   generated representative ASE skill index grouped by workflow and framework.
 - [generated/nav-index.md](generated/nav-index.md): generated navigation index
   for learning, cookbook, framework, workflow, example, case-study, playbook,
-  template, diagram, contributing, and maintenance pages.
+  checklist, template, diagram, contributing, and maintenance pages.
 - [generated/template-index.md](generated/template-index.md): generated index of
   fillable pilot and review templates.
 - [generated/repo-stats.md](generated/repo-stats.md): generated repository data

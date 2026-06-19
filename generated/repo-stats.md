@@ -2,10 +2,10 @@
 
 Generated from current repository files.
 
-- Last generated: 2026-06-19T17:58:54Z
+- Last generated: 2026-06-19T18:10:31Z
 - Resources: 58
 - Representative mapped ASE skills: 46
-- Learning pages: 6
+- Learning pages: 11
 - Cookbook pages: 7
 - Diagram pages: 3
 - Framework pages: 10
@@ -14,6 +14,7 @@ Generated from current repository files.
 - Showcase pages: 7
 - Playbook pages: 6
 - Starter kit pages: 5
+- Checklist pages: 6
 - Template pages: 8
 - Contributing guides: 1
 - Generated indexes: 5

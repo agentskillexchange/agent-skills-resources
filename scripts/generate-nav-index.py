@@ -20,6 +20,7 @@ DIRECTORIES = [
     "showcase",
     "playbooks",
     "starter-kits",
+    "checklists",
     "templates",
     "contributing",
     "maintenance",
@@ -50,6 +51,7 @@ def main() -> int:
 
     for page_name in [
         "overview.md",
+        "docs-index.md",
         "glossary.md",
         "awesome-agent-skills.md",
         "framework-comparison.md",

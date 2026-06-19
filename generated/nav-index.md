@@ -6,6 +6,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 ## top-level
 
 - [Overview](../overview.md)
+- [Docs Index](../docs-index.md)
 - [Glossary](../glossary.md)
 - [Awesome Agent Skills](../awesome-agent-skills.md)
 - [Framework Comparison](../framework-comparison.md)
@@ -17,10 +18,15 @@ rerun `python3 scripts/generate-nav-index.py`.
 
 - [Learning Paths](../learning/README.md)
 - [Agent Skills 101](../learning/agent-skills-101.md)
+- [Beginner Track](../learning/beginner-track.md)
+- [Builder Track](../learning/builder-track.md)
+- [Agent Skills Curriculum](../learning/curriculum.md)
+- [Evaluator Track](../learning/evaluator-track.md)
 - [Skill Design Patterns](../learning/skill-design-patterns.md)
 - [Skill Evaluation Basics](../learning/skill-evaluation-basics.md)
 - [Skills vs Tools vs MCP](../learning/skills-vs-tools-vs-mcp.md)
 - [Team Adoption Basics](../learning/team-adoption-basics.md)
+- [Team Lead Track](../learning/team-lead-track.md)
 
 ## cookbook
 
@@ -107,6 +113,15 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [MCP Tooling User Starter Kit](../starter-kits/mcp-tooling-user.md)
 - [Skill Author Starter Kit](../starter-kits/skill-author.md)
 - [Team Evaluation Starter Kit](../starter-kits/team-evaluation.md)
+
+## checklists
+
+- [Checklists](../checklists/README.md)
+- [First Skill Review Checklist](../checklists/first-skill-review.md)
+- [MCP Tooling Readiness Checklist](../checklists/mcp-tooling-readiness.md)
+- [Security And Permissions Review Checklist](../checklists/security-and-permissions-review.md)
+- [Source-Backed Resource Review Checklist](../checklists/source-backed-resource-review.md)
+- [Team Pilot Readiness Checklist](../checklists/team-pilot-readiness.md)
 
 ## templates
 

@@ -32,6 +32,15 @@ REQUIRED_GENERATED = [
     ROOT / "generated" / "template-index.md",
     ROOT / "generated" / "repo-stats.md",
 ]
+REQUIRED_EDUCATION_FILES = [
+    ROOT / "glossary.md",
+    ROOT / "learning" / "README.md",
+    ROOT / "cookbook" / "README.md",
+    ROOT / "diagrams" / "skill-lifecycle.md",
+    ROOT / "diagrams" / "agent-skill-ecosystem.md",
+    ROOT / "diagrams" / "team-adoption-loop.md",
+    ROOT / "contributing" / "educational-content-guide.md",
+]
 
 
 def fail(message: str) -> None:
@@ -123,6 +132,17 @@ def main() -> int:
             fail(f"generated file missing: {path.relative_to(ROOT)}")
         if not path.read_text().strip():
             fail(f"generated file is empty: {path.relative_to(ROOT)}")
+
+    for path in REQUIRED_EDUCATION_FILES:
+        if not path.exists():
+            fail(f"education file missing: {path.relative_to(ROOT)}")
+        if not path.read_text().strip():
+            fail(f"education file is empty: {path.relative_to(ROOT)}")
+
+    nav_text = (ROOT / "generated" / "nav-index.md").read_text()
+    for section in ["## learning", "## cookbook", "## diagrams", "## contributing"]:
+        if section not in nav_text:
+            fail(f"generated nav index missing section: {section}")
 
     print("PASS: resources valid")
     print(f"resources: {len(resources)}")

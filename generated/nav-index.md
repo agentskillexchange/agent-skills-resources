@@ -6,11 +6,37 @@ rerun `python3 scripts/generate-nav-index.py`.
 ## top-level
 
 - [Overview](../overview.md)
+- [Glossary](../glossary.md)
 - [Awesome Agent Skills](../awesome-agent-skills.md)
 - [Framework Comparison](../framework-comparison.md)
 - [Getting Started](../getting-started.md)
 - [Agent Skill Best Practices](../best-practices.md)
 - [Adoption Matrix](../adoption-matrix.md)
+
+## learning
+
+- [Learning Paths](../learning/README.md)
+- [Agent Skills 101](../learning/agent-skills-101.md)
+- [Skill Design Patterns](../learning/skill-design-patterns.md)
+- [Skill Evaluation Basics](../learning/skill-evaluation-basics.md)
+- [Skills vs Tools vs MCP](../learning/skills-vs-tools-vs-mcp.md)
+- [Team Adoption Basics](../learning/team-adoption-basics.md)
+
+## cookbook
+
+- [Best-Practices Cookbook](../cookbook/README.md)
+- [Common Anti-Patterns](../cookbook/common-anti-patterns.md)
+- [Install And Setup Clarity](../cookbook/install-and-setup-clarity.md)
+- [Maintenance And Freshness](../cookbook/maintenance-and-freshness.md)
+- [Multi-Framework Skills](../cookbook/multi-framework-skills.md)
+- [Security And Permissions](../cookbook/security-and-permissions.md)
+- [Source-Backed Skills](../cookbook/source-backed-skills.md)
+
+## diagrams
+
+- [Agent Skill Ecosystem](../diagrams/agent-skill-ecosystem.md)
+- [Skill Lifecycle](../diagrams/skill-lifecycle.md)
+- [Team Adoption Loop](../diagrams/team-adoption-loop.md)
 
 ## frameworks
 
@@ -92,6 +118,10 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Rollout Readiness](../templates/rollout-readiness.md)
 - [Security Review](../templates/security-review.md)
 - [Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md)
+
+## contributing
+
+- [Educational Content Guide](../contributing/educational-content-guide.md)
 
 ## maintenance
 

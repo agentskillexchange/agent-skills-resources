@@ -9,6 +9,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "generated" / "nav-index.md"
 DIRECTORIES = [
+    "learning",
+    "cookbook",
+    "diagrams",
     "frameworks",
     "workflows",
     "examples",
@@ -18,6 +21,7 @@ DIRECTORIES = [
     "playbooks",
     "starter-kits",
     "templates",
+    "contributing",
     "maintenance",
 ]
 
@@ -46,6 +50,7 @@ def main() -> int:
 
     for page_name in [
         "overview.md",
+        "glossary.md",
         "awesome-agent-skills.md",
         "framework-comparison.md",
         "getting-started.md",

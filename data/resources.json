@@ -8,7 +8,11 @@
     "repo": "https://github.com/agentskillexchange/skills",
     "description": "Live marketplace for source-backed agent skills.",
     "why_it_matters": "Provides the human-facing discovery layer for the canonical ASE skills catalog.",
-    "tags": ["catalog", "marketplace", "skills"]
+    "tags": [
+      "catalog",
+      "marketplace",
+      "skills"
+    ]
   },
   {
     "id": "ase-skills-repo",
@@ -19,7 +23,11 @@
     "repo": "https://github.com/agentskillexchange/skills",
     "description": "Canonical public catalog of ASE skill files and generated indexes.",
     "why_it_matters": "This companion repo should point readers to the canonical skill source of truth.",
-    "tags": ["catalog", "repo", "skills"]
+    "tags": [
+      "catalog",
+      "repo",
+      "skills"
+    ]
   },
   {
     "id": "ase-verification",
@@ -30,7 +38,11 @@
     "repo": "https://github.com/agentskillexchange/skills",
     "description": "Verification criteria, patterns, and security resources for ASE skills.",
     "why_it_matters": "Shows how ASE separates listed skills from security-reviewed skills.",
-    "tags": ["verification", "security", "quality"]
+    "tags": [
+      "verification",
+      "security",
+      "quality"
+    ]
   },
   {
     "id": "openai-codex-repo",
@@ -41,7 +53,11 @@
     "repo": "https://github.com/openai/codex",
     "description": "OpenAI's public Codex CLI repository.",
     "why_it_matters": "Codex is a core coding-agent workflow surface for skill-driven repo work.",
-    "tags": ["codex", "coding-agent", "cli"]
+    "tags": [
+      "codex",
+      "coding-agent",
+      "cli"
+    ]
   },
   {
     "id": "openai-codex-docs",
@@ -52,7 +68,11 @@
     "repo": "",
     "description": "OpenAI Codex documentation.",
     "why_it_matters": "Provides lab-owned guidance for Codex workflows and setup.",
-    "tags": ["codex", "openai", "lab"]
+    "tags": [
+      "codex",
+      "openai",
+      "lab"
+    ]
   },
   {
     "id": "claude-code-docs",
@@ -63,7 +83,11 @@
     "repo": "",
     "description": "Anthropic's Claude Code documentation hub.",
     "why_it_matters": "Primary source for Claude Code workflow and usage guidance.",
-    "tags": ["claude-code", "anthropic", "docs"]
+    "tags": [
+      "claude-code",
+      "anthropic",
+      "docs"
+    ]
   },
   {
     "id": "claude-code-headless",
@@ -74,7 +98,11 @@
     "repo": "",
     "description": "Documentation for programmatic Claude Code usage.",
     "why_it_matters": "Important for automation-oriented skills and CI workflows.",
-    "tags": ["claude-code", "automation", "headless"]
+    "tags": [
+      "claude-code",
+      "automation",
+      "headless"
+    ]
   },
   {
     "id": "openclaw-docs",
@@ -85,7 +113,11 @@
     "repo": "https://github.com/openclaw/openclaw",
     "description": "OpenClaw documentation hub.",
     "why_it_matters": "Explains OpenClaw providers, skills, tools, crons, and runtime setup.",
-    "tags": ["openclaw", "runtime", "docs"]
+    "tags": [
+      "openclaw",
+      "runtime",
+      "docs"
+    ]
   },
   {
     "id": "openclaw-repo",
@@ -96,7 +128,11 @@
     "repo": "https://github.com/openclaw/openclaw",
     "description": "Public OpenClaw repository.",
     "why_it_matters": "Source-backed reference for OpenClaw runtime and contribution details.",
-    "tags": ["openclaw", "repo", "runtime"]
+    "tags": [
+      "openclaw",
+      "repo",
+      "runtime"
+    ]
   },
   {
     "id": "hermes-agent-repo",
@@ -107,7 +143,11 @@
     "repo": "https://github.com/NousResearch/hermes-agent",
     "description": "Official Hermes Agent repository from Nous Research.",
     "why_it_matters": "Shows a skills-oriented self-improving agent architecture.",
-    "tags": ["hermes", "skills", "agent"]
+    "tags": [
+      "hermes",
+      "skills",
+      "agent"
+    ]
   },
   {
     "id": "hermes-skills-docs",
@@ -118,7 +158,11 @@
     "repo": "https://github.com/NousResearch/hermes-agent",
     "description": "Hermes Agent documentation for skills.",
     "why_it_matters": "Defines how Hermes exposes and manages skills.",
-    "tags": ["hermes", "skills", "docs"]
+    "tags": [
+      "hermes",
+      "skills",
+      "docs"
+    ]
   },
   {
     "id": "cursor-skills-docs",
@@ -129,7 +173,11 @@
     "repo": "",
     "description": "Cursor documentation for agent skills.",
     "why_it_matters": "Primary source for Cursor's skill model.",
-    "tags": ["cursor", "skills", "ide"]
+    "tags": [
+      "cursor",
+      "skills",
+      "ide"
+    ]
   },
   {
     "id": "cursor-tools-docs",
@@ -140,7 +188,11 @@
     "repo": "",
     "description": "Cursor documentation for tools available to Agent modes.",
     "why_it_matters": "Helps distinguish skills from callable editor tools.",
-    "tags": ["cursor", "tools", "agent"]
+    "tags": [
+      "cursor",
+      "tools",
+      "agent"
+    ]
   },
   {
     "id": "gemini-cli-repo",
@@ -151,7 +203,11 @@
     "repo": "https://github.com/google-gemini/gemini-cli",
     "description": "Google's open-source Gemini CLI repository.",
     "why_it_matters": "Represents Gemini-powered terminal-agent workflows.",
-    "tags": ["gemini", "cli", "terminal-agent"]
+    "tags": [
+      "gemini",
+      "cli",
+      "terminal-agent"
+    ]
   },
   {
     "id": "gemini-api-docs",
@@ -162,7 +218,11 @@
     "repo": "",
     "description": "Google Gemini API documentation.",
     "why_it_matters": "Provider-level setup reference for Gemini-backed agent workflows.",
-    "tags": ["gemini", "api", "google"]
+    "tags": [
+      "gemini",
+      "api",
+      "google"
+    ]
   },
   {
     "id": "langgraph-repo",
@@ -173,7 +233,11 @@
     "repo": "https://github.com/langchain-ai/langgraph",
     "description": "LangGraph repository for building resilient agents.",
     "why_it_matters": "Source-backed reference for graph-based agent orchestration.",
-    "tags": ["langgraph", "langchain", "agents"]
+    "tags": [
+      "langgraph",
+      "langchain",
+      "agents"
+    ]
   },
   {
     "id": "langchain-agents",
@@ -184,7 +248,11 @@
     "repo": "",
     "description": "LangChain overview of agents and LangGraph.",
     "why_it_matters": "Explains LangGraph's role in agent orchestration.",
-    "tags": ["langchain", "langgraph", "agents"]
+    "tags": [
+      "langchain",
+      "langgraph",
+      "agents"
+    ]
   },
   {
     "id": "mcp-docs",
@@ -195,7 +263,11 @@
     "repo": "https://github.com/modelcontextprotocol/modelcontextprotocol",
     "description": "Official MCP documentation site.",
     "why_it_matters": "Primary source for tool/context protocol concepts.",
-    "tags": ["mcp", "protocol", "tools"]
+    "tags": [
+      "mcp",
+      "protocol",
+      "tools"
+    ]
   },
   {
     "id": "mcp-spec-repo",
@@ -206,7 +278,11 @@
     "repo": "https://github.com/modelcontextprotocol/modelcontextprotocol",
     "description": "Specification and documentation repository for MCP.",
     "why_it_matters": "Source-backed reference for MCP specification and docs.",
-    "tags": ["mcp", "spec", "docs"]
+    "tags": [
+      "mcp",
+      "spec",
+      "docs"
+    ]
   },
   {
     "id": "openai-agents-sdk-docs",
@@ -217,7 +293,11 @@
     "repo": "https://github.com/openai/openai-agents-python",
     "description": "Documentation for the OpenAI Agents SDK.",
     "why_it_matters": "Shows source-backed patterns for tools, handoffs, guardrails, tracing, and agent execution.",
-    "tags": ["openai", "agents-sdk", "tools"]
+    "tags": [
+      "openai",
+      "agents-sdk",
+      "tools"
+    ]
   },
   {
     "id": "openai-agents-sdk-repo",
@@ -228,7 +308,11 @@
     "repo": "https://github.com/openai/openai-agents-python",
     "description": "OpenAI's Python Agents SDK repository.",
     "why_it_matters": "Provides source code and examples for OpenAI agent workflows.",
-    "tags": ["openai", "agents-sdk", "repo"]
+    "tags": [
+      "openai",
+      "agents-sdk",
+      "repo"
+    ]
   },
   {
     "id": "openai-tools-docs",
@@ -239,7 +323,11 @@
     "repo": "",
     "description": "OpenAI documentation for model tool use.",
     "why_it_matters": "Helps distinguish model tools from higher-level skills and workflows.",
-    "tags": ["openai", "tools", "docs"]
+    "tags": [
+      "openai",
+      "tools",
+      "docs"
+    ]
   },
   {
     "id": "anthropic-claude-code-mcp",
@@ -250,7 +338,11 @@
     "repo": "",
     "description": "Anthropic documentation for using MCP with Claude Code.",
     "why_it_matters": "Shows how Claude Code connects to tools and context through MCP.",
-    "tags": ["anthropic", "claude-code", "mcp"]
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "mcp"
+    ]
   },
   {
     "id": "anthropic-claude-code-subagents",
@@ -261,7 +353,11 @@
     "repo": "",
     "description": "Anthropic documentation for Claude Code subagents.",
     "why_it_matters": "Subagents are a useful comparison point for skill routing and workflow specialization.",
-    "tags": ["anthropic", "claude-code", "subagents"]
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "subagents"
+    ]
   },
   {
     "id": "anthropic-mcp-docs",
@@ -272,7 +368,11 @@
     "repo": "",
     "description": "Anthropic documentation for MCP in agent and tool workflows.",
     "why_it_matters": "Gives provider-owned context for MCP as an agent-tool bridge.",
-    "tags": ["anthropic", "mcp", "tools"]
+    "tags": [
+      "anthropic",
+      "mcp",
+      "tools"
+    ]
   },
   {
     "id": "google-adk-docs",
@@ -283,7 +383,11 @@
     "repo": "https://github.com/google/adk-python",
     "description": "Google documentation for the Agent Development Kit.",
     "why_it_matters": "Provides official Google guidance for building agents, tools, and workflows.",
-    "tags": ["google", "adk", "agents"]
+    "tags": [
+      "google",
+      "adk",
+      "agents"
+    ]
   },
   {
     "id": "google-adk-python-repo",
@@ -294,7 +398,11 @@
     "repo": "https://github.com/google/adk-python",
     "description": "Google's Python implementation for the Agent Development Kit.",
     "why_it_matters": "Source-backed reference for Google's agent development patterns.",
-    "tags": ["google", "adk", "python"]
+    "tags": [
+      "google",
+      "adk",
+      "python"
+    ]
   },
   {
     "id": "gemini-cli-docs",
@@ -305,7 +413,11 @@
     "repo": "https://github.com/google-gemini/gemini-cli",
     "description": "Documentation directory for Gemini CLI.",
     "why_it_matters": "Useful for terminal-agent setup, configuration, and workflow guidance.",
-    "tags": ["gemini", "cli", "docs"]
+    "tags": [
+      "gemini",
+      "cli",
+      "docs"
+    ]
   },
   {
     "id": "langgraph-docs",
@@ -316,7 +428,11 @@
     "repo": "https://github.com/langchain-ai/langgraph",
     "description": "LangGraph overview documentation.",
     "why_it_matters": "Explains stateful agent graphs and durable workflow concepts.",
-    "tags": ["langgraph", "agents", "state"]
+    "tags": [
+      "langgraph",
+      "agents",
+      "state"
+    ]
   },
   {
     "id": "langchain-mcp-adapters",
@@ -327,7 +443,11 @@
     "repo": "https://github.com/langchain-ai/langchain-mcp-adapters",
     "description": "LangChain adapters for MCP.",
     "why_it_matters": "Shows how MCP tooling can plug into LangChain and LangGraph workflows.",
-    "tags": ["langchain", "mcp", "adapters"]
+    "tags": [
+      "langchain",
+      "mcp",
+      "adapters"
+    ]
   },
   {
     "id": "cursor-rules-docs",
@@ -338,7 +458,11 @@
     "repo": "",
     "description": "Cursor documentation for rules and reusable project context.",
     "why_it_matters": "Rules are an important adjacent concept for skill-like guidance in IDE agents.",
-    "tags": ["cursor", "rules", "context"]
+    "tags": [
+      "cursor",
+      "rules",
+      "context"
+    ]
   },
   {
     "id": "cursor-background-agent-docs",
@@ -349,7 +473,11 @@
     "repo": "",
     "description": "Cursor documentation for background agents.",
     "why_it_matters": "Background agents show how skill guidance can support asynchronous coding work.",
-    "tags": ["cursor", "background-agent", "ide"]
+    "tags": [
+      "cursor",
+      "background-agent",
+      "ide"
+    ]
   },
   {
     "id": "openclaw-image-generation",
@@ -360,7 +488,11 @@
     "repo": "https://github.com/openclaw/openclaw",
     "description": "OpenClaw documentation for image generation tools.",
     "why_it_matters": "Example of tool-specific runtime documentation that skills can wrap into workflows.",
-    "tags": ["openclaw", "tools", "image-generation"]
+    "tags": [
+      "openclaw",
+      "tools",
+      "image-generation"
+    ]
   },
   {
     "id": "openclaw-openai-provider",
@@ -371,7 +503,11 @@
     "repo": "https://github.com/openclaw/openclaw",
     "description": "OpenClaw documentation for OpenAI provider configuration.",
     "why_it_matters": "Provider setup affects how skills run across agent runtimes.",
-    "tags": ["openclaw", "provider", "openai"]
+    "tags": [
+      "openclaw",
+      "provider",
+      "openai"
+    ]
   },
   {
     "id": "hermes-skills-catalog",
@@ -382,7 +518,11 @@
     "repo": "https://github.com/NousResearch/hermes-agent",
     "description": "Hermes reference page for bundled skills.",
     "why_it_matters": "Shows how Hermes documents built-in skills and their roles.",
-    "tags": ["hermes", "skills", "catalog"]
+    "tags": [
+      "hermes",
+      "skills",
+      "catalog"
+    ]
   },
   {
     "id": "hermes-memory-docs",
@@ -393,7 +533,11 @@
     "repo": "https://github.com/NousResearch/hermes-agent",
     "description": "Hermes documentation for memory.",
     "why_it_matters": "Memory boundaries are closely related to reusable skill behavior.",
-    "tags": ["hermes", "memory", "skills"]
+    "tags": [
+      "hermes",
+      "memory",
+      "skills"
+    ]
   },
   {
     "id": "github-copilot-docs",
@@ -404,7 +548,11 @@
     "repo": "",
     "description": "GitHub's documentation hub for Copilot features, agents, CLI, SDK, MCP, and governance.",
     "why_it_matters": "Provides the official source for Copilot's coding-agent and customization surfaces.",
-    "tags": ["github-copilot", "coding-agent", "docs"]
+    "tags": [
+      "github-copilot",
+      "coding-agent",
+      "docs"
+    ]
   },
   {
     "id": "github-copilot-agent-skills",
@@ -415,7 +563,11 @@
     "repo": "",
     "description": "GitHub documentation explaining how agent skills work with Copilot.",
     "why_it_matters": "Defines Copilot's skill model and helps compare it with other agent-skill runtimes.",
-    "tags": ["github-copilot", "skills", "agents"]
+    "tags": [
+      "github-copilot",
+      "skills",
+      "agents"
+    ]
   },
   {
     "id": "github-copilot-cloud-agent-skills",
@@ -426,7 +578,11 @@
     "repo": "",
     "description": "GitHub guide for creating, adding, managing, and using agent skills with Copilot.",
     "why_it_matters": "Shows how skills are installed and selected for Copilot cloud agent and related GitHub surfaces.",
-    "tags": ["github-copilot", "skills", "cloud-agent"]
+    "tags": [
+      "github-copilot",
+      "skills",
+      "cloud-agent"
+    ]
   },
   {
     "id": "github-copilot-cli-skills",
@@ -437,7 +593,11 @@
     "repo": "",
     "description": "GitHub guide for adding and using skills with Copilot CLI.",
     "why_it_matters": "Connects terminal-native Copilot workflows to the broader skill ecosystem.",
-    "tags": ["github-copilot", "cli", "skills"]
+    "tags": [
+      "github-copilot",
+      "cli",
+      "skills"
+    ]
   },
   {
     "id": "github-copilot-sdk-skills",
@@ -448,7 +608,11 @@
     "repo": "",
     "description": "GitHub documentation for loading skill directories in Copilot SDK sessions.",
     "why_it_matters": "Shows how programmatic Copilot sessions can compose skills with MCP servers and hooks.",
-    "tags": ["github-copilot", "sdk", "skills"]
+    "tags": [
+      "github-copilot",
+      "sdk",
+      "skills"
+    ]
   },
   {
     "id": "github-copilot-mcp-docs",
@@ -459,7 +623,11 @@
     "repo": "",
     "description": "GitHub documentation for Model Context Protocol support in Copilot.",
     "why_it_matters": "Explains how MCP extends Copilot across IDE, CLI, app, cloud agent, and code review surfaces.",
-    "tags": ["github-copilot", "mcp", "context"]
+    "tags": [
+      "github-copilot",
+      "mcp",
+      "context"
+    ]
   },
   {
     "id": "github-copilot-repository-instructions",
@@ -470,7 +638,11 @@
     "repo": "",
     "description": "GitHub documentation for repository-level custom instructions.",
     "why_it_matters": "Helps readers distinguish persistent repository guidance from portable agent skills.",
-    "tags": ["github-copilot", "instructions", "repository"]
+    "tags": [
+      "github-copilot",
+      "instructions",
+      "repository"
+    ]
   },
   {
     "id": "awesome-mcp-servers-punkpeye",
@@ -481,7 +653,11 @@
     "repo": "https://github.com/punkpeye/awesome-mcp-servers",
     "description": "Community-maintained list of MCP servers.",
     "why_it_matters": "Useful for seeing the breadth of MCP servers, while clearly marked as community-maintained.",
-    "tags": ["mcp", "community", "servers"]
+    "tags": [
+      "mcp",
+      "community",
+      "servers"
+    ]
   },
   {
     "id": "awesome-claude-code",
@@ -492,6 +668,215 @@
     "repo": "https://github.com/hesreallyhim/awesome-claude-code",
     "description": "Community list of Claude Code resources.",
     "why_it_matters": "Useful for non-official ecosystem discovery when labeled separately from Anthropic-owned sources.",
-    "tags": ["claude-code", "community", "resources"]
+    "tags": [
+      "claude-code",
+      "community",
+      "resources"
+    ]
+  },
+  {
+    "id": "openai-agents-guide",
+    "name": "OpenAI Agents Guide",
+    "type": "Official",
+    "framework": "OpenAI Agents SDK",
+    "url": "https://platform.openai.com/docs/guides/agents",
+    "repo": "",
+    "description": "OpenAI guide for building agents with tools, instructions, and handoffs.",
+    "why_it_matters": "Useful for learning how a major provider frames agent design, tool use, and orchestration.",
+    "tags": [
+      "agents",
+      "openai",
+      "tools",
+      "handoffs"
+    ]
+  },
+  {
+    "id": "openai-apps-sdk-docs",
+    "name": "OpenAI Apps SDK Docs",
+    "type": "Official",
+    "framework": "OpenAI Apps SDK",
+    "url": "https://developers.openai.com/apps-sdk/",
+    "repo": "",
+    "description": "OpenAI documentation for building apps that connect tools and interfaces to ChatGPT.",
+    "why_it_matters": "Helps readers understand app and tool surfaces adjacent to agent skill workflows.",
+    "tags": [
+      "apps",
+      "tools",
+      "chatgpt",
+      "mcp"
+    ]
+  },
+  {
+    "id": "claude-code-memory-docs",
+    "name": "Claude Code Memory Docs",
+    "type": "Official",
+    "framework": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/memory",
+    "repo": "",
+    "description": "Anthropic documentation for Claude Code memory behavior.",
+    "why_it_matters": "Memory affects how skills, instructions, and project preferences persist across agent work.",
+    "tags": [
+      "claude-code",
+      "memory",
+      "context"
+    ]
+  },
+  {
+    "id": "claude-code-hooks-docs",
+    "name": "Claude Code Hooks Docs",
+    "type": "Official",
+    "framework": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/hooks",
+    "repo": "",
+    "description": "Anthropic documentation for Claude Code hooks.",
+    "why_it_matters": "Hooks are a useful reference point for approval, validation, and automation boundaries.",
+    "tags": [
+      "claude-code",
+      "hooks",
+      "automation",
+      "approval"
+    ]
+  },
+  {
+    "id": "claude-code-settings-docs",
+    "name": "Claude Code Settings Docs",
+    "type": "Official",
+    "framework": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/settings",
+    "repo": "",
+    "description": "Anthropic documentation for Claude Code configuration and settings.",
+    "why_it_matters": "Settings are part of the runtime boundary that skill authors need to understand.",
+    "tags": [
+      "claude-code",
+      "settings",
+      "runtime",
+      "configuration"
+    ]
+  },
+  {
+    "id": "langgraph-persistence-docs",
+    "name": "LangGraph Persistence Docs",
+    "type": "Official",
+    "framework": "LangChain / LangGraph",
+    "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+    "repo": "https://github.com/langchain-ai/langgraph",
+    "description": "LangGraph documentation for persistence and state.",
+    "why_it_matters": "State and persistence are central concepts for durable agent workflows and skill handoffs.",
+    "tags": [
+      "langgraph",
+      "state",
+      "persistence",
+      "workflows"
+    ]
+  },
+  {
+    "id": "langgraph-human-in-the-loop-docs",
+    "name": "LangGraph Human-in-the-loop Docs",
+    "type": "Official",
+    "framework": "LangChain / LangGraph",
+    "url": "https://docs.langchain.com/oss/python/langgraph/human-in-the-loop",
+    "repo": "https://github.com/langchain-ai/langgraph",
+    "description": "LangGraph documentation for human review and intervention patterns.",
+    "why_it_matters": "Provides a framework reference for approval gates and human-supervised agent workflows.",
+    "tags": [
+      "langgraph",
+      "human-in-the-loop",
+      "approval",
+      "workflows"
+    ]
+  },
+  {
+    "id": "google-adk-agents-docs",
+    "name": "Google ADK Agents Docs",
+    "type": "Official",
+    "framework": "Google ADK",
+    "url": "https://google.github.io/adk-docs/agents/",
+    "repo": "https://github.com/google/adk-python",
+    "description": "Google ADK documentation for agent concepts.",
+    "why_it_matters": "Helps compare how Google structures agents and agent workflow components.",
+    "tags": [
+      "google-adk",
+      "agents",
+      "framework"
+    ]
+  },
+  {
+    "id": "google-adk-tools-docs",
+    "name": "Google ADK Tools Docs",
+    "type": "Official",
+    "framework": "Google ADK",
+    "url": "https://google.github.io/adk-docs/tools/",
+    "repo": "https://github.com/google/adk-python",
+    "description": "Google ADK documentation for tools.",
+    "why_it_matters": "Tool concepts help readers distinguish skill instructions from callable capabilities.",
+    "tags": [
+      "google-adk",
+      "tools",
+      "agents"
+    ]
+  },
+  {
+    "id": "opentelemetry-genai-semconv",
+    "name": "OpenTelemetry GenAI Semantic Conventions",
+    "type": "Official",
+    "framework": "Observability",
+    "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+    "repo": "https://github.com/open-telemetry/opentelemetry-specification",
+    "description": "OpenTelemetry semantic conventions for generative AI operations.",
+    "why_it_matters": "Gives teams vocabulary for traces, metrics, and evidence around agent workflows.",
+    "tags": [
+      "observability",
+      "tracing",
+      "evaluation",
+      "genai"
+    ]
+  },
+  {
+    "id": "owasp-llm-top-10",
+    "name": "OWASP Top 10 For LLM Applications",
+    "type": "Community",
+    "framework": "Security",
+    "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "repo": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications",
+    "description": "OWASP project covering common security risks in LLM applications.",
+    "why_it_matters": "Provides a practical security checklist for skills that use tools, prompts, data, or code execution.",
+    "tags": [
+      "security",
+      "llm",
+      "risk",
+      "guardrails"
+    ]
+  },
+  {
+    "id": "nist-ai-risk-management-framework",
+    "name": "NIST AI Risk Management Framework",
+    "type": "Official",
+    "framework": "Governance",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "repo": "",
+    "description": "NIST resource hub for AI risk management.",
+    "why_it_matters": "Useful background for teams creating approval, governance, and rollout processes for agent skills.",
+    "tags": [
+      "governance",
+      "risk",
+      "safety",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "model-context-protocol-introduction",
+    "name": "Model Context Protocol Introduction",
+    "type": "Official",
+    "framework": "MCP",
+    "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+    "repo": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "description": "Introductory documentation for the Model Context Protocol.",
+    "why_it_matters": "Gives readers a starting point for understanding MCP as a tool and context layer for agents.",
+    "tags": [
+      "mcp",
+      "tools",
+      "context",
+      "protocol"
+    ]
   }
 ]

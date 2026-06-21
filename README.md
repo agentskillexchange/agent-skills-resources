@@ -298,15 +298,12 @@ python3 scripts/generate-template-index.py
 python3 scripts/generate-repo-stats.py
 ```
 
-## Loop Roadmap
+## Roadmap
 
-Future loops should expand one area at a time:
+Near-term improvements:
 
-1. Deepen Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini, LangGraph, and MCP pages.
-2. Add more ASE skill mappings from the public catalog.
-3. Add visual workflow stacks for security, data, SRE, legal, GTM, and support.
-4. Add a freshness audit that flags moved docs, stale links, or unsupported claims.
-5. Add deeper case studies for teams evaluating adoption paths.
-6. Add adoption playbooks for team-specific rollout decisions.
-7. Add fillable pilot templates for recording evidence and go/no-go decisions.
-8. Add completed evaluation examples and repo stats for stronger first-read clarity.
+1. Keep official resource links fresh.
+2. Add more practical examples for team adoption and rollout evidence.
+3. Expand security, policy, and governance guidance for agent workflows.
+4. Add more completed evaluation examples.
+5. Improve framework and ecosystem comparison pages as official docs evolve.

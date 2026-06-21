@@ -25,3 +25,12 @@ It is a starting point for orientation, not a capability guarantee.
 - vendor ranking
 - security approval
 - assuming feature parity across languages or deployment targets
+
+## Ops Layer
+
+| Area | Start here | Use it for |
+|---|---|---|
+| Observability and evals | [Agent Ops](../ops/) | traces, evals, prompt/tool logs, regression checks |
+| Human approval | [Human Approval Workflows](../ops/human-approval-workflows.md) | approval before writes, deployments, external messages, sensitive actions |
+| Workflow automation | [Workflow Automation](../ops/workflow-automation.md) | n8n, Zapier, Composio, connector-heavy flows |
+| Gateways and policy | [Model Gateways And Policy](../ops/model-gateways-and-policy.md) | model routing, failover, cost controls, audit logs |

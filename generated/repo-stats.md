@@ -2,13 +2,14 @@
 
 Generated from current repository files.
 
-- Last generated: 2026-06-21T17:20:10Z
-- Resources: 74
+- Last generated: 2026-06-21T17:53:35Z
+- Resources: 90
 - Representative mapped ASE skills: 46
 - Learning pages: 11
 - Cookbook pages: 7
 - Diagram pages: 3
-- Ecosystem pages: 11
+- Ecosystem pages: 22
+- Ops pages: 7
 - Framework pages: 10
 - Workflow pages: 5
 - Case study pages: 6
@@ -27,7 +28,7 @@ Generated from current repository files.
 | ASE | 3 |
 | Community | 3 |
 | Lab | 1 |
-| Official | 67 |
+| Official | 83 |
 
 ## Generated Indexes
 

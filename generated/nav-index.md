@@ -48,15 +48,36 @@ rerun `python3 scripts/generate-nav-index.py`.
 
 - [Ecosystems](../ecosystems/README.md)
 - [Agno](../ecosystems/agno.md)
+- [Arize Phoenix](../ecosystems/arize-phoenix.md)
 - [Microsoft AutoGen](../ecosystems/autogen.md)
+- [Composio](../ecosystems/composio.md)
 - [Ecosystem Coverage Matrix](../ecosystems/coverage-matrix.md)
 - [CrewAI](../ecosystems/crewai.md)
 - [Haystack](../ecosystems/haystack.md)
+- [HumanLayer](../ecosystems/humanlayer.md)
+- [Langfuse](../ecosystems/langfuse.md)
+- [LangSmith](../ecosystems/langsmith.md)
 - [LlamaIndex](../ecosystems/llamaindex.md)
+- [n8n](../ecosystems/n8n.md)
+- [OpenTelemetry GenAI](../ecosystems/opentelemetry-genai.md)
 - [Popular Agent Ecosystems](../ecosystems/popular-agent-ecosystems.md)
 - [Pydantic AI](../ecosystems/pydantic-ai.md)
 - [Semantic Kernel](../ecosystems/semantic-kernel.md)
 - [Strands Agents](../ecosystems/strands-agents.md)
+- [Vercel AI Gateway](../ecosystems/vercel-ai-gateway.md)
+- [Vercel AI SDK](../ecosystems/vercel-ai-sdk.md)
+- [Weights & Biases Weave](../ecosystems/weights-biases-weave.md)
+- [Zapier](../ecosystems/zapier.md)
+
+## ops
+
+- [Agent Ops](../ops/README.md)
+- [Agent Ops Overview](../ops/agent-ops-overview.md)
+- [Human Approval Workflows](../ops/human-approval-workflows.md)
+- [Model Gateways And Policy](../ops/model-gateways-and-policy.md)
+- [Observability And Evals](../ops/observability-and-evals.md)
+- [Rollout Evidence](../ops/rollout-evidence.md)
+- [Workflow Automation](../ops/workflow-automation.md)
 
 ## frameworks
 

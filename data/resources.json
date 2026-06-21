@@ -1126,5 +1126,254 @@
       "agents",
       "tools"
     ]
+  },
+  {
+    "id": "langsmith-docs",
+    "name": "LangSmith Docs",
+    "type": "Official",
+    "framework": "LangSmith",
+    "url": "https://docs.langchain.com/langsmith/observability",
+    "repo": "",
+    "description": "Official LangSmith documentation for LLM application observability, tracing, evaluation, and monitoring.",
+    "why_it_matters": "Gives teams a source-backed way to collect trace and eval evidence for skill-backed workflows.",
+    "tags": [
+      "observability",
+      "traces",
+      "evals",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "langfuse-docs",
+    "name": "Langfuse Docs",
+    "type": "Official",
+    "framework": "Langfuse",
+    "url": "https://langfuse.com/docs",
+    "repo": "https://github.com/langfuse/langfuse",
+    "description": "Official Langfuse documentation for LLM tracing, prompt management, evals, and observability.",
+    "why_it_matters": "Helps teams review prompt and tool-call behavior before expanding an agent workflow.",
+    "tags": [
+      "observability",
+      "traces",
+      "evals",
+      "prompts"
+    ]
+  },
+  {
+    "id": "langfuse-repo",
+    "name": "Langfuse GitHub",
+    "type": "Official",
+    "framework": "Langfuse",
+    "url": "https://github.com/langfuse/langfuse",
+    "repo": "https://github.com/langfuse/langfuse",
+    "description": "Official Langfuse repository.",
+    "why_it_matters": "Provides source context for Langfuse deployment and LLM observability implementation.",
+    "tags": [
+      "repo",
+      "observability",
+      "traces"
+    ]
+  },
+  {
+    "id": "arize-phoenix-docs",
+    "name": "Arize Phoenix Docs",
+    "type": "Official",
+    "framework": "Arize Phoenix",
+    "url": "https://arize.com/docs/phoenix",
+    "repo": "https://github.com/Arize-ai/phoenix",
+    "description": "Official Phoenix documentation for LLM observability, tracing, evaluation, and troubleshooting.",
+    "why_it_matters": "Supports evidence-based review for RAG, agent, and LLM application workflows.",
+    "tags": [
+      "observability",
+      "evals",
+      "traces",
+      "rag"
+    ]
+  },
+  {
+    "id": "arize-phoenix-repo",
+    "name": "Arize Phoenix GitHub",
+    "type": "Official",
+    "framework": "Arize Phoenix",
+    "url": "https://github.com/Arize-ai/phoenix",
+    "repo": "https://github.com/Arize-ai/phoenix",
+    "description": "Official Phoenix repository.",
+    "why_it_matters": "Provides source context for Phoenix observability and evaluation workflows.",
+    "tags": [
+      "repo",
+      "observability",
+      "evals"
+    ]
+  },
+  {
+    "id": "wandb-weave-docs",
+    "name": "Weights & Biases Weave Docs",
+    "type": "Official",
+    "framework": "Weights & Biases Weave",
+    "url": "https://docs.wandb.ai/weave",
+    "repo": "https://github.com/wandb/weave",
+    "description": "Official Weave documentation for tracing and evaluating LLM applications.",
+    "why_it_matters": "Helps teams connect agent workflow evidence to experiment and eval review.",
+    "tags": [
+      "observability",
+      "evals",
+      "traces",
+      "experiments"
+    ]
+  },
+  {
+    "id": "wandb-weave-repo",
+    "name": "Weights & Biases Weave GitHub",
+    "type": "Official",
+    "framework": "Weights & Biases Weave",
+    "url": "https://github.com/wandb/weave",
+    "repo": "https://github.com/wandb/weave",
+    "description": "Official Weave repository.",
+    "why_it_matters": "Provides source context for Weave tracing and evaluation implementation.",
+    "tags": [
+      "repo",
+      "observability",
+      "evals"
+    ]
+  },
+  {
+    "id": "humanlayer-repo",
+    "name": "HumanLayer GitHub",
+    "type": "Official",
+    "framework": "HumanLayer",
+    "url": "https://github.com/humanlayer/humanlayer",
+    "repo": "https://github.com/humanlayer/humanlayer",
+    "description": "Official HumanLayer repository for human-in-the-loop agent approval workflows.",
+    "why_it_matters": "Provides source context for approval gates and human review patterns around tool calls.",
+    "tags": [
+      "approval",
+      "human-in-the-loop",
+      "tools",
+      "repo"
+    ]
+  },
+  {
+    "id": "composio-docs",
+    "name": "Composio Docs",
+    "type": "Official",
+    "framework": "Composio",
+    "url": "https://docs.composio.dev/",
+    "repo": "https://github.com/ComposioHQ/composio",
+    "description": "Official Composio documentation for agent tools, connectors, authentication, and actions.",
+    "why_it_matters": "Shows how connector-heavy agent workflows can expose external actions safely.",
+    "tags": [
+      "tools",
+      "connectors",
+      "automation",
+      "auth"
+    ]
+  },
+  {
+    "id": "composio-repo",
+    "name": "Composio GitHub",
+    "type": "Official",
+    "framework": "Composio",
+    "url": "https://github.com/ComposioHQ/composio",
+    "repo": "https://github.com/ComposioHQ/composio",
+    "description": "Official Composio repository.",
+    "why_it_matters": "Provides source context for agent connector and tool integration patterns.",
+    "tags": [
+      "repo",
+      "tools",
+      "connectors"
+    ]
+  },
+  {
+    "id": "n8n-docs",
+    "name": "n8n Docs",
+    "type": "Official",
+    "framework": "n8n",
+    "url": "https://docs.n8n.io/",
+    "repo": "https://github.com/n8n-io/n8n",
+    "description": "Official n8n documentation for workflow automation, triggers, nodes, credentials, and integrations.",
+    "why_it_matters": "Helps teams compare deterministic AI workflow automation with agent orchestration.",
+    "tags": [
+      "workflow-automation",
+      "connectors",
+      "triggers",
+      "credentials"
+    ]
+  },
+  {
+    "id": "n8n-repo",
+    "name": "n8n GitHub",
+    "type": "Official",
+    "framework": "n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "repo": "https://github.com/n8n-io/n8n",
+    "description": "Official n8n repository.",
+    "why_it_matters": "Provides source context for self-hosted workflow automation and connector patterns.",
+    "tags": [
+      "repo",
+      "workflow-automation",
+      "connectors"
+    ]
+  },
+  {
+    "id": "zapier-docs",
+    "name": "Zapier Docs",
+    "type": "Official",
+    "framework": "Zapier",
+    "url": "https://docs.zapier.com/",
+    "repo": "",
+    "description": "Official Zapier documentation for platform and automation concepts.",
+    "why_it_matters": "Gives teams a source-backed reference for SaaS workflow automation around agent output.",
+    "tags": [
+      "workflow-automation",
+      "connectors",
+      "actions"
+    ]
+  },
+  {
+    "id": "vercel-ai-sdk-docs",
+    "name": "Vercel AI SDK Docs",
+    "type": "Official",
+    "framework": "Vercel AI SDK",
+    "url": "https://ai-sdk.dev/docs",
+    "repo": "https://github.com/vercel/ai",
+    "description": "Official Vercel AI SDK documentation for building AI applications with providers, streaming, tools, and agents.",
+    "why_it_matters": "Shows how skill-backed workflows can become application features with tool calling and deployment.",
+    "tags": [
+      "ai-sdk",
+      "tools",
+      "agents",
+      "deployment"
+    ]
+  },
+  {
+    "id": "vercel-ai-repo",
+    "name": "Vercel AI GitHub",
+    "type": "Official",
+    "framework": "Vercel AI SDK",
+    "url": "https://github.com/vercel/ai",
+    "repo": "https://github.com/vercel/ai",
+    "description": "Official Vercel AI repository.",
+    "why_it_matters": "Provides source context for Vercel AI SDK patterns used in AI apps and agent workflows.",
+    "tags": [
+      "repo",
+      "ai-sdk",
+      "agents"
+    ]
+  },
+  {
+    "id": "vercel-ai-gateway-docs",
+    "name": "Vercel AI Gateway Docs",
+    "type": "Official",
+    "framework": "Vercel AI Gateway",
+    "url": "https://vercel.com/docs/ai-gateway",
+    "repo": "",
+    "description": "Official Vercel AI Gateway documentation for model routing and provider access.",
+    "why_it_matters": "Adds model gateway and policy-layer coverage for teams operating skill-backed AI applications.",
+    "tags": [
+      "gateway",
+      "model-routing",
+      "policy",
+      "providers"
+    ]
   }
 ]

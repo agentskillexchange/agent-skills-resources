@@ -18,6 +18,10 @@ The repo is an educational guide, not the canonical catalog.
 | Need | Start here |
 |---|---|
 | Use short best-practice recipes | [Best-Practices Cookbook](cookbook/) |
+| Run skills with operational evidence | [Agent Ops](ops/) |
+| Review observability and evals | [Observability And Evals](ops/observability-and-evals.md) |
+| Plan approval gates | [Human Approval Workflows](ops/human-approval-workflows.md) |
+| Capture rollout evidence | [Rollout Evidence](ops/rollout-evidence.md) |
 | Review a skill | [First Skill Review Checklist](checklists/first-skill-review.md) |
 | Review a source-backed resource | [Source-Backed Resource Review](checklists/source-backed-resource-review.md) |
 | Plan MCP readiness | [MCP Tooling Readiness](checklists/mcp-tooling-readiness.md) |

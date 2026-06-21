@@ -40,3 +40,5 @@ workflows are designed, reviewed, and adopted.
   the newest feature.
 - If you are writing skills, make the workflow portable where possible but avoid
   claiming multi-framework support without evidence.
+- If you are operating skill-backed workflows, use [Agent Ops](ops/) for traces,
+  evals, approvals, workflow automation, model gateways, and rollout evidence.

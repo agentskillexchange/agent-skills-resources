@@ -7,7 +7,8 @@ playbooks.
 Use this repo to understand the concepts, compare skill surfaces, review
 source-backed resources, explore popular agent frameworks, and design safer team
 pilots with agent observability, agent evals, LLM traces, human-in-the-loop
-approval, workflow automation, and model gateway guidance. The separate
+approval, workflow automation, model gateway guidance, prompt injection testing,
+runtime guardrails, and AI governance guidance. The separate
 [agentskillexchange/skills](https://github.com/agentskillexchange/skills) repo
 is the canonical skills catalog, and [Agent Skill Exchange](https://agentskillexchange.com/)
 is the public site.
@@ -35,6 +36,8 @@ the [Glossary](glossary.md), or the [Best-Practices Cookbook](cookbook/).
   skills, and agent safety.
 - How agent ops connects observability, evals, LLM traces, approval workflows,
   workflow automation, AI workflow automation, model gateways, and rollout evidence.
+- How agent safety review connects prompt injection, tool abuse, secrets,
+  runtime guardrails, red teaming, policy, and governance.
 - How to design source-backed skills with clear setup, permissions, and evidence.
 - How to evaluate skill quality without relying on popularity claims.
 - How teams can pilot agent workflows with sandboxing, approval gates, and rollout checks.
@@ -60,6 +63,7 @@ It is not a catalog mirror and does not try to track every published skill.
 | Compare Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI, LangChain, LangGraph, MCP, and OpenAI Agents SDK | [Framework pages](frameworks/) |
 | Explore popular agent ecosystems | [Ecosystems](ecosystems/) |
 | Run skill-backed workflows safely | [Agent Ops](ops/) |
+| Review security, policy, and governance | [Security](security/) |
 | Review source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate skill quality and agent safety | [Quality Checklist](examples/quality-checklist.md) |
 | Run a bounded rollout | [Playbooks](playbooks/) and [Templates](templates/) |
@@ -76,6 +80,7 @@ It is not a catalog mirror and does not try to track every published skill.
 | Compare frameworks | [Framework Comparison](framework-comparison.md) |
 | Explore agent ecosystems | [Popular Agent Ecosystems](ecosystems/popular-agent-ecosystems.md) |
 | Review agent ops evidence | [Agent Ops Overview](ops/agent-ops-overview.md) |
+| Review agent safety | [Agent Safety Review Guide](security/agent-safety-review-guide.md) |
 | See workflow stacks | [Showcase Workflow Stacks](showcase/) |
 | Find official resources | [Resource Index](generated/resource-index.md) |
 | Review skill quality | [Skill Evaluation Basics](learning/skill-evaluation-basics.md) |
@@ -135,6 +140,7 @@ teams working with agentic development and operations.
 | Framework | LangGraph, OpenAI Agents SDK, ADK | Orchestration patterns and state |
 | Ecosystem | CrewAI, AutoGen, Semantic Kernel, LlamaIndex, Pydantic AI, Haystack, Strands, Agno | Agent framework concepts and reusable workflow patterns |
 | Ops | LangSmith, Langfuse, Phoenix, Weave, OpenTelemetry, HumanLayer, Composio, n8n, Zapier, Vercel AI | Observability, evals, approvals, automation, gateways, and rollout evidence |
+| Security | OWASP LLM Top 10, NIST AI RMF, Guardrails AI, Lakera, promptfoo, garak, PyRIT, LlamaFirewall | Prompt injection, red teaming, guardrails, secrets, policy, and governance |
 | Protocol/tooling | MCP, CLIs, APIs, browser tools | Tool setup, permissions, and usage recipes |
 | Verification | tests, scans, traces, approvals | Evidence that the workflow worked |
 
@@ -165,6 +171,7 @@ flowchart LR
 | Skimming the ecosystem | [Awesome Agent Skills](awesome-agent-skills.md) | [Framework Comparison](framework-comparison.md) |
 | Exploring popular ecosystems | [Ecosystems](ecosystems/) | [Coverage Matrix](ecosystems/coverage-matrix.md) |
 | Running with evidence | [Agent Ops](ops/) | [Rollout Evidence](ops/rollout-evidence.md) |
+| Reviewing safety | [Security](security/) | [Security Rollout Checklist](security/security-rollout-checklist.md) |
 | Seeing workflow stacks | [Showcase Workflow Stacks](showcase/) | [Case Studies](case-studies/) |
 | Building a skill | [Skill Design Patterns](learning/skill-design-patterns.md) | [Best-Practices Cookbook](cookbook/) |
 | Reviewing a skill quickly | [First Skill Review Checklist](checklists/first-skill-review.md) | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) |
@@ -217,6 +224,16 @@ For team adoption, this repo also covers the operational layer around skills:
 Langfuse, Arize Phoenix, Weights & Biases Weave, OpenTelemetry GenAI,
 HumanLayer, Composio, n8n, Zapier, Vercel AI SDK, and Vercel AI Gateway.
 
+## Security And Governance Coverage
+
+Security guidance covers [agent safety review](security/agent-safety-review-guide.md),
+[prompt injection and tool abuse](security/prompt-injection-and-tool-abuse.md),
+[data and secrets handling](security/data-and-secrets-handling.md),
+[runtime guardrails](security/runtime-guardrails.md), [red teaming and evals](security/red-teaming-and-evals.md),
+and [policy and governance](security/policy-and-governance.md). Ecosystem pages
+cover OWASP LLM Top 10, NIST AI RMF, Guardrails AI, Lakera, promptfoo, garak,
+PyRIT, and LlamaFirewall.
+
 ## Source Labels
 
 Every resource in [data/resources.json](data/resources.json) uses one of four
@@ -243,6 +260,8 @@ When a claim is not source-backed, leave it out.
 - [ecosystems/](ecosystems/): popular agent ecosystem coverage and comparison.
 - [ops/](ops/): agent operations guidance for observability, evals, approvals,
   workflow automation, gateways, and rollout evidence.
+- [security/](security/): safety, policy, governance, prompt injection, secrets,
+  guardrails, and red-team guidance.
 - [diagrams/](diagrams/): framework-neutral Mermaid diagrams.
 - [awesome-agent-skills.md](awesome-agent-skills.md): Awesome-style curated
   front door for agent skill resources.
@@ -255,7 +274,7 @@ When a claim is not source-backed, leave it out.
 - [generated/ase-skill-mapping-index.md](generated/ase-skill-mapping-index.md):
   generated representative ASE skill index grouped by workflow and framework.
 - [generated/nav-index.md](generated/nav-index.md): generated navigation index
-  for learning, cookbook, ecosystem, ops, framework, workflow, example,
+  for learning, cookbook, ecosystem, ops, security, framework, workflow, example,
   case-study, playbook, checklist, template, diagram, contributing, and
   maintenance pages.
 - [generated/template-index.md](generated/template-index.md): generated index of

@@ -25,6 +25,14 @@ workflows, memory, evals, and MCP fit.
 | Zapier | [Zapier](zapier.md) | SaaS automation and app connectors |
 | Vercel AI SDK | [Vercel AI SDK](vercel-ai-sdk.md) | AI app development and tool-calling workflows |
 | Vercel AI Gateway | [Vercel AI Gateway](vercel-ai-gateway.md) | Model routing, gateway, and provider policy layer |
+| OWASP LLM Top 10 | [OWASP LLM](owasp-llm.md) | LLM application security risk categories |
+| NIST AI RMF | [NIST AI RMF](nist-ai-rmf.md) | AI risk management and governance vocabulary |
+| Guardrails AI | [Guardrails AI](guardrails-ai.md) | Runtime validation and guardrail patterns |
+| Lakera | [Lakera](lakera.md) | Generative AI application security controls |
+| promptfoo | [promptfoo](promptfoo.md) | Prompt, model, and LLM app evals/red teaming |
+| garak | [garak](garak.md) | LLM vulnerability probing |
+| PyRIT | [PyRIT](pyrit.md) | Generative AI red-team automation |
+| LlamaFirewall | [LlamaFirewall](llama-firewall.md) | Runtime protection patterns for LLM applications |
 
 For a cross-ecosystem view, see the [Coverage Matrix](coverage-matrix.md) and
 [Popular Agent Ecosystems](popular-agent-ecosystems.md).

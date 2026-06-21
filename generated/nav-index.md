@@ -53,15 +53,23 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Composio](../ecosystems/composio.md)
 - [Ecosystem Coverage Matrix](../ecosystems/coverage-matrix.md)
 - [CrewAI](../ecosystems/crewai.md)
+- [garak](../ecosystems/garak.md)
+- [Guardrails AI](../ecosystems/guardrails-ai.md)
 - [Haystack](../ecosystems/haystack.md)
 - [HumanLayer](../ecosystems/humanlayer.md)
+- [Lakera](../ecosystems/lakera.md)
 - [Langfuse](../ecosystems/langfuse.md)
 - [LangSmith](../ecosystems/langsmith.md)
+- [LlamaFirewall](../ecosystems/llama-firewall.md)
 - [LlamaIndex](../ecosystems/llamaindex.md)
 - [n8n](../ecosystems/n8n.md)
+- [NIST AI Risk Management Framework](../ecosystems/nist-ai-rmf.md)
 - [OpenTelemetry GenAI](../ecosystems/opentelemetry-genai.md)
+- [OWASP LLM Top 10](../ecosystems/owasp-llm.md)
 - [Popular Agent Ecosystems](../ecosystems/popular-agent-ecosystems.md)
+- [promptfoo](../ecosystems/promptfoo.md)
 - [Pydantic AI](../ecosystems/pydantic-ai.md)
+- [PyRIT](../ecosystems/pyrit.md)
 - [Semantic Kernel](../ecosystems/semantic-kernel.md)
 - [Strands Agents](../ecosystems/strands-agents.md)
 - [Vercel AI Gateway](../ecosystems/vercel-ai-gateway.md)
@@ -78,6 +86,17 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Observability And Evals](../ops/observability-and-evals.md)
 - [Rollout Evidence](../ops/rollout-evidence.md)
 - [Workflow Automation](../ops/workflow-automation.md)
+
+## security
+
+- [Security, Policy, And Governance](../security/README.md)
+- [Agent Safety Review Guide](../security/agent-safety-review-guide.md)
+- [Data And Secrets Handling](../security/data-and-secrets-handling.md)
+- [Policy And Governance](../security/policy-and-governance.md)
+- [Prompt Injection And Tool Abuse](../security/prompt-injection-and-tool-abuse.md)
+- [Red Teaming And Evals](../security/red-teaming-and-evals.md)
+- [Runtime Guardrails](../security/runtime-guardrails.md)
+- [Security Rollout Checklist](../security/security-rollout-checklist.md)
 
 ## frameworks
 

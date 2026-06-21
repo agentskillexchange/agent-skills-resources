@@ -22,6 +22,10 @@ The repo is an educational guide, not the canonical catalog.
 | Review observability and evals | [Observability And Evals](ops/observability-and-evals.md) |
 | Plan approval gates | [Human Approval Workflows](ops/human-approval-workflows.md) |
 | Capture rollout evidence | [Rollout Evidence](ops/rollout-evidence.md) |
+| Review security and governance | [Security](security/) |
+| Check prompt injection and tool abuse | [Prompt Injection And Tool Abuse](security/prompt-injection-and-tool-abuse.md) |
+| Review data and secrets handling | [Data And Secrets Handling](security/data-and-secrets-handling.md) |
+| Run security rollout review | [Security Rollout Checklist](security/security-rollout-checklist.md) |
 | Review a skill | [First Skill Review Checklist](checklists/first-skill-review.md) |
 | Review a source-backed resource | [Source-Backed Resource Review](checklists/source-backed-resource-review.md) |
 | Plan MCP readiness | [MCP Tooling Readiness](checklists/mcp-tooling-readiness.md) |

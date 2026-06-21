@@ -53,6 +53,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools) | Cursor | Helps distinguish skills from callable editor tools. |
 | [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent) | Cursor | Background agents show how skill guidance can support asynchronous coding work. |
 | [Cursor Rules Docs](https://docs.cursor.com/en/context/rules) | Cursor | Rules are an important adjacent concept for skill-like guidance in IDE agents. |
+| [garak GitHub](https://github.com/NVIDIA/garak) | garak | Adds source-backed coverage for adversarial LLM testing and vulnerability discovery. |
 | [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | Gemini | Provider-level setup reference for Gemini-backed agent workflows. |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Gemini | Represents Gemini-powered terminal-agent workflows. |
 | [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs) | Gemini | Useful for terminal-agent setup, configuration, and workflow guidance. |
@@ -65,6 +66,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Google ADK Python](https://github.com/google/adk-python) | Google ADK | Source-backed reference for Google's agent development patterns. |
 | [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/) | Google ADK | Tool concepts help readers distinguish skill instructions from callable capabilities. |
 | [Google Agent Development Kit Docs](https://google.github.io/adk-docs/) | Google ADK | Provides official Google guidance for building agents, tools, and workflows. |
+| [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs) | Guardrails AI | Shows runtime validation patterns that can protect skill-backed workflows. |
+| [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails) | Guardrails AI | Provides source context for guardrail implementation and validator patterns. |
 | [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro) | Haystack | Shows how production retrieval and pipeline workflows can be reviewed before skill adoption. |
 | [Haystack GitHub](https://github.com/deepset-ai/haystack) | Haystack | Provides source context for production RAG and agent pipeline patterns. |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Hermes | Shows a skills-oriented self-improving agent architecture. |
@@ -72,6 +75,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md) | Hermes | Shows how Hermes documents built-in skills and their roles. |
 | [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md) | Hermes | Defines how Hermes exposes and manages skills. |
 | [HumanLayer GitHub](https://github.com/humanlayer/humanlayer) | HumanLayer | Provides source context for approval gates and human review patterns around tool calls. |
+| [Lakera Docs](https://docs.lakera.ai/) | Lakera | Adds source-backed coverage for runtime protection and prompt injection defense. |
 | [LangChain Agents](https://www.langchain.com/agents) | LangChain/LangGraph | Explains LangGraph's role in agent orchestration. |
 | [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters) | LangChain/LangGraph | Shows how MCP tooling can plug into LangChain and LangGraph workflows. |
 | [Langfuse Docs](https://langfuse.com/docs) | Langfuse | Helps teams review prompt and tool-call behavior before expanding an agent workflow. |
@@ -81,6 +85,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop) | LangChain / LangGraph | Provides a framework reference for approval gates and human-supervised agent workflows. |
 | [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence) | LangChain / LangGraph | State and persistence are central concepts for durable agent workflows and skill handoffs. |
 | [LangSmith Docs](https://docs.langchain.com/langsmith/observability) | LangSmith | Gives teams a source-backed way to collect trace and eval evidence for skill-backed workflows. |
+| [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall) | LlamaFirewall | Adds runtime protection coverage for LLM application safety review. |
 | [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/) | LlamaIndex | Covers the data and retrieval layer that many agent skills need to reference safely. |
 | [LlamaIndex GitHub](https://github.com/run-llama/llama_index) | LlamaIndex | Provides source context for RAG agent and data workflow examples. |
 | [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/) | Microsoft AutoGen | Documents a major multi-agent ecosystem whose workflows can be translated into reusable skill guidance. |
@@ -102,8 +107,14 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai) | OpenClaw | Provider setup affects how skills run across agent runtimes. |
 | [OpenClaw Repository](https://github.com/openclaw/openclaw) | OpenClaw | Source-backed reference for OpenClaw runtime and contribution details. |
 | [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/) | Observability | Gives teams vocabulary for traces, metrics, and evidence around agent workflows. |
+| [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) | OWASP LLM Top 10 | Provides source context for LLM application risk categories used in skill safety review. |
+| [promptfoo Docs](https://www.promptfoo.dev/docs/intro/) | promptfoo | Helps teams test prompt and agent workflow behavior before rollout. |
+| [promptfoo GitHub](https://github.com/promptfoo/promptfoo) | promptfoo | Provides source context for prompt and LLM application evaluation workflows. |
+| [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama) | PurpleLlama | Provides source context for Meta LLM safety and runtime protection tooling. |
 | [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/) | Pydantic AI | Gives Python teams a typed approach to agent workflows that can be reviewed as code. |
 | [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai) | Pydantic AI | Provides source context for typed Python agent and evaluation patterns. |
+| [PyRIT Docs](https://azure.github.io/PyRIT/) | PyRIT | Supports repeatable risk identification and evidence gathering for agent workflows. |
+| [PyRIT GitHub](https://github.com/Azure/PyRIT) | PyRIT | Provides source context for Microsoft red-team tooling around generative AI systems. |
 | [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/) | Semantic Kernel | Shows how enterprise agent workflows use plugins, functions, planners, memory, and application integration. |
 | [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel) | Semantic Kernel | Provides source context for Semantic Kernel app and agent orchestration patterns. |
 | [Strands Agents Docs](https://strandsagents.com/) | Strands Agents | Adds SDK-level agent workflow coverage for teams comparing tool, hook, and observability patterns. |
@@ -209,6 +220,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 |---|---|---|
 | [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | Governance | Useful background for teams creating approval, governance, and rollout processes for agent skills. |
 
+### Guardrails AI
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs) | Guardrails AI | Shows runtime validation patterns that can protect skill-backed workflows. |
+| [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails) | Guardrails AI | Provides source context for guardrail implementation and validator patterns. |
+
 ### Haystack
 
 | Resource | Framework | Why it matters |
@@ -230,6 +248,12 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | Resource | Framework | Why it matters |
 |---|---|---|
 | [HumanLayer GitHub](https://github.com/humanlayer/humanlayer) | HumanLayer | Provides source context for approval gates and human review patterns around tool calls. |
+
+### Lakera
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Lakera Docs](https://docs.lakera.ai/) | Lakera | Adds source-backed coverage for runtime protection and prompt injection defense. |
 
 ### LangChain / LangGraph
 
@@ -259,6 +283,12 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 |---|---|---|
 | [Langfuse Docs](https://langfuse.com/docs) | Langfuse | Helps teams review prompt and tool-call behavior before expanding an agent workflow. |
 | [Langfuse GitHub](https://github.com/langfuse/langfuse) | Langfuse | Provides source context for Langfuse deployment and LLM observability implementation. |
+
+### LlamaFirewall
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall) | LlamaFirewall | Adds runtime protection coverage for LLM application safety review. |
 
 ### LlamaIndex
 
@@ -291,6 +321,12 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Agent Skill Exchange](https://agentskillexchange.com/) | Multi-Framework | Provides the human-facing discovery layer for the canonical ASE skills catalog. |
 | [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills) | Multi-Framework | This companion repo should point readers to the canonical skill source of truth. |
 | [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification) | Multi-Framework | Shows how ASE separates listed skills from security-reviewed skills. |
+
+### OWASP LLM Top 10
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) | OWASP LLM Top 10 | Provides source context for LLM application risk categories used in skill safety review. |
 
 ### Observability
 
@@ -326,6 +362,19 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation) | OpenClaw | Example of tool-specific runtime documentation that skills can wrap into workflows. |
 | [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai) | OpenClaw | Provider setup affects how skills run across agent runtimes. |
 | [OpenClaw Repository](https://github.com/openclaw/openclaw) | OpenClaw | Source-backed reference for OpenClaw runtime and contribution details. |
+
+### PurpleLlama
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama) | PurpleLlama | Provides source context for Meta LLM safety and runtime protection tooling. |
+
+### PyRIT
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [PyRIT Docs](https://azure.github.io/PyRIT/) | PyRIT | Supports repeatable risk identification and evidence gathering for agent workflows. |
+| [PyRIT GitHub](https://github.com/Azure/PyRIT) | PyRIT | Provides source context for Microsoft red-team tooling around generative AI systems. |
 
 ### Pydantic AI
 
@@ -380,12 +429,25 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 |---|---|---|
 | [Zapier Docs](https://docs.zapier.com/) | Zapier | Gives teams a source-backed reference for SaaS workflow automation around agent output. |
 
+### garak
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [garak GitHub](https://github.com/NVIDIA/garak) | garak | Adds source-backed coverage for adversarial LLM testing and vulnerability discovery. |
+
 ### n8n
 
 | Resource | Framework | Why it matters |
 |---|---|---|
 | [n8n Docs](https://docs.n8n.io/) | n8n | Helps teams compare deterministic AI workflow automation with agent orchestration. |
 | [n8n GitHub](https://github.com/n8n-io/n8n) | n8n | Provides source context for self-hosted workflow automation and connector patterns. |
+
+### promptfoo
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [promptfoo Docs](https://www.promptfoo.dev/docs/intro/) | promptfoo | Helps teams test prompt and agent workflow behavior before rollout. |
+| [promptfoo GitHub](https://github.com/promptfoo/promptfoo) | promptfoo | Provides source context for prompt and LLM application evaluation workflows. |
 
 ## By Tag
 
@@ -420,7 +482,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **deployment**: [Vercel AI SDK Docs](https://ai-sdk.dev/docs)
 - **docs**: [Claude Code Docs](https://code.claude.com/docs), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [GitHub Copilot Docs](https://docs.github.com/en/copilot), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Docs](https://docs.openclaw.ai/)
 - **enterprise**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
-- **evals**: [Arize Phoenix Docs](https://arize.com/docs/phoenix), [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix), [Langfuse Docs](https://langfuse.com/docs), [LangSmith Docs](https://docs.langchain.com/langsmith/observability), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Weights & Biases Weave Docs](https://docs.wandb.ai/weave), [Weights & Biases Weave GitHub](https://github.com/wandb/weave)
+- **evals**: [Arize Phoenix Docs](https://arize.com/docs/phoenix), [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix), [Langfuse Docs](https://langfuse.com/docs), [LangSmith Docs](https://docs.langchain.com/langsmith/observability), [promptfoo Docs](https://www.promptfoo.dev/docs/intro/), [promptfoo GitHub](https://github.com/promptfoo/promptfoo), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [PyRIT Docs](https://azure.github.io/PyRIT/), [Weights & Biases Weave Docs](https://docs.wandb.ai/weave), [Weights & Biases Weave GitHub](https://github.com/wandb/weave)
 - **evaluation**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
 - **experiments**: [Weights & Biases Weave Docs](https://docs.wandb.ai/weave)
 - **framework**: [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/)
@@ -430,8 +492,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **github-copilot**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills), [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [GitHub Copilot Docs](https://docs.github.com/en/copilot), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions), [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills)
 - **google**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs), [Google ADK Python](https://github.com/google/adk-python), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/)
 - **google-adk**: [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/)
-- **governance**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-- **guardrails**: [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **governance**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications)
+- **guardrails**: [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - **handoffs**: [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents)
 - **headless**: [Claude Code Headless](https://code.claude.com/docs/en/headless)
 - **hermes**: [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
@@ -444,7 +506,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **lab**: [OpenAI Codex Docs](https://developers.openai.com/codex)
 - **langchain**: [LangChain Agents](https://www.langchain.com/agents), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [LangGraph](https://github.com/langchain-ai/langgraph)
 - **langgraph**: [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
-- **llm**: [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **llm**: [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama)
+- **llm-risk**: [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications)
 - **marketplace**: [Agent Skill Exchange](https://agentskillexchange.com/)
 - **mcp**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/)
 - **memory**: [Agno Docs](https://docs.agno.com/), [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md)
@@ -458,7 +521,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **persistence**: [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
 - **pipelines**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [Haystack GitHub](https://github.com/deepset-ai/haystack)
 - **plugins**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel)
-- **policy**: [Vercel AI Gateway Docs](https://vercel.com/docs/ai-gateway)
+- **policy**: [Lakera Docs](https://docs.lakera.ai/), [Vercel AI Gateway Docs](https://vercel.com/docs/ai-gateway)
+- **prompt-injection**: [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [promptfoo Docs](https://www.promptfoo.dev/docs/intro/)
 - **prompts**: [Langfuse Docs](https://langfuse.com/docs)
 - **protocol**: [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
 - **provider**: [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai)
@@ -466,15 +530,16 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **python**: [Google ADK Python](https://github.com/google/adk-python), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai)
 - **quality**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
 - **rag**: [Arize Phoenix Docs](https://arize.com/docs/phoenix), [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [Haystack GitHub](https://github.com/deepset-ai/haystack), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [LlamaIndex GitHub](https://github.com/run-llama/llama_index)
-- **repo**: [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Agno GitHub](https://github.com/agno-agi/agno), [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix), [Composio GitHub](https://github.com/ComposioHQ/composio), [CrewAI GitHub](https://github.com/crewAIInc/crewAI), [Haystack GitHub](https://github.com/deepset-ai/haystack), [HumanLayer GitHub](https://github.com/humanlayer/humanlayer), [Langfuse GitHub](https://github.com/langfuse/langfuse), [LlamaIndex GitHub](https://github.com/run-llama/llama_index), [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen), [n8n GitHub](https://github.com/n8n-io/n8n), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenClaw Repository](https://github.com/openclaw/openclaw), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk), [Vercel AI GitHub](https://github.com/vercel/ai), [Weights & Biases Weave GitHub](https://github.com/wandb/weave)
+- **red-team**: [garak GitHub](https://github.com/NVIDIA/garak), [promptfoo Docs](https://www.promptfoo.dev/docs/intro/), [promptfoo GitHub](https://github.com/promptfoo/promptfoo), [PyRIT Docs](https://azure.github.io/PyRIT/), [PyRIT GitHub](https://github.com/Azure/PyRIT)
+- **repo**: [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Agno GitHub](https://github.com/agno-agi/agno), [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix), [Composio GitHub](https://github.com/ComposioHQ/composio), [CrewAI GitHub](https://github.com/crewAIInc/crewAI), [garak GitHub](https://github.com/NVIDIA/garak), [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails), [Haystack GitHub](https://github.com/deepset-ai/haystack), [HumanLayer GitHub](https://github.com/humanlayer/humanlayer), [Langfuse GitHub](https://github.com/langfuse/langfuse), [LlamaIndex GitHub](https://github.com/run-llama/llama_index), [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen), [n8n GitHub](https://github.com/n8n-io/n8n), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenClaw Repository](https://github.com/openclaw/openclaw), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications), [promptfoo GitHub](https://github.com/promptfoo/promptfoo), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai), [PyRIT GitHub](https://github.com/Azure/PyRIT), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk), [Vercel AI GitHub](https://github.com/vercel/ai), [Weights & Biases Weave GitHub](https://github.com/wandb/weave)
 - **repository**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
 - **resources**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 - **risk**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - **rules**: [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
-- **runtime**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings), [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Repository](https://github.com/openclaw/openclaw)
+- **runtime**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Repository](https://github.com/openclaw/openclaw), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama)
 - **safety**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - **sdk**: [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills), [Strands Agents Docs](https://strandsagents.com/), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk)
-- **security**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **security**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification), [garak GitHub](https://github.com/NVIDIA/garak), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama), [PyRIT Docs](https://azure.github.io/PyRIT/), [PyRIT GitHub](https://github.com/Azure/PyRIT)
 - **servers**: [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - **settings**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings)
 - **skills**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills), [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [Agent Skill Exchange](https://agentskillexchange.com/), [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Cursor Agent Skills](https://cursor.com/docs/context/skills), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
@@ -482,10 +547,12 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **state**: [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
 - **subagents**: [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 - **terminal-agent**: [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+- **testing**: [garak GitHub](https://github.com/NVIDIA/garak), [promptfoo Docs](https://www.promptfoo.dev/docs/intro/), [PyRIT Docs](https://azure.github.io/PyRIT/)
 - **tools**: [Agno Docs](https://docs.agno.com/), [Agno GitHub](https://github.com/agno-agi/agno), [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Composio Docs](https://docs.composio.dev/), [Composio GitHub](https://github.com/ComposioHQ/composio), [CrewAI Docs](https://docs.crewai.com/), [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/), [HumanLayer GitHub](https://github.com/humanlayer/humanlayer), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro), [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Strands Agents Docs](https://strandsagents.com/), [Vercel AI SDK Docs](https://ai-sdk.dev/docs)
 - **traces**: [Arize Phoenix Docs](https://arize.com/docs/phoenix), [Langfuse Docs](https://langfuse.com/docs), [Langfuse GitHub](https://github.com/langfuse/langfuse), [LangSmith Docs](https://docs.langchain.com/langsmith/observability), [Weights & Biases Weave Docs](https://docs.wandb.ai/weave)
 - **tracing**: [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
 - **triggers**: [n8n Docs](https://docs.n8n.io/)
+- **validation**: [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails)
 - **verification**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
 - **workflow-automation**: [n8n Docs](https://docs.n8n.io/), [n8n GitHub](https://github.com/n8n-io/n8n), [Zapier Docs](https://docs.zapier.com/)
 - **workflows**: [CrewAI Docs](https://docs.crewai.com/), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/)

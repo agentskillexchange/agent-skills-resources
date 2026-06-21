@@ -1375,5 +1375,178 @@
       "policy",
       "providers"
     ]
+  },
+  {
+    "id": "owasp-llm-top-10-repo",
+    "name": "OWASP LLM Top 10 GitHub",
+    "type": "Official",
+    "framework": "OWASP LLM Top 10",
+    "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications",
+    "repo": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications",
+    "description": "Official OWASP LLM Top 10 project repository.",
+    "why_it_matters": "Provides source context for LLM application risk categories used in skill safety review.",
+    "tags": [
+      "security",
+      "llm-risk",
+      "governance",
+      "repo"
+    ]
+  },
+  {
+    "id": "guardrails-ai-docs",
+    "name": "Guardrails AI Docs",
+    "type": "Official",
+    "framework": "Guardrails AI",
+    "url": "https://guardrailsai.com/guardrails/docs",
+    "repo": "https://github.com/guardrails-ai/guardrails",
+    "description": "Official Guardrails AI documentation for validation and guardrail patterns.",
+    "why_it_matters": "Shows runtime validation patterns that can protect skill-backed workflows.",
+    "tags": [
+      "guardrails",
+      "validation",
+      "runtime",
+      "security"
+    ]
+  },
+  {
+    "id": "guardrails-ai-repo",
+    "name": "Guardrails AI GitHub",
+    "type": "Official",
+    "framework": "Guardrails AI",
+    "url": "https://github.com/guardrails-ai/guardrails",
+    "repo": "https://github.com/guardrails-ai/guardrails",
+    "description": "Official Guardrails AI repository.",
+    "why_it_matters": "Provides source context for guardrail implementation and validator patterns.",
+    "tags": [
+      "repo",
+      "guardrails",
+      "validation"
+    ]
+  },
+  {
+    "id": "lakera-docs",
+    "name": "Lakera Docs",
+    "type": "Official",
+    "framework": "Lakera",
+    "url": "https://docs.lakera.ai/",
+    "repo": "",
+    "description": "Official Lakera documentation for generative AI application security controls.",
+    "why_it_matters": "Adds source-backed coverage for runtime protection and prompt injection defense.",
+    "tags": [
+      "security",
+      "prompt-injection",
+      "runtime",
+      "policy"
+    ]
+  },
+  {
+    "id": "promptfoo-docs",
+    "name": "promptfoo Docs",
+    "type": "Official",
+    "framework": "promptfoo",
+    "url": "https://www.promptfoo.dev/docs/intro/",
+    "repo": "https://github.com/promptfoo/promptfoo",
+    "description": "Official promptfoo documentation for LLM evaluations, regression tests, and red teaming.",
+    "why_it_matters": "Helps teams test prompt and agent workflow behavior before rollout.",
+    "tags": [
+      "evals",
+      "red-team",
+      "prompt-injection",
+      "testing"
+    ]
+  },
+  {
+    "id": "promptfoo-repo",
+    "name": "promptfoo GitHub",
+    "type": "Official",
+    "framework": "promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "repo": "https://github.com/promptfoo/promptfoo",
+    "description": "Official promptfoo repository.",
+    "why_it_matters": "Provides source context for prompt and LLM application evaluation workflows.",
+    "tags": [
+      "repo",
+      "evals",
+      "red-team"
+    ]
+  },
+  {
+    "id": "garak-repo",
+    "name": "garak GitHub",
+    "type": "Official",
+    "framework": "garak",
+    "url": "https://github.com/NVIDIA/garak",
+    "repo": "https://github.com/NVIDIA/garak",
+    "description": "Official garak repository for LLM vulnerability probing.",
+    "why_it_matters": "Adds source-backed coverage for adversarial LLM testing and vulnerability discovery.",
+    "tags": [
+      "repo",
+      "red-team",
+      "security",
+      "testing"
+    ]
+  },
+  {
+    "id": "pyrit-docs",
+    "name": "PyRIT Docs",
+    "type": "Official",
+    "framework": "PyRIT",
+    "url": "https://azure.github.io/PyRIT/",
+    "repo": "https://github.com/Azure/PyRIT",
+    "description": "Official PyRIT documentation for generative AI red-team automation.",
+    "why_it_matters": "Supports repeatable risk identification and evidence gathering for agent workflows.",
+    "tags": [
+      "red-team",
+      "security",
+      "evals",
+      "testing"
+    ]
+  },
+  {
+    "id": "pyrit-repo",
+    "name": "PyRIT GitHub",
+    "type": "Official",
+    "framework": "PyRIT",
+    "url": "https://github.com/Azure/PyRIT",
+    "repo": "https://github.com/Azure/PyRIT",
+    "description": "Official PyRIT repository.",
+    "why_it_matters": "Provides source context for Microsoft red-team tooling around generative AI systems.",
+    "tags": [
+      "repo",
+      "red-team",
+      "security"
+    ]
+  },
+  {
+    "id": "purplellama-repo",
+    "name": "PurpleLlama GitHub",
+    "type": "Official",
+    "framework": "PurpleLlama",
+    "url": "https://github.com/meta-llama/PurpleLlama",
+    "repo": "https://github.com/meta-llama/PurpleLlama",
+    "description": "Official Meta PurpleLlama repository.",
+    "why_it_matters": "Provides source context for Meta LLM safety and runtime protection tooling.",
+    "tags": [
+      "repo",
+      "security",
+      "runtime",
+      "llm"
+    ]
+  },
+  {
+    "id": "llama-firewall",
+    "name": "LlamaFirewall",
+    "type": "Official",
+    "framework": "LlamaFirewall",
+    "url": "https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall",
+    "repo": "https://github.com/meta-llama/PurpleLlama",
+    "description": "Official LlamaFirewall project within Meta PurpleLlama.",
+    "why_it_matters": "Adds runtime protection coverage for LLM application safety review.",
+    "tags": [
+      "runtime",
+      "guardrails",
+      "security",
+      "prompt-injection"
+    ]
   }
 ]

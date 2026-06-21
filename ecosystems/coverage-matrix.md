@@ -34,3 +34,12 @@ It is a starting point for orientation, not a capability guarantee.
 | Human approval | [Human Approval Workflows](../ops/human-approval-workflows.md) | approval before writes, deployments, external messages, sensitive actions |
 | Workflow automation | [Workflow Automation](../ops/workflow-automation.md) | n8n, Zapier, Composio, connector-heavy flows |
 | Gateways and policy | [Model Gateways And Policy](../ops/model-gateways-and-policy.md) | model routing, failover, cost controls, audit logs |
+
+## Security Layer
+
+| Area | Start here | Use it for |
+|---|---|---|
+| Safety review | [Security](../security/) | permissions, data, secrets, tools, approval, evidence |
+| Prompt injection | [Prompt Injection And Tool Abuse](../security/prompt-injection-and-tool-abuse.md) | untrusted input, tool misuse, indirect instructions |
+| Runtime guardrails | [Runtime Guardrails](../security/runtime-guardrails.md) | validators, filters, policy checks, refusal paths |
+| Red teaming | [Red Teaming And Evals](../security/red-teaming-and-evals.md) | adversarial prompts, regression tests, risk probes |

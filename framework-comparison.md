@@ -17,6 +17,22 @@ orientation guide, not a vendor ranking.
 | OpenAI Agents SDK | Agent framework and SDK | Tools, handoffs, guardrails, tracing, and programmatic agent execution | Skill-like patterns appear as reusable tools, prompts, runbooks, and evaluation harnesses | Tool calling and integrations are first-class SDK concerns | Validate traces, guardrails, tool permissions, and human approval paths | [Agents SDK docs](https://openai.github.io/openai-agents-python/), [Repo](https://github.com/openai/openai-agents-python) |
 | Google ADK | Agent development kit | Google ecosystem agent apps, tools, and multi-agent workflows | Skill-like behavior is usually encoded through reusable agent instructions, tools, and workflow modules | Tool support depends on ADK setup and Google integrations | Review credentials, deployment target, and provider-specific policies | [ADK docs](https://google.github.io/adk-docs/), [ADK Python](https://github.com/google/adk-python) |
 
+## Adjacent Agent Ecosystems
+
+These ecosystems are not always skill-native, but they shape how reusable agent
+workflows are designed, reviewed, and adopted.
+
+| Ecosystem | Primary surface | Best fit | Skill-like support | Source links |
+|---|---|---|---|---|
+| CrewAI | Crews, flows, tasks, and role-based agents | Business workflows and multi-agent process automation | Roles, tasks, tools, memory, knowledge, guardrails, and flows can be wrapped as reusable skill recipes | [Guide](ecosystems/crewai.md), [Docs](https://docs.crewai.com/) |
+| Microsoft AutoGen | Multi-agent framework, AgentChat, Core, Studio, and extensions | Research prototypes and multi-agent applications | Agent teams, tools, code execution, Studio workflows, and MCP workbench patterns | [Guide](ecosystems/autogen.md), [Docs](https://microsoft.github.io/autogen/stable/) |
+| Semantic Kernel | Application SDK for agents, plugins, functions, planners, and processes | Enterprise app integration and Microsoft-oriented stacks | Plugins, functions, prompt templates, memory, and processes map well to reusable instructions | [Guide](ecosystems/semantic-kernel.md), [Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/) |
+| LlamaIndex | Data, retrieval, tools, agents, workflows, and evaluation | RAG agents, data workflows, and structured extraction | Data sources, indexes, retrievers, agents, tools, evals, and workflows become reusable skill patterns | [Guide](ecosystems/llamaindex.md), [Docs](https://developers.llamaindex.ai/python/framework/) |
+| Pydantic AI | Typed Python agents, tools, outputs, evals, and graph workflows | Python agent apps with testable structured outputs | Typed tools, schemas, evals, durable execution, and approval patterns support skill-like reuse | [Guide](ecosystems/pydantic-ai.md), [Docs](https://pydantic.dev/docs/ai/overview/) |
+| Haystack | RAG, pipelines, components, tools, agents, and evaluators | Production retrieval and document workflows | Pipelines, tools, document stores, evaluators, and MCP serving can be documented as repeatable workflows | [Guide](ecosystems/haystack.md), [Docs](https://docs.haystack.deepset.ai/docs/intro) |
+| Strands Agents | Agent SDK with tools, hooks, observability, and coding-agent setup | SDK-based agent apps and observable tool use | Tools, hooks, traces, and app-owned runtime policy can be captured as skills | [Guide](ecosystems/strands-agents.md), [Docs](https://strandsagents.com/) |
+| Agno | Agent apps with tools, memory, knowledge, models, and multi-agent patterns | Lightweight agent apps and fast framework comparison | Tools, knowledge, memory, and multi-agent setup can be described as reusable workflow guidance | [Guide](ecosystems/agno.md), [Docs](https://docs.agno.com/) |
+
 ## How To Use This Matrix
 
 - If you are learning, start with the surface you already use.

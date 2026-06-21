@@ -44,6 +44,20 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Skill Lifecycle](../diagrams/skill-lifecycle.md)
 - [Team Adoption Loop](../diagrams/team-adoption-loop.md)
 
+## ecosystems
+
+- [Ecosystems](../ecosystems/README.md)
+- [Agno](../ecosystems/agno.md)
+- [Microsoft AutoGen](../ecosystems/autogen.md)
+- [Ecosystem Coverage Matrix](../ecosystems/coverage-matrix.md)
+- [CrewAI](../ecosystems/crewai.md)
+- [Haystack](../ecosystems/haystack.md)
+- [LlamaIndex](../ecosystems/llamaindex.md)
+- [Popular Agent Ecosystems](../ecosystems/popular-agent-ecosystems.md)
+- [Pydantic AI](../ecosystems/pydantic-ai.md)
+- [Semantic Kernel](../ecosystems/semantic-kernel.md)
+- [Strands Agents](../ecosystems/strands-agents.md)
+
 ## frameworks
 
 - [Framework Guides](../frameworks/README.md)

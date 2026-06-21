@@ -5,7 +5,7 @@ MCP, coding agents, skill design, skill evaluation, agent safety, and rollout
 playbooks.
 
 Use this repo to understand the concepts, compare skill surfaces, review
-source-backed resources, and design safer team pilots. The separate
+source-backed resources, explore popular agent frameworks, and design safer team pilots. The separate
 [agentskillexchange/skills](https://github.com/agentskillexchange/skills) repo
 is the canonical skills catalog, and [Agent Skill Exchange](https://agentskillexchange.com/)
 is the public site.
@@ -28,6 +28,9 @@ the [Glossary](glossary.md), or the [Best-Practices Cookbook](cookbook/).
 
 - What agent skills are and where they fit in the agent ecosystem.
 - How skills differ from tools, MCP servers, runtimes, and workflows.
+- How popular ecosystems approach agent frameworks, multi-agent workflows,
+  RAG agents, agent orchestration, agent evaluation, MCP tools, coding agent
+  skills, and agent safety.
 - How to design source-backed skills with clear setup, permissions, and evidence.
 - How to evaluate skill quality without relying on popularity claims.
 - How teams can pilot agent workflows with sandboxing, approval gates, and rollout checks.
@@ -51,6 +54,7 @@ It is not a catalog mirror and does not try to track every published skill.
 | Design better skills | [Best-Practices Cookbook](cookbook/) |
 | Use short review artifacts | [Checklists](checklists/) |
 | Compare Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI, LangChain, LangGraph, MCP, and OpenAI Agents SDK | [Framework pages](frameworks/) |
+| Explore popular agent ecosystems | [Ecosystems](ecosystems/) |
 | Review source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate skill quality and agent safety | [Quality Checklist](examples/quality-checklist.md) |
 | Run a bounded rollout | [Playbooks](playbooks/) and [Templates](templates/) |
@@ -65,6 +69,7 @@ It is not a catalog mirror and does not try to track every published skill.
 | Learn the vocabulary | [Glossary](glossary.md) |
 | Build a first skill | [Skill Design Patterns](learning/skill-design-patterns.md) |
 | Compare frameworks | [Framework Comparison](framework-comparison.md) |
+| Explore agent ecosystems | [Popular Agent Ecosystems](ecosystems/popular-agent-ecosystems.md) |
 | See workflow stacks | [Showcase Workflow Stacks](showcase/) |
 | Find official resources | [Resource Index](generated/resource-index.md) |
 | Review skill quality | [Skill Evaluation Basics](learning/skill-evaluation-basics.md) |
@@ -104,8 +109,8 @@ This repo helps developers answer four questions:
   ASE catalog?
 
 It covers MCP and the Model Context Protocol, verification, skill evaluation,
-rollout playbooks, and practical adoption evidence for teams working with
-agentic development and operations.
+rollout playbooks, popular agent ecosystems, and practical adoption evidence for
+teams working with agentic development and operations.
 
 ## How This Differs From `agentskillexchange/skills`
 
@@ -122,6 +127,7 @@ agentic development and operations.
 | Model/provider | OpenAI, Anthropic, Google | Model-specific setup and constraints |
 | Runtime | Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI | Repeatable agent workflows |
 | Framework | LangGraph, OpenAI Agents SDK, ADK | Orchestration patterns and state |
+| Ecosystem | CrewAI, AutoGen, Semantic Kernel, LlamaIndex, Pydantic AI, Haystack, Strands, Agno | Agent framework concepts and reusable workflow patterns |
 | Protocol/tooling | MCP, CLIs, APIs, browser tools | Tool setup, permissions, and usage recipes |
 | Verification | tests, scans, traces, approvals | Evidence that the workflow worked |
 
@@ -150,6 +156,7 @@ flowchart LR
 | Role-based curriculum | [Curriculum](learning/curriculum.md) | [Beginner](learning/beginner-track.md), [Builder](learning/builder-track.md), [Evaluator](learning/evaluator-track.md), [Team Lead](learning/team-lead-track.md) |
 | Learning terms | [Glossary](glossary.md) | [Ecosystem Map](ecosystem-map.md) |
 | Skimming the ecosystem | [Awesome Agent Skills](awesome-agent-skills.md) | [Framework Comparison](framework-comparison.md) |
+| Exploring popular ecosystems | [Ecosystems](ecosystems/) | [Coverage Matrix](ecosystems/coverage-matrix.md) |
 | Seeing workflow stacks | [Showcase Workflow Stacks](showcase/) | [Case Studies](case-studies/) |
 | Building a skill | [Skill Design Patterns](learning/skill-design-patterns.md) | [Best-Practices Cookbook](cookbook/) |
 | Reviewing a skill quickly | [First Skill Review Checklist](checklists/first-skill-review.md) | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) |
@@ -180,6 +187,17 @@ flowchart LR
 | LangChain / LangGraph | Agent orchestration and stateful workflow framework | [LangChain / LangGraph](frameworks/langchain-langgraph.md) |
 | MCP | Protocol for connecting agents to tools and context providers | [MCP](frameworks/mcp.md) |
 
+## Popular Ecosystems Coverage
+
+This repo also covers broader agent ecosystems that are not always skill-native
+but strongly shape reusable agent workflows: [CrewAI](ecosystems/crewai.md),
+[AutoGen](ecosystems/autogen.md), [Semantic Kernel](ecosystems/semantic-kernel.md),
+[LlamaIndex](ecosystems/llamaindex.md), [Pydantic AI](ecosystems/pydantic-ai.md),
+[Haystack](ecosystems/haystack.md), [Strands Agents](ecosystems/strands-agents.md),
+and [Agno](ecosystems/agno.md). See the [Coverage Matrix](ecosystems/coverage-matrix.md)
+for how they relate to agents, tools, workflows, MCP, memory, evals,
+observability, guardrails, and approvals.
+
 ## Source Labels
 
 Every resource in [data/resources.json](data/resources.json) uses one of four
@@ -203,6 +221,7 @@ When a claim is not source-backed, leave it out.
 - [cookbook/](cookbook/): practical best-practice recipes and anti-patterns.
 - [checklists/](checklists/): short fillable review artifacts for skills,
   resources, MCP tooling, team pilots, and permissions.
+- [ecosystems/](ecosystems/): popular agent ecosystem coverage and comparison.
 - [diagrams/](diagrams/): framework-neutral Mermaid diagrams.
 - [awesome-agent-skills.md](awesome-agent-skills.md): Awesome-style curated
   front door for agent skill resources.
@@ -215,8 +234,8 @@ When a claim is not source-backed, leave it out.
 - [generated/ase-skill-mapping-index.md](generated/ase-skill-mapping-index.md):
   generated representative ASE skill index grouped by workflow and framework.
 - [generated/nav-index.md](generated/nav-index.md): generated navigation index
-  for learning, cookbook, framework, workflow, example, case-study, playbook,
-  checklist, template, diagram, contributing, and maintenance pages.
+  for learning, cookbook, ecosystem, framework, workflow, example, case-study,
+  playbook, checklist, template, diagram, contributing, and maintenance pages.
 - [generated/template-index.md](generated/template-index.md): generated index of
   fillable pilot and review templates.
 - [generated/repo-stats.md](generated/repo-stats.md): generated repository data

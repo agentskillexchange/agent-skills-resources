@@ -878,5 +878,253 @@
       "context",
       "protocol"
     ]
+  },
+  {
+    "id": "crewai-docs",
+    "name": "CrewAI Docs",
+    "type": "Official",
+    "framework": "CrewAI",
+    "url": "https://docs.crewai.com/",
+    "repo": "https://github.com/crewAIInc/crewAI",
+    "description": "Official CrewAI documentation for crews, flows, agents, tools, memory, knowledge, guardrails, and observability.",
+    "why_it_matters": "Shows how role-based and flow-based agent workflows can be captured as reusable skill recipes.",
+    "tags": [
+      "agents",
+      "multi-agent",
+      "workflows",
+      "tools"
+    ]
+  },
+  {
+    "id": "crewai-repo",
+    "name": "CrewAI GitHub",
+    "type": "Official",
+    "framework": "CrewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "repo": "https://github.com/crewAIInc/crewAI",
+    "description": "Official CrewAI open-source repository.",
+    "why_it_matters": "Provides source context for CrewAI framework usage and project structure.",
+    "tags": [
+      "repo",
+      "agents",
+      "multi-agent"
+    ]
+  },
+  {
+    "id": "autogen-docs",
+    "name": "Microsoft AutoGen Docs",
+    "type": "Official",
+    "framework": "Microsoft AutoGen",
+    "url": "https://microsoft.github.io/autogen/stable/",
+    "repo": "https://github.com/microsoft/autogen",
+    "description": "Official AutoGen documentation for AgentChat, Core, Studio, extensions, tools, and runtime concepts.",
+    "why_it_matters": "Documents a major multi-agent ecosystem whose workflows can be translated into reusable skill guidance.",
+    "tags": [
+      "agents",
+      "multi-agent",
+      "tools",
+      "workflows"
+    ]
+  },
+  {
+    "id": "autogen-repo",
+    "name": "Microsoft AutoGen GitHub",
+    "type": "Official",
+    "framework": "Microsoft AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "repo": "https://github.com/microsoft/autogen",
+    "description": "Official Microsoft AutoGen repository.",
+    "why_it_matters": "Provides source code and examples for AutoGen agent applications and multi-agent workflows.",
+    "tags": [
+      "repo",
+      "agents",
+      "multi-agent"
+    ]
+  },
+  {
+    "id": "semantic-kernel-docs",
+    "name": "Semantic Kernel Docs",
+    "type": "Official",
+    "framework": "Semantic Kernel",
+    "url": "https://learn.microsoft.com/en-us/semantic-kernel/overview/",
+    "repo": "https://github.com/microsoft/semantic-kernel",
+    "description": "Official Microsoft Semantic Kernel overview and documentation.",
+    "why_it_matters": "Shows how enterprise agent workflows use plugins, functions, planners, memory, and application integration.",
+    "tags": [
+      "agents",
+      "plugins",
+      "enterprise",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "semantic-kernel-repo",
+    "name": "Semantic Kernel GitHub",
+    "type": "Official",
+    "framework": "Semantic Kernel",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "repo": "https://github.com/microsoft/semantic-kernel",
+    "description": "Official Semantic Kernel repository.",
+    "why_it_matters": "Provides source context for Semantic Kernel app and agent orchestration patterns.",
+    "tags": [
+      "repo",
+      "agents",
+      "plugins"
+    ]
+  },
+  {
+    "id": "llamaindex-docs",
+    "name": "LlamaIndex Docs",
+    "type": "Official",
+    "framework": "LlamaIndex",
+    "url": "https://developers.llamaindex.ai/python/framework/",
+    "repo": "https://github.com/run-llama/llama_index",
+    "description": "Official LlamaIndex framework documentation for data, RAG, tools, agents, workflows, evaluation, and observability.",
+    "why_it_matters": "Covers the data and retrieval layer that many agent skills need to reference safely.",
+    "tags": [
+      "rag",
+      "agents",
+      "data",
+      "workflows"
+    ]
+  },
+  {
+    "id": "llamaindex-repo",
+    "name": "LlamaIndex GitHub",
+    "type": "Official",
+    "framework": "LlamaIndex",
+    "url": "https://github.com/run-llama/llama_index",
+    "repo": "https://github.com/run-llama/llama_index",
+    "description": "Official LlamaIndex repository.",
+    "why_it_matters": "Provides source context for RAG agent and data workflow examples.",
+    "tags": [
+      "repo",
+      "rag",
+      "agents"
+    ]
+  },
+  {
+    "id": "pydantic-ai-docs",
+    "name": "Pydantic AI Docs",
+    "type": "Official",
+    "framework": "Pydantic AI",
+    "url": "https://pydantic.dev/docs/ai/overview/",
+    "repo": "https://github.com/pydantic/pydantic-ai",
+    "description": "Official Pydantic AI documentation for agents, tools, structured outputs, evals, MCP, graphs, and human-in-the-loop patterns.",
+    "why_it_matters": "Gives Python teams a typed approach to agent workflows that can be reviewed as code.",
+    "tags": [
+      "agents",
+      "python",
+      "evals",
+      "tools"
+    ]
+  },
+  {
+    "id": "pydantic-ai-repo",
+    "name": "Pydantic AI GitHub",
+    "type": "Official",
+    "framework": "Pydantic AI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "repo": "https://github.com/pydantic/pydantic-ai",
+    "description": "Official Pydantic AI repository.",
+    "why_it_matters": "Provides source context for typed Python agent and evaluation patterns.",
+    "tags": [
+      "repo",
+      "python",
+      "agents"
+    ]
+  },
+  {
+    "id": "haystack-docs",
+    "name": "Haystack Docs",
+    "type": "Official",
+    "framework": "Haystack",
+    "url": "https://docs.haystack.deepset.ai/docs/intro",
+    "repo": "https://github.com/deepset-ai/haystack",
+    "description": "Official Haystack documentation for pipelines, components, RAG, agents, tools, evaluators, and production workflows.",
+    "why_it_matters": "Shows how production retrieval and pipeline workflows can be reviewed before skill adoption.",
+    "tags": [
+      "rag",
+      "pipelines",
+      "agents",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "haystack-repo",
+    "name": "Haystack GitHub",
+    "type": "Official",
+    "framework": "Haystack",
+    "url": "https://github.com/deepset-ai/haystack",
+    "repo": "https://github.com/deepset-ai/haystack",
+    "description": "Official Haystack repository.",
+    "why_it_matters": "Provides source context for production RAG and agent pipeline patterns.",
+    "tags": [
+      "repo",
+      "rag",
+      "pipelines"
+    ]
+  },
+  {
+    "id": "strands-agents-docs",
+    "name": "Strands Agents Docs",
+    "type": "Official",
+    "framework": "Strands Agents",
+    "url": "https://strandsagents.com/",
+    "repo": "https://github.com/strands-agents/harness-sdk",
+    "description": "Official Strands Agents documentation site for agent SDK concepts, tools, hooks, observability, and coding-agent setup.",
+    "why_it_matters": "Adds SDK-level agent workflow coverage for teams comparing tool, hook, and observability patterns.",
+    "tags": [
+      "agents",
+      "sdk",
+      "tools",
+      "observability"
+    ]
+  },
+  {
+    "id": "strands-agents-repo",
+    "name": "Strands Agents GitHub",
+    "type": "Official",
+    "framework": "Strands Agents",
+    "url": "https://github.com/strands-agents/harness-sdk",
+    "repo": "https://github.com/strands-agents/harness-sdk",
+    "description": "Official Strands Agents SDK repository.",
+    "why_it_matters": "Provides source context for Strands agent SDK workflow patterns.",
+    "tags": [
+      "repo",
+      "agents",
+      "sdk"
+    ]
+  },
+  {
+    "id": "agno-docs",
+    "name": "Agno Docs",
+    "type": "Official",
+    "framework": "Agno",
+    "url": "https://docs.agno.com/",
+    "repo": "https://github.com/agno-agi/agno",
+    "description": "Official Agno documentation for agents, tools, memory, knowledge, models, and multi-agent applications.",
+    "why_it_matters": "Adds coverage for a lightweight agent framework used to compare fast agent app patterns.",
+    "tags": [
+      "agents",
+      "tools",
+      "memory",
+      "knowledge"
+    ]
+  },
+  {
+    "id": "agno-repo",
+    "name": "Agno GitHub",
+    "type": "Official",
+    "framework": "Agno",
+    "url": "https://github.com/agno-agi/agno",
+    "repo": "https://github.com/agno-agi/agno",
+    "description": "Official Agno repository.",
+    "why_it_matters": "Provides source context for Agno agent app examples and framework structure.",
+    "tags": [
+      "repo",
+      "agents",
+      "tools"
+    ]
   }
 ]

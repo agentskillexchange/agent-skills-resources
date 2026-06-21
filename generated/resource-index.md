@@ -33,6 +33,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 |---|---|---|
 | [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) | GitHub Copilot | Shows how skills are installed and selected for Copilot cloud agent and related GitHub surfaces. |
 | [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills) | GitHub Copilot | Connects terminal-native Copilot workflows to the broader skill ecosystem. |
+| [Agno Docs](https://docs.agno.com/) | Agno | Adds coverage for a lightweight agent framework used to compare fast agent app patterns. |
+| [Agno GitHub](https://github.com/agno-agi/agno) | Agno | Provides source context for Agno agent app examples and framework structure. |
 | [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) | MCP | Gives provider-owned context for MCP as an agent-tool bridge. |
 | [Claude Code Docs](https://code.claude.com/docs) | Claude Code | Primary source for Claude Code workflow and usage guidance. |
 | [Claude Code Headless](https://code.claude.com/docs/en/headless) | Claude Code | Important for automation-oriented skills and CI workflows. |
@@ -41,6 +43,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory) | Claude Code | Memory affects how skills, instructions, and project preferences persist across agent work. |
 | [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings) | Claude Code | Settings are part of the runtime boundary that skill authors need to understand. |
 | [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents) | Claude Code | Subagents are a useful comparison point for skill routing and workflow specialization. |
+| [CrewAI Docs](https://docs.crewai.com/) | CrewAI | Shows how role-based and flow-based agent workflows can be captured as reusable skill recipes. |
+| [CrewAI GitHub](https://github.com/crewAIInc/crewAI) | CrewAI | Provides source context for CrewAI framework usage and project structure. |
 | [Cursor Agent Skills](https://cursor.com/docs/context/skills) | Cursor | Primary source for Cursor's skill model. |
 | [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools) | Cursor | Helps distinguish skills from callable editor tools. |
 | [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent) | Cursor | Background agents show how skill guidance can support asynchronous coding work. |
@@ -57,6 +61,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Google ADK Python](https://github.com/google/adk-python) | Google ADK | Source-backed reference for Google's agent development patterns. |
 | [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/) | Google ADK | Tool concepts help readers distinguish skill instructions from callable capabilities. |
 | [Google Agent Development Kit Docs](https://google.github.io/adk-docs/) | Google ADK | Provides official Google guidance for building agents, tools, and workflows. |
+| [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro) | Haystack | Shows how production retrieval and pipeline workflows can be reviewed before skill adoption. |
+| [Haystack GitHub](https://github.com/deepset-ai/haystack) | Haystack | Provides source context for production RAG and agent pipeline patterns. |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Hermes | Shows a skills-oriented self-improving agent architecture. |
 | [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md) | Hermes | Memory boundaries are closely related to reusable skill behavior. |
 | [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md) | Hermes | Shows how Hermes documents built-in skills and their roles. |
@@ -67,6 +73,10 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview) | LangChain/LangGraph | Explains stateful agent graphs and durable workflow concepts. |
 | [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop) | LangChain / LangGraph | Provides a framework reference for approval gates and human-supervised agent workflows. |
 | [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence) | LangChain / LangGraph | State and persistence are central concepts for durable agent workflows and skill handoffs. |
+| [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/) | LlamaIndex | Covers the data and retrieval layer that many agent skills need to reference safely. |
+| [LlamaIndex GitHub](https://github.com/run-llama/llama_index) | LlamaIndex | Provides source context for RAG agent and data workflow examples. |
+| [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/) | Microsoft AutoGen | Documents a major multi-agent ecosystem whose workflows can be translated into reusable skill guidance. |
+| [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen) | Microsoft AutoGen | Provides source code and examples for AutoGen agent applications and multi-agent workflows. |
 | [Model Context Protocol Docs](https://modelcontextprotocol.io/) | MCP | Primary source for tool/context protocol concepts. |
 | [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro) | MCP | Gives readers a starting point for understanding MCP as a tool and context layer for agents. |
 | [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol) | MCP | Source-backed reference for MCP specification and docs. |
@@ -82,8 +92,21 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai) | OpenClaw | Provider setup affects how skills run across agent runtimes. |
 | [OpenClaw Repository](https://github.com/openclaw/openclaw) | OpenClaw | Source-backed reference for OpenClaw runtime and contribution details. |
 | [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/) | Observability | Gives teams vocabulary for traces, metrics, and evidence around agent workflows. |
+| [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/) | Pydantic AI | Gives Python teams a typed approach to agent workflows that can be reviewed as code. |
+| [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai) | Pydantic AI | Provides source context for typed Python agent and evaluation patterns. |
+| [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/) | Semantic Kernel | Shows how enterprise agent workflows use plugins, functions, planners, memory, and application integration. |
+| [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel) | Semantic Kernel | Provides source context for Semantic Kernel app and agent orchestration patterns. |
+| [Strands Agents Docs](https://strandsagents.com/) | Strands Agents | Adds SDK-level agent workflow coverage for teams comparing tool, hook, and observability patterns. |
+| [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk) | Strands Agents | Provides source context for Strands agent SDK workflow patterns. |
 
 ## By Framework
+
+### Agno
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Agno Docs](https://docs.agno.com/) | Agno | Adds coverage for a lightweight agent framework used to compare fast agent app patterns. |
+| [Agno GitHub](https://github.com/agno-agi/agno) | Agno | Provides source context for Agno agent app examples and framework structure. |
 
 ### Claude Code
 
@@ -104,6 +127,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 |---|---|---|
 | [OpenAI Codex](https://github.com/openai/codex) | Codex | Codex is a core coding-agent workflow surface for skill-driven repo work. |
 | [OpenAI Codex Docs](https://developers.openai.com/codex) | Codex | Provides lab-owned guidance for Codex workflows and setup. |
+
+### CrewAI
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [CrewAI Docs](https://docs.crewai.com/) | CrewAI | Shows how role-based and flow-based agent workflows can be captured as reusable skill recipes. |
+| [CrewAI GitHub](https://github.com/crewAIInc/crewAI) | CrewAI | Provides source context for CrewAI framework usage and project structure. |
 
 ### Cursor
 
@@ -149,6 +179,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 |---|---|---|
 | [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | Governance | Useful background for teams creating approval, governance, and rollout processes for agent skills. |
 
+### Haystack
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro) | Haystack | Shows how production retrieval and pipeline workflows can be reviewed before skill adoption. |
+| [Haystack GitHub](https://github.com/deepset-ai/haystack) | Haystack | Provides source context for production RAG and agent pipeline patterns. |
+
 ### Hermes
 
 | Resource | Framework | Why it matters |
@@ -174,6 +211,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [LangGraph](https://github.com/langchain-ai/langgraph) | LangChain/LangGraph | Source-backed reference for graph-based agent orchestration. |
 | [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview) | LangChain/LangGraph | Explains stateful agent graphs and durable workflow concepts. |
 
+### LlamaIndex
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/) | LlamaIndex | Covers the data and retrieval layer that many agent skills need to reference safely. |
+| [LlamaIndex GitHub](https://github.com/run-llama/llama_index) | LlamaIndex | Provides source context for RAG agent and data workflow examples. |
+
 ### MCP
 
 | Resource | Framework | Why it matters |
@@ -183,6 +227,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Model Context Protocol Docs](https://modelcontextprotocol.io/) | MCP | Primary source for tool/context protocol concepts. |
 | [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro) | MCP | Gives readers a starting point for understanding MCP as a tool and context layer for agents. |
 | [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol) | MCP | Source-backed reference for MCP specification and docs. |
+
+### Microsoft AutoGen
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/) | Microsoft AutoGen | Documents a major multi-agent ecosystem whose workflows can be translated into reusable skill guidance. |
+| [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen) | Microsoft AutoGen | Provides source code and examples for AutoGen agent applications and multi-agent workflows. |
 
 ### Multi-Framework
 
@@ -227,18 +278,39 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai) | OpenClaw | Provider setup affects how skills run across agent runtimes. |
 | [OpenClaw Repository](https://github.com/openclaw/openclaw) | OpenClaw | Source-backed reference for OpenClaw runtime and contribution details. |
 
+### Pydantic AI
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/) | Pydantic AI | Gives Python teams a typed approach to agent workflows that can be reviewed as code. |
+| [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai) | Pydantic AI | Provides source context for typed Python agent and evaluation patterns. |
+
 ### Security
 
 | Resource | Framework | Why it matters |
 |---|---|---|
 | [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | Security | Provides a practical security checklist for skills that use tools, prompts, data, or code execution. |
 
+### Semantic Kernel
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/) | Semantic Kernel | Shows how enterprise agent workflows use plugins, functions, planners, memory, and application integration. |
+| [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel) | Semantic Kernel | Provides source context for Semantic Kernel app and agent orchestration patterns. |
+
+### Strands Agents
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Strands Agents Docs](https://strandsagents.com/) | Strands Agents | Adds SDK-level agent workflow coverage for teams comparing tool, hook, and observability patterns. |
+| [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk) | Strands Agents | Provides source context for Strands agent SDK workflow patterns. |
+
 ## By Tag
 
 - **adapters**: [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)
 - **adk**: [Google ADK Python](https://github.com/google/adk-python), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/)
 - **agent**: [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-- **agents**: [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/), [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents)
+- **agents**: [Agno Docs](https://docs.agno.com/), [Agno GitHub](https://github.com/agno-agi/agno), [CrewAI Docs](https://docs.crewai.com/), [CrewAI GitHub](https://github.com/crewAIInc/crewAI), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/), [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [LlamaIndex GitHub](https://github.com/run-llama/llama_index), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/), [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen), [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai), [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel), [Strands Agents Docs](https://strandsagents.com/), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk)
 - **agents-sdk**: [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python)
 - **anthropic**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Claude Code Docs](https://code.claude.com/docs), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 - **api**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs)
@@ -257,8 +329,11 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **configuration**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings)
 - **context**: [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory), [Cursor Rules Docs](https://docs.cursor.com/en/context/rules), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
 - **cursor**: [Cursor Agent Skills](https://cursor.com/docs/context/skills), [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent), [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
+- **data**: [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/)
 - **docs**: [Claude Code Docs](https://code.claude.com/docs), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [GitHub Copilot Docs](https://docs.github.com/en/copilot), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Docs](https://docs.openclaw.ai/)
-- **evaluation**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
+- **enterprise**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
+- **evals**: [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/)
+- **evaluation**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
 - **framework**: [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/)
 - **gemini**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs)
 - **genai**: [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
@@ -275,29 +350,35 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **ide**: [Cursor Agent Skills](https://cursor.com/docs/context/skills), [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent)
 - **image-generation**: [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation)
 - **instructions**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
+- **knowledge**: [Agno Docs](https://docs.agno.com/)
 - **lab**: [OpenAI Codex Docs](https://developers.openai.com/codex)
 - **langchain**: [LangChain Agents](https://www.langchain.com/agents), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [LangGraph](https://github.com/langchain-ai/langgraph)
 - **langgraph**: [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
 - **llm**: [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - **marketplace**: [Agent Skill Exchange](https://agentskillexchange.com/)
 - **mcp**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/)
-- **memory**: [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md)
-- **observability**: [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
+- **memory**: [Agno Docs](https://docs.agno.com/), [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md)
+- **multi-agent**: [CrewAI Docs](https://docs.crewai.com/), [CrewAI GitHub](https://github.com/crewAIInc/crewAI), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/), [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen)
+- **observability**: [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/), [Strands Agents Docs](https://strandsagents.com/)
 - **openai**: [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenAI Codex Docs](https://developers.openai.com/codex), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai)
 - **openclaw**: [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation), [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai), [OpenClaw Repository](https://github.com/openclaw/openclaw)
+- **orchestration**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 - **persistence**: [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
+- **pipelines**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [Haystack GitHub](https://github.com/deepset-ai/haystack)
+- **plugins**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel)
 - **protocol**: [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
 - **provider**: [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai)
-- **python**: [Google ADK Python](https://github.com/google/adk-python)
+- **python**: [Google ADK Python](https://github.com/google/adk-python), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai)
 - **quality**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
-- **repo**: [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenClaw Repository](https://github.com/openclaw/openclaw)
+- **rag**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [Haystack GitHub](https://github.com/deepset-ai/haystack), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [LlamaIndex GitHub](https://github.com/run-llama/llama_index)
+- **repo**: [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Agno GitHub](https://github.com/agno-agi/agno), [CrewAI GitHub](https://github.com/crewAIInc/crewAI), [Haystack GitHub](https://github.com/deepset-ai/haystack), [LlamaIndex GitHub](https://github.com/run-llama/llama_index), [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenClaw Repository](https://github.com/openclaw/openclaw), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk)
 - **repository**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
 - **resources**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 - **risk**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - **rules**: [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
 - **runtime**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings), [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Repository](https://github.com/openclaw/openclaw)
 - **safety**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-- **sdk**: [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills)
+- **sdk**: [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills), [Strands Agents Docs](https://strandsagents.com/), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk)
 - **security**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - **servers**: [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - **settings**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings)
@@ -306,7 +387,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **state**: [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
 - **subagents**: [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 - **terminal-agent**: [Gemini CLI](https://github.com/google-gemini/gemini-cli)
-- **tools**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro), [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation)
+- **tools**: [Agno Docs](https://docs.agno.com/), [Agno GitHub](https://github.com/agno-agi/agno), [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [CrewAI Docs](https://docs.crewai.com/), [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro), [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Strands Agents Docs](https://strandsagents.com/)
 - **tracing**: [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
 - **verification**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
-- **workflows**: [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
+- **workflows**: [CrewAI Docs](https://docs.crewai.com/), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/)

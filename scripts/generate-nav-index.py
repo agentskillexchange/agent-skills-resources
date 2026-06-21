@@ -12,6 +12,7 @@ DIRECTORIES = [
     "learning",
     "cookbook",
     "diagrams",
+    "ecosystems",
     "frameworks",
     "workflows",
     "examples",

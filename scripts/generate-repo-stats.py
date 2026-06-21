@@ -46,6 +46,7 @@ def main() -> int:
         f"- Learning pages: {md_count('learning')}",
         f"- Cookbook pages: {md_count('cookbook')}",
         f"- Diagram pages: {md_count('diagrams')}",
+        f"- Ecosystem pages: {md_count('ecosystems')}",
         f"- Framework pages: {md_count('frameworks')}",
         f"- Workflow pages: {md_count('workflows')}",
         f"- Case study pages: {md_count('case-studies')}",

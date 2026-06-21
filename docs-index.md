@@ -29,6 +29,9 @@ The repo is an educational guide, not the canonical catalog.
 |---|---|
 | Compare frameworks | [Framework Comparison](framework-comparison.md) |
 | Browse framework pages | [Frameworks](frameworks/) |
+| Explore popular agent ecosystems | [Ecosystems](ecosystems/) |
+| Compare ecosystem coverage | [Ecosystem Coverage Matrix](ecosystems/coverage-matrix.md) |
+| Read the ecosystem overview | [Popular Agent Ecosystems](ecosystems/popular-agent-ecosystems.md) |
 | See ecosystem diagrams | [Diagrams](diagrams/) |
 | See workflow stacks | [Showcase Workflow Stacks](showcase/) |
 | Review adoption paths | [Starter Kits](starter-kits/) and [Playbooks](playbooks/) |

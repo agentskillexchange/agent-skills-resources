@@ -18,6 +18,9 @@ The repo is an educational guide, not the canonical catalog.
 | Need | Start here |
 |---|---|
 | Use short best-practice recipes | [Best-Practices Cookbook](cookbook/) |
+| Plan deployment and runtime hosting | [Deployment](deployment/) |
+| Compare runtime providers | [Provider Matrix](deployment/provider-matrix.md) |
+| Review sandbox execution | [Sandbox And Container Execution](deployment/sandbox-and-container-execution.md) |
 | Run skills with operational evidence | [Agent Ops](ops/) |
 | Review observability and evals | [Observability And Evals](ops/observability-and-evals.md) |
 | Plan approval gates | [Human Approval Workflows](ops/human-approval-workflows.md) |
@@ -39,6 +42,7 @@ The repo is an educational guide, not the canonical catalog.
 | Browse framework pages | [Frameworks](frameworks/) |
 | Explore popular agent ecosystems | [Ecosystems](ecosystems/) |
 | Compare ecosystem coverage | [Ecosystem Coverage Matrix](ecosystems/coverage-matrix.md) |
+| Compare deployment surfaces | [Deployment Provider Matrix](deployment/provider-matrix.md) |
 | Read the ecosystem overview | [Popular Agent Ecosystems](ecosystems/popular-agent-ecosystems.md) |
 | See ecosystem diagrams | [Diagrams](diagrams/) |
 | See workflow stacks | [Showcase Workflow Stacks](showcase/) |

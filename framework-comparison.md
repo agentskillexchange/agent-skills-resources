@@ -42,3 +42,5 @@ workflows are designed, reviewed, and adopted.
   claiming multi-framework support without evidence.
 - If you are operating skill-backed workflows, use [Agent Ops](ops/) for traces,
   evals, approvals, workflow automation, model gateways, and rollout evidence.
+- If you are deploying skill-backed workflows, use [Deployment](deployment/) for
+  runtime hosting, sandboxing, secrets, provider comparison, and readiness checks.

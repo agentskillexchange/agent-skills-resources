@@ -50,10 +50,15 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Agno](../ecosystems/agno.md)
 - [Arize Phoenix](../ecosystems/arize-phoenix.md)
 - [Microsoft AutoGen](../ecosystems/autogen.md)
+- [AWS Bedrock Agents](../ecosystems/aws-bedrock-agents.md)
+- [Azure AI Foundry](../ecosystems/azure-ai-foundry.md)
+- [Cloudflare Workers](../ecosystems/cloudflare-workers.md)
 - [Composio](../ecosystems/composio.md)
 - [Ecosystem Coverage Matrix](../ecosystems/coverage-matrix.md)
 - [CrewAI](../ecosystems/crewai.md)
+- [Fly.io](../ecosystems/fly-io.md)
 - [garak](../ecosystems/garak.md)
+- [Google Vertex AI Agent Builder](../ecosystems/google-vertex-ai-agent-builder.md)
 - [Guardrails AI](../ecosystems/guardrails-ai.md)
 - [Haystack](../ecosystems/haystack.md)
 - [HumanLayer](../ecosystems/humanlayer.md)
@@ -62,6 +67,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [LangSmith](../ecosystems/langsmith.md)
 - [LlamaFirewall](../ecosystems/llama-firewall.md)
 - [LlamaIndex](../ecosystems/llamaindex.md)
+- [Modal](../ecosystems/modal.md)
 - [n8n](../ecosystems/n8n.md)
 - [NIST AI Risk Management Framework](../ecosystems/nist-ai-rmf.md)
 - [OpenTelemetry GenAI](../ecosystems/opentelemetry-genai.md)
@@ -74,8 +80,19 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Strands Agents](../ecosystems/strands-agents.md)
 - [Vercel AI Gateway](../ecosystems/vercel-ai-gateway.md)
 - [Vercel AI SDK](../ecosystems/vercel-ai-sdk.md)
+- [Vercel Platform](../ecosystems/vercel-platform.md)
 - [Weights & Biases Weave](../ecosystems/weights-biases-weave.md)
 - [Zapier](../ecosystems/zapier.md)
+
+## deployment
+
+- [Deployment And Runtime Hosting](../deployment/README.md)
+- [Deployment Overview](../deployment/deployment-overview.md)
+- [Deployment Readiness](../deployment/deployment-readiness.md)
+- [Provider Matrix](../deployment/provider-matrix.md)
+- [Runtime Hosting](../deployment/runtime-hosting.md)
+- [Sandbox And Container Execution](../deployment/sandbox-and-container-execution.md)
+- [Secrets And Environments](../deployment/secrets-and-environments.md)
 
 ## ops
 

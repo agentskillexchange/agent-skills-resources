@@ -35,6 +35,15 @@ It is a starting point for orientation, not a capability guarantee.
 | Workflow automation | [Workflow Automation](../ops/workflow-automation.md) | n8n, Zapier, Composio, connector-heavy flows |
 | Gateways and policy | [Model Gateways And Policy](../ops/model-gateways-and-policy.md) | model routing, failover, cost controls, audit logs |
 
+## Deployment Layer
+
+| Area | Start here | Use it for |
+|---|---|---|
+| Deployment overview | [Deployment](../deployment/) | choosing runtime boundaries and rollout evidence |
+| Runtime hosting | [Runtime Hosting](../deployment/runtime-hosting.md) | web apps, workers, containers, jobs, managed agents |
+| Sandbox/container execution | [Sandbox And Container Execution](../deployment/sandbox-and-container-execution.md) | generated code, shell commands, repository automation |
+| Provider comparison | [Provider Matrix](../deployment/provider-matrix.md) | Vercel, Cloudflare Workers, Fly.io, Modal, AWS, Azure, Google Cloud |
+
 ## Security Layer
 
 | Area | Start here | Use it for |

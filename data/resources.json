@@ -1548,5 +1548,181 @@
       "security",
       "prompt-injection"
     ]
+  },
+  {
+    "id": "vercel-platform-docs",
+    "name": "Vercel Platform Docs",
+    "type": "Official",
+    "framework": "Vercel Platform",
+    "url": "https://vercel.com/docs",
+    "repo": "",
+    "description": "Official Vercel documentation for deployments, functions, projects, environment variables, and platform operations.",
+    "why_it_matters": "Helps teams understand how hosted AI apps and skill-backed workflows are deployed, configured, and operated on Vercel.",
+    "tags": [
+      "deployment",
+      "hosting",
+      "functions",
+      "environment-variables"
+    ]
+  },
+  {
+    "id": "vercel-deployments-docs",
+    "name": "Vercel Deployments Docs",
+    "type": "Official",
+    "framework": "Vercel Platform",
+    "url": "https://vercel.com/docs/deployments",
+    "repo": "",
+    "description": "Official Vercel documentation for preview and production deployments.",
+    "why_it_matters": "Preview deployments are useful evidence points before rolling out skill-backed AI app workflows.",
+    "tags": [
+      "deployment",
+      "preview",
+      "rollout",
+      "evidence"
+    ]
+  },
+  {
+    "id": "vercel-functions-docs",
+    "name": "Vercel Functions Docs",
+    "type": "Official",
+    "framework": "Vercel Platform",
+    "url": "https://vercel.com/docs/functions",
+    "repo": "",
+    "description": "Official Vercel documentation for serverless and framework functions.",
+    "why_it_matters": "Function limits, runtime behavior, and environment handling shape how agent workflows should be hosted.",
+    "tags": [
+      "deployment",
+      "functions",
+      "runtime",
+      "serverless"
+    ]
+  },
+  {
+    "id": "cloudflare-workers-docs",
+    "name": "Cloudflare Workers Docs",
+    "type": "Official",
+    "framework": "Cloudflare Workers",
+    "url": "https://developers.cloudflare.com/workers/",
+    "repo": "",
+    "description": "Official Cloudflare Workers documentation for edge compute and worker runtimes.",
+    "why_it_matters": "Workers can host lightweight tool adapters, routing layers, and policy checks around skill-backed workflows.",
+    "tags": [
+      "deployment",
+      "edge",
+      "workers",
+      "runtime"
+    ]
+  },
+  {
+    "id": "fly-io-docs",
+    "name": "Fly.io Docs",
+    "type": "Official",
+    "framework": "Fly.io",
+    "url": "https://fly.io/docs/",
+    "repo": "",
+    "description": "Official Fly.io documentation for deploying and operating applications close to users.",
+    "why_it_matters": "Containerized agent services often need hosting, secrets, logs, and rollback practices beyond local skill execution.",
+    "tags": [
+      "deployment",
+      "containers",
+      "hosting",
+      "runtime"
+    ]
+  },
+  {
+    "id": "modal-docs",
+    "name": "Modal Docs",
+    "type": "Official",
+    "framework": "Modal",
+    "url": "https://modal.com/docs",
+    "repo": "",
+    "description": "Official Modal documentation for hosted Python functions, jobs, images, and secrets.",
+    "why_it_matters": "Modal is useful for Python-heavy skill-backed data, model, and evaluation workflows with bounded execution.",
+    "tags": [
+      "deployment",
+      "python",
+      "jobs",
+      "serverless"
+    ]
+  },
+  {
+    "id": "aws-bedrock-agents-docs",
+    "name": "AWS Bedrock Agents Docs",
+    "type": "Official",
+    "framework": "AWS Bedrock Agents",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
+    "repo": "",
+    "description": "Official AWS documentation for Amazon Bedrock Agents.",
+    "why_it_matters": "Managed agents, action groups, IAM, and knowledge bases are important deployment surfaces for enterprise skill-like workflows.",
+    "tags": [
+      "deployment",
+      "managed-agents",
+      "aws",
+      "iam"
+    ]
+  },
+  {
+    "id": "azure-ai-foundry-docs",
+    "name": "Azure AI Foundry Docs",
+    "type": "Official",
+    "framework": "Azure AI Foundry",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/",
+    "repo": "",
+    "description": "Official Microsoft documentation for Azure AI Foundry.",
+    "why_it_matters": "Azure AI Foundry provides enterprise AI project, agent, evaluation, deployment, and governance surfaces.",
+    "tags": [
+      "deployment",
+      "azure",
+      "agents",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "azure-ai-foundry-agents-docs",
+    "name": "Azure AI Foundry Agents Overview",
+    "type": "Official",
+    "framework": "Azure AI Foundry",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "repo": "",
+    "description": "Official Microsoft overview for Azure AI Foundry Agent Service.",
+    "why_it_matters": "Agent Service concepts help teams map skill-backed workflows into managed Azure agent deployments.",
+    "tags": [
+      "deployment",
+      "azure",
+      "agents",
+      "managed-agents"
+    ]
+  },
+  {
+    "id": "google-gemini-enterprise-agent-platform",
+    "name": "Google Gemini Enterprise Agent Platform",
+    "type": "Official",
+    "framework": "Google Vertex AI Agent Builder",
+    "url": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
+    "repo": "",
+    "description": "Official Google Cloud product page for Gemini Enterprise agent platform capabilities.",
+    "why_it_matters": "Google Cloud managed agent and enterprise search surfaces are relevant for deploying skill-adjacent workflows with cloud governance.",
+    "tags": [
+      "deployment",
+      "google-cloud",
+      "managed-agents",
+      "enterprise-search"
+    ]
+  },
+  {
+    "id": "google-vertex-ai-agent-engine-docs",
+    "name": "Vertex AI Agent Engine Overview",
+    "type": "Official",
+    "framework": "Google Vertex AI Agent Builder",
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview",
+    "repo": "",
+    "description": "Official Google Cloud documentation for Vertex AI Agent Engine.",
+    "why_it_matters": "Agent Engine documentation helps teams understand managed deployment, operation, and integration choices for agent workflows.",
+    "tags": [
+      "deployment",
+      "google-cloud",
+      "agent-engine",
+      "runtime"
+    ]
   }
 ]

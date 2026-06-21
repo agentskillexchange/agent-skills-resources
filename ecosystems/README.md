@@ -25,6 +25,13 @@ workflows, memory, evals, and MCP fit.
 | Zapier | [Zapier](zapier.md) | SaaS automation and app connectors |
 | Vercel AI SDK | [Vercel AI SDK](vercel-ai-sdk.md) | AI app development and tool-calling workflows |
 | Vercel AI Gateway | [Vercel AI Gateway](vercel-ai-gateway.md) | Model routing, gateway, and provider policy layer |
+| Vercel Platform | [Vercel Platform](vercel-platform.md) | Hosted AI apps, functions, deployments, and preview workflows |
+| Cloudflare Workers | [Cloudflare Workers](cloudflare-workers.md) | Edge workers, lightweight APIs, and policy adapters |
+| Fly.io | [Fly.io](fly-io.md) | Containerized agent services and global app hosting |
+| Modal | [Modal](modal.md) | Hosted Python jobs, model/data workflows, and scheduled functions |
+| AWS Bedrock Agents | [AWS Bedrock Agents](aws-bedrock-agents.md) | AWS-native managed agents, action groups, and knowledge bases |
+| Azure AI Foundry | [Azure AI Foundry](azure-ai-foundry.md) | Azure AI agent lifecycle, evaluation, and deployment |
+| Google Vertex AI Agent Builder | [Google Vertex AI Agent Builder](google-vertex-ai-agent-builder.md) | Google Cloud managed agent and enterprise search experiences |
 | OWASP LLM Top 10 | [OWASP LLM](owasp-llm.md) | LLM application security risk categories |
 | NIST AI RMF | [NIST AI RMF](nist-ai-rmf.md) | AI risk management and governance vocabulary |
 | Guardrails AI | [Guardrails AI](guardrails-ai.md) | Runtime validation and guardrail patterns |

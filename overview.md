@@ -13,9 +13,11 @@ flowchart LR
   Skills --> Protocols["MCP and tool protocols"]
   Skills --> Frameworks["LangChain, LangGraph, OpenAI Agents SDK"]
   Skills --> Evidence["Verification, safety, approvals"]
+  Skills --> Deployment["Deployment and runtime hosting"]
   Runtimes --> Workflows["Coding agents and agent workflows"]
   Protocols --> Workflows
   Frameworks --> Workflows
+  Deployment --> Rollout["Skill evaluation and rollout playbooks"]
   Evidence --> Rollout["Skill evaluation and rollout playbooks"]
 ```
 
@@ -34,10 +36,10 @@ flowchart LR
 
 | Metric | Count |
 |---|---:|
-| Source-backed resources | 45 |
-| Official resources | 39 |
+| Source-backed resources | 112 |
+| Official resources | 105 |
 | Lab resources | 1 |
-| Community resources | 2 |
+| Community resources | 3 |
 | ASE resources | 3 |
 | Representative mapped ASE skills | 46 |
 | Playbooks | 6 |
@@ -58,6 +60,8 @@ flowchart LR
   point for readers who want a fast overview.
 - [Framework Comparison](framework-comparison.md): practical matrix for
   choosing the right framework or runtime surface.
+- [Deployment](deployment/): runtime hosting, sandboxing, secrets, and rollout
+  readiness for skill-backed workflows.
 - [Showcase Workflow Stacks](showcase/): polished stack examples that combine
   framework resources, representative skills, pilot plans, and verification
   evidence.
@@ -72,5 +76,7 @@ flowchart LR
   LangChain, LangGraph, and OpenAI Agents SDK resources.
 - Evaluating skill quality, agent safety, verification evidence, and rollout
   readiness.
+- Planning deployment with runtime boundaries, sandboxing, secrets, approvals,
+  and rollback evidence.
 - Running small pilot workflows with playbooks and templates before production
   adoption.

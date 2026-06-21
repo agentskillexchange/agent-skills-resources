@@ -38,6 +38,9 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) | MCP | Gives provider-owned context for MCP as an agent-tool bridge. |
 | [Arize Phoenix Docs](https://arize.com/docs/phoenix) | Arize Phoenix | Supports evidence-based review for RAG, agent, and LLM application workflows. |
 | [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix) | Arize Phoenix | Provides source context for Phoenix observability and evaluation workflows. |
+| [AWS Bedrock Agents Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html) | AWS Bedrock Agents | Managed agents, action groups, IAM, and knowledge bases are important deployment surfaces for enterprise skill-like workflows. |
+| [Azure AI Foundry Agents Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview) | Azure AI Foundry | Agent Service concepts help teams map skill-backed workflows into managed Azure agent deployments. |
+| [Azure AI Foundry Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/) | Azure AI Foundry | Azure AI Foundry provides enterprise AI project, agent, evaluation, deployment, and governance surfaces. |
 | [Claude Code Docs](https://code.claude.com/docs) | Claude Code | Primary source for Claude Code workflow and usage guidance. |
 | [Claude Code Headless](https://code.claude.com/docs/en/headless) | Claude Code | Important for automation-oriented skills and CI workflows. |
 | [Claude Code Hooks Docs](https://docs.anthropic.com/en/docs/claude-code/hooks) | Claude Code | Hooks are a useful reference point for approval, validation, and automation boundaries. |
@@ -45,6 +48,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory) | Claude Code | Memory affects how skills, instructions, and project preferences persist across agent work. |
 | [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings) | Claude Code | Settings are part of the runtime boundary that skill authors need to understand. |
 | [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents) | Claude Code | Subagents are a useful comparison point for skill routing and workflow specialization. |
+| [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | Cloudflare Workers | Workers can host lightweight tool adapters, routing layers, and policy checks around skill-backed workflows. |
 | [Composio Docs](https://docs.composio.dev/) | Composio | Shows how connector-heavy agent workflows can expose external actions safely. |
 | [Composio GitHub](https://github.com/ComposioHQ/composio) | Composio | Provides source context for agent connector and tool integration patterns. |
 | [CrewAI Docs](https://docs.crewai.com/) | CrewAI | Shows how role-based and flow-based agent workflows can be captured as reusable skill recipes. |
@@ -53,6 +57,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools) | Cursor | Helps distinguish skills from callable editor tools. |
 | [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent) | Cursor | Background agents show how skill guidance can support asynchronous coding work. |
 | [Cursor Rules Docs](https://docs.cursor.com/en/context/rules) | Cursor | Rules are an important adjacent concept for skill-like guidance in IDE agents. |
+| [Fly.io Docs](https://fly.io/docs/) | Fly.io | Containerized agent services often need hosting, secrets, logs, and rollback practices beyond local skill execution. |
 | [garak GitHub](https://github.com/NVIDIA/garak) | garak | Adds source-backed coverage for adversarial LLM testing and vulnerability discovery. |
 | [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | Gemini | Provider-level setup reference for Gemini-backed agent workflows. |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Gemini | Represents Gemini-powered terminal-agent workflows. |
@@ -66,6 +71,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Google ADK Python](https://github.com/google/adk-python) | Google ADK | Source-backed reference for Google's agent development patterns. |
 | [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/) | Google ADK | Tool concepts help readers distinguish skill instructions from callable capabilities. |
 | [Google Agent Development Kit Docs](https://google.github.io/adk-docs/) | Google ADK | Provides official Google guidance for building agents, tools, and workflows. |
+| [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) | Google Vertex AI Agent Builder | Google Cloud managed agent and enterprise search surfaces are relevant for deploying skill-adjacent workflows with cloud governance. |
 | [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs) | Guardrails AI | Shows runtime validation patterns that can protect skill-backed workflows. |
 | [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails) | Guardrails AI | Provides source context for guardrail implementation and validator patterns. |
 | [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro) | Haystack | Shows how production retrieval and pipeline workflows can be reviewed before skill adoption. |
@@ -90,6 +96,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [LlamaIndex GitHub](https://github.com/run-llama/llama_index) | LlamaIndex | Provides source context for RAG agent and data workflow examples. |
 | [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/) | Microsoft AutoGen | Documents a major multi-agent ecosystem whose workflows can be translated into reusable skill guidance. |
 | [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen) | Microsoft AutoGen | Provides source code and examples for AutoGen agent applications and multi-agent workflows. |
+| [Modal Docs](https://modal.com/docs) | Modal | Modal is useful for Python-heavy skill-backed data, model, and evaluation workflows with bounded execution. |
 | [Model Context Protocol Docs](https://modelcontextprotocol.io/) | MCP | Primary source for tool/context protocol concepts. |
 | [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro) | MCP | Gives readers a starting point for understanding MCP as a tool and context layer for agents. |
 | [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol) | MCP | Source-backed reference for MCP specification and docs. |
@@ -122,11 +129,21 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Vercel AI Gateway Docs](https://vercel.com/docs/ai-gateway) | Vercel AI Gateway | Adds model gateway and policy-layer coverage for teams operating skill-backed AI applications. |
 | [Vercel AI GitHub](https://github.com/vercel/ai) | Vercel AI SDK | Provides source context for Vercel AI SDK patterns used in AI apps and agent workflows. |
 | [Vercel AI SDK Docs](https://ai-sdk.dev/docs) | Vercel AI SDK | Shows how skill-backed workflows can become application features with tool calling and deployment. |
+| [Vercel Deployments Docs](https://vercel.com/docs/deployments) | Vercel Platform | Preview deployments are useful evidence points before rolling out skill-backed AI app workflows. |
+| [Vercel Functions Docs](https://vercel.com/docs/functions) | Vercel Platform | Function limits, runtime behavior, and environment handling shape how agent workflows should be hosted. |
+| [Vercel Platform Docs](https://vercel.com/docs) | Vercel Platform | Helps teams understand how hosted AI apps and skill-backed workflows are deployed, configured, and operated on Vercel. |
+| [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview) | Google Vertex AI Agent Builder | Agent Engine documentation helps teams understand managed deployment, operation, and integration choices for agent workflows. |
 | [Weights & Biases Weave Docs](https://docs.wandb.ai/weave) | Weights & Biases Weave | Helps teams connect agent workflow evidence to experiment and eval review. |
 | [Weights & Biases Weave GitHub](https://github.com/wandb/weave) | Weights & Biases Weave | Provides source context for Weave tracing and evaluation implementation. |
 | [Zapier Docs](https://docs.zapier.com/) | Zapier | Gives teams a source-backed reference for SaaS workflow automation around agent output. |
 
 ## By Framework
+
+### AWS Bedrock Agents
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [AWS Bedrock Agents Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html) | AWS Bedrock Agents | Managed agents, action groups, IAM, and knowledge bases are important deployment surfaces for enterprise skill-like workflows. |
 
 ### Agno
 
@@ -142,6 +159,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Arize Phoenix Docs](https://arize.com/docs/phoenix) | Arize Phoenix | Supports evidence-based review for RAG, agent, and LLM application workflows. |
 | [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix) | Arize Phoenix | Provides source context for Phoenix observability and evaluation workflows. |
 
+### Azure AI Foundry
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Azure AI Foundry Agents Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview) | Azure AI Foundry | Agent Service concepts help teams map skill-backed workflows into managed Azure agent deployments. |
+| [Azure AI Foundry Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/) | Azure AI Foundry | Azure AI Foundry provides enterprise AI project, agent, evaluation, deployment, and governance surfaces. |
+
 ### Claude Code
 
 | Resource | Framework | Why it matters |
@@ -154,6 +178,12 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory) | Claude Code | Memory affects how skills, instructions, and project preferences persist across agent work. |
 | [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings) | Claude Code | Settings are part of the runtime boundary that skill authors need to understand. |
 | [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents) | Claude Code | Subagents are a useful comparison point for skill routing and workflow specialization. |
+
+### Cloudflare Workers
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | Cloudflare Workers | Workers can host lightweight tool adapters, routing layers, and policy checks around skill-backed workflows. |
 
 ### Codex
 
@@ -185,6 +215,12 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent) | Cursor | Background agents show how skill guidance can support asynchronous coding work. |
 | [Cursor Rules Docs](https://docs.cursor.com/en/context/rules) | Cursor | Rules are an important adjacent concept for skill-like guidance in IDE agents. |
 
+### Fly.io
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Fly.io Docs](https://fly.io/docs/) | Fly.io | Containerized agent services often need hosting, secrets, logs, and rollback practices beyond local skill execution. |
+
 ### Gemini
 
 | Resource | Framework | Why it matters |
@@ -213,6 +249,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Google ADK Python](https://github.com/google/adk-python) | Google ADK | Source-backed reference for Google's agent development patterns. |
 | [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/) | Google ADK | Tool concepts help readers distinguish skill instructions from callable capabilities. |
 | [Google Agent Development Kit Docs](https://google.github.io/adk-docs/) | Google ADK | Provides official Google guidance for building agents, tools, and workflows. |
+
+### Google Vertex AI Agent Builder
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform) | Google Vertex AI Agent Builder | Google Cloud managed agent and enterprise search surfaces are relevant for deploying skill-adjacent workflows with cloud governance. |
+| [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview) | Google Vertex AI Agent Builder | Agent Engine documentation helps teams understand managed deployment, operation, and integration choices for agent workflows. |
 
 ### Governance
 
@@ -313,6 +356,12 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 |---|---|---|
 | [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/) | Microsoft AutoGen | Documents a major multi-agent ecosystem whose workflows can be translated into reusable skill guidance. |
 | [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen) | Microsoft AutoGen | Provides source code and examples for AutoGen agent applications and multi-agent workflows. |
+
+### Modal
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Modal Docs](https://modal.com/docs) | Modal | Modal is useful for Python-heavy skill-backed data, model, and evaluation workflows with bounded execution. |
 
 ### Multi-Framework
 
@@ -416,6 +465,14 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Vercel AI GitHub](https://github.com/vercel/ai) | Vercel AI SDK | Provides source context for Vercel AI SDK patterns used in AI apps and agent workflows. |
 | [Vercel AI SDK Docs](https://ai-sdk.dev/docs) | Vercel AI SDK | Shows how skill-backed workflows can become application features with tool calling and deployment. |
 
+### Vercel Platform
+
+| Resource | Framework | Why it matters |
+|---|---|---|
+| [Vercel Deployments Docs](https://vercel.com/docs/deployments) | Vercel Platform | Preview deployments are useful evidence points before rolling out skill-backed AI app workflows. |
+| [Vercel Functions Docs](https://vercel.com/docs/functions) | Vercel Platform | Function limits, runtime behavior, and environment handling shape how agent workflows should be hosted. |
+| [Vercel Platform Docs](https://vercel.com/docs) | Vercel Platform | Helps teams understand how hosted AI apps and skill-backed workflows are deployed, configured, and operated on Vercel. |
+
 ### Weights & Biases Weave
 
 | Resource | Framework | Why it matters |
@@ -455,7 +512,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **adapters**: [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)
 - **adk**: [Google ADK Python](https://github.com/google/adk-python), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/)
 - **agent**: [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-- **agents**: [Agno Docs](https://docs.agno.com/), [Agno GitHub](https://github.com/agno-agi/agno), [CrewAI Docs](https://docs.crewai.com/), [CrewAI GitHub](https://github.com/crewAIInc/crewAI), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/), [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [LlamaIndex GitHub](https://github.com/run-llama/llama_index), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/), [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen), [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai), [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel), [Strands Agents Docs](https://strandsagents.com/), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk), [Vercel AI GitHub](https://github.com/vercel/ai), [Vercel AI SDK Docs](https://ai-sdk.dev/docs)
+- **agent-engine**: [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview)
+- **agents**: [Agno Docs](https://docs.agno.com/), [Agno GitHub](https://github.com/agno-agi/agno), [Azure AI Foundry Agents Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview), [Azure AI Foundry Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/), [CrewAI Docs](https://docs.crewai.com/), [CrewAI GitHub](https://github.com/crewAIInc/crewAI), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/), [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [LlamaIndex GitHub](https://github.com/run-llama/llama_index), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/), [Microsoft AutoGen GitHub](https://github.com/microsoft/autogen), [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai), [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel), [Strands Agents Docs](https://strandsagents.com/), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk), [Vercel AI GitHub](https://github.com/vercel/ai), [Vercel AI SDK Docs](https://ai-sdk.dev/docs)
 - **agents-sdk**: [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python)
 - **ai-sdk**: [Vercel AI GitHub](https://github.com/vercel/ai), [Vercel AI SDK Docs](https://ai-sdk.dev/docs)
 - **anthropic**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Claude Code Docs](https://code.claude.com/docs), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
@@ -464,6 +522,8 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **apps**: [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/)
 - **auth**: [Composio Docs](https://docs.composio.dev/)
 - **automation**: [Claude Code Headless](https://code.claude.com/docs/en/headless), [Claude Code Hooks Docs](https://docs.anthropic.com/en/docs/claude-code/hooks), [Composio Docs](https://docs.composio.dev/)
+- **aws**: [AWS Bedrock Agents Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
+- **azure**: [Azure AI Foundry Agents Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview), [Azure AI Foundry Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/)
 - **background-agent**: [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent)
 - **catalog**: [Agent Skill Exchange](https://agentskillexchange.com/), [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md)
 - **chatgpt**: [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/)
@@ -475,39 +535,50 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **community**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - **configuration**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings)
 - **connectors**: [Composio Docs](https://docs.composio.dev/), [Composio GitHub](https://github.com/ComposioHQ/composio), [n8n Docs](https://docs.n8n.io/), [n8n GitHub](https://github.com/n8n-io/n8n), [Zapier Docs](https://docs.zapier.com/)
+- **containers**: [Fly.io Docs](https://fly.io/docs/)
 - **context**: [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory), [Cursor Rules Docs](https://docs.cursor.com/en/context/rules), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
 - **credentials**: [n8n Docs](https://docs.n8n.io/)
 - **cursor**: [Cursor Agent Skills](https://cursor.com/docs/context/skills), [Cursor Agent Tools](https://docs.cursor.com/en/agent/tools), [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent), [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
 - **data**: [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/)
-- **deployment**: [Vercel AI SDK Docs](https://ai-sdk.dev/docs)
+- **deployment**: [AWS Bedrock Agents Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html), [Azure AI Foundry Agents Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview), [Azure AI Foundry Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/), [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/), [Fly.io Docs](https://fly.io/docs/), [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform), [Modal Docs](https://modal.com/docs), [Vercel AI SDK Docs](https://ai-sdk.dev/docs), [Vercel Deployments Docs](https://vercel.com/docs/deployments), [Vercel Functions Docs](https://vercel.com/docs/functions), [Vercel Platform Docs](https://vercel.com/docs), [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview)
 - **docs**: [Claude Code Docs](https://code.claude.com/docs), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [GitHub Copilot Docs](https://docs.github.com/en/copilot), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw Docs](https://docs.openclaw.ai/)
+- **edge**: [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/)
 - **enterprise**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
+- **enterprise-search**: [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform)
+- **environment-variables**: [Vercel Platform Docs](https://vercel.com/docs)
 - **evals**: [Arize Phoenix Docs](https://arize.com/docs/phoenix), [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix), [Langfuse Docs](https://langfuse.com/docs), [LangSmith Docs](https://docs.langchain.com/langsmith/observability), [promptfoo Docs](https://www.promptfoo.dev/docs/intro/), [promptfoo GitHub](https://github.com/promptfoo/promptfoo), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [PyRIT Docs](https://azure.github.io/PyRIT/), [Weights & Biases Weave Docs](https://docs.wandb.ai/weave), [Weights & Biases Weave GitHub](https://github.com/wandb/weave)
-- **evaluation**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
+- **evaluation**: [Azure AI Foundry Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/), [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
+- **evidence**: [Vercel Deployments Docs](https://vercel.com/docs/deployments)
 - **experiments**: [Weights & Biases Weave Docs](https://docs.wandb.ai/weave)
 - **framework**: [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/)
+- **functions**: [Vercel Functions Docs](https://vercel.com/docs/functions), [Vercel Platform Docs](https://vercel.com/docs)
 - **gateway**: [Vercel AI Gateway Docs](https://vercel.com/docs/ai-gateway)
 - **gemini**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs)
 - **genai**: [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
 - **github-copilot**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills), [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [GitHub Copilot Docs](https://docs.github.com/en/copilot), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions), [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills)
 - **google**: [Gemini API Docs](https://ai.google.dev/gemini-api/docs), [Google ADK Python](https://github.com/google/adk-python), [Google Agent Development Kit Docs](https://google.github.io/adk-docs/)
 - **google-adk**: [Google ADK Agents Docs](https://google.github.io/adk-docs/agents/), [Google ADK Tools Docs](https://google.github.io/adk-docs/tools/)
+- **google-cloud**: [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform), [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview)
 - **governance**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications)
 - **guardrails**: [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - **handoffs**: [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents)
 - **headless**: [Claude Code Headless](https://code.claude.com/docs/en/headless)
 - **hermes**: [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
 - **hooks**: [Claude Code Hooks Docs](https://docs.anthropic.com/en/docs/claude-code/hooks)
+- **hosting**: [Fly.io Docs](https://fly.io/docs/), [Vercel Platform Docs](https://vercel.com/docs)
 - **human-in-the-loop**: [HumanLayer GitHub](https://github.com/humanlayer/humanlayer), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop)
+- **iam**: [AWS Bedrock Agents Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
 - **ide**: [Cursor Agent Skills](https://cursor.com/docs/context/skills), [Cursor Background Agent Docs](https://docs.cursor.com/en/background-agent)
 - **image-generation**: [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation)
 - **instructions**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
+- **jobs**: [Modal Docs](https://modal.com/docs)
 - **knowledge**: [Agno Docs](https://docs.agno.com/)
 - **lab**: [OpenAI Codex Docs](https://developers.openai.com/codex)
 - **langchain**: [LangChain Agents](https://www.langchain.com/agents), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [LangGraph](https://github.com/langchain-ai/langgraph)
 - **langgraph**: [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
 - **llm**: [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama)
 - **llm-risk**: [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications)
+- **managed-agents**: [AWS Bedrock Agents Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html), [Azure AI Foundry Agents Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview), [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform)
 - **marketplace**: [Agent Skill Exchange](https://agentskillexchange.com/)
 - **mcp**: [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [GitHub Copilot MCP Docs](https://docs.github.com/en/copilot/concepts/context/mcp), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro), [Model Context Protocol Repository](https://github.com/modelcontextprotocol/modelcontextprotocol), [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/)
 - **memory**: [Agno Docs](https://docs.agno.com/), [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md)
@@ -522,12 +593,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **pipelines**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [Haystack GitHub](https://github.com/deepset-ai/haystack)
 - **plugins**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel)
 - **policy**: [Lakera Docs](https://docs.lakera.ai/), [Vercel AI Gateway Docs](https://vercel.com/docs/ai-gateway)
+- **preview**: [Vercel Deployments Docs](https://vercel.com/docs/deployments)
 - **prompt-injection**: [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [promptfoo Docs](https://www.promptfoo.dev/docs/intro/)
 - **prompts**: [Langfuse Docs](https://langfuse.com/docs)
 - **protocol**: [Model Context Protocol Docs](https://modelcontextprotocol.io/), [Model Context Protocol Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
 - **provider**: [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai)
 - **providers**: [Vercel AI Gateway Docs](https://vercel.com/docs/ai-gateway)
-- **python**: [Google ADK Python](https://github.com/google/adk-python), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai)
+- **python**: [Google ADK Python](https://github.com/google/adk-python), [Modal Docs](https://modal.com/docs), [Pydantic AI Docs](https://pydantic.dev/docs/ai/overview/), [Pydantic AI GitHub](https://github.com/pydantic/pydantic-ai)
 - **quality**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
 - **rag**: [Arize Phoenix Docs](https://arize.com/docs/phoenix), [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [Haystack GitHub](https://github.com/deepset-ai/haystack), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [LlamaIndex GitHub](https://github.com/run-llama/llama_index)
 - **red-team**: [garak GitHub](https://github.com/NVIDIA/garak), [promptfoo Docs](https://www.promptfoo.dev/docs/intro/), [promptfoo GitHub](https://github.com/promptfoo/promptfoo), [PyRIT Docs](https://azure.github.io/PyRIT/), [PyRIT GitHub](https://github.com/Azure/PyRIT)
@@ -535,11 +607,13 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **repository**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
 - **resources**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 - **risk**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **rollout**: [Vercel Deployments Docs](https://vercel.com/docs/deployments)
 - **rules**: [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
-- **runtime**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Repository](https://github.com/openclaw/openclaw), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama)
+- **runtime**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings), [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/), [Fly.io Docs](https://fly.io/docs/), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Repository](https://github.com/openclaw/openclaw), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama), [Vercel Functions Docs](https://vercel.com/docs/functions), [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview)
 - **safety**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - **sdk**: [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills), [Strands Agents Docs](https://strandsagents.com/), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk)
 - **security**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification), [garak GitHub](https://github.com/NVIDIA/garak), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama), [PyRIT Docs](https://azure.github.io/PyRIT/), [PyRIT GitHub](https://github.com/Azure/PyRIT)
+- **serverless**: [Modal Docs](https://modal.com/docs), [Vercel Functions Docs](https://vercel.com/docs/functions)
 - **servers**: [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - **settings**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings)
 - **skills**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills), [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [Agent Skill Exchange](https://agentskillexchange.com/), [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Cursor Agent Skills](https://cursor.com/docs/context/skills), [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills), [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
@@ -554,5 +628,6 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **triggers**: [n8n Docs](https://docs.n8n.io/)
 - **validation**: [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails)
 - **verification**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification)
+- **workers**: [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/)
 - **workflow-automation**: [n8n Docs](https://docs.n8n.io/), [n8n GitHub](https://github.com/n8n-io/n8n), [Zapier Docs](https://docs.zapier.com/)
 - **workflows**: [CrewAI Docs](https://docs.crewai.com/), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence), [LlamaIndex Docs](https://developers.llamaindex.ai/python/framework/), [Microsoft AutoGen Docs](https://microsoft.github.io/autogen/stable/)

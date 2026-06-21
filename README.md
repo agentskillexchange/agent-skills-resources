@@ -7,8 +7,9 @@ playbooks.
 Use this repo to understand the concepts, compare skill surfaces, review
 source-backed resources, explore popular agent frameworks, and design safer team
 pilots with agent observability, agent evals, LLM traces, human-in-the-loop
-approval, workflow automation, model gateway guidance, prompt injection testing,
-runtime guardrails, and AI governance guidance. The separate
+approval, workflow automation, deployment readiness, runtime hosting, sandboxed
+execution, model gateway guidance, prompt injection testing, runtime guardrails,
+and AI governance guidance. The separate
 [agentskillexchange/skills](https://github.com/agentskillexchange/skills) repo
 is the canonical skills catalog, and [Agent Skill Exchange](https://agentskillexchange.com/)
 is the public site.
@@ -62,6 +63,7 @@ It is not a catalog mirror and does not try to track every published skill.
 | Use short review artifacts | [Checklists](checklists/) |
 | Compare Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI, LangChain, LangGraph, MCP, and OpenAI Agents SDK | [Framework pages](frameworks/) |
 | Explore popular agent ecosystems | [Ecosystems](ecosystems/) |
+| Plan deployment and runtime hosting | [Deployment](deployment/) |
 | Run skill-backed workflows safely | [Agent Ops](ops/) |
 | Review security, policy, and governance | [Security](security/) |
 | Review source-backed resources | [Resource Index](generated/resource-index.md) |
@@ -79,6 +81,7 @@ It is not a catalog mirror and does not try to track every published skill.
 | Build a first skill | [Skill Design Patterns](learning/skill-design-patterns.md) |
 | Compare frameworks | [Framework Comparison](framework-comparison.md) |
 | Explore agent ecosystems | [Popular Agent Ecosystems](ecosystems/popular-agent-ecosystems.md) |
+| Plan runtime hosting | [Deployment Overview](deployment/deployment-overview.md) |
 | Review agent ops evidence | [Agent Ops Overview](ops/agent-ops-overview.md) |
 | Review agent safety | [Agent Safety Review Guide](security/agent-safety-review-guide.md) |
 | See workflow stacks | [Showcase Workflow Stacks](showcase/) |
@@ -139,6 +142,7 @@ teams working with agentic development and operations.
 | Runtime | Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini CLI | Repeatable agent workflows |
 | Framework | LangGraph, OpenAI Agents SDK, ADK | Orchestration patterns and state |
 | Ecosystem | CrewAI, AutoGen, Semantic Kernel, LlamaIndex, Pydantic AI, Haystack, Strands, Agno | Agent framework concepts and reusable workflow patterns |
+| Deployment | Vercel, Cloudflare Workers, Fly.io, Modal, AWS Bedrock Agents, Azure AI Foundry, Google Vertex AI Agent Builder | Hosted runtime, sandbox, secrets, and rollout readiness |
 | Ops | LangSmith, Langfuse, Phoenix, Weave, OpenTelemetry, HumanLayer, Composio, n8n, Zapier, Vercel AI | Observability, evals, approvals, automation, gateways, and rollout evidence |
 | Security | OWASP LLM Top 10, NIST AI RMF, Guardrails AI, Lakera, promptfoo, garak, PyRIT, LlamaFirewall | Prompt injection, red teaming, guardrails, secrets, policy, and governance |
 | Protocol/tooling | MCP, CLIs, APIs, browser tools | Tool setup, permissions, and usage recipes |
@@ -170,6 +174,7 @@ flowchart LR
 | Learning terms | [Glossary](glossary.md) | [Ecosystem Map](ecosystem-map.md) |
 | Skimming the ecosystem | [Awesome Agent Skills](awesome-agent-skills.md) | [Framework Comparison](framework-comparison.md) |
 | Exploring popular ecosystems | [Ecosystems](ecosystems/) | [Coverage Matrix](ecosystems/coverage-matrix.md) |
+| Planning deployment | [Deployment](deployment/) | [Provider Matrix](deployment/provider-matrix.md) |
 | Running with evidence | [Agent Ops](ops/) | [Rollout Evidence](ops/rollout-evidence.md) |
 | Reviewing safety | [Security](security/) | [Security Rollout Checklist](security/security-rollout-checklist.md) |
 | Seeing workflow stacks | [Showcase Workflow Stacks](showcase/) | [Case Studies](case-studies/) |
@@ -212,6 +217,15 @@ but strongly shape reusable agent workflows: [CrewAI](ecosystems/crewai.md),
 and [Agno](ecosystems/agno.md). See the [Coverage Matrix](ecosystems/coverage-matrix.md)
 for how they relate to agents, tools, workflows, MCP, memory, evals,
 observability, guardrails, and approvals.
+
+## Deployment And Runtime Coverage
+
+Deployment guidance covers [runtime hosting](deployment/runtime-hosting.md),
+[sandbox and container execution](deployment/sandbox-and-container-execution.md),
+[secrets and environments](deployment/secrets-and-environments.md), and
+[deployment readiness](deployment/deployment-readiness.md). Ecosystem pages
+cover Vercel Platform, Cloudflare Workers, Fly.io, Modal, AWS Bedrock Agents,
+Azure AI Foundry, and Google Vertex AI Agent Builder.
 
 ## Agent Ops Coverage
 
@@ -258,6 +272,8 @@ When a claim is not source-backed, leave it out.
 - [checklists/](checklists/): short fillable review artifacts for skills,
   resources, MCP tooling, team pilots, and permissions.
 - [ecosystems/](ecosystems/): popular agent ecosystem coverage and comparison.
+- [deployment/](deployment/): runtime hosting, sandboxing, secrets, provider
+  matrix, and deployment readiness guidance.
 - [ops/](ops/): agent operations guidance for observability, evals, approvals,
   workflow automation, gateways, and rollout evidence.
 - [security/](security/): safety, policy, governance, prompt injection, secrets,
@@ -274,8 +290,8 @@ When a claim is not source-backed, leave it out.
 - [generated/ase-skill-mapping-index.md](generated/ase-skill-mapping-index.md):
   generated representative ASE skill index grouped by workflow and framework.
 - [generated/nav-index.md](generated/nav-index.md): generated navigation index
-  for learning, cookbook, ecosystem, ops, security, framework, workflow, example,
-  case-study, playbook, checklist, template, diagram, contributing, and
+  for learning, cookbook, ecosystem, deployment, ops, security, framework,
+  workflow, example, case-study, playbook, checklist, template, diagram, contributing, and
   maintenance pages.
 - [generated/template-index.md](generated/template-index.md): generated index of
   fillable pilot and review templates.
@@ -325,4 +341,4 @@ Near-term improvements:
 2. Add more practical examples for team adoption and rollout evidence.
 3. Expand security, policy, and governance guidance for agent workflows.
 4. Add more completed evaluation examples.
-5. Improve framework and ecosystem comparison pages as official docs evolve.
+5. Improve framework, ecosystem, and deployment comparison pages as official docs evolve.

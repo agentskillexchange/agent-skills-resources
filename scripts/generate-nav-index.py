@@ -14,6 +14,7 @@ DIRECTORIES = [
     "diagrams",
     "ecosystems",
     "deployment",
+    "evaluation",
     "ops",
     "security",
     "frameworks",

@@ -47,6 +47,8 @@ REQUIRED_EDUCATION_FILES = [
     ROOT / "ecosystems" / "coverage-matrix.md",
     ROOT / "deployment" / "README.md",
     ROOT / "deployment" / "deployment-overview.md",
+    ROOT / "evaluation" / "README.md",
+    ROOT / "evaluation" / "evaluation-overview.md",
     ROOT / "ops" / "README.md",
     ROOT / "ops" / "agent-ops-overview.md",
     ROOT / "security" / "README.md",
@@ -155,7 +157,7 @@ def main() -> int:
             fail(f"education file is empty: {path.relative_to(ROOT)}")
 
     nav_text = (ROOT / "generated" / "nav-index.md").read_text()
-    for section in ["## learning", "## cookbook", "## diagrams", "## ecosystems", "## deployment", "## ops", "## security", "## checklists", "## contributing"]:
+    for section in ["## learning", "## cookbook", "## diagrams", "## ecosystems", "## deployment", "## evaluation", "## ops", "## security", "## checklists", "## contributing"]:
         if section not in nav_text:
             fail(f"generated nav index missing section: {section}")
 

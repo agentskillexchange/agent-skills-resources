@@ -1724,5 +1724,277 @@
       "agent-engine",
       "runtime"
     ]
+  },
+  {
+    "id": "swe-bench-site",
+    "name": "SWE-bench Site",
+    "type": "Official",
+    "framework": "SWE-bench",
+    "url": "https://www.swebench.com/",
+    "repo": "https://github.com/SWE-bench/SWE-bench",
+    "description": "Project site for SWE-bench, a benchmark for software engineering issue resolution.",
+    "why_it_matters": "SWE-bench is useful context for evaluating coding-agent and repository patch workflows.",
+    "tags": [
+      "evaluation",
+      "benchmark",
+      "coding-agents",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "swe-bench-repo",
+    "name": "SWE-bench GitHub",
+    "type": "Official",
+    "framework": "SWE-bench",
+    "url": "https://github.com/SWE-bench/SWE-bench",
+    "repo": "https://github.com/SWE-bench/SWE-bench",
+    "description": "SWE-bench repository with benchmark code and resources.",
+    "why_it_matters": "The repo helps readers inspect benchmark setup instead of relying on leaderboard claims alone.",
+    "tags": [
+      "evaluation",
+      "benchmark",
+      "github",
+      "coding-agents"
+    ]
+  },
+  {
+    "id": "gaia-leaderboard",
+    "name": "GAIA Leaderboard",
+    "type": "Community",
+    "framework": "GAIA",
+    "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+    "repo": "",
+    "description": "Public GAIA benchmark leaderboard hosted on Hugging Face Spaces.",
+    "why_it_matters": "GAIA gives broad context for assistant tasks that require reasoning and tool use.",
+    "tags": [
+      "evaluation",
+      "benchmark",
+      "tool-use",
+      "assistant-tasks"
+    ]
+  },
+  {
+    "id": "tau-bench-repo",
+    "name": "\u03c4-bench GitHub",
+    "type": "Community",
+    "framework": "\u03c4-bench",
+    "url": "https://github.com/sierra-research/tau-bench",
+    "repo": "https://github.com/sierra-research/tau-bench",
+    "description": "\u03c4-bench repository for evaluating tool-agent behavior in simulated domains.",
+    "why_it_matters": "Tool-agent benchmarks help teams think about state, tool calls, and task success before building local evals.",
+    "tags": [
+      "evaluation",
+      "benchmark",
+      "tool-use",
+      "agents"
+    ]
+  },
+  {
+    "id": "agentbench-repo",
+    "name": "AgentBench GitHub",
+    "type": "Community",
+    "framework": "AgentBench",
+    "url": "https://github.com/THUDM/AgentBench",
+    "repo": "https://github.com/THUDM/AgentBench",
+    "description": "AgentBench repository for broad agent evaluation across multiple environments.",
+    "why_it_matters": "AgentBench helps readers understand broad benchmark design for agent environments.",
+    "tags": [
+      "evaluation",
+      "benchmark",
+      "agents",
+      "multi-environment"
+    ]
+  },
+  {
+    "id": "inspect-ai-docs",
+    "name": "Inspect AI Docs",
+    "type": "Official",
+    "framework": "Inspect AI",
+    "url": "https://inspect.aisi.org.uk/",
+    "repo": "",
+    "description": "Official Inspect AI documentation for programmable LLM evaluations.",
+    "why_it_matters": "Inspect AI is useful for teams that need custom tasks, solvers, scorers, and reproducible eval logs.",
+    "tags": [
+      "evaluation",
+      "eval-framework",
+      "scorers",
+      "regression"
+    ]
+  },
+  {
+    "id": "openai-evals-guide",
+    "name": "OpenAI Evals Guide",
+    "type": "Official",
+    "framework": "OpenAI Evals",
+    "url": "https://platform.openai.com/docs/guides/evals",
+    "repo": "https://github.com/openai/evals",
+    "description": "Official OpenAI guide for evals and evaluation workflows.",
+    "why_it_matters": "OpenAI Evals guidance helps teams build repeatable checks for OpenAI-backed agent and skill workflows.",
+    "tags": [
+      "evaluation",
+      "openai",
+      "evals",
+      "regression"
+    ]
+  },
+  {
+    "id": "openai-evals-repo",
+    "name": "OpenAI Evals GitHub",
+    "type": "Official",
+    "framework": "OpenAI Evals",
+    "url": "https://github.com/openai/evals",
+    "repo": "https://github.com/openai/evals",
+    "description": "OpenAI Evals repository for evaluation examples and tooling.",
+    "why_it_matters": "The repository gives readers a source-backed implementation reference for eval workflows.",
+    "tags": [
+      "evaluation",
+      "openai",
+      "github",
+      "evals"
+    ]
+  },
+  {
+    "id": "ragas-docs",
+    "name": "Ragas Docs",
+    "type": "Official",
+    "framework": "Ragas",
+    "url": "https://docs.ragas.io/",
+    "repo": "https://github.com/vibrantlabsai/ragas",
+    "description": "Official Ragas documentation for evaluating RAG and LLM applications.",
+    "why_it_matters": "Ragas is relevant for skills that retrieve, ground, summarize, or answer from documents.",
+    "tags": [
+      "evaluation",
+      "rag",
+      "retrieval",
+      "grounding"
+    ]
+  },
+  {
+    "id": "ragas-repo",
+    "name": "Ragas GitHub",
+    "type": "Official",
+    "framework": "Ragas",
+    "url": "https://github.com/vibrantlabsai/ragas",
+    "repo": "https://github.com/vibrantlabsai/ragas",
+    "description": "Ragas repository for RAG evaluation tooling.",
+    "why_it_matters": "The repo helps readers inspect RAG evaluation implementation details and examples.",
+    "tags": [
+      "evaluation",
+      "rag",
+      "github",
+      "retrieval"
+    ]
+  },
+  {
+    "id": "deepeval-docs",
+    "name": "DeepEval Docs",
+    "type": "Official",
+    "framework": "DeepEval",
+    "url": "https://deepeval.com/docs/getting-started",
+    "repo": "https://github.com/confident-ai/deepeval",
+    "description": "Official DeepEval documentation for LLM application test cases and metrics.",
+    "why_it_matters": "DeepEval is relevant for teams that want CI-style eval tests around agent or skill outputs.",
+    "tags": [
+      "evaluation",
+      "llm-tests",
+      "metrics",
+      "regression"
+    ]
+  },
+  {
+    "id": "deepeval-repo",
+    "name": "DeepEval GitHub",
+    "type": "Official",
+    "framework": "DeepEval",
+    "url": "https://github.com/confident-ai/deepeval",
+    "repo": "https://github.com/confident-ai/deepeval",
+    "description": "DeepEval repository for LLM evaluation tooling.",
+    "why_it_matters": "The repo provides source-backed implementation context for LLM app testing.",
+    "tags": [
+      "evaluation",
+      "github",
+      "llm-tests",
+      "metrics"
+    ]
+  },
+  {
+    "id": "braintrust-docs",
+    "name": "Braintrust Docs",
+    "type": "Official",
+    "framework": "Braintrust",
+    "url": "https://www.braintrust.dev/docs",
+    "repo": "https://github.com/braintrustdata/braintrust-sdk-javascript",
+    "description": "Official Braintrust documentation for evals, prompts, datasets, and experiments.",
+    "why_it_matters": "Braintrust helps teams manage repeated eval cycles and evidence across agent workflow pilots.",
+    "tags": [
+      "evaluation",
+      "experiments",
+      "datasets",
+      "observability"
+    ]
+  },
+  {
+    "id": "braintrust-sdk-repo",
+    "name": "Braintrust SDK GitHub",
+    "type": "Official",
+    "framework": "Braintrust",
+    "url": "https://github.com/braintrustdata/braintrust-sdk-javascript",
+    "repo": "https://github.com/braintrustdata/braintrust-sdk-javascript",
+    "description": "Braintrust JavaScript SDK repository.",
+    "why_it_matters": "The SDK repo gives implementation context for recording evals and experiments from applications.",
+    "tags": [
+      "evaluation",
+      "sdk",
+      "github",
+      "experiments"
+    ]
+  },
+  {
+    "id": "helm-latest",
+    "name": "HELM Latest",
+    "type": "Lab",
+    "framework": "HELM",
+    "url": "https://crfm.stanford.edu/helm/latest/",
+    "repo": "https://github.com/stanford-crfm/helm",
+    "description": "Stanford CRFM HELM benchmark reporting site.",
+    "why_it_matters": "HELM is useful context for model-level scenario and metric design.",
+    "tags": [
+      "evaluation",
+      "benchmark",
+      "model-evaluation",
+      "metrics"
+    ]
+  },
+  {
+    "id": "helm-repo",
+    "name": "HELM GitHub",
+    "type": "Lab",
+    "framework": "HELM",
+    "url": "https://github.com/stanford-crfm/helm",
+    "repo": "https://github.com/stanford-crfm/helm",
+    "description": "HELM repository from Stanford CRFM.",
+    "why_it_matters": "The repo helps readers inspect benchmark methodology and implementation details.",
+    "tags": [
+      "evaluation",
+      "benchmark",
+      "github",
+      "model-evaluation"
+    ]
+  },
+  {
+    "id": "mlcommons-ailuminate",
+    "name": "MLCommons AILuminate",
+    "type": "Official",
+    "framework": "MLCommons AILuminate",
+    "url": "https://mlcommons.org/ailuminate/",
+    "repo": "",
+    "description": "MLCommons AILuminate AI safety benchmark information.",
+    "why_it_matters": "AILuminate adds source-backed safety benchmark context for risk and governance discussions.",
+    "tags": [
+      "evaluation",
+      "safety",
+      "benchmark",
+      "governance"
+    ]
   }
 ]

@@ -44,6 +44,16 @@ It is a starting point for orientation, not a capability guarantee.
 | Sandbox/container execution | [Sandbox And Container Execution](../deployment/sandbox-and-container-execution.md) | generated code, shell commands, repository automation |
 | Provider comparison | [Provider Matrix](../deployment/provider-matrix.md) | Vercel, Cloudflare Workers, Fly.io, Modal, AWS, Azure, Google Cloud |
 
+## Evaluation Layer
+
+| Area | Start here | Use it for |
+|---|---|---|
+| Evaluation overview | [Evaluation](../evaluation/) | turning skill claims into evidence |
+| Benchmark landscape | [Benchmark Landscape](../evaluation/benchmark-landscape.md) | SWE-bench, GAIA, τ-bench, AgentBench, HELM, AILuminate |
+| Eval design | [Eval Design](../evaluation/eval-design.md) | task rubrics, datasets, tool checks, safety checks |
+| Regression testing | [Regression Testing](../evaluation/regression-testing.md) | catching drift after prompt/model/tool changes |
+| Tool matrix | [Evaluation Tool Matrix](../evaluation/evaluation-tool-matrix.md) | Inspect AI, OpenAI Evals, Ragas, DeepEval, Braintrust |
+
 ## Security Layer
 
 | Area | Start here | Use it for |

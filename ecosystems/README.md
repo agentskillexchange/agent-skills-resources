@@ -32,6 +32,17 @@ workflows, memory, evals, and MCP fit.
 | AWS Bedrock Agents | [AWS Bedrock Agents](aws-bedrock-agents.md) | AWS-native managed agents, action groups, and knowledge bases |
 | Azure AI Foundry | [Azure AI Foundry](azure-ai-foundry.md) | Azure AI agent lifecycle, evaluation, and deployment |
 | Google Vertex AI Agent Builder | [Google Vertex AI Agent Builder](google-vertex-ai-agent-builder.md) | Google Cloud managed agent and enterprise search experiences |
+| SWE-bench | [SWE-bench](swe-bench.md) | Coding-agent benchmark for repository issue resolution |
+| GAIA | [GAIA](gaia.md) | General assistant and tool-use benchmark context |
+| τ-bench | [τ-bench](tau-bench.md) | Tool-agent behavior in simulated domains |
+| AgentBench | [AgentBench](agentbench.md) | Broad multi-environment agent benchmark |
+| HELM | [HELM](helm.md) | Holistic model evaluation scenarios and reporting |
+| MLCommons AILuminate | [MLCommons AILuminate](mlcommons-ailuminate.md) | AI safety benchmark and risk-evaluation context |
+| Inspect AI | [Inspect AI](inspect-ai.md) | Programmable evaluation tasks and scorers |
+| OpenAI Evals | [OpenAI Evals](openai-evals.md) | OpenAI-backed eval datasets and grading workflows |
+| Ragas | [Ragas](ragas.md) | RAG and retrieval quality evaluation |
+| DeepEval | [DeepEval](deepeval.md) | LLM app test cases and metrics |
+| Braintrust | [Braintrust](braintrust.md) | Eval tracking, datasets, prompts, and experiments |
 | OWASP LLM Top 10 | [OWASP LLM](owasp-llm.md) | LLM application security risk categories |
 | NIST AI RMF | [NIST AI RMF](nist-ai-rmf.md) | AI risk management and governance vocabulary |
 | Guardrails AI | [Guardrails AI](guardrails-ai.md) | Runtime validation and guardrail patterns |

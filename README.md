@@ -1,32 +1,32 @@
-# Agent Skills Resources
+# Awesome Agent Skills Resources
 
-An independent public learning hub for agent skills, AI agents, agent workflows,
-MCP, coding agents, skill design, skill evaluation, agent safety, and rollout
-playbooks.
+Source-backed learning hub for **agent skills**, AI agent workflows, MCP tools,
+coding agents, agent frameworks, agent evaluation, agent safety, deployment
+readiness, and rollout playbooks.
 
-Use this repo to understand the concepts, compare skill surfaces, review
-source-backed resources, explore popular agent frameworks, and design safer team
-pilots with agent observability, agent evals, LLM traces, human-in-the-loop
-approval, workflow automation, deployment readiness, runtime hosting, sandboxed
-execution, benchmark literacy, regression testing, model gateway guidance,
-prompt injection testing, runtime guardrails, and AI governance guidance. The separate
-[agentskillexchange/skills](https://github.com/agentskillexchange/skills) repo
-is the canonical skills catalog, and [Agent Skill Exchange](https://agentskillexchange.com/)
-is the public site.
+This repo is an independent educational/resource guide. It explains how skills
+fit across Codex, Claude Code, GitHub Copilot, OpenClaw, Hermes, Cursor, Gemini
+CLI, LangGraph, MCP, evaluation tools, deployment surfaces, and team adoption.
+The canonical catalog remains [agentskillexchange/skills](https://github.com/agentskillexchange/skills),
+and [Agent Skill Exchange](https://agentskillexchange.com/) is the public site.
 
 [![Source labels](https://img.shields.io/badge/sources-Official%20%7C%20Lab%20%7C%20Community%20%7C%20ASE-0f766e?style=for-the-badge)](data/resources.json)
 [![Companion repo](https://img.shields.io/badge/companion-resource%20hub-2563eb?style=for-the-badge)](https://github.com/agentskillexchange/skills)
 
-Start with the [Docs Index](docs-index.md), [Learning Tracks](learning/curriculum.md),
-the [Glossary](glossary.md), or the [Best-Practices Cookbook](cookbook/).
+Star this repo if you want a practical map of agent skills, MCP, coding agents,
+agent frameworks, evaluation, safety, deployment, and team rollout patterns.
 
 ## Start Here In 60 Seconds
 
-1. Read [Agent Skills 101](learning/agent-skills-101.md).
-2. Compare [skills vs tools vs MCP](learning/skills-vs-tools-vs-mcp.md).
-3. Pick a [Learning Track](learning/curriculum.md): beginner, builder, evaluator, or team lead.
-4. Use the [Glossary](glossary.md) to normalize vocabulary.
-5. Review the [Best-Practices Cookbook](cookbook/) or [Checklists](checklists/).
+| I want to... | Start here |
+|---|---|
+| Understand agent skills quickly | [Agent Skills 101](learning/agent-skills-101.md) |
+| Compare skills, tools, MCP, agents, and workflows | [Skills vs Tools vs MCP](learning/skills-vs-tools-vs-mcp.md) |
+| Browse the best public entry point | [Awesome Agent Skills](awesome-agent-skills.md) |
+| Compare Codex, Claude Code, Copilot, Cursor, Gemini, OpenClaw, LangGraph, and MCP | [Framework Comparison](framework-comparison.md) |
+| Find official docs, repos, and source-backed resources | [Resource Index](generated/resource-index.md) |
+| Evaluate quality, safety, and rollout readiness | [Checklists](checklists/) and [Templates](templates/) |
+| Browse the canonical skill catalog | [agentskillexchange/skills](https://github.com/agentskillexchange/skills) |
 
 ## What You Can Learn Here
 

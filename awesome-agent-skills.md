@@ -1,9 +1,23 @@
 # Awesome Agent Skills
 
-A concise, source-backed guide to agent skills and skill-like workflows. This
-is a curated companion page, not the full catalog. Browse the canonical skill
-catalog in [agentskillexchange/skills](https://github.com/agentskillexchange/skills)
+A concise, source-backed guide to agent skills, MCP tools, coding agents, agent
+frameworks, evaluation, safety, deployment, and rollout playbooks.
+
+This is the shareable front door for the independent
+[agent-skills-resources](README.md) guide. It is not the full catalog. Browse
+the canonical skill catalog in [agentskillexchange/skills](https://github.com/agentskillexchange/skills)
 or on [Agent Skill Exchange](https://agentskillexchange.com/).
+
+## Start Here
+
+| Need | Link |
+|---|---|
+| Learn the concept | [Agent Skills 101](learning/agent-skills-101.md) |
+| Compare skills, tools, MCP, agents, and workflows | [Skills vs Tools vs MCP](learning/skills-vs-tools-vs-mcp.md) |
+| Compare framework surfaces | [Framework Comparison](framework-comparison.md) |
+| Review official/source-backed resources | [Resource Index](generated/resource-index.md) |
+| Evaluate skill quality and safety | [Quality Checklist](examples/quality-checklist.md) |
+| Plan a team pilot | [Playbooks](playbooks/) |
 
 ## What Are Agent Skills?
 

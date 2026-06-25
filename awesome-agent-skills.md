@@ -19,6 +19,19 @@ or on [Agent Skill Exchange](https://agentskillexchange.com/).
 | Evaluate skill quality and safety | [Quality Checklist](examples/quality-checklist.md) |
 | Plan a team pilot | [Playbooks](playbooks/) |
 
+## Build Your First Skill In 15 Minutes
+
+Use this path when you are new to skills and want a concrete first pass before
+you browse the wider ecosystem.
+
+| Minute | Do this | Outcome |
+|---|---|---|
+| 0-3 | Read [Agent Skills 101](learning/agent-skills-101.md) and [Skills vs Tools vs MCP](learning/skills-vs-tools-vs-mcp.md) | Know what belongs in a skill instead of a prompt, tool, or MCP server. |
+| 3-6 | Pick one source-backed workflow from the [Resource Index](generated/resource-index.md) | Start from official docs, a repo, or a credible implementation source. |
+| 6-10 | Sketch the workflow with [Skill Design Patterns](learning/skill-design-patterns.md) and the [Skill Author Starter Kit](starter-kits/skill-author.md) | Capture purpose, setup, permissions, steps, and stop conditions. |
+| 10-13 | Check it against [Annotated Examples](examples/annotated-skill-examples.md) and the [Quality Checklist](examples/quality-checklist.md) | Spot missing setup, safety, evidence, and verification details. |
+| 13-15 | Choose the right next step: local prototype, [Team Evaluation Starter Kit](starter-kits/team-evaluation.md), or [Playbooks](playbooks/) | Leave with a bounded path for testing or team rollout. |
+
 ## What Are Agent Skills?
 
 Agent skills are reusable instructions, scripts, examples, and workflow notes

@@ -28,6 +28,16 @@ agent frameworks, evaluation, safety, deployment, and team rollout patterns.
 | Evaluate quality, safety, and rollout readiness | [Checklists](checklists/) and [Templates](templates/) |
 | Browse the canonical skill catalog | [agentskillexchange/skills](https://github.com/agentskillexchange/skills) |
 
+## Pick Your First Path
+
+| Visitor | Read first | Why |
+|---|---|---|
+| New to agent skills | [Agent Skills 101](learning/agent-skills-101.md) | Get the concept before choosing tools or frameworks. |
+| Building a first reusable workflow | [Skill Author Starter Kit](starter-kits/skill-author.md) | Turn one source-backed workflow into a reviewable skill draft. |
+| Comparing runtimes or frameworks | [Framework Comparison](framework-comparison.md) | Match Codex, Copilot, Claude Code, Cursor, Gemini, OpenClaw, LangGraph, MCP, and SDK surfaces to the job. |
+| Reviewing skill quality | [First Skill Review Checklist](checklists/first-skill-review.md) | Check setup, permissions, safety, and verification evidence quickly. |
+| Rolling out with a team | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) | Plan a bounded pilot with owners, risks, and evidence. |
+
 ## What You Can Learn Here
 
 - What agent skills are and where they fit in the agent ecosystem.

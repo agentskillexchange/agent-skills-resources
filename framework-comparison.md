@@ -3,6 +3,21 @@
 This matrix compares where major agent skill surfaces fit. It is a practical
 orientation guide, not a vendor ranking.
 
+## Choose By Starting Context
+
+Use the full matrix when you need details. If you are deciding where to start,
+pick the surface closest to the workflow you already have.
+
+| Starting context | Try first | Why it fits |
+|---|---|---|
+| I already live in GitHub issues, pull requests, or code review | [GitHub Copilot](frameworks/github-copilot.md) | It keeps skill-backed work near repo policy, review, and approval flow. |
+| I want a terminal agent to inspect a repo, edit files, and run tests | [Codex](frameworks/codex.md), [Claude Code](frameworks/claude-code.md), or [Gemini CLI](frameworks/gemini.md) | These surfaces fit bounded implementation loops with command evidence. |
+| I want an IDE-first coding workflow | [Cursor](frameworks/cursor.md) or [GitHub Copilot](frameworks/github-copilot.md) | They keep project context, editor rules, and local review close to the code. |
+| I need scheduled or channel-based automation | [OpenClaw](frameworks/openclaw.md) or [Hermes](frameworks/hermes.md) | Runtime-owned workflows need permissions, logs, health checks, and rollback plans. |
+| I am building an agent app or durable workflow | [LangChain / LangGraph](frameworks/langchain-langgraph.md) or [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) | SDK and graph frameworks make state, tools, handoffs, and evals explicit. |
+| I mainly need to connect tools, APIs, data, or context | [MCP](frameworks/mcp.md) | MCP is the integration layer that skills can wrap with setup, safety, and usage guidance. |
+| I am leading a team rollout | [Adoption Matrix](adoption-matrix.md) first, then this matrix | Start with risk, approval paths, and evidence before picking a runtime. |
+
 | Framework or surface | Primary surface | Best fit | Skill support / skill-like support | MCP/tool support | Team rollout considerations | Source links |
 |---|---|---|---|---|---|---|
 | Codex | Terminal coding agent and repo workflow | Codebase inspection, edits, tests, patches, and implementation loops | Skills and repo instructions work best when commands and verification are explicit | Strong fit for CLIs, local tools, APIs, and MCP clients when configured | Use bounded worktrees, test evidence, review diffs, and avoid broad refactors | [Guide](frameworks/codex.md), [openai/codex](https://github.com/openai/codex) |

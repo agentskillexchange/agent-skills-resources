@@ -2,6 +2,15 @@
 
 Use this checklist when reviewing a skill for usefulness and trust.
 
+## What Good Looks Like
+
+| Review area | Weak pattern | Strong pattern |
+|---|---|---|
+| Setup | "Install the tool and run it." | Names the upstream package, account or API prerequisites, auth steps, and the expected local or hosted runtime. |
+| Permissions | "Use the CLI to fix the issue." | Starts read-only, names which commands can write or touch production, and adds approval checkpoints before risky actions. |
+| Evidence | "Check that it works." | Defines observable proof such as test output, logs, traces, screenshots, citations, or reviewed records. |
+| Verification | "Run the workflow." | Gives concrete pass/fail checks and explains what to do when the check fails or data is missing. |
+
 ## Source Provenance
 
 - The skill points to a real upstream repo, package, API, or documented source.
@@ -52,4 +61,3 @@ Use this checklist when reviewing a skill for usefulness and trust.
 - Category-only skills with no workflow.
 - Long copied documentation without an agent-specific procedure.
 - Tool links with no install, usage, or verification guidance.
-

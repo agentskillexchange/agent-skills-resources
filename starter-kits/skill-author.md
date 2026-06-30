@@ -23,6 +23,40 @@ Draft a skill around one concrete job:
 5. Name permissions, secrets, and stop conditions.
 6. Avoid broad compatibility claims unless you tested them.
 
+## Copyable First Skill Scaffold
+
+Use this outline before writing a full skill. Keep every line grounded in a
+source, command, workflow, or observable result.
+
+```markdown
+# Skill Name
+
+## Use When
+
+- The user needs to [specific repeated job].
+- The upstream project, API, or workflow is [source link].
+
+## Before You Start
+
+- Required tool/account:
+- Required secret or permission:
+- Read-only inspection step:
+- Stop or approval checkpoint:
+
+## Workflow
+
+1. Inspect [inputs, files, logs, docs, or records].
+2. Run [lowest-risk command or tool action].
+3. Make [bounded change or recommendation].
+4. Capture evidence in [test output, logs, citations, screenshots, or records].
+
+## Verification
+
+- Pass condition:
+- Failure condition:
+- Handoff if verification is blocked:
+```
+
 ## Representative ASE Examples
 
 - [`staff-engineer-mode`](https://agentskillexchange.com/skills/staff-engineer-mode/)

@@ -64,6 +64,14 @@ source, command, workflow, or observable result.
 - [`query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp`](https://agentskillexchange.com/skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/)
 - [`run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook`](https://agentskillexchange.com/skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/)
 
+## Review Your Draft
+
+Before publishing or submitting a new skill, run a quick pass with the
+[First Skill Review Checklist](../checklists/first-skill-review.md). A first
+draft is ready for deeper evaluation when the reviewer can identify the source,
+setup path, permissions, verification evidence, and safety-sensitive actions
+without inferring them from the skill title.
+
 ## Safety Reminders
 
 - Do not call a third-party project official unless ownership proves it.

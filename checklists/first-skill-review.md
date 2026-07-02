@@ -31,6 +31,17 @@ Use this for a fast first pass before a deeper evaluation.
 - [ ] Revisit with fixes
 - [ ] Move to deeper evaluation
 
+## Deeper Evaluation Handoff
+
+If this review moves forward, copy the evidence above into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md) and
+fill these fields first:
+
+- Target workflow and expected output
+- Required tools, accounts, permissions, and approval points
+- Verification checks, pass signal, and artifacts to save
+- Main risk, mitigation, and pilot decision reason
+
 ## Next Action
 
 ```text

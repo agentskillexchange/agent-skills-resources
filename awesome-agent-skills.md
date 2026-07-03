@@ -32,6 +32,17 @@ you browse the wider ecosystem.
 | 10-13 | Check it against [Annotated Examples](examples/annotated-skill-examples.md) and the [Quality Checklist](examples/quality-checklist.md) | Spot missing setup, safety, evidence, and verification details. |
 | 13-15 | Choose the right next step: local prototype, [Team Evaluation Starter Kit](starter-kits/team-evaluation.md), or [Playbooks](playbooks/) | Leave with a bounded path for testing or team rollout. |
 
+## Build, Review, Evaluate Path
+
+Use this path when you want to turn a first skill idea into evidence a reviewer
+or team lead can trust.
+
+| Step | Use | Good stopping point |
+|---|---|---|
+| Draft | [Skill Author Starter Kit](starter-kits/skill-author.md) | The skill has a source, setup path, permissions, workflow, and verification signal. |
+| Review | [First Skill Review Checklist](checklists/first-skill-review.md) | A reviewer can choose reject, revisit with fixes, or move to deeper evaluation. |
+| Evaluate | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) | The team has workflow fit, setup, permissions, verification, risks, and a pilot decision. |
+
 ## What Are Agent Skills?
 
 Agent skills are reusable instructions, scripts, examples, and workflow notes

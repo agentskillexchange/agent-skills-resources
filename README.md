@@ -23,6 +23,7 @@ agent frameworks, evaluation, safety, deployment, and team rollout patterns.
 | Understand agent skills quickly | [Agent Skills 101](learning/agent-skills-101.md) |
 | Compare skills, tools, MCP, agents, and workflows | [Skills vs Tools vs MCP](learning/skills-vs-tools-vs-mcp.md) |
 | Browse the best public entry point | [Awesome Agent Skills](awesome-agent-skills.md) |
+| Build, review, and evaluate a first skill | [Build, Review, Evaluate Path](awesome-agent-skills.md#build-review-evaluate-path) |
 | Compare Codex, Claude Code, Copilot, Cursor, Gemini, OpenClaw, LangGraph, and MCP | [Framework Comparison](framework-comparison.md) |
 | Find official docs, repos, and source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate quality, safety, and rollout readiness | [Checklists](checklists/) and [Templates](templates/) |

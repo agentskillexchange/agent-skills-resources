@@ -3,6 +3,24 @@
 Use this page as the compact front door for the Agent Skills Resources repo.
 The repo is an educational guide, not the canonical catalog.
 
+## Visitor Workflow Map
+
+```mermaid
+flowchart LR
+  Learn["Learn the concepts"] --> Draft["Draft a first skill"]
+  Draft --> Review["Review setup, safety, and evidence"]
+  Review --> Evaluate["Capture evaluation evidence"]
+  Evaluate --> Pilot["Run a bounded team pilot"]
+```
+
+| Step | Start here |
+|---|---|
+| Learn | [Agent Skills 101](learning/agent-skills-101.md) |
+| Draft | [Skill Author Starter Kit](starter-kits/skill-author.md) |
+| Review | [First Skill Review Checklist](checklists/first-skill-review.md) |
+| Evaluate | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) |
+| Pilot | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) |
+
 ## Learning
 
 | Need | Start here |

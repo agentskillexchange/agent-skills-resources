@@ -2,12 +2,12 @@
 
 Generated from current repository files.
 
-- Last generated: 2026-07-05T16:11:01Z
+- Last generated: 2026-07-06T16:11:04Z
 - Resources: 129
 - Representative mapped ASE skills: 46
 - Learning pages: 11
 - Cookbook pages: 7
-- Diagram pages: 3
+- Diagram pages: 4
 - Ecosystem pages: 48
 - Deployment pages: 7
 - Evaluation pages: 7

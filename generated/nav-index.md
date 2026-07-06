@@ -40,6 +40,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 
 ## diagrams
 
+- [Diagrams](../diagrams/README.md)
 - [Agent Skill Ecosystem](../diagrams/agent-skill-ecosystem.md)
 - [Skill Lifecycle](../diagrams/skill-lifecycle.md)
 - [Team Adoption Loop](../diagrams/team-adoption-loop.md)

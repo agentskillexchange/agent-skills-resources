@@ -14,4 +14,19 @@ into an issue, document, or internal review packet.
 | [Rollout Readiness](rollout-readiness.md) | Deciding whether to expand beyond a pilot |
 | [Post-Pilot Review](post-pilot-review.md) | Capturing what worked, what failed, and next decision |
 
+## First Run Evidence Packet
+
+For a first team trial, keep the packet small enough to finish in one review:
+
+1. Copy the [Skill Evaluation Worksheet](skill-evaluation-worksheet.md) for the
+   skill, workflow fit, setup, permissions, verification steps, risks, and
+   decision.
+2. Add a [Pilot Plan](pilot-plan.md) only after the worksheet points to a
+   narrow workflow with a named owner and rollback path.
+3. Use [Risk Review](risk-review.md) or [Security Review](security-review.md)
+   when the pilot touches real repos, data, commands, networks, or approvals.
+4. Before expanding beyond the first pilot, complete
+   [Rollout Readiness](rollout-readiness.md) and finish with
+   [Post-Pilot Review](post-pilot-review.md).
+
 Keep the evidence short, specific, and reproducible.

@@ -22,6 +22,20 @@ If none of these fit, pick the lowest-risk workflow that still creates a useful
 artifact. Avoid starting with production credentials, broad repo access, or
 autonomous scheduled runs.
 
+## After You Choose
+
+Move from the matrix into the smallest review artifact that matches the next
+decision:
+
+| If the pilot is... | Open next | Use it to decide |
+|---|---|---|
+| Still being shaped | [Team Pilot Readiness Checklist](checklists/team-pilot-readiness.md) | Whether the workflow is narrow, observable, reversible, and ready for a sandbox run |
+| Ready for expansion | [Rollout Readiness](templates/rollout-readiness.md) | Whether sandbox or limited-team evidence supports a broader rollout |
+| Already completed | [Post-Pilot Review](templates/post-pilot-review.md) | Whether the workflow should continue, change, pause, or be retired |
+
+If the evidence is thin, stay in the readiness checklist and write the next
+action before opening rollout readiness.
+
 | Team type | Example use case | Suggested starting skills | Risk level | Recommended rollout path | Validation evidence expected |
 |---|---|---|---|---|---|
 | Engineering | PR review and comment follow-through | `staff-engineer-mode`, `address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments` | Medium | Archived PR to one repo to production PRs with reviewer approval | Test commands, changed files, review-comment mapping |

@@ -78,3 +78,18 @@ Decision reason:
 ```text
 
 ```
+
+## Pilot Planning Handoff
+
+Complete this only when the decision is `Pilot`, then open
+[`pilot-plan.md`](pilot-plan.md) and carry forward the evidence below.
+
+- Workflow and team from `Workflow Fit`:
+- Required tools, accounts, and approvals from `Install And Setup Clarity` and
+  `Permissions Needed`:
+- Verification signal to reuse as pilot success evidence:
+- Risk that must become a pilot guardrail:
+
+Pilot-plan next step:
+
+- [ ] Convert this worksheet into a bounded sandbox, limited-team, or production-candidate pilot plan.

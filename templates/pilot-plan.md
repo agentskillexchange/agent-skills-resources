@@ -58,3 +58,13 @@ Checklist:
 ```text
 
 ```
+
+## Pilot Exit Handoff
+
+Before closing the pilot, copy the measured criteria, rollback result, and open
+issues into the next artifact:
+
+- Use [`post-pilot-review.md`](post-pilot-review.md) when the pilot is finished
+  and the team needs to decide whether to stop, revise, continue, or expand.
+- Use [`rollout-readiness.md`](rollout-readiness.md) when the pilot is a
+  production candidate and the team is considering a wider rollout.

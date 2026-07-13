@@ -58,3 +58,13 @@ Decision reason:
 ```text
 
 ```
+
+## Production Review Handoff
+
+If the decision is `Go`, copy the monitoring owner, review cadence, rollback
+trigger, and artifact/log location into
+[`../ops/rollout-evidence.md`](../ops/rollout-evidence.md) so the expanded
+workflow has a durable review record. For workflows with production data,
+privileged tools, external actions, or security approvals, also complete
+[`../security/security-rollout-checklist.md`](../security/security-rollout-checklist.md)
+before widening access.

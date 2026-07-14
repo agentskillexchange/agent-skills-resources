@@ -26,6 +26,8 @@ want to pilot agent skills with a bounded team workflow.
 6. [Team Pilot Readiness Checklist](../checklists/team-pilot-readiness.md)
 7. [Pilot Plan Template](../templates/pilot-plan.md)
 8. [Rollout Readiness Template](../templates/rollout-readiness.md)
+9. [Rollout Evidence Log](../ops/rollout-evidence.md) and
+   [Security Rollout Checklist](../security/security-rollout-checklist.md)
 
 ## Practice Exercise
 
@@ -55,4 +57,8 @@ Choose one pilot workflow and define:
 ## Next Step
 
 Fill out [Pilot Plan](../templates/pilot-plan.md), then use
-[Rollout Readiness](../templates/rollout-readiness.md) after the pilot.
+[Rollout Readiness](../templates/rollout-readiness.md) after the pilot. If the
+decision is `Go`, carry the monitoring owner, review cadence, rollback trigger,
+and artifact/log location into [Rollout Evidence](../ops/rollout-evidence.md);
+use the [Security Rollout Checklist](../security/security-rollout-checklist.md)
+before widening access for production-sensitive workflows.

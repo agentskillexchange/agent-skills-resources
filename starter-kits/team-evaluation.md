@@ -21,6 +21,18 @@ Run a pilot that produces evidence:
 3. Capture input, commands, outputs, failed checks, and reviewer decisions.
 4. Decide: reject, revisit, or limited pilot.
 
+## After The First Workflow
+
+Use the first decision to choose the next artifact:
+
+- If the evidence is weak, keep the workflow in review and update the
+  [skill evaluation worksheet](../templates/skill-evaluation-worksheet.md).
+- If the evidence supports a limited pilot, complete the
+  [team pilot readiness checklist](../checklists/team-pilot-readiness.md) and
+  open the [pilot plan](../templates/pilot-plan.md) before adding users.
+- If the pilot is already complete, move the owner, rollback, monitoring, and
+  evidence notes into [rollout readiness](../templates/rollout-readiness.md).
+
 ## Representative ASE Examples
 
 - [`route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer`](https://agentskillexchange.com/skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/)

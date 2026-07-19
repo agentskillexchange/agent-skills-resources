@@ -37,3 +37,12 @@ write to repositories, or contact users.
 - Test result or dry-run output.
 - Known limitations.
 - Approval decision and owner.
+
+## Compare Against Completed Examples
+
+After the fast review, check
+[Completed Evaluation Examples](../examples/completed-evaluations/README.md)
+to see how lightweight evidence turns into a pilot, revisit, or security-review
+decision. Use the examples as shape references for your own notes: keep the
+workflow, evidence, limitation, decision, and next artifact explicit enough that
+another reviewer can repeat or challenge the result.

@@ -26,6 +26,14 @@ whether a skill or resource is ready to use.
 7. [Source-Backed Resource Review Checklist](../checklists/source-backed-resource-review.md)
 8. [Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md)
 
+## Compare Review Notes
+
+Before filling the worksheet, skim the
+[Completed Evaluation Examples](../examples/completed-evaluations/README.md)
+to see how a short review note connects workflow fit, permissions, evidence,
+limitations, and a pilot/revisit/stop decision. Use them as decision shapes,
+not endorsements or catalog entries.
+
 ## Practice Exercise
 
 Review one skill or resource and record:

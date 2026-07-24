@@ -13,6 +13,17 @@ Each example references an existing public ASE skill slug from
 | [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Human approval gates for risky actions |
 | [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Day-2 runtime operations |
 
+## Compare The Examples
+
+Start with the row that looks closest to your own workflow, then open the
+example to copy its evidence shape into a worksheet or pilot plan.
+
+| Example | Decision pattern | Evidence to compare |
+|---|---|---|
+| [Staff Engineer Mode](staff-engineer-mode-evaluation.md) | Pilot a narrow review workflow. | Checks requested, changed files, unresolved risks, reviewer notes. |
+| [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Pilot with security review. | Approval request, approver identity, decision timestamp, denied-action behavior. |
+| [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Revisit after runbook scope is defined. | Commands inspected, config paths reviewed, no write actions, operator notes. |
+
 ## Turn Evidence Into A Decision
 
 Use these examples as patterns for a short decision note, not as catalog

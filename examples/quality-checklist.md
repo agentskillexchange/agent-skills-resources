@@ -54,6 +54,14 @@ Use this checklist when reviewing a skill for usefulness and trust.
 - Client-specific setup is documented when needed.
 - Compatibility is not assumed from popularity alone.
 
+## Draft To Review Handoff
+
+Use the checklist as a repair pass before opening a formal review. If any
+section depends on guesses, fix the draft before review. If every section has a
+source, setup path, permission note, workflow step, and observable check, carry
+the same evidence into the
+[First Skill Review Checklist](../checklists/first-skill-review.md).
+
 ## Anti-Patterns
 
 - Stale popularity claims.

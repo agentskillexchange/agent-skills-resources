@@ -25,6 +25,22 @@ Use this for a fast first pass before a deeper evaluation.
 
 ```
 
+## Evidence Example
+
+Use a short block like this when the first pass has enough proof to move
+forward:
+
+```text
+Source: official upstream repo and docs are reachable.
+Setup: package install, required account, and auth command are named.
+Permissions: default workflow is read-only; write actions require approval.
+Workflow: agent inspects the target issue, gathers context, proposes a patch,
+then runs the named verification command.
+Observable check: `npm test` passes and the saved log includes the changed
+module.
+Open risk: production deployment is out of scope for this review.
+```
+
 ## Decision
 
 - [ ] Reject

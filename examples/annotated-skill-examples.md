@@ -3,6 +3,19 @@
 These examples are representative public ASE skills. They are not copied here in
 full; the goal is to show what each one teaches future skill authors.
 
+## Use Annotations As Review Evidence
+
+When an example looks relevant, turn the bullets below into a first-pass review
+before copying the pattern:
+
+- Treat **Why it is a good example** as the source-backed reason to keep
+  inspecting.
+- Treat **Workflow encoded** as the repeated task the skill should make easier.
+- Treat **Setup/usage/verification pattern** as evidence for the
+  [First Skill Review Checklist](../checklists/first-skill-review.md).
+- Treat **What authors can copy** as a narrow implementation choice, not a
+  license to mirror the whole skill.
+
 ## Coding And Review
 
 **Slug:** `staff-engineer-mode`
@@ -116,4 +129,3 @@ full; the goal is to show what each one teaches future skill authors.
   persistence, memory, and boundaries.
 - **What authors can copy:** Be clear about what the agent should remember and
   what should remain task-local.
-

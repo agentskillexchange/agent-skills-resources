@@ -23,6 +23,25 @@ Draft a skill around one concrete job:
 5. Name permissions, secrets, and stop conditions.
 6. Avoid broad compatibility claims unless you tested them.
 
+## Choose The Closest Example Pattern
+
+Before copying the scaffold, choose one annotated example that matches the job
+shape of your skill:
+
+| If your skill mainly helps an agent... | Start from this example pattern |
+|---|---|
+| Make engineering or review decisions | Coding and review |
+| Connect to a tool, API, database, or MCP server | MCP tool connection or data platform |
+| Investigate live operational state | SRE and incident ops or OpenClaw runtime ops |
+| Pause for approval before risky actions | Security and guardrails |
+| Research, cite, or synthesize claims | Content and research |
+| Persist memory, schedules, or long-running context | Hermes / emerging runtime |
+
+Use the matching [annotated example](../examples/annotated-skill-examples.md)
+for workflow shape, setup evidence, and verification posture. Do not copy its
+slug, metadata, or tool choice unless your source-backed skill genuinely shares
+that context.
+
 ## Copyable First Skill Scaffold
 
 Use this outline before writing a full skill. Keep every line grounded in a

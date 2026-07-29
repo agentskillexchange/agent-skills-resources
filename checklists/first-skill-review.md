@@ -47,6 +47,17 @@ Open risk: production deployment is out of scope for this review.
 - [ ] Revisit with fixes
 - [ ] Move to deeper evaluation
 
+## Choose The First Review Decision
+
+Use the evidence block above to choose one next action before opening a deeper
+worksheet:
+
+| Evidence pattern | Decision | Next action |
+|---|---|---|
+| No repeated workflow, unreachable source, or missing safety boundary. | Reject | Record the blocker in `Next Action`; do not evaluate further. |
+| Useful workflow, but setup, permissions, or verification evidence is incomplete. | Revisit with fixes | Ask for the missing proof before scoring the skill. |
+| Clear workflow, reachable source, named permissions, and reviewable checks. | Move to deeper evaluation | Copy the evidence into the skill evaluation worksheet. |
+
 ## Deeper Evaluation Handoff
 
 If this review moves forward, copy the evidence above into the

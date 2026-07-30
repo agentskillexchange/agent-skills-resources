@@ -12,6 +12,20 @@ are safe and useful enough for a pilot.
 3. Copy the [skill evaluation worksheet](../templates/skill-evaluation-worksheet.md).
 4. Decide the sandbox boundary, owner, success criteria, and review date.
 
+## First 30 Minutes
+
+Turn the setup into one reviewable evidence packet:
+
+1. Name one reviewer and one workflow owner.
+2. Run the candidate skill only in the chosen sandbox or read-only context.
+3. Capture the source, setup, permissions, command/output, and verification
+   signal in the [skill evaluation worksheet](../templates/skill-evaluation-worksheet.md).
+4. Use the [first skill review checklist](../checklists/first-skill-review.md)
+   to decide whether to reject, revisit with fixes, or continue to a limited
+   pilot.
+5. Open the [pilot plan](../templates/pilot-plan.md) only when the worksheet
+   has a narrow workflow, named owner, success signal, and rollback boundary.
+
 ## First Useful Workflow
 
 Run a pilot that produces evidence:

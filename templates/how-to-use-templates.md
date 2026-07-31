@@ -17,6 +17,18 @@ smallest template that matches the decision in front of the team.
 5. Finish with [Post-Pilot Review](post-pilot-review.md) so the next team can
    learn from the pilot.
 
+## Choose The Next Template
+
+Use the evidence you already have to pick the next artifact:
+
+| Current evidence | Open next | Why |
+|---|---|---|
+| Promising skill, but no reviewer notes yet | [Skill Evaluation Worksheet](skill-evaluation-worksheet.md) | Records source, setup, permissions, verification, risks, and the first decision. |
+| Worksheet shows one narrow workflow with an owner | [Pilot Plan](pilot-plan.md) | Turns the review into a bounded trial with success criteria and rollback. |
+| Pilot needs real repos, data, commands, networks, or approvals | [Risk Review](risk-review.md) or [Security Review](security-review.md) | Captures the controls a team should review before the trial leaves a sandbox. |
+| Pilot evidence supports adding more users | [Rollout Readiness](rollout-readiness.md) | Checks ownership, monitoring, rollback, training, and expansion limits. |
+| Pilot finished or was rejected | [Post-Pilot Review](post-pilot-review.md) | Preserves the decision and evidence so the next team does not restart from memory. |
+
 ## How This Connects To The Repo
 
 - Use [Playbooks](../playbooks/) to choose a team-specific adoption path.

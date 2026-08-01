@@ -29,6 +29,16 @@ Use the evidence you already have to pick the next artifact:
 | Pilot evidence supports adding more users | [Rollout Readiness](rollout-readiness.md) | Checks ownership, monitoring, rollback, training, and expansion limits. |
 | Pilot finished or was rejected | [Post-Pilot Review](post-pilot-review.md) | Preserves the decision and evidence so the next team does not restart from memory. |
 
+## Choose Risk Or Security Review
+
+Use the smaller review unless the pilot crosses both boundaries:
+
+| Pilot touches | Open | Evidence to capture |
+|---|---|---|
+| Real repos, business data, production scope, user/customer impact, dependencies, or model/provider choices | [Risk Review](risk-review.md) | Access scope, owner, mitigation, approval gate, and open risks. |
+| Commands, network access, secrets, generated code, logs, sandboxing, or supply-chain controls | [Security Review](security-review.md) | Reviewed commands, destinations, secret handling, isolation, scan result, and approval record. |
+| Both pilot scope and technical execution controls | [Risk Review](risk-review.md), then [Security Review](security-review.md) | Decide whether the pilot should proceed at all before checking how it can run safely. |
+
 ## How This Connects To The Repo
 
 - Use [Playbooks](../playbooks/) to choose a team-specific adoption path.

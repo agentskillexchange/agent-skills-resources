@@ -27,6 +27,18 @@ Checklist:
 - [ ] Monitoring path is defined.
 - [ ] Rollback path is tested or documented.
 
+## Evidence Packet To Bring
+
+Before filling out the readiness decision, gather the smallest reviewable packet
+from the pilot instead of rewriting the whole history:
+
+| Evidence from the pilot | Copy into this template |
+|---|---|
+| Measured success, failure, and safety criteria from [`pilot-plan.md`](pilot-plan.md) | Results and Go/No-Go decision reason |
+| Stop/revise/continue/expand decision from [`post-pilot-review.md`](post-pilot-review.md) | Current stage and proposed next stage |
+| Risk, security, or approval notes from [`risk-review.md`](risk-review.md) and [`security-review.md`](security-review.md) | Open issues, ownership, and rollback trigger |
+| Artifact links, logs, or reviewer notes from the pilot run | Monitoring artifact/log location |
+
 ## Ownership
 
 - Workflow owner:

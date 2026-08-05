@@ -13,5 +13,15 @@ repositories, users, deployments, or external systems.
 | [Red Teaming And Evals](red-teaming-and-evals.md) | Test agent workflows before wider rollout |
 | [Security Rollout Checklist](security-rollout-checklist.md) | Capture minimum go/no-go evidence |
 
+## Start With A Reviewable Example
+
+If the workflow needs human approval, privileged tool use, or denied-action
+evidence, compare it with the
+[HumanLayer Approval Workflow](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md)
+example before filling out the
+[Security Rollout Checklist](security-rollout-checklist.md). Use the example
+for evidence shape only; the decision still belongs to your own workflow,
+owners, logs, and approvals.
+
 Security review should stay evidence-based. Do not approve a skill only because
 the framework is familiar or popular.

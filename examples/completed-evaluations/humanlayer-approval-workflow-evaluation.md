@@ -36,6 +36,23 @@ blocked action if approval is denied
 - Mitigation: require both approval evidence and normal PR review.
 - Open question: which actions belong in the mandatory approval list.
 
+## Security Decision Note
+
+Copy this shape into the
+[Security Rollout Checklist](../../security/security-rollout-checklist.md)
+when approval evidence is good enough for a sandbox pilot but not yet enough for
+production:
+
+```text
+Decision: Sandbox pilot
+Why: approval requests record approver, timestamp, requested action, and denial
+behavior for dependency-update attempts in a non-production repo.
+Required mitigation before expansion: document the mandatory approval list and
+confirm approval messages do not include secrets or sensitive payloads.
+Next review: after three approved and one denied pilot action are attached to
+the rollout evidence record.
+```
+
 ## Why A Team Might Pilot It
 
 - It directly addresses agent safety and accountability.

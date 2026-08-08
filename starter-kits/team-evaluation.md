@@ -12,6 +12,17 @@ are safe and useful enough for a pilot.
 3. Copy the [skill evaluation worksheet](../templates/skill-evaluation-worksheet.md).
 4. Decide the sandbox boundary, owner, success criteria, and review date.
 
+## Before The Worksheet
+
+Calibrate the evidence standard before the team starts filling fields:
+
+- Open the
+  [completed evaluation examples](../examples/completed-evaluations/README.md).
+- Pick the closest decision pattern: pilot, revisit, stop, or expand carefully.
+- Copy only the evidence shape into the worksheet, such as reviewer notes,
+  approval records, denied-action behavior, command output, or rollback notes.
+- Treat the example as a review packet pattern, not as a recommended skill list.
+
 ## First 30 Minutes
 
 Turn the setup into one reviewable evidence packet:

@@ -76,6 +76,22 @@ source, command, workflow, or observable result.
 - Handoff if verification is blocked:
 ```
 
+## Build The First Evidence Packet
+
+Before asking for review, turn the scaffold into a short evidence packet:
+
+| Scaffold field | Evidence to bring into review |
+|---|---|
+| Upstream source | Link to the official repo, docs, package, API reference, or workflow owner. |
+| Required tool/account | Show the install command, account prerequisite, or provider setup path a reviewer can try. |
+| Secret or permission | Name the minimum token, role, data access, or approval needed before the workflow writes anywhere. |
+| Read-only inspection step | Show the first command, file, log, issue, trace, or record the agent should inspect before changing state. |
+| Verification | Save the pass signal, failure signal, and blocked handoff in language a reviewer can copy into the [First Skill Review Checklist](../checklists/first-skill-review.md). |
+
+If one row is empty, repair the draft before review. If every row has concrete
+evidence, carry the packet into the review checklist instead of rewriting the
+same rationale from memory.
+
 ## Representative ASE Examples
 
 - [`staff-engineer-mode`](https://agentskillexchange.com/skills/staff-engineer-mode/)

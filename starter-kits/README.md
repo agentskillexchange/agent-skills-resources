@@ -13,6 +13,14 @@ and representative ASE examples without duplicating the full catalog.
 | Adopting a coding-agent workflow | [Coding Agent User](coding-agent-user.md) | [Framework Comparison](../framework-comparison.md) |
 | Connecting tools through MCP | [MCP Tooling User](mcp-tooling-user.md) | [MCP Tooling Readiness](../checklists/mcp-tooling-readiness.md) |
 
+## If You Are Building First
+
+Use [Skill Author](skill-author.md) when you already know the workflow and need
+a first draft plus a review evidence packet. Use the
+[Builder Track](../learning/builder-track.md) when you still need the design
+patterns, source-backed setup, permissions, and multi-framework context before
+writing that draft.
+
 | Starter kit | Use it when |
 |---|---|
 | [Coding Agent User](coding-agent-user.md) | You use Codex, Claude Code, Copilot, Cursor, Gemini CLI, or similar coding agents. |

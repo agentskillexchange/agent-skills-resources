@@ -19,6 +19,17 @@ or on [Agent Skill Exchange](https://agentskillexchange.com/).
 | Evaluate skill quality and safety | [Quality Checklist](examples/quality-checklist.md) |
 | Plan a team pilot | [Playbooks](playbooks/) |
 
+## Choose Your Builder Route
+
+Use the quick route when you want to draft one reviewable skill from a known
+workflow. Use the deeper track when you are still choosing patterns,
+permissions, setup evidence, or framework boundaries.
+
+| Route | Start with | Use when |
+|---|---|---|
+| Quick first draft | [Skill Author Starter Kit](starter-kits/skill-author.md) | You already know the source workflow and need a practical skill outline. |
+| Deeper builder track | [Builder Track](learning/builder-track.md) | You need design patterns, setup clarity, permission checks, and framework guidance before drafting. |
+
 ## Build Your First Skill In 15 Minutes
 
 Use this path when you are new to skills and want a concrete first pass before

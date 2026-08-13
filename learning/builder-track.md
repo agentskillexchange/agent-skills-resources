@@ -46,6 +46,21 @@ Draft a one-page skill outline:
 - Verification is observable.
 - Permissions and risky operations are named.
 
+## After First Review
+
+When the first review says `Move to deeper evaluation`, do not rewrite the
+skill first. Carry the review evidence into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md), then
+compare one nearby pattern in
+[Completed Evaluation Examples](../examples/completed-evaluations/README.md).
+
+Use this handoff to preserve:
+
+- the workflow and expected output
+- setup, account, and permission evidence
+- verification checks and artifacts
+- the main risk and pilot decision reason
+
 ## Common Mistakes
 
 - Writing broad instructions that cannot be tested.

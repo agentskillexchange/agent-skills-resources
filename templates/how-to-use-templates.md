@@ -39,6 +39,25 @@ Use the smaller review unless the pilot crosses both boundaries:
 | Commands, network access, secrets, generated code, logs, sandboxing, or supply-chain controls | [Security Review](security-review.md) | Reviewed commands, destinations, secret handling, isolation, scan result, and approval record. |
 | Both pilot scope and technical execution controls | [Risk Review](risk-review.md), then [Security Review](security-review.md) | Decide whether the pilot should proceed at all before checking how it can run safely. |
 
+## Team Lead Artifact Sequence
+
+Use this sequence when a visitor is moving from one reviewed skill to a team
+pilot:
+
+1. Start with the
+   [Team Pilot Readiness Checklist](../checklists/team-pilot-readiness.md) to
+   confirm the workflow, owner, approval gate, rollback path, and review date.
+2. Open the [Pilot Plan](pilot-plan.md) only after the readiness checklist has a
+   narrow sandbox or limited-team decision.
+3. Use [Post-Pilot Review](post-pilot-review.md) when the pilot window ends, so
+   stop, revisit, continue, or expand decisions are tied to evidence.
+4. Use [Rollout Readiness](rollout-readiness.md) only for a continue or expand
+   decision that needs more users, stronger ownership, monitoring, or rollback
+   evidence.
+5. Carry approved expansion evidence into
+   [Rollout Evidence](../ops/rollout-evidence.md) before widening production or
+   team access.
+
 ## How This Connects To The Repo
 
 - Use [Playbooks](../playbooks/) to choose a team-specific adoption path.

@@ -3,6 +3,20 @@
 This guide is for people who want to understand or create agent skills without
 confusing this companion repo with the main ASE catalog.
 
+## Pick Your First Route
+
+If you only have 30 minutes, start from the role path that matches why you are
+here:
+
+| Goal | Start with |
+|---|---|
+| Understand the idea | [Agent Skills 101](learning/agent-skills-101.md) -> [Beginner Track](learning/beginner-track.md) |
+| Build a first skill | [Skill Author Starter Kit](starter-kits/skill-author.md) -> [Builder Track](learning/builder-track.md) |
+| Review skill quality | [Evaluator Track](learning/evaluator-track.md) -> [First Skill Review Checklist](checklists/first-skill-review.md) |
+| Plan a team pilot | [Team Lead Track](learning/team-lead-track.md) -> [Team Pilot Readiness](checklists/team-pilot-readiness.md) |
+
+For the full map, use the [Docs Index](docs-index.md).
+
 ## Beginner Path
 
 1. Read [ecosystem-map.md](ecosystem-map.md).
@@ -42,4 +56,3 @@ confusing this companion repo with the main ASE catalog.
 - The skill avoids fake "official" claims.
 - The body includes usage and verification, not only metadata.
 - The skill explains when not to use the workflow.
-

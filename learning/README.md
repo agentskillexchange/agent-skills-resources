@@ -19,5 +19,14 @@ specific runtime, framework, or catalog entry.
 - [Evaluator Track](evaluator-track.md): review quality, safety, and evidence.
 - [Team Lead Track](team-lead-track.md): plan pilots and rollouts.
 
+## First Artifact To Open
+
+| If this is your track | Open next | Use it to produce |
+|---|---|---|
+| Beginner | [Agent Skills 101](agent-skills-101.md) | A shared vocabulary before comparing frameworks |
+| Builder | [Skill Author Starter Kit](../starter-kits/skill-author.md) | A source-backed first-skill draft |
+| Evaluator | [First Skill Review Checklist](../checklists/first-skill-review.md) | Review notes on setup, safety, and evidence |
+| Team Lead | [Team Pilot Readiness](../checklists/team-pilot-readiness.md) | A bounded pilot decision before rollout planning |
+
 These pages are framework-neutral. They link to frameworks and examples only
 where that helps explain the concept.

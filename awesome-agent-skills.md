@@ -19,6 +19,19 @@ or on [Agent Skill Exchange](https://agentskillexchange.com/).
 | Evaluate skill quality and safety | [Quality Checklist](examples/quality-checklist.md) |
 | Plan a team pilot | [Playbooks](playbooks/) |
 
+## Choose Your Use Case
+
+Open the artifact that matches why you landed here, then use the next page only
+if you need more depth.
+
+| Use case | Open first | Then use |
+|---|---|---|
+| Understand the idea | [Agent Skills 101](learning/agent-skills-101.md) | [Beginner Track](learning/beginner-track.md) |
+| Draft one skill | [Skill Author Starter Kit](starter-kits/skill-author.md) | [Builder Track](learning/builder-track.md) |
+| Review a skill | [First Skill Review Checklist](checklists/first-skill-review.md) | [Quality Checklist](examples/quality-checklist.md) |
+| Evaluate team fit | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) | [Completed Evaluation Examples](examples/completed-evaluations/) |
+| Plan a pilot | [Team Pilot Readiness](checklists/team-pilot-readiness.md) | [How To Use Templates](templates/how-to-use-templates.md) |
+
 ## Choose Your Builder Route
 
 Use the quick route when you want to draft one reviewable skill from a known

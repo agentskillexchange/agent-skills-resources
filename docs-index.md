@@ -7,10 +7,10 @@ The repo is an educational guide, not the canonical catalog.
 
 ```mermaid
 flowchart LR
-  Learn["Learn the concepts"] --> Draft["Draft a first skill"]
-  Draft --> Review["Review setup, safety, and evidence"]
-  Review --> Evaluate["Capture evaluation evidence"]
-  Evaluate --> Pilot["Run a bounded team pilot"]
+  Learn["Learn the concepts<br/>Artifact: concept notes"] --> Draft["Draft a first skill<br/>Artifact: skill draft"]
+  Draft --> Review["Review setup, safety, and evidence<br/>Artifact: review checklist"]
+  Review --> Evaluate["Capture evaluation evidence<br/>Artifact: evaluation worksheet"]
+  Evaluate --> Pilot["Run a bounded team pilot<br/>Artifact: pilot decision packet"]
 ```
 
 | Step | Start here |

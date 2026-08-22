@@ -10,6 +10,15 @@ The practical path is
 Use that workflow map when you want to move from a first visit to a reviewable
 skill draft and a bounded team pilot.
 
+## Choose A Diagram By Role
+
+| Role | Open this map | Use it to decide |
+|---|---|---|
+| Learner | [Agent Skill Ecosystem](agent-skill-ecosystem.md) | Which layer of the agent stack you need to understand first. |
+| Builder | [Skill Lifecycle](skill-lifecycle.md) | What evidence turns a workflow idea into a reviewable skill draft. |
+| Evaluator | [Skill Lifecycle](skill-lifecycle.md) | Where review, evaluation, and maintenance evidence should appear. |
+| Team lead | [Team Adoption Loop](team-adoption-loop.md) | How to keep a pilot bounded before broader rollout. |
+
 ## Visual Maps
 
 | Need | Diagram | Next step |

@@ -6,6 +6,21 @@ evaluation, not a replacement for the canonical
 [agentskillexchange/skills](https://github.com/agentskillexchange/skills)
 catalog.
 
+## Choose A Workflow Stack By Outcome
+
+Start with the outcome you need to prove, then open the closest stack for the
+frameworks, representative skills, pilot notes, and verification evidence to
+compare.
+
+| Outcome to prove | Start with | Why this stack fits |
+|---|---|---|
+| A coding agent can review PRs without losing engineering context | [Coding Agent PR Review](coding-agent-pr-review-stack.md) | Connects coding-agent runtimes, review skills, and review evidence. |
+| An agent can inspect databases through bounded MCP access | [MCP Database Inspection](mcp-database-inspection-stack.md) | Combines MCP tooling, database access boundaries, and evaluation notes. |
+| Risky agent actions can pause for human approval | [Security Approval](security-approval-stack.md) | Focuses on approval gates, sandboxing, and high-risk workflow controls. |
+| On-call teams can triage incidents with observable evidence | [SRE Incident Triage](sre-incident-triage-stack.md) | Joins runbooks, cluster signals, logs, and incident-triage skills. |
+| Research workflows can keep citations and source checks visible | [Content Research](content-research-stack.md) | Pairs research agents with citation-heavy review expectations. |
+| Runtime operators can keep OpenClaw workflows recoverable | [Runtime Ops: OpenClaw](runtime-ops-openclaw-stack.md) | Covers backups, hardening, scheduled ops, and rollback evidence. |
+
 | Stack | Team / persona | Risk level | Primary surfaces | Representative skills | Page |
 |---|---|---|---|---|---|
 | Coding Agent PR Review | Engineering teams, tech leads | Medium | Codex, Claude Code, GitHub Copilot, Cursor | `staff-engineer-mode`, `address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments` | [Stack](coding-agent-pr-review-stack.md) |

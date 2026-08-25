@@ -62,6 +62,13 @@ flowchart LR
 - Unresolved risks and skipped requests.
 - Reviewer decision.
 
+## Evidence Readiness Check
+
+Treat the pilot as ready to share when a maintainer can see the original review
+comment, the exact file change, the verification output, and any unresolved
+risk in one pass. If any of those four items is missing, keep the run as an
+internal practice pass rather than a reusable team example.
+
 ## Rollout Risks
 
 - Broad refactors hiding inside review fixes.

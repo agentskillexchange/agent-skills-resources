@@ -62,6 +62,14 @@ flowchart LR
 - Dependency or security scan output.
 - Final human decision.
 
+## Evidence Readiness Check
+
+Treat the pilot as ready to share when a reviewer can trace each high-risk
+action to its risk class, approval decision, sandbox or guardrail evidence, and
+final allow, revise, or block outcome. If any of those links is missing, keep
+the run private until the approval record and execution evidence can be read
+without verbal context.
+
 ## Rollout Risks
 
 - Approval fatigue.

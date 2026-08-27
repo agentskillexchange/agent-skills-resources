@@ -60,6 +60,14 @@ flowchart LR
 - Hypotheses accepted or rejected.
 - Human-approved next steps.
 
+## Evidence Readiness Check
+
+Treat the pilot as ready to share when another on-call reviewer can connect the
+alert, each read-only command or query, the supporting log or metric excerpt,
+and every accepted or rejected hypothesis to the final human decision. If the
+timeline, evidence source, or decision owner is unclear, keep the run private
+until the incident notes stand on their own without verbal context.
+
 ## Rollout Risks
 
 - Acting on correlation instead of causation.

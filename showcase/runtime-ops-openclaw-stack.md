@@ -60,6 +60,15 @@ flowchart LR
 - Cron run logs.
 - Rollback command and owner approval.
 
+## Evidence Readiness Check
+
+Treat the pilot as ready to share when another runtime owner can connect the
+health check, backup restore result, config diff, cron run log, rollback command,
+and owner approval to the final keep/change/rollback decision. If any operational
+change, backup target, cron window, or decision owner is unclear, keep the run
+private until the notes prove the runtime can be restored and reviewed without
+local context.
+
 ## Rollout Risks
 
 - Breaking scheduled production automations.

@@ -21,6 +21,18 @@ compare.
 | Research workflows can keep citations and source checks visible | [Content Research](content-research-stack.md) | Pairs research agents with citation-heavy review expectations. |
 | Runtime operators can keep OpenClaw workflows recoverable | [Runtime Ops: OpenClaw](runtime-ops-openclaw-stack.md) | Covers backups, hardening, scheduled ops, and rollback evidence. |
 
+## High-Risk Proof Ladder
+
+For high-risk stacks, do not treat a pilot as shareable just because the
+workflow ran once. Use this ladder to decide which evidence the stack page
+must help you collect before turning a private run into a team example.
+
+| If the stack controls | Share only after you can show | Start with |
+|---|---|---|
+| Risky code, commands, dependencies, or approvals | Risk class, approval decision, sandbox or guardrail evidence, and final allow/revise/block outcome | [Security Approval](security-approval-stack.md#evidence-readiness-check) |
+| Incident triage over logs, metrics, Kubernetes, or cloud signals | Alert context, read-only commands, supporting evidence, accepted or rejected hypotheses, and the final human decision | [SRE Incident Triage](sre-incident-triage-stack.md#evidence-readiness-check) |
+| Runtime operations, backups, cron jobs, config, or rollback | Health check, restore proof, config diff, cron log, rollback command, owner approval, and keep/change/rollback decision | [Runtime Ops: OpenClaw](runtime-ops-openclaw-stack.md#evidence-readiness-check) |
+
 | Stack | Team / persona | Risk level | Primary surfaces | Representative skills | Page |
 |---|---|---|---|---|---|
 | Coding Agent PR Review | Engineering teams, tech leads | Medium | Codex, Claude Code, GitHub Copilot, Cursor | `staff-engineer-mode`, `address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments` | [Stack](coding-agent-pr-review-stack.md) |

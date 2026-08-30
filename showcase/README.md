@@ -33,6 +33,17 @@ must help you collect before turning a private run into a team example.
 | Incident triage over logs, metrics, Kubernetes, or cloud signals | Alert context, read-only commands, supporting evidence, accepted or rejected hypotheses, and the final human decision | [SRE Incident Triage](sre-incident-triage-stack.md#evidence-readiness-check) |
 | Runtime operations, backups, cron jobs, config, or rollback | Health check, restore proof, config diff, cron log, rollback command, owner approval, and keep/change/rollback decision | [Runtime Ops: OpenClaw](runtime-ops-openclaw-stack.md#evidence-readiness-check) |
 
+## Medium-Risk Evidence Chooser
+
+Medium-risk stacks can become useful team examples sooner, but only if the
+artifact proves what happened, what was checked, and who accepted the result.
+
+| If the stack demonstrates | Bring this minimum packet | Start with |
+|---|---|---|
+| Coding-agent PR review | Original review comment, exact file change, verification output, unresolved risk, and reviewer decision | [Coding Agent PR Review](coding-agent-pr-review-stack.md#evidence-readiness-check) |
+| Read-only database inspection through MCP | MCP config, credential scope, queries and row limits, SQL validation, and data owner approval | [MCP Database Inspection](mcp-database-inspection-stack.md#verification-evidence-to-collect) |
+| Cited content or research drafting | Source list, citation coverage, unsupported-claim notes, editorial comments, and publish or reject decision | [Content Research](content-research-stack.md#verification-evidence-to-collect) |
+
 | Stack | Team / persona | Risk level | Primary surfaces | Representative skills | Page |
 |---|---|---|---|---|---|
 | Coding Agent PR Review | Engineering teams, tech leads | Medium | Codex, Claude Code, GitHub Copilot, Cursor | `staff-engineer-mode`, `address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments` | [Stack](coding-agent-pr-review-stack.md) |

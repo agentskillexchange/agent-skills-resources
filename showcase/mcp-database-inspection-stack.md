@@ -61,6 +61,14 @@ flowchart LR
 - Query validation output.
 - Data owner approval.
 
+## Evidence Readiness Check
+
+Treat the pilot as ready to share when a data owner can read the MCP
+configuration, credential scope, executed queries, row limits, SQL validation,
+and approval decision without needing live database access. If the query path,
+permission boundary, or owner decision is unclear, keep the run private until
+the inspection trail can stand on its own.
+
 ## Rollout Risks
 
 - Overbroad credentials.

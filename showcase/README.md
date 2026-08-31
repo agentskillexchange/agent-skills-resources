@@ -41,7 +41,7 @@ artifact proves what happened, what was checked, and who accepted the result.
 | If the stack demonstrates | Bring this minimum packet | Start with |
 |---|---|---|
 | Coding-agent PR review | Original review comment, exact file change, verification output, unresolved risk, and reviewer decision | [Coding Agent PR Review](coding-agent-pr-review-stack.md#evidence-readiness-check) |
-| Read-only database inspection through MCP | MCP config, credential scope, queries and row limits, SQL validation, and data owner approval | [MCP Database Inspection](mcp-database-inspection-stack.md#verification-evidence-to-collect) |
+| Read-only database inspection through MCP | MCP config, credential scope, queries and row limits, SQL validation, and data owner approval | [MCP Database Inspection](mcp-database-inspection-stack.md#evidence-readiness-check) |
 | Cited content or research drafting | Source list, citation coverage, unsupported-claim notes, editorial comments, and publish or reject decision | [Content Research](content-research-stack.md#verification-evidence-to-collect) |
 
 | Stack | Team / persona | Risk level | Primary surfaces | Representative skills | Page |

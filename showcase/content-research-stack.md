@@ -58,6 +58,15 @@ flowchart LR
 - Editorial review comments.
 - Final publish or reject decision.
 
+## Evidence Readiness Check
+
+Treat the pilot as ready to share when an editor can trace the final claims to
+the source list, see which claims were weak or unsupported, review editorial
+comments, and understand the publish or reject decision without rerunning the
+research workflow. If the citation coverage, unsupported-claim notes, or
+editorial decision are missing, keep the draft private until the evidence
+packet explains what changed and why it is safe to publish.
+
 ## Rollout Risks
 
 - Unsupported claims presented as facts.

@@ -44,6 +44,18 @@ artifact proves what happened, what was checked, and who accepted the result.
 | Read-only database inspection through MCP | MCP config, credential scope, queries and row limits, SQL validation, and data owner approval | [MCP Database Inspection](mcp-database-inspection-stack.md#evidence-readiness-check) |
 | Cited content or research drafting | Source list, citation coverage, unsupported-claim notes, editorial comments, and publish or reject decision | [Content Research](content-research-stack.md#evidence-readiness-check) |
 
+## Compare Against Completed Examples
+
+After choosing a stack, compare the evidence packet with the closest completed
+evaluation before filling a blank worksheet. The examples show review shape, not
+certification or catalog endorsement.
+
+| Stack route | Compare with | Use the pattern for |
+|---|---|---|
+| Coding-agent PR review | [Staff Engineer Mode](../examples/completed-evaluations/staff-engineer-mode-evaluation.md) | Review checks, changed files, unresolved risks, and reviewer notes. |
+| Security approval | [HumanLayer Approval Workflow](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) | Approval request, approver identity, decision timestamp, and denied-action behavior. |
+| Runtime Ops: OpenClaw | [OpenClaw Runtime Ops](../examples/completed-evaluations/openclaw-runtime-ops-evaluation.md) | Commands inspected, config paths reviewed, no write actions, and operator notes. |
+
 | Stack | Team / persona | Risk level | Primary surfaces | Representative skills | Page |
 |---|---|---|---|---|---|
 | Coding Agent PR Review | Engineering teams, tech leads | Medium | Codex, Claude Code, GitHub Copilot, Cursor | `staff-engineer-mode`, `address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments` | [Stack](coding-agent-pr-review-stack.md) |

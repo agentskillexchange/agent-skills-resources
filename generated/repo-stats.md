@@ -2,7 +2,7 @@
 
 Generated from current repository files.
 
-- Last generated: 2026-09-03T07:00:35Z
+- Last generated: 2026-09-04T07:02:41Z
 - Resources: 129
 - Representative mapped ASE skills: 46
 - Learning pages: 11

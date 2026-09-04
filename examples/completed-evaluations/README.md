@@ -24,6 +24,17 @@ example to copy its evidence shape into a worksheet or pilot plan.
 | [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Pilot with security review. | Approval request, approver identity, decision timestamp, denied-action behavior. |
 | [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Revisit after runbook scope is defined. | Commands inspected, config paths reviewed, no write actions, operator notes. |
 
+## When No Example Matches
+
+Some showcase stacks are still useful before this folder has a completed
+packet for them. Use the stack readiness check first, then copy the evidence
+shape into the blank worksheet.
+
+| Stack without a completed packet | Start with | Then record |
+|---|---|---|
+| [MCP Database Inspection](../../showcase/mcp-database-inspection-stack.md) | [Evidence Readiness Check](../../showcase/mcp-database-inspection-stack.md#evidence-readiness-check) | MCP config, credential scope, query limits, SQL validation, and owner approval in the [Skill Evaluation Worksheet](../../templates/skill-evaluation-worksheet.md). |
+| [Content Research](../../showcase/content-research-stack.md) | [Evidence Readiness Check](../../showcase/content-research-stack.md#evidence-readiness-check) | Source list, citation coverage, unsupported-claim notes, editorial comments, and publish or reject decision in the [Skill Evaluation Worksheet](../../templates/skill-evaluation-worksheet.md). |
+
 ## Turn Evidence Into A Decision
 
 Use these examples as patterns for a short decision note, not as catalog

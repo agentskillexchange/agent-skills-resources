@@ -168,6 +168,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 
 - [Completed Evaluation Examples](../examples/completed-evaluations/README.md)
 - [HumanLayer Approval Workflow Evaluation](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md)
+- [MCP Database Inspection Evaluation](../examples/completed-evaluations/mcp-database-inspection-evaluation.md)
 - [OpenClaw Runtime Ops Evaluation](../examples/completed-evaluations/openclaw-runtime-ops-evaluation.md)
 - [Staff Engineer Mode Evaluation](../examples/completed-evaluations/staff-engineer-mode-evaluation.md)
 

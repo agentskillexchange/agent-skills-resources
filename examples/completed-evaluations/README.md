@@ -11,6 +11,7 @@ Each example references an existing public ASE skill slug from
 |---|---|
 | [Staff Engineer Mode](staff-engineer-mode-evaluation.md) | Coding-agent review posture |
 | [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Human approval gates for risky actions |
+| [MCP Database Inspection](mcp-database-inspection-evaluation.md) | Read-only database inspection through MCP |
 | [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Day-2 runtime operations |
 
 ## Compare The Examples
@@ -22,6 +23,7 @@ example to copy its evidence shape into a worksheet or pilot plan.
 |---|---|---|
 | [Staff Engineer Mode](staff-engineer-mode-evaluation.md) | Pilot a narrow review workflow. | Checks requested, changed files, unresolved risks, reviewer notes. |
 | [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Pilot with security review. | Approval request, approver identity, decision timestamp, denied-action behavior. |
+| [MCP Database Inspection](mcp-database-inspection-evaluation.md) | Pilot in staging with data-owner review. | MCP config, credential scope, query log, SQL validation, sample result checks. |
 | [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Revisit after runbook scope is defined. | Commands inspected, config paths reviewed, no write actions, operator notes. |
 
 ## When No Example Matches
@@ -32,7 +34,6 @@ shape into the blank worksheet.
 
 | Stack without a completed packet | Start with | Then record |
 |---|---|---|
-| [MCP Database Inspection](../../showcase/mcp-database-inspection-stack.md) | [Evidence Readiness Check](../../showcase/mcp-database-inspection-stack.md#evidence-readiness-check) | MCP config, credential scope, query limits, SQL validation, and owner approval in the [Skill Evaluation Worksheet](../../templates/skill-evaluation-worksheet.md). |
 | [Content Research](../../showcase/content-research-stack.md) | [Evidence Readiness Check](../../showcase/content-research-stack.md#evidence-readiness-check) | Source list, citation coverage, unsupported-claim notes, editorial comments, and publish or reject decision in the [Skill Evaluation Worksheet](../../templates/skill-evaluation-worksheet.md). |
 
 ## Turn Evidence Into A Decision

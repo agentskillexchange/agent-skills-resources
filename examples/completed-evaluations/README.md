@@ -9,6 +9,7 @@ Each example references an existing public ASE skill slug from
 
 | Example | Workflow |
 |---|---|
+| [Content Research](content-research-evaluation.md) | Cited research draft with editorial review |
 | [Staff Engineer Mode](staff-engineer-mode-evaluation.md) | Coding-agent review posture |
 | [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Human approval gates for risky actions |
 | [MCP Database Inspection](mcp-database-inspection-evaluation.md) | Read-only database inspection through MCP |
@@ -21,20 +22,11 @@ example to copy its evidence shape into a worksheet or pilot plan.
 
 | Example | Decision pattern | Evidence to compare |
 |---|---|---|
+| [Content Research](content-research-evaluation.md) | Revisit until editorial evidence is complete. | Source list, citation coverage, weak-claim notes, editorial comments, publish or reject decision. |
 | [Staff Engineer Mode](staff-engineer-mode-evaluation.md) | Pilot a narrow review workflow. | Checks requested, changed files, unresolved risks, reviewer notes. |
 | [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Pilot with security review. | Approval request, approver identity, decision timestamp, denied-action behavior. |
 | [MCP Database Inspection](mcp-database-inspection-evaluation.md) | Pilot in staging with data-owner review. | MCP config, credential scope, query log, SQL validation, sample result checks. |
 | [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Revisit after runbook scope is defined. | Commands inspected, config paths reviewed, no write actions, operator notes. |
-
-## When No Example Matches
-
-Some showcase stacks are still useful before this folder has a completed
-packet for them. Use the stack readiness check first, then copy the evidence
-shape into the blank worksheet.
-
-| Stack without a completed packet | Start with | Then record |
-|---|---|---|
-| [Content Research](../../showcase/content-research-stack.md) | [Evidence Readiness Check](../../showcase/content-research-stack.md#evidence-readiness-check) | Source list, citation coverage, unsupported-claim notes, editorial comments, and publish or reject decision in the [Skill Evaluation Worksheet](../../templates/skill-evaluation-worksheet.md). |
 
 ## Turn Evidence Into A Decision
 

@@ -3,6 +3,19 @@
 Use this worksheet to decide whether one skill should be rejected, revisited, or
 piloted.
 
+## Compare A Nearby Example First
+
+Before filling the blank worksheet, open the completed evaluation that most
+resembles your workflow and copy only the evidence shape, not the decision:
+
+| Your workflow looks like | Compare against |
+|---|---|
+| Cited content or research review | [Content Research](../examples/completed-evaluations/content-research-evaluation.md) |
+| Coding-agent review or PR feedback | [Staff Engineer Mode](../examples/completed-evaluations/staff-engineer-mode-evaluation.md) |
+| Human approval for risky actions | [HumanLayer Approval Workflow](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) |
+| Read-only MCP or database inspection | [MCP Database Inspection](../examples/completed-evaluations/mcp-database-inspection-evaluation.md) |
+| Day-2 operations or runtime checks | [OpenClaw Runtime Ops](../examples/completed-evaluations/openclaw-runtime-ops-evaluation.md) |
+
 ## Skill
 
 - Skill slug:

@@ -14,8 +14,10 @@ before opening a blank template:
 
 | Visitor goal | Open first |
 |---|---|
+| Review cited research without overstating source claims | [Content Research](completed-evaluations/content-research-evaluation.md) |
 | See what a pilot-ready review note looks like | [Staff Engineer Mode](completed-evaluations/staff-engineer-mode-evaluation.md) |
 | Check how approval evidence changes a security decision | [HumanLayer Approval Workflow](completed-evaluations/humanlayer-approval-workflow-evaluation.md) |
+| Validate read-only data inspection before trusting outputs | [MCP Database Inspection](completed-evaluations/mcp-database-inspection-evaluation.md) |
 | Compare day-2 operations evidence before expanding access | [OpenClaw Runtime Ops](completed-evaluations/openclaw-runtime-ops-evaluation.md) |
 
 Use these examples as review aids, not as a replacement for the canonical

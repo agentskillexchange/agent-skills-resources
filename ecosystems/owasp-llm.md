@@ -31,5 +31,5 @@ review for skills that call tools, retrieve untrusted content, or affect users.
 
 ## Source Links
 
-- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/)
 - [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications)

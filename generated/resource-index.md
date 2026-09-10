@@ -21,7 +21,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code | Useful for non-official ecosystem discovery when labeled separately from Anthropic-owned sources. |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Useful for seeing the breadth of MCP servers, while clearly marked as community-maintained. |
 | [GAIA Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard) | GAIA | GAIA gives broad context for assistant tasks that require reasoning and tool use. |
-| [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | Security | Provides a practical security checklist for skills that use tools, prompts, data, or code execution. |
+| [OWASP Top 10 For LLM Applications](https://genai.owasp.org/llm-top-10/) | Security | Provides a practical security checklist for skills that use tools, prompts, data, or code execution. |
 | [τ-bench GitHub](https://github.com/sierra-research/tau-bench) | τ-bench | Tool-agent benchmarks help teams think about state, tool calls, and task success before building local evals. |
 
 ### Lab
@@ -519,7 +519,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 
 | Resource | Framework | Why it matters |
 |---|---|---|
-| [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | Security | Provides a practical security checklist for skills that use tools, prompts, data, or code execution. |
+| [OWASP Top 10 For LLM Applications](https://genai.owasp.org/llm-top-10/) | Security | Provides a practical security checklist for skills that use tools, prompts, data, or code execution. |
 
 ### Semantic Kernel
 
@@ -656,7 +656,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **google-cloud**: [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform), [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview)
 - **governance**: [MLCommons AILuminate](https://mlcommons.org/ailuminate/), [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications)
 - **grounding**: [Ragas Docs](https://docs.ragas.io/)
-- **guardrails**: [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **guardrails**: [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Guardrails AI GitHub](https://github.com/guardrails-ai/guardrails), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP Top 10 For LLM Applications](https://genai.owasp.org/llm-top-10/)
 - **handoffs**: [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents)
 - **headless**: [Claude Code Headless](https://code.claude.com/docs/en/headless)
 - **hermes**: [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Hermes Memory Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md), [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md)
@@ -672,7 +672,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **lab**: [OpenAI Codex Docs](https://developers.openai.com/codex)
 - **langchain**: [LangChain Agents](https://www.langchain.com/agents), [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters), [LangGraph](https://github.com/langchain-ai/langgraph)
 - **langgraph**: [LangChain Agents](https://www.langchain.com/agents), [LangGraph](https://github.com/langchain-ai/langgraph), [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview), [LangGraph Human-in-the-loop Docs](https://docs.langchain.com/oss/python/langgraph/human-in-the-loop), [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
-- **llm**: [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama)
+- **llm**: [OWASP Top 10 For LLM Applications](https://genai.owasp.org/llm-top-10/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama)
 - **llm-risk**: [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications)
 - **llm-tests**: [DeepEval Docs](https://deepeval.com/docs/getting-started), [DeepEval GitHub](https://github.com/confident-ai/deepeval)
 - **managed-agents**: [AWS Bedrock Agents Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html), [Azure AI Foundry Agents Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview), [Google Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform)
@@ -708,14 +708,14 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **repository**: [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)
 - **resources**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 - **retrieval**: [Ragas Docs](https://docs.ragas.io/), [Ragas GitHub](https://github.com/vibrantlabsai/ragas)
-- **risk**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **risk**: [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OWASP Top 10 For LLM Applications](https://genai.owasp.org/llm-top-10/)
 - **rollout**: [Vercel Deployments Docs](https://vercel.com/docs/deployments)
 - **rules**: [Cursor Rules Docs](https://docs.cursor.com/en/context/rules)
 - **runtime**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings), [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/), [Fly.io Docs](https://fly.io/docs/), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Repository](https://github.com/openclaw/openclaw), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama), [Vercel Functions Docs](https://vercel.com/docs/functions), [Vertex AI Agent Engine Overview](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview)
 - **safety**: [MLCommons AILuminate](https://mlcommons.org/ailuminate/), [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - **scorers**: [Inspect AI Docs](https://inspect.aisi.org.uk/)
 - **sdk**: [Braintrust SDK GitHub](https://github.com/braintrustdata/braintrust-sdk-javascript), [GitHub Copilot SDK Custom Skills](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/skills), [Strands Agents Docs](https://strandsagents.com/), [Strands Agents GitHub](https://github.com/strands-agents/harness-sdk)
-- **security**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification), [garak GitHub](https://github.com/NVIDIA/garak), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications), [OWASP Top 10 For LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama), [PyRIT Docs](https://azure.github.io/PyRIT/), [PyRIT GitHub](https://github.com/Azure/PyRIT)
+- **security**: [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification), [garak GitHub](https://github.com/NVIDIA/garak), [Guardrails AI Docs](https://guardrailsai.com/guardrails/docs), [Lakera Docs](https://docs.lakera.ai/), [LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall), [OWASP LLM Top 10 GitHub](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications), [OWASP Top 10 For LLM Applications](https://genai.owasp.org/llm-top-10/), [PurpleLlama GitHub](https://github.com/meta-llama/PurpleLlama), [PyRIT Docs](https://azure.github.io/PyRIT/), [PyRIT GitHub](https://github.com/Azure/PyRIT)
 - **serverless**: [Modal Docs](https://modal.com/docs), [Vercel Functions Docs](https://vercel.com/docs/functions)
 - **servers**: [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - **settings**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings)

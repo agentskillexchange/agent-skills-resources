@@ -40,6 +40,17 @@ Checklist:
 
 ```
 
+## Decision Note From Evidence
+
+Before choosing a decision, summarize the review in a note that someone else
+can scan without reopening every artifact.
+
+- Workflow reviewed:
+- Evidence compared:
+- Permission or access boundary:
+- Approval or mitigation still needed:
+- Decision owner and review date:
+
 ## Decision
 
 - [ ] Accept for sandbox

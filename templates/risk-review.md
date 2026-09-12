@@ -62,3 +62,14 @@ Reason:
 ```text
 
 ```
+
+## Exit Handoff
+
+Use the decision above to open the next artifact instead of leaving the review
+as a standalone note.
+
+| Decision | Next artifact | Carry forward |
+|---|---|---|
+| Accept for sandbox | [Pilot Plan](pilot-plan.md) | Scope limit, owner, approval gate, and rollback condition. |
+| Accept for limited team | [Rollout Readiness](rollout-readiness.md) | Remaining risks, monitoring owner, training need, and expansion limit. |
+| Block until mitigated | [Security Review](security-review.md) or this review again | Blocking risk, required mitigation, evidence owner, and review date. |

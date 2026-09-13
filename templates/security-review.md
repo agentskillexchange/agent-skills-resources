@@ -48,3 +48,14 @@ Reason:
 ```text
 
 ```
+
+## Exit Handoff
+
+Use the security decision above to keep the review moving into a concrete
+artifact instead of ending as a checklist.
+
+| Decision | Next artifact | Carry forward |
+|---|---|---|
+| Approved for sandbox | [Pilot Plan](pilot-plan.md) | Allowed commands, network destinations, sandbox limit, and approval record. |
+| Approved for limited team | [Rollout Readiness](rollout-readiness.md) | Remaining controls, monitoring owner, log location, and expansion limit. |
+| Blocked | [Risk Review](risk-review.md) or this review again | Blocking control, required mitigation, evidence owner, and review date. |

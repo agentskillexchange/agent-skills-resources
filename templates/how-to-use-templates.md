@@ -39,6 +39,17 @@ Use the smaller review unless the pilot crosses both boundaries:
 | Commands, network access, secrets, generated code, logs, sandboxing, or supply-chain controls | [Security Review](security-review.md) | Reviewed commands, destinations, secret handling, isolation, scan result, and approval record. |
 | Both pilot scope and technical execution controls | [Risk Review](risk-review.md), then [Security Review](security-review.md) | Decide whether the pilot should proceed at all before checking how it can run safely. |
 
+## When Both Reviews Are Complete
+
+Use this bridge when a pilot needed both reviews and the team has two decisions
+to combine:
+
+| Combined outcome | Open next | Carry forward |
+|---|---|---|
+| Risk accepts sandbox and security approves sandbox | [Pilot Plan](pilot-plan.md) | Scope limit, allowed commands, approval gate, rollback condition, and review date. |
+| Risk accepts limited team and security approves limited team | [Rollout Readiness](rollout-readiness.md) | Remaining risks, monitoring owner, log location, training need, and expansion limit. |
+| Either review blocks the pilot | The blocking review again | Required mitigation, evidence owner, approval record, and next review date. |
+
 ## Team Lead Artifact Sequence
 
 Use this sequence when a visitor is moving from one reviewed skill to a team

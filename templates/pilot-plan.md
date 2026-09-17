@@ -26,6 +26,17 @@ Why these skills:
 
 ```
 
+## Review Constraints To Carry Forward
+
+Complete this when the pilot follows a risk review, security review, or both.
+
+- Approved scope:
+- Allowed commands/data/systems:
+- Required approval gate:
+- Rollback trigger:
+- Next review date:
+- Blocking condition that stops the pilot:
+
 ## Sandbox Scope
 
 - Test repo/data/system:

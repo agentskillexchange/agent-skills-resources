@@ -49,6 +49,17 @@ Evidence:
 - Unsafe command or network action:
 - Human approval issue:
 
+## Criteria Check
+
+Compare the pilot evidence against the criteria from
+[`pilot-plan.md`](pilot-plan.md) before choosing the next decision.
+
+- Success criterion met:
+- Failure condition triggered:
+- Safety criterion met:
+- Evidence still missing:
+- Rollback path tested or not needed:
+
 ## Next Decision
 
 - [ ] Stop using

@@ -26,6 +26,17 @@ Why these skills:
 
 ```
 
+## Previous Pilot Decision
+
+Complete this when the plan is a follow-up to a post-pilot `Revisit with
+changes` or `Continue limited pilot` decision.
+
+- Prior decision:
+- Change or narrowed scope to test:
+- Evidence that will prove this iteration worked:
+- Remaining risk or blocker:
+- Next review date:
+
 ## Review Constraints To Carry Forward
 
 Complete this when the pilot follows a risk review, security review, or both.

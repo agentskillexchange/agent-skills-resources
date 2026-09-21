@@ -84,3 +84,11 @@ of relying on memory from the pilot:
 | Revisit with changes | The smallest fix, the evidence that will prove it worked, and a review date |
 | Continue limited pilot | The narrowed scope, remaining risk, monitoring signal, and next success criterion |
 | Expand rollout | The decision reason, open issues, owner, monitoring path, and rollback trigger for [`rollout-readiness.md`](rollout-readiness.md) |
+
+## Next Iteration Handoff
+
+If the decision is `Revisit with changes` or `Continue limited pilot`, open a
+fresh [`pilot-plan.md`](pilot-plan.md) and complete `Previous Pilot Decision`
+before running the next iteration. Carry over the prior decision, the fix or
+narrowed scope, the evidence that will prove the iteration worked, the
+remaining risk, and the next review date.

@@ -11,6 +11,17 @@ stage.
 - Proposed next stage:
 - Decision date:
 
+## Post-Pilot Decision
+
+Complete this when the rollout follows an `Expand rollout` decision in
+[`post-pilot-review.md`](post-pilot-review.md).
+
+- Decision reason:
+- Open issues to preserve:
+- Owner:
+- Monitoring path:
+- Rollback trigger:
+
 ## Results
 
 - Sandbox result:

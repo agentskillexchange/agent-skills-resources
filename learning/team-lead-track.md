@@ -41,6 +41,12 @@ Choose one pilot workflow and define:
 - rollback path
 - review date
 
+Before writing the pilot plan, compare the workflow with the
+[completed evaluation examples](../examples/completed-evaluations/README.md).
+Copy the closest evidence pattern into the team worksheet so the pilot starts
+with reviewer notes, approval records, command output, rollback notes, or
+editorial checks already in view.
+
 ## What Good Looks Like
 
 - The first pilot is small and observable.

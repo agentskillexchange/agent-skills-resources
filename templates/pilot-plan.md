@@ -26,6 +26,16 @@ Why these skills:
 
 ```
 
+## Evaluation Worksheet Handoff
+
+Complete this when the pilot starts from `skill-evaluation-worksheet.md`.
+
+- Worksheet decision reason:
+- Workflow and team to pilot:
+- Setup or approval evidence to preserve:
+- Verification signal to reuse:
+- Risk that must become a guardrail:
+
 ## Previous Pilot Decision
 
 Complete this when the plan is a follow-up to a post-pilot `Revisit with

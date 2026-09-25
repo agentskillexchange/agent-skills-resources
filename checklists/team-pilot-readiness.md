@@ -15,11 +15,22 @@ Use this before a team starts using a skill-backed workflow.
 - [ ] The workflow is narrow and repeatable.
 - [ ] The pilot runs in a sandbox or low-risk scope.
 - [ ] Success criteria are written down.
+- [ ] Worksheet evidence has been copied into the pilot plan.
 - [ ] Human approval gates are defined.
 - [ ] Rollback path is clear.
 - [ ] Monitoring or review evidence is available.
 - [ ] Security and permissions were reviewed.
 - [ ] Users know when to stop and escalate.
+
+## Worksheet Evidence Gate
+
+Before adding users, confirm the pilot plan preserves the evaluation evidence
+that justified the pilot:
+
+- Worksheet decision reason:
+- Setup or approval evidence copied into the pilot plan:
+- Verification signal reused as pilot success evidence:
+- Risk converted into a pilot guardrail:
 
 ## Evidence
 

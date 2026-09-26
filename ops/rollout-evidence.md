@@ -13,7 +13,11 @@ small pilot.
 | Approval evidence |  |
 | Security review note |  |
 | Rollback plan |  |
+| Rollback trigger |  |
 | Monitoring owner |  |
+| Artifact/log location |  |
+| Review cadence |  |
+| Next review date |  |
 | Production readiness decision | reject / revisit / limited rollout / production |
 
 ## Minimum Review
@@ -23,7 +27,8 @@ small pilot.
 - [ ] Eval or expected-output check passed.
 - [ ] Human approval evidence captured for risky actions.
 - [ ] Rollback path tested or documented.
-- [ ] Owner and review date assigned.
+- [ ] Monitoring owner, review cadence, and next review date assigned.
+- [ ] Artifact/log location copied from rollout readiness.
 
 ## Post-Go Audit Trail
 

@@ -11,6 +11,7 @@ flowchart LR
   Draft --> Review["Review setup, safety, and evidence<br/>Artifact: review checklist"]
   Review --> Evaluate["Capture evaluation evidence<br/>Artifact: evaluation worksheet"]
   Evaluate --> Pilot["Run a bounded team pilot<br/>Artifact: pilot decision packet"]
+  Pilot --> Operate["Prepare rollout operations<br/>Artifact: rollout evidence log"]
 ```
 
 | Step | Start here |
@@ -20,6 +21,7 @@ flowchart LR
 | Review | [First Skill Review Checklist](checklists/first-skill-review.md) |
 | Evaluate | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) |
 | Pilot | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) |
+| Operate | [Agent Ops](ops/) |
 
 ## First Visit By Role
 
@@ -28,7 +30,7 @@ flowchart LR
 | Understand agent skills | [Agent Skills 101](learning/agent-skills-101.md) -> [Beginner Track](learning/beginner-track.md) -> [Glossary](glossary.md) |
 | Build a first skill | [Skill Author Starter Kit](starter-kits/skill-author.md) -> [Builder Track](learning/builder-track.md) -> [First Skill Review Checklist](checklists/first-skill-review.md) |
 | Evaluate skill quality | [Evaluator Track](learning/evaluator-track.md) -> [Completed Evaluation Examples](examples/completed-evaluations/) -> [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) |
-| Plan a team pilot | [Team Lead Track](learning/team-lead-track.md) -> [Team Pilot Readiness](checklists/team-pilot-readiness.md) -> [How To Use Templates](templates/how-to-use-templates.md) |
+| Plan a team pilot | [Team Lead Track](learning/team-lead-track.md) -> [Team Pilot Readiness](checklists/team-pilot-readiness.md) -> [Agent Ops](ops/) |
 
 ## Learning
 

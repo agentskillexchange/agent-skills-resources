@@ -58,6 +58,17 @@ Use the first decision to choose the next artifact:
 - If the pilot is already complete, move the owner, rollback, monitoring, and
   evidence notes into [rollout readiness](../templates/rollout-readiness.md).
 
+## Carry Evidence Into Ops
+
+Before widening access, route the pilot packet to the first operating artifact:
+
+| Pilot evidence in hand | Open next | Carry forward |
+|---|---|---|
+| Workflow boundary, owner, and success signal | [Agent Ops Overview](../ops/agent-ops-overview.md) | Operating risks, evidence sources, and support owner |
+| Risky write, approval, deploy, or customer-impacting action | [Human Approval Workflows](../ops/human-approval-workflows.md) | Reviewer role, approval criteria, escalation path, and denied-action behavior |
+| Trace, log, eval, or regression output | [Observability And Evals](../ops/observability-and-evals.md) | Artifact location, expected-output check, failure signal, and review cadence |
+| `Go` decision with rollback and monitoring notes | [Rollout Evidence](../ops/rollout-evidence.md) | Monitoring owner, rollback trigger, review cadence, and next review date |
+
 ## Representative ASE Examples
 
 - [`route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer`](https://agentskillexchange.com/skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/)

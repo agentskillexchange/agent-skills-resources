@@ -62,6 +62,21 @@ source, setup path, permission note, workflow step, and observable check, carry
 the same evidence into the
 [First Skill Review Checklist](../checklists/first-skill-review.md).
 
+## Repair Before First Review
+
+Use this table to turn checklist gaps into a review-ready evidence block:
+
+| If this area is weak | Repair the draft by adding | Carry into first review |
+|---|---|---|
+| Source provenance | Official repo, package, API docs, or clearly labeled community source. | Source URL and ownership note. |
+| Install and setup | Concrete install command, account requirement, auth step, or hosted runtime. | Setup proof a reviewer can try. |
+| Permissions and safety | Minimum role, token, data access, write action, or approval checkpoint. | Permission note and safety-sensitive action. |
+| Usage specificity | First object to inspect, bounded workflow, expected output, and handoff. | Repeated workflow summary. |
+| Verification | Pass signal, failure signal, blocked path, and saved artifact or log. | Observable check and open risk. |
+
+If a row cannot be repaired, mark the first review as `Revisit with fixes`
+rather than sending a weak draft into deeper evaluation.
+
 ## Anti-Patterns
 
 - Stale popularity claims.

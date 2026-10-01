@@ -38,6 +38,16 @@ Draft a one-page skill outline:
 - permissions needed
 - failure mode and rollback note
 
+## Repair Before Review
+
+Before asking someone else to review the draft, compare the exercise output to
+the [Quality Checklist](../examples/quality-checklist.md#repair-before-first-review).
+Repair any missing source, setup, permission, workflow, or verification evidence
+there first. Then carry the repaired evidence into the
+[First Skill Review Checklist](../checklists/first-skill-review.md) so the
+reviewer can choose `Move to deeper evaluation` or `Revisit with fixes` without
+reconstructing your rationale.
+
 ## What Good Looks Like
 
 - The skill solves a narrow repeated workflow.

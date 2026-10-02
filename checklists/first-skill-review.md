@@ -58,6 +58,25 @@ worksheet:
 | Useful workflow, but setup, permissions, or verification evidence is incomplete. | Revisit with fixes | Ask for the missing proof before scoring the skill. |
 | Clear workflow, reachable source, named permissions, and reviewable checks. | Move to deeper evaluation | Copy the evidence into the skill evaluation worksheet. |
 
+## Revisit With Fixes Handoff
+
+When the decision is `Revisit with fixes`, send the author back to
+[Repair Before First Review](../examples/quality-checklist.md#repair-before-first-review)
+with the weak evidence area named in `Next Action`.
+
+Use this quick map so the author knows what to repair before returning:
+
+| Missing review evidence | Repair path |
+|---|---|
+| Source URL, ownership, or reachability | Add source provenance and a reachable upstream link. |
+| Setup proof | Add an install, account, auth, or hosted-runtime step a reviewer can try. |
+| Permission or safety boundary | Name minimum access, write actions, production risk, and approval checkpoints. |
+| Repeated workflow | Add the first object to inspect, bounded steps, expected output, and handoff. |
+| Observable check | Add the pass signal, failure signal, open risk, and saved artifact or log. |
+
+After the repair, rerun this first review and replace `Next Action` with the
+new evidence outcome.
+
 ## Deeper Evaluation Handoff
 
 If this review moves forward, copy the evidence above into the

@@ -97,6 +97,17 @@ Decision reason:
 Complete this only when the decision is `Pilot`, then open
 [`pilot-plan.md`](pilot-plan.md) and carry forward the evidence below.
 
+Use this map so the pilot plan starts from evaluated evidence instead of a new
+blank page:
+
+| Worksheet evidence | Pilot plan field |
+|---|---|
+| Target workflow, team, and expected output | `Pilot Basics` and `Starting Skill Examples` |
+| Required tools, accounts, permissions, and approvals | `Evaluation Worksheet Handoff` and `Sandbox Scope` |
+| Verification checks, pass signal, and saved artifacts | `Success Criteria` and `Pilot Notes` |
+| Main risk, mitigation, and operational concern | `Sandbox Scope`, `Rollback Path`, and the pilot guardrail |
+| Decision reason for `Pilot` | `Evaluation Worksheet Handoff` |
+
 - Workflow and team from `Workflow Fit`:
 - Required tools, accounts, and approvals from `Install And Setup Clarity` and
   `Permissions Needed`:

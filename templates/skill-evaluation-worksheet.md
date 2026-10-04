@@ -92,6 +92,21 @@ Decision reason:
 
 ```
 
+## Non-Pilot Decision Handoff
+
+Complete this when the decision is `Reject` or `Revisit later`, so the evidence
+still turns into a useful next action.
+
+| Decision | Use when | Next action |
+|---|---|---|
+| `Reject` | The workflow is not repeated, the source cannot be trusted, or safe evaluation would require production access first. | Record the blocker, stop the evaluation, and keep the skill out of pilot planning until the blocker changes. |
+| `Revisit later` | The workflow is useful, but setup, owner, approval, verification, or risk evidence is incomplete. | Name the missing evidence, assign an owner, and reopen this worksheet after the proof is available. |
+
+- Blocking reason or missing evidence:
+- Owner for the follow-up:
+- Evidence needed before another review:
+- Date or trigger to revisit:
+
 ## Pilot Planning Handoff
 
 Complete this only when the decision is `Pilot`, then open

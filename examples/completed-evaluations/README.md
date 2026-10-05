@@ -40,3 +40,15 @@ verification evidence to one next action:
 | Workflow is useful but setup, ownership, or approval evidence is incomplete. | Revisit | [Skill Evaluation Worksheet](../../templates/skill-evaluation-worksheet.md) |
 | Workflow needs production access, secrets, or broad writes before evidence exists. | Stop | [Risk Review](../../templates/risk-review.md) |
 | Pilot evidence shows repeatable value and a clear rollback path. | Expand carefully | [Rollout Readiness](../../templates/rollout-readiness.md) |
+
+## Carry Non-Pilot Decisions Forward
+
+When an example points to `Revisit` or `Stop`, do not leave the decision as a
+dead end. Copy the blocker into the
+[Skill Evaluation Worksheet](../../templates/skill-evaluation-worksheet.md)
+and complete its `Non-Pilot Decision Handoff` fields:
+
+| Example outcome | Copy into the worksheet |
+|---|---|
+| `Revisit` because setup, ownership, approval, or verification evidence is incomplete. | Missing evidence, follow-up owner, proof needed before another review, and the revisit trigger. |
+| `Stop` because safe evaluation would require production access, secrets, or broad writes first. | Blocking reason, risk owner, safer evidence needed, and the condition that would make a future review worthwhile. |

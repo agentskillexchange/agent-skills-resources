@@ -49,3 +49,14 @@ operator notes, follow-up recommendation
 - The team does not yet have stable OpenClaw ownership.
 - Runtime access boundaries are unclear.
 - Backup and rollback paths are not documented.
+
+## Non-Pilot Handoff
+
+Copy this into the worksheet if the decision remains `Revisit later`:
+
+| Worksheet field | Example entry |
+|---|---|
+| Blocking reason or missing evidence | Runbook scope, runtime access boundaries, and rollback paths are not defined. |
+| Follow-up owner | OpenClaw runtime owner or operations lead. |
+| Evidence needed before another review | Read-only runbook scope, allowed commands, config paths, backup/rollback evidence, and human approval boundary for any write action. |
+| Date or trigger to revisit | Reopen after the operations owner approves the read-only scope and documents rollback for the first pilot scenario. |

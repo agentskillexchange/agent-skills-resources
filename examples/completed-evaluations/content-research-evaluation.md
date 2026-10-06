@@ -54,3 +54,14 @@ editorial comments, publish or reject decision
 - Citation coverage is missing for important claims.
 - The workflow needs confidential or regulated material before source-quality
   rules are agreed.
+
+## Non-Pilot Handoff
+
+Copy this into the worksheet if the decision remains `Revisit later`:
+
+| Worksheet field | Example entry |
+|---|---|
+| Blocking reason or missing evidence | Editorial source-quality rules and claim-review evidence are not complete. |
+| Follow-up owner | Editorial owner for the target topic and audience. |
+| Evidence needed before another review | Approved source list, citation coverage check, weak-claim notes, and publish/revise/reject decision from an editor. |
+| Date or trigger to revisit | Reopen after the editor approves source rules and reviews one private draft against them. |

@@ -52,3 +52,17 @@ and complete its `Non-Pilot Decision Handoff` fields:
 |---|---|
 | `Revisit` because setup, ownership, approval, or verification evidence is incomplete. | Missing evidence, follow-up owner, proof needed before another review, and the revisit trigger. |
 | `Stop` because safe evaluation would require production access, secrets, or broad writes first. | Blocking reason, risk owner, safer evidence needed, and the condition that would make a future review worthwhile. |
+
+## Repair A Revisit Outcome
+
+When a `Revisit` example matches your skill, use the blocker as a draft-repair
+cue before opening another review:
+
+| If the example blocker is about... | Repair path |
+|---|---|
+| Missing source, setup, permission, workflow, or verification evidence. | Use the [Skill Quality Checklist](../quality-checklist.md#repair-before-first-review) to add the missing row, then rerun the first review. |
+| Unclear skill shape or thin first draft. | Return to the [Skill Author Starter Kit](../../starter-kits/skill-author.md#copyable-first-skill-scaffold) and rebuild the scaffold around one source-backed workflow. |
+
+Do not promote a `Revisit` example into a pilot plan until the repaired draft
+has a source, setup path, permission note, workflow step, and observable check a
+reviewer can verify.

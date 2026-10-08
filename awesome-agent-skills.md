@@ -67,6 +67,17 @@ or team lead can trust.
 | Review | [First Skill Review Checklist](checklists/first-skill-review.md) | A reviewer can choose reject, revisit with fixes, or move to deeper evaluation. |
 | Evaluate | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) | The team has workflow fit, setup, permissions, verification, risks, and a pilot decision. |
 
+## Use Examples To Decide Faster
+
+If you are unsure whether a draft is ready for review, pilot, or repair, open a
+completed example before writing a new plan.
+
+| Visitor question | Example route | Next move |
+|---|---|---|
+| What does lightweight evidence look like? | [Completed Evaluation Examples](examples/completed-evaluations/) | Copy the closest evidence shape into the worksheet. |
+| What if the result is `Revisit`? | [Repair A Revisit Outcome](examples/completed-evaluations/#repair-a-revisit-outcome) | Repair the draft before opening a pilot plan. |
+| What if the workflow is not safe to evaluate yet? | [Carry Non-Pilot Decisions Forward](examples/completed-evaluations/#carry-non-pilot-decisions-forward) | Record the blocker, owner, proof needed, and revisit trigger. |
+
 ## What Are Agent Skills?
 
 Agent skills are reusable instructions, scripts, examples, and workflow notes

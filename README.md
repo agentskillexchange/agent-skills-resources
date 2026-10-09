@@ -25,6 +25,7 @@ agent frameworks, evaluation, safety, deployment, and team rollout patterns.
 | Pick a quick use-case route | [Awesome Agent Skills](awesome-agent-skills.md#choose-your-use-case) |
 | Browse the full repo map | [Docs Index](docs-index.md) |
 | Build, review, and evaluate a first skill | [Build, Review, Evaluate Path](awesome-agent-skills.md#build-review-evaluate-path) |
+| See what review evidence looks like | [Completed Evaluation Examples](examples/completed-evaluations/) |
 | Compare Codex, Claude Code, Copilot, Cursor, Gemini, OpenClaw, LangGraph, and MCP | [Framework Comparison](framework-comparison.md) |
 | Find official docs, repos, and source-backed resources | [Resource Index](generated/resource-index.md) |
 | Evaluate quality, safety, and rollout readiness | [Checklists](checklists/) and [Templates](templates/) |

@@ -15,6 +15,18 @@ Each example references an existing public ASE skill slug from
 | [MCP Database Inspection](mcp-database-inspection-evaluation.md) | Read-only database inspection through MCP |
 | [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Day-2 runtime operations |
 
+## Choose By Review Job
+
+If you are not sure which example to open first, start from the decision you
+need to make:
+
+| Review job | Start with | Copy this evidence shape |
+|---|---|---|
+| Decide whether a narrow coding-agent workflow is ready for a pilot. | [Staff Engineer Mode](staff-engineer-mode-evaluation.md) | Requested checks, changed files, unresolved risks, and reviewer notes. |
+| Check a skill that asks for human approval or sensitive actions. | [HumanLayer Approval Workflow](humanlayer-approval-workflow-evaluation.md) | Approval request, approver identity, denied-action behavior, and security-review notes. |
+| Review a read-only data or MCP workflow before team use. | [MCP Database Inspection](mcp-database-inspection-evaluation.md) | Credential scope, query log, SQL validation, and sample result checks. |
+| Repair a useful skill with missing proof before another review. | [Content Research](content-research-evaluation.md) or [OpenClaw Runtime Ops](openclaw-runtime-ops-evaluation.md) | Missing source, setup, workflow, command, operator, or editorial evidence. |
+
 ## Compare The Examples
 
 Start with the row that looks closest to your own workflow, then open the

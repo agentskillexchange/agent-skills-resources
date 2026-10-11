@@ -25,6 +25,23 @@ resembles your workflow and copy only the evidence shape, not the decision:
 - Evaluator:
 - Date:
 
+## If You Started From A Resource
+
+If you arrived from the
+[`Resource Index`](../generated/resource-index.md) or
+[`Framework Comparison`](../framework-comparison.md), turn that discovery into
+one reviewable skill or workflow before filling the rest of the worksheet:
+
+| Discovery signal | Copy into this worksheet |
+|---|---|
+| Framework page or resource row that matched your use case. | `Framework/runtime`, `Source URL`, and the specific workflow you want to test. |
+| Official docs explain setup, tools, permissions, or runtime behavior. | `Required tools`, `Required accounts/API keys`, and `Permissions Needed`. |
+| Evaluation, tracing, approval, or deployment docs describe observable evidence. | `Verification Steps`, `Expected pass signal`, and `Logs or artifacts to save`. |
+| The resource is community-maintained, experimental, or broader than your workflow. | `Risks`, `Mitigation`, and any reason to choose `Revisit later` instead of `Pilot`. |
+
+Keep the worksheet scoped to one repeatable workflow. Do not evaluate a whole
+framework, resource list, or vendor category as if it were a single skill.
+
 ## Workflow Fit
 
 - Target workflow:

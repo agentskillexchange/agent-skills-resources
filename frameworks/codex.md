@@ -45,6 +45,23 @@ Codex-oriented skills should include:
 - `address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments`
 - `turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation`
 
+## Next Artifact To Open
+
+If you are evaluating a Codex-oriented skill, compare it with the
+[Staff Engineer Mode completed evaluation](../examples/completed-evaluations/staff-engineer-mode-evaluation.md)
+first, then copy the evidence shape into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md).
+For a skill you are drafting, use the
+[First Skill Review](../checklists/first-skill-review.md) checklist before
+asking for broader review.
+
+Carry forward:
+
+- repository state and files inspected
+- commands or tests Codex should run
+- expected patch, PR, or review-note output
+- verification evidence that proves the workflow finished safely
+
 ## Common Mistakes
 
 - Skipping tests because the change looks small.

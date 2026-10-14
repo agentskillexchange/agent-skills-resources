@@ -45,6 +45,23 @@ MCP skills should include:
 - `give-mcp-clients-language-server-code-intelligence`
 - `use-mcp-context-forge-as-an-mcp-gateway-and-registry`
 
+## Next Artifact To Open
+
+If you are evaluating an MCP skill, compare it with the
+[MCP Database Inspection completed evaluation](../examples/completed-evaluations/mcp-database-inspection-evaluation.md)
+first, then copy the evidence shape into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md).
+For an MCP skill you are drafting, use the
+[First Skill Review](../checklists/first-skill-review.md) checklist before
+asking for broader review.
+
+Carry forward:
+
+- server name and client configuration
+- allowed tools, data scope, and credential boundary
+- example tool calls or queries the workflow permits
+- logs, query results, or other evidence that proves the access stayed bounded
+
 ## Common Mistakes
 
 - Listing an MCP server without explaining permissions.

@@ -45,6 +45,23 @@ OpenClaw skills should state:
 - `deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide`
 - `mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync`
 
+## Next Artifact To Open
+
+If you are evaluating an OpenClaw operations skill, compare it with the
+[OpenClaw Runtime Ops completed evaluation](../examples/completed-evaluations/openclaw-runtime-ops-evaluation.md)
+first, then copy the evidence shape into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md).
+For an OpenClaw skill you are drafting, use the
+[First Skill Review](../checklists/first-skill-review.md) checklist before
+asking for broader review.
+
+Carry forward:
+
+- the read-only runbook scope and configuration paths to inspect
+- allowed commands, provider or credential boundaries, and human approvals
+- the health signal, operator notes, and logs to save
+- backup and rollback proof before any runtime or scheduled write action
+
 ## Common Mistakes
 
 - Building a cron skill without a clear success contract.

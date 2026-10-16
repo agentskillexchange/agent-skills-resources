@@ -30,7 +30,7 @@ flowchart LR
 | Understand agent skills | [Agent Skills 101](learning/agent-skills-101.md) -> [Beginner Track](learning/beginner-track.md) -> [Glossary](glossary.md) |
 | Build a first skill | [Skill Author Starter Kit](starter-kits/skill-author.md) -> [Builder Track](learning/builder-track.md) -> [First Skill Review Checklist](checklists/first-skill-review.md) |
 | Evaluate skill quality | [Evaluator Track](learning/evaluator-track.md) -> [Completed Evaluation Examples](examples/completed-evaluations/) -> [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) |
-| Plan a team pilot | [Team Lead Track](learning/team-lead-track.md) -> [Team Pilot Readiness](checklists/team-pilot-readiness.md) -> [Agent Ops](ops/) |
+| Plan a team pilot | [Team Lead Track](learning/team-lead-track.md) -> [Completed Evaluation Examples](examples/completed-evaluations/) -> [Team Pilot Readiness](checklists/team-pilot-readiness.md) |
 
 ## Learning
 

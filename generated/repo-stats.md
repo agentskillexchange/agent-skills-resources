@@ -2,8 +2,8 @@
 
 Generated from current repository files.
 
-- Last generated: 2026-10-17T07:53:45Z
-- Resources: 129
+- Last generated: 2026-10-17T09:04:13Z
+- Resources: 130
 - Representative mapped ASE skills: 46
 - Learning pages: 11
 - Cookbook pages: 7
@@ -29,7 +29,7 @@ Generated from current repository files.
 | Type | Count |
 |---|---:|
 | ASE | 3 |
-| Community | 6 |
+| Community | 7 |
 | Lab | 3 |
 | Official | 117 |
 

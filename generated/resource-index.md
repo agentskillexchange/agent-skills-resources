@@ -22,6 +22,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Useful for seeing the breadth of MCP servers, while clearly marked as community-maintained. |
 | [GAIA Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard) | GAIA | GAIA gives broad context for assistant tasks that require reasoning and tool use. |
 | [OWASP Top 10 For LLM Applications](https://genai.owasp.org/llm-top-10/) | Security | Provides a practical security checklist for skills that use tools, prompts, data, or code execution. |
+| [yylo](https://github.com/yylo-dev/yylo) | Multi-Framework | Third-party orchestration reference for comparing repeatable task-to-merge coding-agent workflows across harnesses. |
 | [τ-bench GitHub](https://github.com/sierra-research/tau-bench) | τ-bench | Tool-agent benchmarks help teams think about state, tool calls, and task success before building local evals. |
 
 ### Lab
@@ -432,6 +433,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 | [Agent Skill Exchange](https://agentskillexchange.com/) | Multi-Framework | Provides the human-facing discovery layer for the canonical ASE skills catalog. |
 | [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills) | Multi-Framework | This companion repo should point readers to the canonical skill source of truth. |
 | [ASE Verification](https://github.com/agentskillexchange/skills/tree/main/verification) | Multi-Framework | Shows how ASE separates listed skills from security-reviewed skills. |
+| [yylo](https://github.com/yylo-dev/yylo) | Multi-Framework | Third-party orchestration reference for comparing repeatable task-to-merge coding-agent workflows across harnesses. |
 
 ### OWASP LLM Top 10
 
@@ -619,10 +621,10 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **catalog**: [Agent Skill Exchange](https://agentskillexchange.com/), [AgentSkillExchange Skills](https://github.com/agentskillexchange/skills), [Hermes Skills Catalog](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/reference/skills-catalog.md)
 - **chatgpt**: [OpenAI Apps SDK Docs](https://developers.openai.com/apps-sdk/)
 - **claude-code**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code), [Claude Code Docs](https://code.claude.com/docs), [Claude Code Headless](https://code.claude.com/docs/en/headless), [Claude Code Hooks Docs](https://docs.anthropic.com/en/docs/claude-code/hooks), [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp), [Claude Code Memory Docs](https://docs.anthropic.com/en/docs/claude-code/memory), [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings), [Claude Code Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
-- **cli**: [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [OpenAI Codex](https://github.com/openai/codex)
+- **cli**: [Adding Agent Skills For GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Gemini CLI Docs](https://github.com/google-gemini/gemini-cli/tree/main/docs), [OpenAI Codex](https://github.com/openai/codex), [yylo](https://github.com/yylo-dev/yylo)
 - **cloud-agent**: [Adding Agent Skills For GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills)
 - **codex**: [OpenAI Codex](https://github.com/openai/codex), [OpenAI Codex Docs](https://developers.openai.com/codex)
-- **coding-agent**: [GitHub Copilot Docs](https://docs.github.com/en/copilot), [OpenAI Codex](https://github.com/openai/codex)
+- **coding-agent**: [GitHub Copilot Docs](https://docs.github.com/en/copilot), [OpenAI Codex](https://github.com/openai/codex), [yylo](https://github.com/yylo-dev/yylo)
 - **coding-agents**: [SWE-bench GitHub](https://github.com/SWE-bench/SWE-bench), [SWE-bench Site](https://www.swebench.com/)
 - **community**: [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code), [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - **configuration**: [Claude Code Settings Docs](https://docs.anthropic.com/en/docs/claude-code/settings)
@@ -688,7 +690,7 @@ Generated from `data/resources.json`. Edit the JSON source, then rerun
 - **observability**: [Arize Phoenix Docs](https://arize.com/docs/phoenix), [Arize Phoenix GitHub](https://github.com/Arize-ai/phoenix), [Braintrust Docs](https://www.braintrust.dev/docs), [Langfuse Docs](https://langfuse.com/docs), [Langfuse GitHub](https://github.com/langfuse/langfuse), [LangSmith Docs](https://docs.langchain.com/langsmith/observability), [OpenTelemetry GenAI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/), [Strands Agents Docs](https://strandsagents.com/), [Weights & Biases Weave Docs](https://docs.wandb.ai/weave), [Weights & Biases Weave GitHub](https://github.com/wandb/weave)
 - **openai**: [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents), [OpenAI Agents SDK Docs](https://openai.github.io/openai-agents-python/), [OpenAI Agents SDK Repository](https://github.com/openai/openai-agents-python), [OpenAI Codex Docs](https://developers.openai.com/codex), [OpenAI Evals GitHub](https://github.com/openai/evals), [OpenAI Evals Guide](https://platform.openai.com/docs/guides/evals), [OpenAI Tools Guide](https://platform.openai.com/docs/guides/tools), [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai)
 - **openclaw**: [OpenClaw Docs](https://docs.openclaw.ai/), [OpenClaw Image Generation](https://docs.openclaw.ai/tools/image-generation), [OpenClaw OpenAI Provider](https://docs.openclaw.ai/providers/openai), [OpenClaw Repository](https://github.com/openclaw/openclaw)
-- **orchestration**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
+- **orchestration**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [yylo](https://github.com/yylo-dev/yylo)
 - **persistence**: [LangGraph Persistence Docs](https://docs.langchain.com/oss/python/langgraph/persistence)
 - **pipelines**: [Haystack Docs](https://docs.haystack.deepset.ai/docs/intro), [Haystack GitHub](https://github.com/deepset-ai/haystack)
 - **plugins**: [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/overview/), [Semantic Kernel GitHub](https://github.com/microsoft/semantic-kernel)

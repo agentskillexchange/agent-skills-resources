@@ -45,6 +45,21 @@
     ]
   },
   {
+    "id": "yylo-repo",
+    "name": "yylo",
+    "type": "Community",
+    "framework": "Multi-Framework",
+    "url": "https://github.com/yylo-dev/yylo",
+    "repo": "https://github.com/yylo-dev/yylo",
+    "description": "Open-source command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries.",
+    "why_it_matters": "Third-party orchestration reference for comparing repeatable task-to-merge coding-agent workflows across harnesses.",
+    "tags": [
+      "orchestration",
+      "coding-agent",
+      "cli"
+    ]
+  },
+  {
     "id": "openai-codex-repo",
     "name": "OpenAI Codex",
     "type": "Official",

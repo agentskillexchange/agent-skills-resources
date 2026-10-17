@@ -53,6 +53,16 @@ verification evidence to one next action:
 | Workflow needs production access, secrets, or broad writes before evidence exists. | Stop | [Risk Review](../../templates/risk-review.md) |
 | Pilot evidence shows repeatable value and a clear rollback path. | Expand carefully | [Rollout Readiness](../../templates/rollout-readiness.md) |
 
+## Turn A Pilot Pattern Into A Team Packet
+
+When the closest example supports a pilot, use it to calibrate the evidence
+packet before inviting users. Open the [Team Evaluation Starter
+Kit](../../starter-kits/team-evaluation.md) and carry forward only the
+matching evidence shape: the narrow workflow, named owner, sandbox or
+read-only boundary, verification signal, unresolved risk, and rollback
+condition. Its first-review and pilot-readiness steps turn that pattern into a
+reviewable team decision rather than a recommendation to adopt the example.
+
 ## Carry Non-Pilot Decisions Forward
 
 When an example points to `Revisit` or `Stop`, do not leave the decision as a

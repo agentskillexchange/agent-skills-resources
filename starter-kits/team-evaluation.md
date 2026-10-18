@@ -23,6 +23,19 @@ Calibrate the evidence standard before the team starts filling fields:
   approval records, denied-action behavior, command output, or rollback notes.
 - Treat the example as a review packet pattern, not as a recommended skill list.
 
+### Choose The Closest Evidence Pattern
+
+Choose by the workflow and risk boundary before copying any fields. This keeps a
+team from applying a coding-review packet to an approval or data-access review.
+
+| If your first workflow involves... | Start with | Carry into the worksheet |
+|---|---|---|
+| Coding-agent changes or PR review | [Staff Engineer Mode](../examples/completed-evaluations/staff-engineer-mode-evaluation.md) | Requested checks, changed files, unresolved risks, and reviewer notes |
+| Sensitive action, approval, or a potential write | [HumanLayer Approval Workflow](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) | Approver identity, denied-action behavior, and security-review notes |
+| Read-only data or MCP inspection | [MCP Database Inspection](../examples/completed-evaluations/mcp-database-inspection-evaluation.md) | Credential scope, query log, validation, and sample-result checks |
+| Runtime or operational checks | [OpenClaw Runtime Ops](../examples/completed-evaluations/openclaw-runtime-ops-evaluation.md) | Read-only boundary, commands inspected, health evidence, and rollback notes |
+| Cited research or content review | [Content Research](../examples/completed-evaluations/content-research-evaluation.md) | Sources, citation coverage, editorial comments, and publish-or-reject decision |
+
 ## First 30 Minutes
 
 Turn the setup into one reviewable evidence packet:

@@ -26,6 +26,23 @@ Why these skills:
 
 ```
 
+## Completed Evaluation Starting Point
+
+Complete this when a [completed evaluation](../examples/completed-evaluations/README.md)
+helped the team choose a pilot. Use the example as an evidence shape, not as an
+endorsement; complete the worksheet before turning it into this plan.
+
+| Completed-evaluation evidence | Preserve in this pilot plan |
+|---|---|
+| `Skill` and `Workflow Fit` | `Starting Skill Examples`, `Pilot Basics`, and the bounded workflow. |
+| `Permissions Reviewed` | `Review Constraints To Carry Forward` and `Sandbox Scope`. |
+| `Verification Evidence Example` | `Success Criteria` and the evidence expected from the pilot. |
+| Decision, mitigation, or open question | The pilot guardrail, rollback trigger, or blocking condition. |
+
+- Completed evaluation used:
+- What differs in this team's workflow or risk boundary:
+- Evidence the team must collect before expanding beyond the pilot:
+
 ## Evaluation Worksheet Handoff
 
 Complete this when the pilot starts from `skill-evaluation-worksheet.md`.

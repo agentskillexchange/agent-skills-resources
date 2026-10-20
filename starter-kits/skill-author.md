@@ -92,6 +92,26 @@ If one row is empty, repair the draft before review. If every row has concrete
 evidence, carry the packet into the review checklist instead of rewriting the
 same rationale from memory.
 
+## Follow The First Review Route
+
+Use the same draft and evidence packet all the way through this small loop:
+
+1. Draft the skill with the scaffold above.
+2. Compare it with the [Quality Checklist](../examples/quality-checklist.md)
+   and repair any guessed source, setup, permission, workflow, or verification
+   detail.
+3. Paste the repaired evidence into the
+   [First Skill Review Checklist](../checklists/first-skill-review.md) and
+   record one decision.
+4. If the decision is `Revisit with fixes`, use its named repair path and run
+   the same first review again. If it is `Move to deeper evaluation`, carry the
+   evidence into the
+   [Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md)
+   before choosing a pilot.
+
+This keeps a first review small and reviewable: a checklist gap returns to the
+draft, while a supported decision moves forward with its evidence intact.
+
 ## Representative ASE Examples
 
 - [`staff-engineer-mode`](https://agentskillexchange.com/skills/staff-engineer-mode/)

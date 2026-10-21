@@ -8,7 +8,7 @@ and representative ASE examples without duplicating the full catalog.
 | If you are... | Start with | Then use |
 |---|---|---|
 | Building a reusable workflow | [Skill Author](skill-author.md) | [First Skill Review Checklist](../checklists/first-skill-review.md) |
-| Reviewing a submitted or internal skill | [Skill Author](skill-author.md) | [Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md) |
+| Reviewing a submitted or internal skill | [First Skill Review Checklist](../checklists/first-skill-review.md) | [Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md) |
 | Piloting skills with a team | [Team Evaluation](team-evaluation.md) | [Team Pilot Readiness](../checklists/team-pilot-readiness.md) |
 | Adopting a coding-agent workflow | [Coding Agent User](coding-agent-user.md) | [Framework Comparison](../framework-comparison.md) |
 | Connecting tools through MCP | [MCP Tooling User](mcp-tooling-user.md) | [MCP Tooling Readiness](../checklists/mcp-tooling-readiness.md) |

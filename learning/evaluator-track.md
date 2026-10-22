@@ -34,9 +34,25 @@ to see how a short review note connects workflow fit, permissions, evidence,
 limitations, and a pilot/revisit/stop decision. Use them as decision shapes,
 not endorsements or catalog entries.
 
+## Choose A Practice Packet
+
+Open one packet that matches the workflow and boundary you need to review,
+then carry its evidence *shape* into the worksheet—not its decision or skill
+recommendation:
+
+| If your practice review involves... | Start with | Carry into the worksheet |
+|---|---|---|
+| Cited research or claims that need editorial review | [Content Research](../examples/completed-evaluations/content-research-evaluation.md) | Source list, citation coverage, weak-claim notes, and the editorial decision. |
+| Coding-agent changes or PR feedback | [Staff Engineer Mode](../examples/completed-evaluations/staff-engineer-mode-evaluation.md) | Requested checks, changed files, unresolved risks, and reviewer notes. |
+| A sensitive action, approval gate, or potential write | [HumanLayer Approval Workflow](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) | Approver identity, denied-action behavior, and security-review notes. |
+| Read-only data or MCP inspection | [MCP Database Inspection](../examples/completed-evaluations/mcp-database-inspection-evaluation.md) | Credential scope, query log, validation, and sample-result checks. |
+| Day-2 runtime operations | [OpenClaw Runtime Ops](../examples/completed-evaluations/openclaw-runtime-ops-evaluation.md) | Allowed commands, config paths, operator notes, and the write boundary. |
+
 ## Practice Exercise
 
-Review one skill or resource and record:
+Review one skill or resource using the closest packet above, then record the
+same evidence categories in the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md):
 
 - source evidence
 - setup clarity

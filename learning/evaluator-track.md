@@ -72,6 +72,17 @@ same evidence categories in the
 - Missing command execution, network, or secret access.
 - Ignoring stale links or unsupported framework claims.
 
+## If Your Practice Result Is `Revisit later`
+
+Do not turn an incomplete review into a pilot. In the worksheet's
+[Non-Pilot Decision Handoff](../templates/skill-evaluation-worksheet.md#non-pilot-decision-handoff),
+record the missing proof, follow-up owner, and a concrete trigger for another
+review. If the gap is in the skill draft itself—source, setup, permissions,
+workflow, or verification—use the
+[Repair Before First Review](../examples/quality-checklist.md#repair-before-first-review)
+table before reopening the same practice packet. Keep the original decision;
+only change it after the missing evidence is recorded and checked.
+
 ## Next Step
 
 Use the [Team Pilot Readiness Checklist](../checklists/team-pilot-readiness.md)

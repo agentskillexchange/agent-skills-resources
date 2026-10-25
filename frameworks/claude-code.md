@@ -46,6 +46,18 @@ Claude Code skills should be clear about:
 - `install-focused-claude-code-workflow-plugins-from-claude-night-market`
 - `drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli`
 
+## Next Artifact To Open
+
+If you are evaluating a Claude Code skill, compare it with the
+[Staff Engineer Mode completed evaluation](../examples/completed-evaluations/staff-engineer-mode-evaluation.md)
+first, then copy the evidence shape into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md).
+
+Carry forward the repo context, allowed tools or MCP servers, requested checks,
+changed files, unresolved risks, and the human approval needed before broad
+refactors, dependency changes, or destructive Git actions. The example is an
+evidence pattern, not an endorsement of a specific skill.
+
 ## Common Mistakes
 
 - Treating a skill as a vague persona instead of an executable workflow.

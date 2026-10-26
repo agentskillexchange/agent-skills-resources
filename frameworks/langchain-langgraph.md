@@ -44,6 +44,19 @@ LangGraph-oriented skills should include:
 - `langgraph-js-agent-orchestration-framework`
 - `langchain-mcp-server`
 
+## Next Artifact To Open
+
+If you are evaluating a LangChain or LangGraph skill with tool calls, state,
+or human interrupts, compare it with the
+[HumanLayer Approval Workflow completed evaluation](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md)
+first, then copy the evidence shape into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md).
+
+Carry forward the state schema and graph transitions, allowed tools and data
+scope, interrupt or approver behavior, observable trace or evaluation signal,
+and the bounded expected output. The example is an evidence pattern for a
+workflow boundary, not an endorsement of a framework or specific skill.
+
 ## Common Mistakes
 
 - Describing an agent graph without naming state or interrupts.

@@ -66,6 +66,19 @@ Copilot-oriented skills should include:
 - `github-copilot-ai-code-assistant`
 - `generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes`
 
+## Next Artifact To Open
+
+If you are evaluating a GitHub Copilot skill for issue, pull-request, or
+repository work, compare it with the
+[Staff Engineer Mode completed evaluation](../examples/completed-evaluations/staff-engineer-mode-evaluation.md)
+first, then copy the evidence shape into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md).
+
+Carry forward the repository and branch scope, requested checks, changed files,
+unresolved risks, reviewer ownership, and the bounded expected output. The
+example is an evidence pattern for a GitHub-native workflow, not an endorsement
+of Copilot or a specific skill.
+
 ## When To Pick Copilot
 
 Pick Copilot when the workflow is GitHub-native: issues, pull requests, code

@@ -44,6 +44,19 @@ Cursor skills should state:
 - `install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits`
 - `capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory`
 
+## Next Artifact To Open
+
+If you are evaluating a Cursor skill for an IDE-centered repository workflow,
+compare it with the
+[Staff Engineer Mode completed evaluation](../examples/completed-evaluations/staff-engineer-mode-evaluation.md)
+first, then copy the evidence shape into the
+[Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md).
+
+Carry forward the repository and editor context, agent mode, file patterns and
+allowed tools, validation commands, requested review output, unresolved risks,
+and the bounded expected output. The example is an evidence pattern for a
+Cursor workflow, not an endorsement of Cursor or a specific skill.
+
 ## Common Mistakes
 
 - Writing skills that assume a terminal-only workflow.

@@ -19,6 +19,20 @@ or on [Agent Skill Exchange](https://agentskillexchange.com/).
 | Evaluate skill quality and safety | [Quality Checklist](examples/quality-checklist.md) |
 | Plan a team pilot | [Playbooks](playbooks/) |
 
+## Leave With One Useful Artifact
+
+This companion guide is most useful when a first visit ends with a small,
+reviewable outcome—not a longer list of skills to browse. Pick the outcome that
+matches your role, then follow its first artifact before exploring the broader
+resource map.
+
+| If you are a... | Open this first | Leave with |
+|---|---|---|
+| Learner | [Agent Skills 101](learning/agent-skills-101.md) | One candidate workflow you can distinguish from a prompt, tool, or MCP server. |
+| Builder | [Skill Author Starter Kit](starter-kits/skill-author.md) | A source-backed skill outline with setup, permissions, verification, and stop conditions. |
+| Reviewer | [First Skill Review Checklist](checklists/first-skill-review.md) | A clear `Reject`, `Revisit`, or deeper-evaluation decision with the missing evidence named. |
+| Team lead | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) | A bounded pilot question, owner, evidence plan, and risk boundary. |
+
 ## Choose Your Use Case
 
 Open the artifact that matches why you landed here, then use the next page only

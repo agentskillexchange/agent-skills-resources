@@ -162,6 +162,23 @@ Skills sit between broad prompts and raw tools:
 | Review risks | [Security Review Template](templates/security-review.md) |
 | Compare surfaces | [Framework Comparison](framework-comparison.md) |
 
+### Choose A Safe First Pilot Boundary
+
+Do not start by widening access to the most valuable workflow. Pick one
+repeatable task whose boundary makes the result easy to review, then leave with
+one decision recorded in the [Team Pilot Readiness](checklists/team-pilot-readiness.md)
+checklist.
+
+| If the first workflow... | Start with this boundary | Leave with |
+|---|---|---|
+| Reads familiar, non-sensitive material | A sandbox, fixture repository, or read-only copy | A named owner, one representative task, and a success signal. |
+| Could write, deploy, approve, or affect customers | A non-production target with an explicit human approval gate | The approver, denied-action behavior, rollback path, and review date. |
+| Needs production-like evidence before wider use | A limited-team pilot after the worksheet and readiness checklist are complete | A `Do not start`, `Start sandbox pilot`, or `Start limited-team pilot` decision with its evidence. |
+
+If the team cannot name the owner, boundary, evidence, and rollback path yet,
+keep the workflow in evaluation rather than calling it a pilot. Copy the chosen
+decision into the [pilot plan](templates/pilot-plan.md) before adding users.
+
 ## Representative ASE Examples
 
 These are examples, not a catalog dump:

@@ -43,6 +43,24 @@ endorsement; complete the worksheet before turning it into this plan.
 - What differs in this team's workflow or risk boundary:
 - Evidence the team must collect before expanding beyond the pilot:
 
+### Choose The Closest Evidence Shape
+
+Before naming the completed evaluation above, open the example that best
+matches the pilot's workflow and carry forward its evidence shape. These are
+patterns for reviewable evidence, not endorsements of the example skills.
+
+| If the pilot involves... | Start with this example | Carry into this plan |
+|---|---|---|
+| A narrow coding-agent review workflow | [Staff Engineer Mode](../examples/completed-evaluations/staff-engineer-mode-evaluation.md) | Requested checks, changed files, unresolved risks, and reviewer notes. |
+| Sensitive, write-capable, or approval-gated actions | [HumanLayer Approval Workflow](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) | Approval request, approver, denied-action behavior, and security-review notes. |
+| Read-only data or MCP inspection | [MCP Database Inspection](../examples/completed-evaluations/mcp-database-inspection-evaluation.md) | Credential scope, query log, validation, and sample-result checks. |
+| Cited research or editorial output | [Content Research](../examples/completed-evaluations/content-research-evaluation.md) | Source coverage, weak-claim notes, editorial comments, and the publish/reject decision. |
+
+If the closest example concludes `Revisit` or `Stop`, return to the
+[Skill Evaluation Worksheet](skill-evaluation-worksheet.md) instead of
+starting this pilot plan. Do not add users until the missing evidence or
+blocking risk has a reviewable resolution.
+
 ## Evaluation Worksheet Handoff
 
 Complete this when the pilot starts from `skill-evaluation-worksheet.md`.

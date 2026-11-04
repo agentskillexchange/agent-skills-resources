@@ -73,6 +73,23 @@ Reason and next action:
 
 ```
 
+### Choose From The Measured Evidence
+
+Use the criteria check above to make one explicit post-pilot choice before
+opening rollout readiness. Do not let an encouraging demo outweigh a failed
+safety condition, missing evidence, or an untested rollback path.
+
+| What the pilot evidence shows | Choose | Next artifact or action |
+|---|---|---|
+| A failure or safety criterion was triggered, or the workflow cannot be made safe within the agreed pilot boundary. | `Stop using` | Record the blocker and cleanup owner below; do not open rollout readiness. |
+| The workflow is still promising, but one bounded fix, missing proof, or narrower scope must be tested. | `Revisit with changes` | Open a fresh [Pilot Plan](pilot-plan.md) with the fix and proof required for the next review. |
+| Value is repeatable in the current scope, but an open risk, monitoring gap, or success criterion prevents wider access. | `Continue limited pilot` | Open a fresh [Pilot Plan](pilot-plan.md) with the narrowed scope, monitoring signal, and next criterion. |
+| Success, failure, and safety criteria are met; evidence is reproducible; and ownership, monitoring, and rollback are ready for a wider stage. | `Expand rollout` | Open [Rollout Readiness](rollout-readiness.md) and carry the evidence packet forward. |
+
+If the evidence fits more than one row, choose the more conservative decision
+until the missing proof is available. `Expand rollout` is a decision to review
+readiness, not permission to widen access immediately.
+
 ## Decision Packet
 
 Before moving out of review, copy the evidence into the next artifact instead

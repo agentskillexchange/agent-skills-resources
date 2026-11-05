@@ -102,6 +102,40 @@ of relying on memory from the pilot:
 | Continue limited pilot | The narrowed scope, remaining risk, monitoring signal, and next success criterion |
 | Expand rollout | The decision reason, open issues, owner, monitoring path, and rollback trigger for [`rollout-readiness.md`](rollout-readiness.md) |
 
+## Worked Example: Continue A Limited Pilot
+
+Use this as an evidence shape, not a target result. It shows why a pilot with
+repeatable value can still remain limited when one proof gap makes expansion
+premature.
+
+```text
+Workflow: Draft release-note summaries from approved issue and pull-request text
+Pilot boundary: One product squad; read-only GitHub access; human approval before publishing
+
+Measured result:
+- 8 of 10 summaries met the agreed completeness rubric after one editor pass.
+- Median drafting time fell from 35 minutes to 14 minutes.
+- No out-of-bound repository access or publishing action occurred.
+
+Open evidence:
+- The two incomplete summaries omitted a customer-impact detail.
+- The editor-review turnaround time was not captured consistently.
+- Rollback is not needed for read-only drafting, but the approval log needs a named owner.
+
+Decision: Continue limited pilot
+Reason: The value is repeatable within the existing boundary, but completeness
+and approval-monitoring evidence do not yet support wider access.
+
+Next iteration:
+- Keep the one-squad, read-only boundary.
+- Add a customer-impact check to the review rubric.
+- Record editor-review turnaround and the approval-log owner for the next 10 runs.
+- Reassess only after the new success criterion and monitoring signal are measured.
+```
+
+This is not an `Expand rollout` decision: it carries forward a narrow scope,
+one remaining quality risk, a monitoring signal, and a testable next criterion.
+
 ## Next Iteration Handoff
 
 If the decision is `Revisit with changes` or `Continue limited pilot`, open a

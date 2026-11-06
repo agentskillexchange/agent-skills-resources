@@ -28,6 +28,7 @@ Turn the packet into one review artifact before moving on:
 |---|---|
 | Missing ownership, setup, approval, or verification evidence | Capture the gap in the [Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md) |
 | Bounded permissions and reviewable evidence for a narrow workflow | Draft a [Pilot Plan](../templates/pilot-plan.md) |
+| A bounded pilot has finished and measured evidence needs a conservative next decision | Record the result in the [Post-Pilot Review](../templates/post-pilot-review.md) before opening rollout readiness |
 | Production secrets, broad writes, or unclear rollback before evidence exists | Pause for a [Risk Review](../templates/risk-review.md) |
 
 Use these examples as review aids, not as a replacement for the canonical

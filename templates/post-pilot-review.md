@@ -136,6 +136,40 @@ Next iteration:
 This is not an `Expand rollout` decision: it carries forward a narrow scope,
 one remaining quality risk, a monitoring signal, and a testable next criterion.
 
+## Worked Example: Revisit With Changes
+
+Use this as an evidence shape when a pilot shows a specific, repairable gap.
+The next run should test the smallest fix and the proof that it worked, rather
+than quietly retrying the same workflow or widening access.
+
+```text
+Workflow: Answer internal policy questions from an approved, read-only handbook
+Pilot boundary: 20 employee questions; no external tools; reviewer approval before sharing
+
+Measured result:
+- 15 of 20 answers cited the correct handbook section.
+- 3 answers cited an out-of-date policy revision.
+- 2 answers stated a deadline that the source did not support.
+- No out-of-bound data access or external action occurred.
+
+Decision: Revisit with changes
+Reason: The read-only boundary was safe, but the citation and revision checks
+did not meet the agreed quality criterion. The evidence does not support a
+larger or longer pilot yet.
+
+Smallest next iteration:
+- Restrict retrieval to the current handbook release and show its revision date.
+- Require the reviewer to verify one citation and one deadline before sharing.
+- Repeat the same 20-question set, then record correct citations, unsupported
+  claims, reviewer time, and any source-version mismatch.
+
+Next review date: After the repeat set is complete and the evidence is attached.
+```
+
+This is not a `Continue limited pilot` decision: the next iteration exists to
+verify a concrete repair. Keep the scope unchanged until the citation and
+source-version evidence meets the criterion.
+
 ## Next Iteration Handoff
 
 If the decision is `Revisit with changes` or `Continue limited pilot`, open a

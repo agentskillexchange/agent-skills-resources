@@ -50,6 +50,36 @@ from the pilot instead of rewriting the whole history:
 | Risk, security, or approval notes from [`risk-review.md`](risk-review.md) and [`security-review.md`](security-review.md) | Open issues, ownership, and rollback trigger |
 | Artifact links, logs, or reviewer notes from the pilot run | Monitoring artifact/log location |
 
+## Copyable Expand-Rollout Handoff
+
+Use this only after [`post-pilot-review.md`](post-pilot-review.md) records an
+`Expand rollout` decision. It makes the handoff reviewable: expansion stays
+blocked until the named owner can monitor the next stage and execute the
+rollback.
+
+```text
+Post-pilot decision: Expand rollout
+Decision reason: The read-only release-note pilot met its completeness and
+approval criteria across two squads; results and reviewer notes are attached.
+
+Proposed next stage: Three squads, read-only access, with human approval before
+every publication.
+Open issue to preserve: The approval-log export is still manual; do not remove
+the human approval boundary until its owner has tested the export.
+Owner: Product Operations — owns the approval log and weekly review.
+Monitoring path: Weekly completeness sample and approval-log review in
+<linked review artifact>.
+Rollback trigger: Any unapproved publication, out-of-bound repository access,
+or two incomplete summaries in one weekly sample.
+Rollback action: Pause new workflow runs, retain the log, and return to the
+previous manual release-note process while the owner records the corrective
+action.
+```
+
+Replace the example with the pilot's own measured evidence. A wider scope is
+not ready if the monitoring path, rollback owner, or unresolved boundary is
+missing.
+
 ## Ownership
 
 - Workflow owner:

@@ -11,6 +11,7 @@ the skills ecosystem.
 | Keep skill-backed work inside an IDE or GitHub review flow | [Cursor](cursor.md) or [GitHub Copilot](github-copilot.md) | Editor and PR surfaces keep context, rules, review, and approval close to code. |
 | Run scheduled, channel-based, or persistent agent workflows | [OpenClaw](openclaw.md) or [Hermes](hermes.md) | Runtime-owned workflows need explicit permissions, logs, health checks, and rollback. |
 | Build an agent app, graph, or integration layer | [LangChain and LangGraph](langchain-langgraph.md) or [Model Context Protocol](mcp.md) | Frameworks and protocols make state, tools, handoffs, and integration boundaries explicit. |
+| Orchestrate multiple agents with explicit handoffs, shared state, or retry paths | [LangChain and LangGraph](langchain-langgraph.md) | Treat orchestration as a reviewable workflow graph before selecting tools or widening permissions. |
 
 ## Compare Against A Finished Evidence Shape
 

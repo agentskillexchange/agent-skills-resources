@@ -18,6 +18,24 @@ pick the surface closest to the workflow you already have.
 | I mainly need to connect tools, APIs, data, or context | [MCP](frameworks/mcp.md) | MCP is the integration layer that skills can wrap with setup, safety, and usage guidance. |
 | I am leading a team rollout | [Adoption Matrix](adoption-matrix.md) first, then this matrix | Start with risk, approval paths, and evidence before picking a runtime. |
 
+## Choose By State And Tool Boundary
+
+Before comparing feature lists, name where the workflow keeps its state and
+who owns the tools or credentials. These are different jobs; a production
+workflow can combine them.
+
+| If the boundary you need is... | Start with | Keep review focused on | Compare with |
+|---|---|---|---|
+| A coding-agent runtime: the agent works in a repo and the worktree, commands, tests, and review evidence hold the task state | [Codex](frameworks/codex.md), [Claude Code](frameworks/claude-code.md), or [Gemini CLI](frameworks/gemini.md) | Scoped commands, changed files, test output, and human review before merge | [Staff Engineer Mode](examples/completed-evaluations/staff-engineer-mode-evaluation.md) |
+| An orchestration framework: the application owns durable state, handoffs, retries, and the workflow graph across agents or steps | [LangChain / LangGraph](frameworks/langchain-langgraph.md) or [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) | Explicit state transitions, retry limits, approval points, and trace/evaluation evidence | [HumanLayer Approval Workflow](examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) |
+| An MCP integration: an existing agent or application needs a bounded path to tools, data, or context | [MCP](frameworks/mcp.md) | Server trust, auth scope, tool allowlists, data access, and observable requests | [MCP Database Inspection](examples/completed-evaluations/mcp-database-inspection-evaluation.md) |
+
+Use a coding runtime when the implementation loop is the main concern. Add an
+orchestration framework when durable multi-step state is the main concern. Add
+MCP when the main concern is the contract around an external tool or data
+source. Do not infer safety from the layer alone: carry the relevant evidence
+shape into a review before expanding permissions or access.
+
 | Framework or surface | Primary surface | Best fit | Skill support / skill-like support | MCP/tool support | Team rollout considerations | Source links |
 |---|---|---|---|---|---|---|
 | Codex | Terminal coding agent and repo workflow | Codebase inspection, edits, tests, patches, and implementation loops | Skills and repo instructions work best when commands and verification are explicit | Strong fit for CLIs, local tools, APIs, and MCP clients when configured | Use bounded worktrees, test evidence, review diffs, and avoid broad refactors | [Guide](frameworks/codex.md), [openai/codex](https://github.com/openai/codex) |

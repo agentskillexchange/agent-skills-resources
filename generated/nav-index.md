@@ -148,6 +148,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 - [Hermes](../frameworks/hermes.md)
 - [LangChain And LangGraph](../frameworks/langchain-langgraph.md)
 - [Model Context Protocol](../frameworks/mcp.md)
+- [OpenAI Agents SDK](../frameworks/openai-agents-sdk.md)
 - [OpenClaw](../frameworks/openclaw.md)
 
 ## workflows

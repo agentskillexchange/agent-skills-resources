@@ -14,7 +14,7 @@ pick the surface closest to the workflow you already have.
 | I want a terminal agent to inspect a repo, edit files, and run tests | [Codex](frameworks/codex.md), [Claude Code](frameworks/claude-code.md), or [Gemini CLI](frameworks/gemini.md) | These surfaces fit bounded implementation loops with command evidence. |
 | I want an IDE-first coding workflow | [Cursor](frameworks/cursor.md) or [GitHub Copilot](frameworks/github-copilot.md) | They keep project context, editor rules, and local review close to the code. |
 | I need scheduled or channel-based automation | [OpenClaw](frameworks/openclaw.md) or [Hermes](frameworks/hermes.md) | Runtime-owned workflows need permissions, logs, health checks, and rollback plans. |
-| I am building an agent app or durable workflow | [LangChain / LangGraph](frameworks/langchain-langgraph.md) or [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) | SDK and graph frameworks make state, tools, handoffs, and evals explicit. |
+| I am building an agent app or durable workflow | [OpenAI Agents SDK](frameworks/openai-agents-sdk.md) or [LangChain / LangGraph](frameworks/langchain-langgraph.md) | SDK and graph frameworks make state, tools, handoffs, and evals explicit. |
 | I mainly need to connect tools, APIs, data, or context | [MCP](frameworks/mcp.md) | MCP is the integration layer that skills can wrap with setup, safety, and usage guidance. |
 | I am leading a team rollout | [Adoption Matrix](adoption-matrix.md) first, then this matrix | Start with risk, approval paths, and evidence before picking a runtime. |
 
@@ -27,7 +27,7 @@ workflow can combine them.
 | If the boundary you need is... | Start with | Keep review focused on | Compare with |
 |---|---|---|---|
 | A coding-agent runtime: the agent works in a repo and the worktree, commands, tests, and review evidence hold the task state | [Codex](frameworks/codex.md), [Claude Code](frameworks/claude-code.md), or [Gemini CLI](frameworks/gemini.md) | Scoped commands, changed files, test output, and human review before merge | [Staff Engineer Mode](examples/completed-evaluations/staff-engineer-mode-evaluation.md) |
-| An orchestration framework: the application owns durable state, handoffs, retries, and the workflow graph across agents or steps | [LangChain / LangGraph](frameworks/langchain-langgraph.md) or [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) | Explicit state transitions, retry limits, approval points, and trace/evaluation evidence | [HumanLayer Approval Workflow](examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) |
+| An orchestration framework: the application owns durable state, handoffs, retries, and the workflow graph across agents or steps | [OpenAI Agents SDK](frameworks/openai-agents-sdk.md) or [LangChain / LangGraph](frameworks/langchain-langgraph.md) | Explicit state transitions, retry limits, approval points, and trace/evaluation evidence | [HumanLayer Approval Workflow](examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md) |
 | An MCP integration: an existing agent or application needs a bounded path to tools, data, or context | [MCP](frameworks/mcp.md) | Server trust, auth scope, tool allowlists, data access, and observable requests | [MCP Database Inspection](examples/completed-evaluations/mcp-database-inspection-evaluation.md) |
 
 Use a coding runtime when the implementation loop is the main concern. Add an

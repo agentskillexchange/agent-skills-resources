@@ -36,6 +36,38 @@ MCP when the main concern is the contract around an external tool or data
 source. Do not infer safety from the layer alone: carry the relevant evidence
 shape into a review before expanding permissions or access.
 
+## When One Workflow Needs Both Orchestration And MCP
+
+Use both layers when the application must retain the workflow state while an
+agent needs a bounded connection to an external tool or data source. The
+orchestration layer owns the request, handoffs, retries, and approval outcome;
+the MCP server owns the tool contract and credential/data boundary. Neither
+layer substitutes for evidence from the other.
+
+For example, a staging-data investigation can retain the request ID, allowed
+question, approval decision, retry limit, and final summary in the application,
+while an MCP server permits only an allowlisted set of read-only queries against
+a staging database. Keep those responsibilities separately reviewable:
+
+| Boundary | Record before a pilot | Evidence to keep |
+|---|---|---|
+| Orchestration | Request owner, allowed handoffs, state transitions, retry/stop rule, and approval or denial path | Trace or test showing the request paused or ended as specified |
+| MCP tool/data | Server identity, client configuration, credential scope, allowed tools/tables, row limit, and explicit write denial | Reviewed configuration plus a query log or test proving only the bounded request ran |
+| Combined outcome | How a tool result is attached to the request and who can act on it | One traceable request-to-tool-call record, a sample result review, and the rollback or access-removal owner |
+
+Start in non-production. A guardrail or approval step in the application does
+not prove that the MCP server cannot write, and a read-only server does not
+prove that the application will stop after a denied approval. Test each claim
+at its own boundary before expanding access.
+
+For the evidence shape, pair the [HumanLayer Approval Workflow completed
+evaluation](examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md)
+with the [MCP Database Inspection completed
+evaluation](examples/completed-evaluations/mcp-database-inspection-evaluation.md),
+then record the combined pilot in the [Skill Evaluation
+Worksheet](templates/skill-evaluation-worksheet.md). These are illustrative
+patterns, not endorsements of a framework, server, or catalog skill.
+
 | Framework or surface | Primary surface | Best fit | Skill support / skill-like support | MCP/tool support | Team rollout considerations | Source links |
 |---|---|---|---|---|---|---|
 | Codex | Terminal coding agent and repo workflow | Codebase inspection, edits, tests, patches, and implementation loops | Skills and repo instructions work best when commands and verification are explicit | Strong fit for CLIs, local tools, APIs, and MCP clients when configured | Use bounded worktrees, test evidence, review diffs, and avoid broad refactors | [Guide](frameworks/codex.md), [openai/codex](https://github.com/openai/codex) |

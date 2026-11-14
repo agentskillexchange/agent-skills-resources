@@ -168,6 +168,7 @@ rerun `python3 scripts/generate-nav-index.py`.
 ## examples/completed-evaluations
 
 - [Completed Evaluation Examples](../examples/completed-evaluations/README.md)
+- [Compact Evaluator Outcome Example](../examples/completed-evaluations/compact-evaluator-outcome.md)
 - [Content Research Evaluation](../examples/completed-evaluations/content-research-evaluation.md)
 - [HumanLayer Approval Workflow Evaluation](../examples/completed-evaluations/humanlayer-approval-workflow-evaluation.md)
 - [MCP Database Inspection Evaluation](../examples/completed-evaluations/mcp-database-inspection-evaluation.md)

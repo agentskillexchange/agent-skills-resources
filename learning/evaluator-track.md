@@ -34,6 +34,15 @@ to see how a short review note connects workflow fit, permissions, evidence,
 limitations, and a pilot/revisit/stop decision. Use them as decision shapes,
 not endorsements or catalog entries.
 
+## Turn Evidence Into A Recommendation
+
+After filling the worksheet, use the
+[Compact Evaluator Outcome Example](../examples/completed-evaluations/compact-evaluator-outcome.md)
+to turn the evidence into one clear `Pilot`, `Revisit later`, or `Reject`
+recommendation. Keep its missing-evidence boundary: a useful, bounded
+workflow is still `Revisit later` until the stated proof is actually saved and
+reviewed.
+
 ## Choose A Practice Packet
 
 Open one packet that matches the workflow and boundary you need to review,

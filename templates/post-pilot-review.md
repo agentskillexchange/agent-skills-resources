@@ -170,6 +170,46 @@ This is not a `Continue limited pilot` decision: the next iteration exists to
 verify a concrete repair. Keep the scope unchanged until the citation and
 source-version evidence meets the criterion.
 
+## Worked Example: Stop Using
+
+Use this outcome when the evidence triggers a safety or failure condition that
+cannot be corrected within the agreed pilot boundary. Stopping is a documented
+decision: preserve the blocker, complete any cleanup, and name the condition
+that would justify a different evaluation later.
+
+```text
+Workflow: Classify incoming support requests and send the proposed routing
+decision to an external ticketing system
+Pilot boundary: 15 synthetic requests; no production credentials; human review
+before any outbound test action
+
+Measured result:
+- 4 of 15 requests included account details that would need redaction before
+  the external system could receive them.
+- The approved ticketing integration could not demonstrate a field-level
+  minimization setting or a deletion owner for test payloads.
+- Routing quality was not measured after the external-transfer boundary failed.
+
+Decision: Stop using
+Reason: The agreed data-handling safety condition failed. Making the workflow
+safe would require a different, approved data boundary rather than a small
+change within this pilot.
+
+Cleanup and record:
+- Delete the synthetic test tickets and attach the deletion confirmation.
+- Disable the test integration; the service owner confirms credential removal.
+- Record the failed data-minimization criterion and the Security owner in the
+  decision packet.
+
+Future revisit trigger: A reviewed integration can demonstrate field-level
+redaction, destination access controls, retention/deletion ownership, and a
+non-production transfer test before another pilot is proposed.
+```
+
+This is not a `Revisit with changes` decision: do not schedule another run
+until the external-transfer boundary itself has changed and the required proof
+is available. Do not open rollout readiness.
+
 ## Next Iteration Handoff
 
 If the decision is `Revisit with changes` or `Continue limited pilot`, open a

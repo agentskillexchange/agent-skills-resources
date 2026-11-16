@@ -54,6 +54,30 @@ editorial checks already in view.
 - Success criteria include quality and safety, not only speed.
 - The team knows when to stop, revise, or expand.
 
+## After The Pilot: Communicate One Defensible Decision
+
+When the pilot window ends, complete the
+[Post-Pilot Review](../templates/post-pilot-review.md) before telling the team
+what happens next. Share the decision as a short, evidence-backed update—not
+as a summary of every pilot discussion:
+
+1. State one decision: `Stop using`, `Revisit with changes`, `Continue limited
+   pilot`, or `Expand rollout`.
+2. Name the measured result and the most important remaining risk or failed
+   criterion.
+3. Name the owner and next review date, or the cleanup owner when stopping.
+4. Link the next artifact so someone else can verify the handoff.
+
+| Decision | Tell stakeholders | Link next |
+|---|---|---|
+| Stop using | The boundary that failed, cleanup owner, and what proof would be needed before reconsidering. | [Post-Pilot Review](../templates/post-pilot-review.md) |
+| Revisit with changes | The smallest fix, the proof required, and when the same boundary will be reviewed again. | [Pilot Plan](../templates/pilot-plan.md) |
+| Continue limited pilot | The unchanged or narrowed scope, monitoring signal, and next success criterion. | [Pilot Plan](../templates/pilot-plan.md) |
+| Expand rollout | The measured reason, open issues, accountable owner, and rollback trigger; expansion is still subject to readiness review. | [Rollout Readiness](../templates/rollout-readiness.md) |
+
+Keep the detailed evidence in the linked artifact. The update is a route to
+that record, not a substitute for it.
+
 ## Common Mistakes
 
 - Starting with a production workflow.

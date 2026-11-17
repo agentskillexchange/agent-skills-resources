@@ -18,21 +18,6 @@ agent frameworks, evaluation, safety, deployment, and team rollout patterns.
 
 ## Start Here In 60 Seconds
 
-| I want to... | Start here |
-|---|---|
-| Understand agent skills quickly | [Agent Skills 101](learning/agent-skills-101.md) |
-| Compare skills, tools, MCP, agents, and workflows | [Skills vs Tools vs MCP](learning/skills-vs-tools-vs-mcp.md) |
-| Pick a quick use-case route | [Awesome Agent Skills](awesome-agent-skills.md#choose-your-use-case) |
-| Browse the full repo map | [Docs Index](docs-index.md) |
-| Build, review, and evaluate a first skill | [Build, Review, Evaluate Path](awesome-agent-skills.md#build-review-evaluate-path) |
-| See what review evidence looks like | [Completed Evaluation Examples](examples/completed-evaluations/) |
-| Compare Codex, Claude Code, Copilot, Cursor, Gemini, OpenClaw, LangGraph, and MCP | [Framework Comparison](framework-comparison.md) |
-| Find official docs, repos, and source-backed resources | [Resource Index](generated/resource-index.md) |
-| Evaluate quality, safety, and rollout readiness | [Checklists](checklists/) and [Templates](templates/) |
-| Browse the canonical skill catalog | [agentskillexchange/skills](https://github.com/agentskillexchange/skills) |
-
-## Pick Your First Path
-
 | Visitor | Read first | Why |
 |---|---|---|
 | New to agent skills | [Agent Skills 101](learning/agent-skills-101.md) | Get the concept before choosing tools or frameworks. |
@@ -40,6 +25,7 @@ agent frameworks, evaluation, safety, deployment, and team rollout patterns.
 | Comparing runtimes or frameworks | [Framework Comparison](framework-comparison.md) | Match Codex, Copilot, Claude Code, Cursor, Gemini, OpenClaw, LangGraph, MCP, and SDK surfaces to the job. |
 | Reviewing skill quality | [First Skill Review Checklist](checklists/first-skill-review.md) | Check setup, permissions, safety, and verification evidence quickly. |
 | Rolling out with a team | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) | Plan a bounded pilot with owners, risks, and evidence. |
+| Need a specific route or the full map | [Awesome Agent Skills](awesome-agent-skills.md#choose-your-use-case) or [Docs Index](docs-index.md) | Choose by use case or browse every major guide. |
 
 ## What You Can Learn Here
 

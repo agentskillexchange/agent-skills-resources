@@ -30,7 +30,7 @@ resource map.
 |---|---|---|
 | Learner | [Agent Skills 101](learning/agent-skills-101.md) | One candidate workflow you can distinguish from a prompt, tool, or MCP server. |
 | Builder | [Skill Author Starter Kit](starter-kits/skill-author.md) | A source-backed skill outline with setup, permissions, verification, and stop conditions. |
-| Reviewer | [First Skill Review Checklist](checklists/first-skill-review.md) | A clear `Reject`, `Revisit`, or deeper-evaluation decision with the missing evidence named. |
+| Reviewer | [First Skill Review Checklist](checklists/first-skill-review.md) | A clear `Reject`, `Revisit`, or deeper-evaluation decision with the missing evidence named. Then compare a [completed evaluator outcome](examples/completed-evaluations/compact-evaluator-outcome.md). |
 | Team lead | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) | A bounded pilot question, owner, evidence plan, and risk boundary. Then use the [post-pilot decision handoff](learning/team-lead-track.md#after-the-pilot-communicate-one-defensible-decision). |
 
 ## Choose Your Use Case

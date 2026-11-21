@@ -19,6 +19,7 @@ before opening a blank template:
 | Check how approval evidence changes a security decision | [HumanLayer Approval Workflow](completed-evaluations/humanlayer-approval-workflow-evaluation.md) |
 | Validate read-only data inspection before trusting outputs | [MCP Database Inspection](completed-evaluations/mcp-database-inspection-evaluation.md) |
 | Compare day-2 operations evidence before expanding access | [OpenClaw Runtime Ops](completed-evaluations/openclaw-runtime-ops-evaluation.md) |
+| Turn a filled worksheet into a concise `Revisit` recommendation | [Compact Evaluator Outcome](completed-evaluations/compact-evaluator-outcome.md) |
 
 ## After You Read A Packet
 

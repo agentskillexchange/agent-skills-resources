@@ -21,6 +21,14 @@ before opening a blank template:
 | Compare day-2 operations evidence before expanding access | [OpenClaw Runtime Ops](completed-evaluations/openclaw-runtime-ops-evaluation.md) |
 | Turn a filled worksheet into a concise `Revisit` recommendation | [Compact Evaluator Outcome](completed-evaluations/compact-evaluator-outcome.md) |
 
+## Start A Blank Worksheet From A Completed Packet
+
+If you opened the [Skill Evaluation Worksheet](../templates/skill-evaluation-worksheet.md)
+first, choose the closest packet above before you begin. Copy its *evidence
+shape*—the fields, checks, and boundaries worth recording—into your worksheet;
+do not copy its skill recommendation or final decision. Then return here when
+you need a second packet to test a different workflow boundary.
+
 ## After You Read A Packet
 
 Turn the packet into one review artifact before moving on:

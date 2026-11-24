@@ -107,16 +107,20 @@ Skills sit between broad prompts and raw tools:
 - skills describe when and how to use those capabilities for a repeatable
   workflow
 
-## Official Skill And Runtime Docs
+## Official Skill, Runtime, And Framework Docs
 
 | Resource | Why it matters |
 |---|---|
+| [OpenAI Codex docs](https://developers.openai.com/codex) | Primary setup and workflow guidance for Codex-based coding-agent work. |
+| [Claude Code docs](https://code.claude.com/docs) | Anthropic's primary reference for Claude Code workflows and configuration. |
 | [GitHub Copilot agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) | GitHub's skill model for Copilot surfaces. |
 | [Adding agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) | Creating, adding, managing, and reviewing Copilot skills. |
 | [GitHub Copilot CLI skills](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills) | Skill usage in terminal-native Copilot CLI workflows. |
 | [Cursor Agent Skills](https://cursor.com/docs/context/skills) | Cursor's skill model for IDE agent workflows. |
 | [Hermes Skills Feature Docs](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md) | Hermes Agent skill behavior and boundaries. |
 | [OpenClaw Docs](https://docs.openclaw.ai/) | Runtime, provider, tool, and cron concepts for OpenClaw workflows. |
+| [Gemini CLI repository](https://github.com/google-gemini/gemini-cli) | Google's primary source and documentation route for Gemini CLI workflows. |
+| [OpenAI Agents SDK guide](https://developers.openai.com/api/docs/guides/agents/sdk) | Primary guide for tool-using agent apps, handoffs, guardrails, and tracing. |
 
 ## Coding-Agent Skill Surfaces
 

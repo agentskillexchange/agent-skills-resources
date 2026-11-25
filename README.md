@@ -16,16 +16,19 @@ and [Agent Skill Exchange](https://agentskillexchange.com/) is the public site.
 Star this repo if you want a practical map of agent skills, MCP, coding agents,
 agent frameworks, evaluation, safety, deployment, and team rollout patterns.
 
-## Start Here In 60 Seconds
+## Pick One First Outcome
 
-| Visitor | Read first | Why |
+Choose the row that matches why you arrived. Each route ends with one concrete
+artifact or decision before you need the wider documentation map.
+
+| I am here to... | Open first | Leave with |
 |---|---|---|
-| New to agent skills | [Agent Skills 101](learning/agent-skills-101.md) | Get the concept before choosing tools or frameworks. |
-| Building a first reusable workflow | [Skill Author Starter Kit](starter-kits/skill-author.md) | Turn one source-backed workflow into a reviewable skill draft. |
-| Comparing runtimes or frameworks | [Framework Comparison](framework-comparison.md) | Match Codex, Copilot, Claude Code, Cursor, Gemini, OpenClaw, LangGraph, MCP, and SDK surfaces to the job. |
-| Reviewing skill quality | [First Skill Review Checklist](checklists/first-skill-review.md) | Check setup, permissions, safety, and verification evidence quickly. |
-| Rolling out with a team | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) | Plan a bounded pilot with owners, risks, and evidence. |
-| Need a specific route or the full map | [Awesome Agent Skills](awesome-agent-skills.md#choose-your-use-case) or [Docs Index](docs-index.md) | Choose by use case or browse every major guide. |
+| Understand agent skills | [Agent Skills 101](learning/agent-skills-101.md) | One repeated workflow you can distinguish from a prompt, tool, or MCP server. |
+| Build a first reusable workflow | [Skill Author Starter Kit](starter-kits/skill-author.md) | A source-backed outline with setup, permissions, verification, and stop conditions. |
+| Compare runtimes or frameworks | [Framework Comparison](framework-comparison.md) | A shortlist of surfaces that fit the job. |
+| Review skill quality | [First Skill Review Checklist](checklists/first-skill-review.md) | A `Reject`, `Revisit`, or deeper-evaluation decision with missing evidence named. |
+| Plan a team rollout | [Team Evaluation Starter Kit](starter-kits/team-evaluation.md) | A bounded pilot question with an owner, approval boundary, evidence plan, and rollback path. |
+| Browse by use case | [Awesome Agent Skills](awesome-agent-skills.md#choose-your-use-case) or [Docs Index](docs-index.md) | The route to the specific guide you need. |
 
 ## What You Can Learn Here
 

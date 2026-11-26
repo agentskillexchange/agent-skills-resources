@@ -46,6 +46,20 @@ if you need more depth.
 | Evaluate team fit | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) | [Completed Evaluation Examples](examples/completed-evaluations/) |
 | Plan a pilot | [Team Pilot Readiness](checklists/team-pilot-readiness.md) | [How To Use Templates](templates/how-to-use-templates.md) |
 
+## Choose The Right Depth
+
+Take the quick route when you need one reviewable artifact today. Choose the
+deeper route when the workflow, evidence, or rollout boundary is still
+unclear. This keeps a first visit focused without hiding the guidance needed
+for a defensible next step.
+
+| If you need to... | Start with the quick route | Go deeper when you need... |
+|---|---|---|
+| Understand one workflow | [Agent Skills 101](learning/agent-skills-101.md) | [Beginner Track](learning/beginner-track.md) for concepts and examples before choosing a workflow. |
+| Draft one skill | [Skill Author Starter Kit](starter-kits/skill-author.md) | [Builder Track](learning/builder-track.md) for patterns, setup, permissions, and framework choices. |
+| Make a review decision | [First Skill Review Checklist](checklists/first-skill-review.md) | [Skill Evaluation Worksheet](templates/skill-evaluation-worksheet.md) when a checklist cannot resolve fit or risk. |
+| Decide whether to pilot | [Team Pilot Readiness](checklists/team-pilot-readiness.md) | [Team Lead Track](learning/team-lead-track.md) for owner, evidence, approval, and post-pilot decision guidance. |
+
 ## Choose Your Builder Route
 
 Use the quick route when you want to draft one reviewable skill from a known

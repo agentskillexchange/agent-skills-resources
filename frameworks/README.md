@@ -13,6 +13,23 @@ the skills ecosystem.
 | Build an agent app, graph, or integration layer | [OpenAI Agents SDK](openai-agents-sdk.md), [LangChain and LangGraph](langchain-langgraph.md), or [Model Context Protocol](mcp.md) | Frameworks and protocols make state, tools, handoffs, and integration boundaries explicit. |
 | Orchestrate multiple agents with explicit handoffs, shared state, or retry paths | [LangChain and LangGraph](langchain-langgraph.md) | Treat orchestration as a reviewable workflow graph before selecting tools or widening permissions. |
 
+## Separate The App, Workflow, And Tool Boundary
+
+The “agent app, graph, or integration” choice above covers three different
+responsibilities. Pick the guide that owns the responsibility you need first;
+a production workflow can combine them.
+
+| If you need to... | Start with | Then compare |
+|---|---|---|
+| Define an application-owned agent, its tools, handoffs, guardrails, and traces | [OpenAI Agents SDK](openai-agents-sdk.md) | Keep the application’s approval and evaluation evidence reviewable. |
+| Model durable multi-step state, retries, and explicit paths across agents | [LangChain and LangGraph](langchain-langgraph.md) | Record the workflow graph, stop rules, and handoff evidence. |
+| Connect an existing agent or application to a bounded tool, API, data source, or context provider | [Model Context Protocol](mcp.md) | Review server trust, auth scope, tool allowlists, and observed requests. |
+
+For a workflow that needs both app-owned state and an external tool/data
+boundary, use both layers and read [Choose By State And Tool
+Boundary](../framework-comparison.md#choose-by-state-and-tool-boundary) before
+expanding access. This is a routing aid, not a framework ranking.
+
 ## Compare Against A Finished Evidence Shape
 
 After you pick a framework guide, compare the workflow with a completed

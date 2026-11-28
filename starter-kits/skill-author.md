@@ -8,7 +8,7 @@ or internal catalog.
 ## First 15 Minutes
 
 1. Read [best-practices.md](../best-practices.md).
-2. Review [examples/quality-checklist.md](../examples/quality-checklist.md).
+2. Review the [worked quality repair](../examples/quality-checklist.md#worked-quality-repair) before using the full [Quality Checklist](../examples/quality-checklist.md).
 3. Inspect [annotated examples](../examples/annotated-skill-examples.md).
 4. Pick one real upstream tool, repo, API, or workflow.
 

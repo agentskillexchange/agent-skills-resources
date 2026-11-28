@@ -77,6 +77,25 @@ Use this table to turn checklist gaps into a review-ready evidence block:
 If a row cannot be repaired, mark the first review as `Revisit with fixes`
 rather than sending a weak draft into deeper evaluation.
 
+## Worked Quality Repair
+
+Use this small before-and-after when a first draft sounds plausible but is not
+yet reviewable. It shows the level of evidence to add; it is not a template for
+claiming a tool or integration was tested.
+
+| Review area | Thin draft | Review-ready repair |
+|---|---|---|
+| Source and setup | “Use the vendor CLI to summarize incidents.” | Link the official CLI documentation; name the install command, required account, and the exact authenticated environment. |
+| Permissions and safety | “The agent updates the incident.” | Start by reading the incident. Name the role allowed to post an update, identify the write command, and require approval before it runs. |
+| Workflow | “Summarize and update.” | Inspect one incident record, extract the named fields, draft a summary, request approval, then post only the approved text. |
+| Verification | “Check the update worked.” | Save the draft and command result; pass only if the posted text matches the approved draft. If access or approval is missing, stop and hand off without writing. |
+
+Before opening the [First Skill Review Checklist](../checklists/first-skill-review.md),
+translate the repair into one short evidence block: upstream source, setup
+proof, minimum permission and approval boundary, bounded workflow, observable
+pass signal, and any open risk. A reviewer should be able to trace every claim
+in that block without guessing from the skill title.
+
 ## Anti-Patterns
 
 - Stale popularity claims.
